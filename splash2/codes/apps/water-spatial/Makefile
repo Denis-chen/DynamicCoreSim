@@ -1,6 +1,7 @@
 TARGET = WATER-SPATIAL
 OBJS = bndry.o cnstnt.o cshift.o initia.o interf.o intraf.o kineti.o mdmain.o poteng.o predcor.o syscons.o water.o
 
+include ../../Makefile.dir
 include ../../Makefile.config
 
 bndry.o: bndry.C split.h mdvar.h parameters.h mddata.h global.h

@@ -1,6 +1,7 @@
 TARGET = FMM
 OBJS = box.o construct_grid.o cost_zones.o defs.o fmm.o interactions.o memory.o particle.o partition_grid.o
 
+include ../../Makefile.dir
 include ../../Makefile.config
 
 defs.c: defs.h

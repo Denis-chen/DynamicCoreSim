@@ -28,3 +28,6 @@
 *.x86_64
 *.hex
 *.c
+
+# Makefile setup
+splash2/codes/Makefile.dir

@@ -4,6 +4,7 @@ OBJS = display.o elemman.o modelman.o patchman.o rad_main.o rad_tools.o room_mod
 HHS = model.H parallel.H patch.H radiosity.H task.H
 HS = model.h parallel.h patch.h radiosity.h task.h
 
+include ../../Makefile.dir
 include ../../Makefile.config
 
 CFLAGS := $(CFLAGS) -I./glibdumb -I./glibps

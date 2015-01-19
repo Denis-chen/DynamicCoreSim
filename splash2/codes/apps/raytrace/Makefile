@@ -4,6 +4,7 @@ OBJS = bbox.o cr.o env.o fbuf.o geo.o huprn.o husetup.o hutv.o isect.o \
 	main.o matrix.o memory.o poly.o raystack.o shade.o sph.o trace.o \
 	tri.o workpool.o
 
+include ../../Makefile.dir
 include ../../Makefile.config
 
 bbox.c: bbox.C rt.h

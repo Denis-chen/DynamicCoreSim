@@ -7,6 +7,7 @@
 TARGET = glibps.a
 OBJS   = glibps.o
 
+include ../../../Makefile.dir
 include ../../../Makefile.config
 
 $(TARGET): $(OBJS)

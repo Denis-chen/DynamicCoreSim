@@ -1,6 +1,7 @@
 TARGET = OCEAN
 OBJS = jacobcalc.o jacobcalc2.o laplacalc.o linkup.o main.o multi.o slave1.o slave2.o subblock.o
 
+include ../../../Makefile.dir
 include ../../../Makefile.config
 
 decs.h: decs.H

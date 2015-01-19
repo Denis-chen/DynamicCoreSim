@@ -6,6 +6,7 @@
 OBJS   = glib.o
 TARGET = glib.a
 
+include ../../../Makefile.dir
 include ../../../Makefile.config
 
 $(TARGET): $(OBJS)

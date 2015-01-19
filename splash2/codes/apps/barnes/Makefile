@@ -1,6 +1,7 @@
 TARGET = BARNES
 OBJS = code.o code_io.o load.o grav.o getparam.o util.o
 
+include ../../Makefile.dir
 include ../../Makefile.config
 
 stdinc.h: code.h defs.h util.h vectmath.h load.h code_io.h grav.h getparam.h stdinc.H 

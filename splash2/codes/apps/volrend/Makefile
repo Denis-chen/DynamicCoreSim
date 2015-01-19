@@ -1,6 +1,7 @@
 TARGET = VOLREND
 OBJS = adaptive.o file.o main.o map.o normal.o octree.o opacity.o option.o raytrace.o render.o view.o
 
+include ../../Makefile.dir
 include ../../Makefile.config
 
 CFLAGS := $(CFLAGS) -I./libtiff
