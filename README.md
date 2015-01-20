@@ -4,7 +4,7 @@ A research based project for ECE597: Adv. Computer Architecture at Rose-Hulman I
 
 ## Pre-Requisites
 - You must have gcc
-- You must create a file "splash2/codes/Makefile.dir" that includes the line "BASEDIR := <your base directory>" (this file is in the .gitignore)
+- You must create a file "splash2/codes/Makefile.dir" that includes the line "BASEDIR := your base directory" (this file is in the .gitignore)
 
 ---------------------------------------
 David's Findings as of January 19, 2015
