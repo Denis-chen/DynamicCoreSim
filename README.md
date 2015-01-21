@@ -5,6 +5,7 @@ A research based project for ECE597: Adv. Computer Architecture at Rose-Hulman I
 ## Pre-Requisites
 - You must have gcc
 - You must create a file "splash2/codes/Makefile.dir" that includes the line "BASEDIR := your base directory" (this file is in the .gitignore)
+- Include "CC := gcc" or whatever derivative compiler you are using in Makefile.dir
 
 ---------------------------------------
 David's Findings as of January 19, 2015
@@ -30,3 +31,13 @@ make: *** [OCEAN] Error 1
         ->Pass paramaters to the benchmark code for ocean -p# specifies number of cores where # is a power of two
     -n "specify number of CPUS to be used by simulator"
     Example.) build/X86/gem5.opt configs/example/se.py --cpu-type=AtomicSimpleCPU -n 4 -o "-p4" -c ../DynamicCoreSim/splash2/codes/apps/ocean/non_contiguous_partitions/OCEAN
+
+---------------------------------------
+Kyle's Findings as of January 20, 2015
+---------------------------------------
+
+1. Managed to compile OCEAN using arm-linux-gnueabihf-gcc. My compiler is globally installed as a package from the Arch User Repositories, so maybe that is why the linker can find the right files for me.
+
+2. I, too, found the same useful options for se.py and run.py (under splash).
+
+3. I cannot run any simulations, since I get an error "Class L1 Cache has no attribute latency".
