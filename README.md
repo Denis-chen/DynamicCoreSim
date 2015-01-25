@@ -72,3 +72,10 @@ mount -o loop,offset=32256 /home/david/Desktop/comp_arch_sims/full_system_images
 sudo mount -o loop,offset=32256 linux-x86.img /mnt/tmp
 
 build/X86/gem5.opt configs/example/fs.py --disk-image=x86root-parsec.img
+
+---------------------------------------
+Ben's Findings as of January 25, 2015
+---------------------------------------
+
+https://docs.google.com/document/d/1B7nZSqMLwkwoVNEj_58tMPTk4bKWvoEMbokOAjqeC-k/preview
+
