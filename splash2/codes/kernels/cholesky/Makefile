@@ -2,6 +2,7 @@ TARGET = CHOLESKY
 OBJS = amal.o assign.o bfac.o bksolve.o block2.o fo.o malloc.o \
        mf.o numLL.o parts.o seg.o solve.o tree.o util.o
 
+include ../../Makefile.dir
 include ../../Makefile.config
 
 matrix.h: matrix.H

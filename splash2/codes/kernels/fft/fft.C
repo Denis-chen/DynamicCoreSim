@@ -413,6 +413,8 @@ int main(int argc, char *argv[])
   }
 
   MAIN_END;
+  
+  return 0;
 }
 
 
