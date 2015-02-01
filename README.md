@@ -62,17 +62,6 @@ The following are directions are running gem5 in full system mode with X86 and A
 
 6. After awhile a linux prompt should appear.
 
-
-sudo mount -o loop,offset=32256 /home/david/Desktop/comp_arch_sims/DynamicCoreSim/splash2/codes/apps/ocean/non_contiguous_partitions /mounnt/tmp
-
-mount -o loop,offset=32256 /home/david/Desktop/comp_arch_sims/DynamicCoreSim/splash2/codes/apps/ocean/non_contiguous_partitions /mnt
-
-mount -o loop,offset=32256 /home/david/Desktop/comp_arch_sims/full_system_images/disks/linux-x86.img /mnt
-
-sudo mount -o loop,offset=32256 linux-x86.img /mnt/tmp
-
-build/X86/gem5.opt configs/example/fs.py --disk-image=x86root-parsec.img
-
 ---------------------------------------
 Ben's Findings as of January 25, 2015
 ---------------------------------------
