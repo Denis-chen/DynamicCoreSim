@@ -8,6 +8,15 @@ A research based project for ECE597: Adv. Computer Architecture at Rose-Hulman I
 - Include "SYS := X86" or whatever derivative ISA you are using in Makefile.dir (options include X86, ARM, or out)
 
 ---------------------------------------
+David's Findings as of Febuary 6, 2015
+---------------------------------------
+Using X86 successfully run benchmarks and how to run them.
+1. ./BARNES.X86 < input
+2. ./FMM.X86 < inputs/"input filename"
+3. ./OCEAN.X86
+4. ./WATER-NSQUARED.X86 < input
+
+---------------------------------------
 David's Findings as of January 19, 2015
 ---------------------------------------
 1. Tried using the "arm-linux-gnueabihf-gcc" compiler to compile OCEA to arm code was unable to get it working throws following error:
@@ -72,3 +81,4 @@ Kyle's Findings as of 25 January 2015
 ---------------------------------------
 - Could not get Ben's image to open ("panic: Error opening /opt/gem5/full_system/disks/x86root-parsec.img").
 - I modified the Makefile.config to use a variable called SYS. This means that it will generate binaries called OCEAN.X86, OCEAN.ARM or OCEAN.out. Use Makefile.dir to specify SYS := X86 or whatever ISA you need. The .out is the standard ISA for our local machines.
+
