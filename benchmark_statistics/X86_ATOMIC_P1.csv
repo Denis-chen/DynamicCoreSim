@@ -1,0 +1,438 @@
+FIELD;BOOT;OCEAN;FFT;LU;RADIX;SHUTDOWN;DESCRIPTION
+sim_seconds;4.964651;0.005517;0.002933;0.008869;0.044252;0.000207;Number of seconds simulated 
+sim_ticks;4964650503500;5517128500;2933226500;8868901500;44251591000;206773000;Number of ticks simulated 
+final_tick;4964650503500;4970167632000;4973100858500;4981969760000;5026221351000;5026428124000;Number of ticks from beginning of simulation (restored from checkpoints and never reset) 
+sim_freq;1000000000000;1000000000000;1000000000000;1000000000000;1000000000000;1000000000000;Frequency of simulated ticks 
+host_inst_rate;1515567;123501751;241097138;79228693;17309159;3582789119;Simulator instruction rate (inst/s) 
+host_op_rate;3364886;273433325;533266874;174394673;36972606;7651652801;Simulator op (including micro ops) rate (op/s) 
+host_tick_rate;18238455603;1631917983;1683789861;1639984827;1615144931;1561218839;Simulator tick rate (ticks/s) 
+host_mem_usage;654900;668212;674356;677428;680500;680500;Number of bytes of host memory used 
+host_seconds;272.21;3.38;1.74;5.41;27.40;0.13;Real time elapsed on the host 
+sim_insts;412549220;417527129;419994483;428460256;474234289;474428231;Number of instructions simulated 
+sim_ops;915948411;924410058;928964885;943109799;1012971563;1013318626;Number of ops (including micro ops) simulated 
+system.voltage_domain.voltage;1;1;1;1;1;1;Voltage in Volts 
+system.clk_domain.clock;1000;1000;1000;1000;1000;1000;Clock period in ticks 
+system.mem_ctrls.bytes_read::pc.south_bridge.ide;42152;2360;1808;1824;1632;;Number of bytes read from this memory 
+system.mem_ctrls.bytes_read::cpu.dtb.walker;182840;154264;8440;9400;13909616;2536;Number of bytes read from this memory 
+system.mem_ctrls.bytes_read::cpu.itb.walker;51776;11520;10272;10016;9888;3696;Number of bytes read from this memory 
+system.mem_ctrls.bytes_read::cpu.inst;4276131392;55152568;26370040;92309824;511600288;2082552;Number of bytes read from this memory 
+system.mem_ctrls.bytes_read::cpu.data;608685824;9106406;4250935;17132975;28739121;315165;Number of bytes read from this memory 
+system.mem_ctrls.bytes_read::total;4885093984;64427118;30641495;109464039;554260545;2403949;Number of bytes read from this memory 
+system.mem_ctrls.bytes_inst_read::cpu.inst;4276131392;55152568;26370040;92309824;511600288;2082552;Number of instructions bytes read from this memory 
+system.mem_ctrls.bytes_inst_read::total;4276131392;55152568;26370040;92309824;511600288;2082552;Number of instructions bytes read from this memory 
+system.mem_ctrls.bytes_written::pc.south_bridge.ide;2661376;1286144;1040384;970752;942080;;Number of bytes written to this memory 
+system.mem_ctrls.bytes_written::cpu.itb.walker;16;;;;;;Number of bytes written to this memory 
+system.mem_ctrls.bytes_written::cpu.data;124944969;5961392;3075716;9440596;23260630;351337;Number of bytes written to this memory 
+system.mem_ctrls.bytes_written::total;127606361;7247536;4116100;10411348;24202710;351337;Number of bytes written to this memory 
+system.mem_ctrls.num_reads::pc.south_bridge.ide;1237;295;226;228;204;;Number of read requests responded to by this memory 
+system.mem_ctrls.num_reads::cpu.dtb.walker;22855;19283;1055;1175;1738702;317;Number of read requests responded to by this memory 
+system.mem_ctrls.num_reads::cpu.itb.walker;6472;1440;1284;1252;1236;462;Number of read requests responded to by this memory 
+system.mem_ctrls.num_reads::cpu.inst;534516424;6894071;3296255;11538728;63950036;260319;Number of read requests responded to by this memory 
+system.mem_ctrls.num_reads::cpu.data;105816354;1292707;650666;2334288;3762416;46623;Number of read requests responded to by this memory 
+system.mem_ctrls.num_reads::total;640363342;8207796;3949486;13875671;69452594;307721;Number of read requests responded to by this memory 
+system.mem_ctrls.num_writes::pc.south_bridge.ide;41584;20096;16256;15168;14720;;Number of write requests responded to by this memory 
+system.mem_ctrls.num_writes::cpu.itb.walker;2;;;;;;Number of write requests responded to by this memory 
+system.mem_ctrls.num_writes::cpu.data;23528470;806385;429995;1256055;2980999;47255;Number of write requests responded to by this memory 
+system.mem_ctrls.num_writes::total;23570056;826481;446251;1271223;2995719;47255;Number of write requests responded to by this memory 
+system.mem_ctrls.bw_read::pc.south_bridge.ide;8490;427759;616386;205662;36880;;Total read bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_read::cpu.dtb.walker;36828;27960922;2877378;1059883;314330303;12264657;Total read bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_read::cpu.itb.walker;10429;2088043;3501946;1129339;223450;17874674;Total read bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_read::cpu.inst;861315694;9996607474;8990113788;10408259016;11561172750;10071682473;Total read bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_read::cpu.data;122603962;1650569857;1449235168;1931803505;649448310;1524207706;Total read bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_read::total;983975404;11677654055;10446344665;12342457406;12525211692;11626029511;Total read bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_inst_read::cpu.inst;861315694;9996607474;8990113788;10408259016;11561172750;10071682473;Instruction read bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_inst_read::total;861315694;9996607474;8990113788;10408259016;11561172750;10071682473;Instruction read bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_write::pc.south_bridge.ide;536065;233118369;354689282;109455720;21289178;;Write bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_write::cpu.itb.walker;3;;;;;;Write bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_write::cpu.data;25166921;1080524407;1048577735;1064460576;525645055;1699143505;Write bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_write::total;25702990;1313642776;1403267017;1173916296;546934233;1699143505;Write bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_total::pc.south_bridge.ide;544556;233546128;355305668;109661383;21326058;;Total bandwidth to/from this memory (bytes/s) 
+system.mem_ctrls.bw_total::cpu.dtb.walker;36828;27960922;2877378;1059883;314330303;12264657;Total bandwidth to/from this memory (bytes/s) 
+system.mem_ctrls.bw_total::cpu.itb.walker;10432;2088043;3501946;1129339;223450;17874674;Total bandwidth to/from this memory (bytes/s) 
+system.mem_ctrls.bw_total::cpu.inst;861315694;9996607474;8990113788;10408259016;11561172750;10071682473;Total bandwidth to/from this memory (bytes/s) 
+system.mem_ctrls.bw_total::cpu.data;147770884;2731094264;2497812903;2996264081;1175093366;3223351211;Total bandwidth to/from this memory (bytes/s) 
+system.mem_ctrls.bw_total::total;1009678394;12991296831;11849611682;13516373702;13072145926;13325173016;Total bandwidth to/from this memory (bytes/s) 
+system.mem_ctrls.readReqs;0;0;0;0;0;0;Number of read requests accepted 
+system.mem_ctrls.writeReqs;0;0;0;0;0;0;Number of write requests accepted 
+system.mem_ctrls.readBursts;0;0;0;0;0;0;Number of DRAM read bursts, including those serviced by the write queue 
+system.mem_ctrls.writeBursts;0;0;0;0;0;0;Number of DRAM write bursts, including those merged in the write queue 
+system.mem_ctrls.bytesReadDRAM;0;0;0;0;0;0;Total number of bytes read from DRAM 
+system.mem_ctrls.bytesReadWrQ;0;0;0;0;0;0;Total number of bytes read from write queue 
+system.mem_ctrls.bytesWritten;0;0;0;0;0;0;Total number of bytes written to DRAM 
+system.mem_ctrls.bytesReadSys;0;0;0;0;0;0;Total read bytes from the system interface side 
+system.mem_ctrls.bytesWrittenSys;0;0;0;0;0;0;Total written bytes from the system interface side 
+system.mem_ctrls.servicedByWrQ;0;0;0;0;0;0;Number of DRAM read bursts serviced by the write queue 
+system.mem_ctrls.mergedWrBursts;0;0;0;0;0;0;Number of DRAM write bursts merged with an existing one 
+system.mem_ctrls.neitherReadNorWriteReqs;0;0;0;0;0;0;Number of requests that are neither read nor write 
+system.mem_ctrls.perBankRdBursts::0;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::1;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::2;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::3;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::4;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::5;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::6;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::7;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::8;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::9;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::10;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::11;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::12;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::13;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::14;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::15;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::0;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::1;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::2;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::3;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::4;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::5;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::6;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::7;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::8;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::9;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::10;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::11;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::12;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::13;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::14;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::15;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.numRdRetry;0;0;0;0;0;0;Number of times read queue was full causing retry 
+system.mem_ctrls.numWrRetry;0;0;0;0;0;0;Number of times write queue was full causing retry 
+system.mem_ctrls.totGap;0;0;0;0;0;0;Total gap between requests 
+system.mem_ctrls.readPktSize::0;0;0;0;0;0;0;Read request sizes (log2) 
+system.mem_ctrls.readPktSize::1;0;0;0;0;0;0;Read request sizes (log2) 
+system.mem_ctrls.readPktSize::2;0;0;0;0;0;0;Read request sizes (log2) 
+system.mem_ctrls.readPktSize::3;0;0;0;0;0;0;Read request sizes (log2) 
+system.mem_ctrls.readPktSize::4;0;0;0;0;0;0;Read request sizes (log2) 
+system.mem_ctrls.readPktSize::5;0;0;0;0;0;0;Read request sizes (log2) 
+system.mem_ctrls.readPktSize::6;0;0;0;0;0;0;Read request sizes (log2) 
+system.mem_ctrls.writePktSize::0;0;0;0;0;0;0;Write request sizes (log2) 
+system.mem_ctrls.writePktSize::1;0;0;0;0;0;0;Write request sizes (log2) 
+system.mem_ctrls.writePktSize::2;0;0;0;0;0;0;Write request sizes (log2) 
+system.mem_ctrls.writePktSize::3;0;0;0;0;0;0;Write request sizes (log2) 
+system.mem_ctrls.writePktSize::4;0;0;0;0;0;0;Write request sizes (log2) 
+system.mem_ctrls.writePktSize::5;0;0;0;0;0;0;Write request sizes (log2) 
+system.mem_ctrls.writePktSize::6;0;0;0;0;0;0;Write request sizes (log2) 
+system.mem_ctrls.rdQLenPdf::0;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::1;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::2;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::3;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::4;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::5;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::6;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::7;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::8;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::9;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::10;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::11;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::12;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::13;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::14;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::15;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::16;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::17;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::18;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::19;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::20;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::21;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::22;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::23;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::24;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::25;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::26;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::27;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::28;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::29;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::30;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::31;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::0;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::1;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::2;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::3;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::4;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::5;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::6;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::7;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::8;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::9;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::10;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::11;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::12;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::13;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::14;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::15;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::16;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::17;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::18;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::19;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::20;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::21;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::22;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::23;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::24;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::25;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::26;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::27;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::28;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::29;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::30;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::31;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::32;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::33;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::34;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::35;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::36;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::37;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::38;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::39;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::40;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::41;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::42;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::43;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::44;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::45;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::46;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::47;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::48;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::49;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::50;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::51;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::52;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::53;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::54;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::55;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::56;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::57;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::58;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::59;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::60;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::61;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::62;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::63;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.totQLat;0;0;0;0;0;0;Total ticks spent queuing 
+system.mem_ctrls.totMemAccLat;0;0;0;0;0;0;Total ticks spent from burst creation until serviced by the DRAM 
+system.mem_ctrls.totBusLat;0;0;0;0;0;0;Total ticks spent in databus transfers 
+system.mem_ctrls.avgQLat;nan;nan;nan;nan;nan;nan;Average queueing delay per DRAM burst 
+system.mem_ctrls.avgBusLat;nan;nan;nan;nan;nan;nan;Average bus latency per DRAM burst 
+system.mem_ctrls.avgMemAccLat;nan;nan;nan;nan;nan;nan;Average memory access latency per DRAM burst 
+system.mem_ctrls.avgRdBW;0.00;0.00;0.00;0.00;0.00;0.00;Average DRAM read bandwidth in MiByte/s 
+system.mem_ctrls.avgWrBW;0.00;0.00;0.00;0.00;0.00;0.00;Average achieved write bandwidth in MiByte/s 
+system.mem_ctrls.avgRdBWSys;0.00;0.00;0.00;0.00;0.00;0.00;Average system read bandwidth in MiByte/s 
+system.mem_ctrls.avgWrBWSys;0.00;0.00;0.00;0.00;0.00;0.00;Average system write bandwidth in MiByte/s 
+system.mem_ctrls.peakBW;12800.00;12800.00;12800.00;12800.00;12800.00;12800.00;Theoretical peak bandwidth in MiByte/s 
+system.mem_ctrls.busUtil;0.00;0.00;0.00;0.00;0.00;0.00;Data bus utilization in percentage 
+system.mem_ctrls.busUtilRead;0.00;0.00;0.00;0.00;0.00;0.00;Data bus utilization in percentage for reads 
+system.mem_ctrls.busUtilWrite;0.00;0.00;0.00;0.00;0.00;0.00;Data bus utilization in percentage for writes 
+system.mem_ctrls.avgRdQLen;0.00;0.00;0.00;0.00;0.00;0.00;Average read queue length when enqueuing 
+system.mem_ctrls.avgWrQLen;0.00;0.00;0.00;0.00;0.00;0.00;Average write queue length when enqueuing 
+system.mem_ctrls.readRowHits;0;0;0;0;0;0;Number of row buffer hits during reads 
+system.mem_ctrls.writeRowHits;0;0;0;0;0;0;Number of row buffer hits during writes 
+system.mem_ctrls.readRowHitRate;nan;nan;nan;nan;nan;nan;Row buffer hit rate for reads 
+system.mem_ctrls.writeRowHitRate;nan;nan;nan;nan;nan;nan;Row buffer hit rate for writes 
+system.mem_ctrls.avgGap;nan;nan;nan;nan;nan;nan;Average gap between requests 
+system.mem_ctrls.pageHitRate;nan;nan;nan;nan;nan;nan;Row buffer hit rate, read and write combined 
+system.mem_ctrls.memoryStateTime::IDLE;4798865206250;5336111250;2829870000;8572398750;42779205000;195682500;Time in different power states 
+system.mem_ctrls.memoryStateTime::REF;165780420000;184340000;97760000;296140000;1477840000;6760000;Time in different power states 
+system.mem_ctrls.memoryStateTime::PRE_PDN;0;0;0;0;0;0;Time in different power states 
+system.mem_ctrls.memoryStateTime::ACT;0;0;0;0;0;0;Time in different power states 
+system.mem_ctrls.memoryStateTime::ACT_PDN;0;0;0;0;0;0;Time in different power states 
+system.mem_ctrls.actEnergy::0;0;0;0;0;0;0;Energy for activate commands per rank (pJ) 
+system.mem_ctrls.actEnergy::1;0;0;0;0;0;0;Energy for activate commands per rank (pJ) 
+system.mem_ctrls.preEnergy::0;0;0;0;0;0;0;Energy for precharge commands per rank (pJ) 
+system.mem_ctrls.preEnergy::1;0;0;0;0;0;0;Energy for precharge commands per rank (pJ) 
+system.mem_ctrls.readEnergy::0;0;0;0;0;0;0;Energy for read commands per rank (pJ) 
+system.mem_ctrls.readEnergy::1;0;0;0;0;0;0;Energy for read commands per rank (pJ) 
+system.mem_ctrls.writeEnergy::0;0;0;0;0;0;0;Energy for write commands per rank (pJ) 
+system.mem_ctrls.writeEnergy::1;0;0;0;0;0;0;Energy for write commands per rank (pJ) 
+system.mem_ctrls.refreshEnergy::0;324266501520;324627070560;324818289120;325397538960;328288194000;328301416560;Energy for refresh commands per rank (pJ) 
+system.mem_ctrls.refreshEnergy::1;324266501520;324627070560;324818289120;325397538960;328288194000;328301416560;Energy for refresh commands per rank (pJ) 
+system.mem_ctrls.actBackEnergy::0;107397019395;107516439810;107579771370;107771618835;108729003375;108733382685;Energy for active background per rank (pJ) 
+system.mem_ctrls.actBackEnergy::1;107397019395;107516439810;107579771370;107771618835;108729003375;108733382685;Energy for active background per rank (pJ) 
+system.mem_ctrls.preBackEnergy::0;2884579455750;2887786971750;2889487995750;2894640831750;2920355247750;2920472871750;Energy for precharge background per rank (pJ) 
+system.mem_ctrls.preBackEnergy::1;2884579455750;2887786971750;2889487995750;2894640831750;2920355247750;2920472871750;Energy for precharge background per rank (pJ) 
+system.mem_ctrls.totalEnergy::0;3316242976665;3319930482120;3321886056240;3327809989545;3357372445125;3357507670995;Total energy per rank (pJ) 
+system.mem_ctrls.totalEnergy::1;3316242976665;3319930482120;3321886056240;3327809989545;3357372445125;3357507670995;Total energy per rank (pJ) 
+system.mem_ctrls.averagePower::0;667.971742;667.971742;667.971742;667.971742;667.971742;667.971742;Core power per rank (mW) 
+system.mem_ctrls.averagePower::1;667.971742;667.971742;667.971742;667.971742;667.971742;667.971742;Core power per rank (mW) 
+system.membus.trans_dist::ReadReq;643122410;8201127;3945511;13871633;69445326;306907;Transaction distribution 
+system.membus.trans_dist::ReadResp;643122410;8201127;3945511;13871633;69445326;306907;Transaction distribution 
+system.membus.trans_dist::WriteReq;23582972;829179;448577;1273539;2997745;47255;Transaction distribution 
+system.membus.trans_dist::WriteResp;23582972;829179;448577;1273539;2997745;47255;Transaction distribution 
+system.membus.trans_dist::SoftPFReq;159443;11321;7999;8094;10736;814;Transaction distribution 
+system.membus.trans_dist::SoftPFResp;159443;11321;7999;8094;10736;814;Transaction distribution 
+system.membus.trans_dist::MessageReq;501;1140;988;997;851;;Transaction distribution 
+system.membus.trans_dist::MessageResp;501;1140;988;997;851;;Transaction distribution 
+system.membus.pkt_count_system.apicbridge.master::system.cpu.interrupts.int_slave;1002;2280;1976;1994;1702;;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.apicbridge.master::total;1002;2280;1976;1994;1702;;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.iobridge.master::system.mem_ctrls.port;85642;40782;32964;30792;29848;;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.iobridge.master::total;85642;40782;32964;30792;29848;;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.cpu.icache_port::system.mem_ctrls.port;1069032848;13788142;6592510;23077456;127900072;520638;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.cpu.icache_port::total;1069032848;13788142;6592510;23077456;127900072;520638;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.cpu.dcache_port::system.bridge.slave;5859436;12416;10724;10746;9262;;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.cpu.dcache_port::system.cpu.interrupts.pio;3418;2284;1976;1998;1726;;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.cpu.dcache_port::system.mem_ctrls.port;258689648;4198184;2161322;7180686;13486830;187756;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.cpu.dcache_port::total;264552502;4212884;2174022;7193430;13497818;187756;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.cpu.itb.walker.port::system.mem_ctrls.port;12948;2880;2568;2504;2472;924;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.cpu.itb.walker.port::total;12948;2880;2568;2504;2472;924;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.cpu.dtb.walker.port::system.mem_ctrls.port;45710;38566;2110;2350;3477404;634;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.cpu.dtb.walker.port::total;45710;38566;2110;2350;3477404;634;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count::total;1333730652;18085534;8806150;30308526;144909316;709952;Packet count per connected master and slave (bytes) 
+system.membus.pkt_size_system.apicbridge.master::system.cpu.interrupts.int_slave;2004;4560;3952;3988;3404;;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.apicbridge.master::total;2004;4560;3952;3988;3404;;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.iobridge.master::system.mem_ctrls.port;2703528;1288504;1042192;972576;943712;;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.iobridge.master::total;2703528;1288504;1042192;972576;943712;;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.cpu.icache_port::system.mem_ctrls.port;4276131392;55152568;26370040;92309824;511600288;2082552;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.cpu.icache_port::total;4276131392;55152568;26370040;92309824;511600288;2082552;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.cpu.dcache_port::system.bridge.slave;2958766;6277;5416;5424;4679;;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.cpu.dcache_port::system.cpu.interrupts.pio;6836;4568;3952;3996;3452;;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.cpu.dcache_port::system.mem_ctrls.port;733630793;15067798;7326651;26573571;51999751;666502;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.cpu.dcache_port::total;736596395;15078643;7336019;26582991;52007882;666502;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.cpu.itb.walker.port::system.mem_ctrls.port;51792;11520;10272;10016;9888;3696;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.cpu.itb.walker.port::total;51792;11520;10272;10016;9888;3696;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.cpu.dtb.walker.port::system.mem_ctrls.port;182840;154264;8440;9400;13909616;2536;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.cpu.dtb.walker.port::total;182840;154264;8440;9400;13909616;2536;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size::total;5015667951;71690059;34770915;119888795;578474790;2755286;Cumulative packet size per connected master and slave (bytes) 
+system.membus.snoops;0;0;0;0;0;0;Total snoops (count) 
+system.membus.snoop_fanout::samples;663933398;9034277;4395737;15146894;72448313;354976;Request fanout histogram 
+system.membus.snoop_fanout::mean;2.805140;2.765359;2.753625;2.762805;2.882905;2.733343;Request fanout histogram 
+system.membus.snoop_fanout::stdev;0.396093;0.423774;0.430900;0.425363;0.321534;0.442212;Request fanout histogram 
+system.membus.snoop_fanout::underflows;0;0;0;0;0;0;Request fanout histogram 
+system.membus.snoop_fanout::0;0;0;0;0;0;0;Request fanout histogram 
+system.membus.snoop_fanout::1;0;0;0;0;0;0;Request fanout histogram 
+system.membus.snoop_fanout::2;129374153;2119815;1083000;3592770;8483353;94657;Request fanout histogram 
+system.membus.snoop_fanout::3;534559245;6914462;3312737;11554124;63964960;260319;Request fanout histogram 
+system.membus.snoop_fanout::overflows;0;0;0;0;0;0;Request fanout histogram 
+system.membus.snoop_fanout::min_value;2;2;2;2;2;2;Request fanout histogram 
+system.membus.snoop_fanout::max_value;3;3;3;3;3;3;Request fanout histogram 
+system.membus.snoop_fanout::total;663933398;9034277;4395737;15146894;72448313;354976;Request fanout histogram 
+system.cpu_voltage_domain.voltage;1;1;1;1;1;1;Voltage in Volts 
+system.pc.south_bridge.ide.disks0.dma_read_full_pages;9;0;0;0;0;0;Number of full page size DMA reads (not PRD). 
+system.pc.south_bridge.ide.disks0.dma_read_bytes;36864;0;0;0;0;0;Number of bytes transfered via DMA reads (not PRD). 
+system.pc.south_bridge.ide.disks0.dma_read_txs;9;0;0;0;0;0;Number of DMA read transactions (not PRD). 
+system.pc.south_bridge.ide.disks0.dma_write_full_pages;648;314;254;237;230;0;Number of full page size DMA writes. 
+system.pc.south_bridge.ide.disks0.dma_write_bytes;2657280;1286144;1040384;970752;942080;0;Number of bytes transfered via DMA writes. 
+system.pc.south_bridge.ide.disks0.dma_write_txs;652;314;254;237;230;0;Number of DMA write transactions. 
+system.pc.south_bridge.ide.disks1.dma_read_full_pages;0;0;0;0;0;0;Number of full page size DMA reads (not PRD). 
+system.pc.south_bridge.ide.disks1.dma_read_bytes;0;0;0;0;0;0;Number of bytes transfered via DMA reads (not PRD). 
+system.pc.south_bridge.ide.disks1.dma_read_txs;0;0;0;0;0;0;Number of DMA read transactions (not PRD). 
+system.pc.south_bridge.ide.disks1.dma_write_full_pages;1;0;0;0;0;0;Number of full page size DMA writes. 
+system.pc.south_bridge.ide.disks1.dma_write_bytes;4096;0;0;0;0;0;Number of bytes transfered via DMA writes. 
+system.pc.south_bridge.ide.disks1.dma_write_txs;1;0;0;0;0;0;Number of DMA write transactions. 
+system.iobus.trans_dist::ReadReq;2919663;4947;4250;4284;3672;;Transaction distribution 
+system.iobus.trans_dist::ReadResp;2919663;4947;4250;4284;3672;;Transaction distribution 
+system.iobus.trans_dist::WriteReq;52876;21652;17594;16485;15883;;Transaction distribution 
+system.iobus.trans_dist::WriteResp;52876;21652;17594;16485;15883;;Transaction distribution 
+system.iobus.trans_dist::MessageReq;501;1140;988;997;851;;Transaction distribution 
+system.iobus.trans_dist::MessageResp;501;1140;988;997;851;;Transaction distribution 
+system.iobus.pkt_count_system.bridge.master::system.pc.south_bridge.cmos.pio;44;;;;;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.pc.south_bridge.dma1.pio;6;;;;;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.pc.south_bridge.ide.pio;6304;1058;828;782;736;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.pc.south_bridge.ide-pciconf;180;;;;;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.pc.south_bridge.keyboard.pio;1376;;;;;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.pc.south_bridge.pic1.pio;432;;;;;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.pc.south_bridge.pic2.pio;52;;;;;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.pc.south_bridge.pit.pio;5795590;;;;;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.pc.south_bridge.speaker.pio;4;;;;;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.pc.south_bridge.io_apic.pio;1308;;;;;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.pc.i_dont_exist.pio;60;;;;;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.pc.behind_pci.pio;2;;;;;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.pc.com_1.pio;35252;11358;9896;9964;8526;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.pc.fake_com_2.pio;12;;;;;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.pc.fake_com_3.pio;12;;;;;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.pc.fake_com_4.pio;12;;;;;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.pc.fake_floppy.pio;10;;;;;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.pc.pciconfig.pio;18780;;;;;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::total;5859436;12416;10724;10746;9262;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.pc.south_bridge.ide.dma::system.iobridge.slave;85642;40782;32964;30792;29848;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.pc.south_bridge.ide.dma::total;85642;40782;32964;30792;29848;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.pc.south_bridge.io_apic.int_master::system.apicbridge.slave;1002;2280;1976;1994;1702;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.pc.south_bridge.io_apic.int_master::total;1002;2280;1976;1994;1702;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count::total;5946080;55478;45664;43532;40812;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.pc.south_bridge.cmos.pio;22;;;;;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.pc.south_bridge.dma1.pio;3;;;;;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.pc.south_bridge.ide.pio;3985;598;468;442;416;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.pc.south_bridge.ide-pciconf;219;;;;;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.pc.south_bridge.keyboard.pio;688;;;;;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.pc.south_bridge.pic1.pio;216;;;;;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.pc.south_bridge.pic2.pio;26;;;;;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.pc.south_bridge.pit.pio;2897795;;;;;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.pc.south_bridge.speaker.pio;2;;;;;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.pc.south_bridge.io_apic.pio;2616;;;;;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.pc.i_dont_exist.pio;30;;;;;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.pc.behind_pci.pio;1;;;;;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.pc.com_1.pio;17626;5679;4948;4982;4263;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.pc.fake_com_2.pio;6;;;;;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.pc.fake_com_3.pio;6;;;;;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.pc.fake_com_4.pio;6;;;;;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.pc.fake_floppy.pio;5;;;;;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.pc.pciconfig.pio;35514;;;;;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::total;2958766;6277;5416;5424;4679;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.pc.south_bridge.ide.dma::system.iobridge.slave;2703528;1288504;1042192;972576;943712;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.pc.south_bridge.ide.dma::total;2703528;1288504;1042192;972576;943712;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.pc.south_bridge.io_apic.int_master::system.apicbridge.slave;2004;4560;3952;3988;3404;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.pc.south_bridge.io_apic.int_master::total;2004;4560;3952;3988;3404;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size::total;5664298;1299341;1051560;981988;951795;;Cumulative packet size per connected master and slave (bytes) 
+system.cpu_clk_domain.clock;500;500;500;500;500;500;Clock period in ticks 
+system.cpu.apic_clk_domain.clock;8000;8000;8000;8000;8000;8000;Clock period in ticks 
+system.cpu.numCycles;9929873072;11042438;5866683;17738122;88503513;413565;number of cpu cycles simulated 
+system.cpu.numWorkItemsStarted;0;0;0;0;0;0;number of work items this cpu started 
+system.cpu.numWorkItemsCompleted;0;0;0;0;0;0;number of work items this cpu completed 
+system.cpu.committedInsts;412549220;4977909;2467354;8465773;45774033;193942;Number of instructions committed 
+system.cpu.committedOps;915948411;8461647;4554827;14144914;69861764;347063;Number of ops (including micro ops) committed 
+system.cpu.num_int_alu_accesses;848699111;7414756;4267493;12410603;32308952;342673;Number of integer alu accesses 
+system.cpu.num_fp_alu_accesses;43092;1584056;376552;3918417;44312396;1196;Number of float alu accesses 
+system.cpu.num_func_calls;13497310;152951;120245;201029;162337;7256;number of times a function call or return occured 
+system.cpu.num_conditional_control_insts;112290411;499074;290557;949941;1793368;25949;number of instructions that are conditional controls 
+system.cpu.num_int_insts;848699111;7414756;4267493;12410603;32308952;342673;number of integer instructions 
+system.cpu.num_fp_insts;43092;1584056;376552;3918417;44312396;1196;number of float instructions 
+system.cpu.num_int_register_reads;1437082237;15485832;8752652;24648794;60819375;726389;number of times the integer registers were read 
+system.cpu.num_int_register_writes;702551110;5467496;3338789;8528461;23958629;262659;number of times the integer registers were written 
+system.cpu.num_fp_register_reads;71106;2803066;651388;5534531;99631457;2009;number of times the floating registers were read 
+system.cpu.num_fp_register_writes;34169;1447027;321686;3184294;40902217;943;number of times the floating registers were written 
+system.cpu.num_cc_register_reads;617322763;3399728;2030442;6629096;12121065;182208;number of times the CC registers were read 
+system.cpu.num_cc_register_writes;292467752;2681720;1472512;5316663;13897374;118975;number of times the CC registers were written 
+system.cpu.num_mem_refs;132281206;2106728;1087041;3596733;6749963;93908;number of memory refs 
+system.cpu.num_load_insts;108732712;1297356;654678;2338313;3765870;46628;Number of load instructions 
+system.cpu.num_store_insts;23548494;809372;432363;1258420;2984093;47280;Number of store instructions 
+system.cpu.num_idle_cycles;8892466560.989456;663329.400069;481619.845470;518887.797550;463510.085501;0;Number of idle cycles 
+system.cpu.num_busy_cycles;1037406511.010544;10379108.599931;5385063.154530;17219234.202450;88040002.914499;413565;Number of busy cycles 
+system.cpu.not_idle_fraction;0.104473;0.939929;0.917906;0.970747;0.994763;1;Percentage of non-idle cycles 
+system.cpu.idle_fraction;0.895527;0.060071;0.082094;0.029253;0.005237;0;Percentage of idle cycles 
+system.cpu.Branches;130183359;710096;448446;1191680;2021892;36341;Number of branches fetched 
+system.cpu.op_class::No_OpClass;12972588;51767;32539;39661;43857;3343;Class of executed instruction 
+system.cpu.op_class::IntAlu;770376243;5463529;3277149;8910160;31582111;248218;Class of executed instruction 
+system.cpu.op_class::IntMult;256133;12348;7820;38771;17821;612;Class of executed instruction 
+system.cpu.op_class::IntDiv;31998;3040;3815;3268;4696;143;Class of executed instruction 
+system.cpu.op_class::FloatAdd;30666;824602;146569;1556442;31464449;872;Class of executed instruction 
+system.cpu.op_class::FloatCmp;0;0;0;0;0;0;Class of executed instruction 
+system.cpu.op_class::FloatCvt;0;0;0;0;0;0;Class of executed instruction 
+system.cpu.op_class::FloatMult;0;0;0;0;0;0;Class of executed instruction 
+system.cpu.op_class::FloatDiv;0;0;0;0;0;0;Class of executed instruction 
+system.cpu.op_class::FloatSqrt;0;0;0;0;0;0;Class of executed instruction 
+system.cpu.op_class::SimdAdd;0;0;0;0;0;0;Class of executed instruction 
+system.cpu.op_class::SimdAddAcc;0;0;0;0;0;0;Class of executed instruction 
+system.cpu.op_class::SimdAlu;0;0;0;0;0;0;Class of executed instruction 
+system.cpu.op_class::SimdCmp;0;0;0;0;0;0;Class of executed instruction 
+system.cpu.op_class::SimdCvt;0;0;0;0;0;0;Class of executed instruction 
+system.cpu.op_class::SimdMisc;0;0;0;0;0;0;Class of executed instruction 
+system.cpu.op_class::SimdMult;0;0;0;0;0;0;Class of executed instruction 
+system.cpu.op_class::SimdMultAcc;0;0;0;0;0;0;Class of executed instruction 
+system.cpu.op_class::SimdShift;0;0;0;0;0;0;Class of executed instruction 
+system.cpu.op_class::SimdShiftAcc;0;0;0;0;0;0;Class of executed instruction 
+system.cpu.op_class::SimdSqrt;0;0;0;0;0;0;Class of executed instruction 
+system.cpu.op_class::SimdFloatAdd;0;0;0;0;0;0;Class of executed instruction 
+system.cpu.op_class::SimdFloatAlu;0;0;0;0;0;0;Class of executed instruction 
+system.cpu.op_class::SimdFloatCmp;0;0;0;0;0;0;Class of executed instruction 
+system.cpu.op_class::SimdFloatCvt;0;0;0;0;0;0;Class of executed instruction 
+system.cpu.op_class::SimdFloatDiv;0;0;0;0;0;0;Class of executed instruction 
+system.cpu.op_class::SimdFloatMisc;0;0;0;0;0;0;Class of executed instruction 
+system.cpu.op_class::SimdFloatMult;0;0;0;0;0;0;Class of executed instruction 
+system.cpu.op_class::SimdFloatMultAcc;0;0;0;0;0;0;Class of executed instruction 
+system.cpu.op_class::SimdFloatSqrt;0;0;0;0;0;0;Class of executed instruction 
+system.cpu.op_class::MemRead;108732712;1297356;654678;2338313;3765870;46628;Class of executed instruction 
+system.cpu.op_class::MemWrite;23548494;809372;432363;1258420;2984093;47280;Class of executed instruction 
+system.cpu.op_class::IprAccess;0;0;0;0;0;0;Class of executed instruction 
+system.cpu.op_class::InstPrefetch;0;0;0;0;0;0;Class of executed instruction 
+system.cpu.op_class::total;915948834;8462014;4554933;14145035;69862897;347096;Class of executed instruction 
+system.cpu.kern.inst.arm;0;0;0;0;0;0;number of arm instructions executed 
+system.cpu.kern.inst.quiesce;5448;46;36;34;32;0;number of quiesce instructions executed 
