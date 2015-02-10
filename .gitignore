@@ -27,7 +27,9 @@
 *.i*86
 *.x86_64
 *.hex
-splash2/*/*.c
+splash2/codes/*/*.c
+splash2/codes/*/*/*.c
+splash2/codes/*/*/*/*.c
 *.X86
 *.ARM
 
