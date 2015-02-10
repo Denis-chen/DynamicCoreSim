@@ -1,0 +1,77 @@
+\documentclass[journal]{IEEEtran}
+\usepackage{blindtext}
+\usepackage{graphicx}
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+\begin{document}
+
+\title{IEEE Journal Template Example}
+
+\author{Michael~Shell,~\IEEEmembership{Member,~IEEE,}
+        John~Doe,~\IEEEmembership{Fellow,~OSA,}
+        and~Jane~Doe,~\IEEEmembership{Life~Fellow,~IEEE}% <-this % stops a space
+\thanks{M. Shell is with the Department
+of Electrical and Computer Engineering, Georgia Institute of Technology, Atlanta,
+GA, 30332 USA e-mail: (see http://www.michaelshell.org/contact.html).}% <-this % stops a space
+\thanks{J. Doe and J. Doe are with Anonymous University.}% <-this % stops a space
+\thanks{Manuscript received April 19, 2005; revised January 11, 2007.}}
+
+\markboth{Journal of \LaTeX\ Class Files,~Vol.~6, No.~1, January~2007}%
+{Shell \MakeLowercase{\textit{et al.}}: Bare Demo of IEEEtran.cls for Journals}
+
+\maketitle
+
+\begin{abstract}
+These should capture the main contributions of your project and summarize
+your results and findings.
+
+\blindtext[1]
+\end{abstract}
+
+\begin{IEEEkeywords}
+IEEEtran, journal, \LaTeX, paper, template.
+\end{IEEEkeywords}
+
+
+\section{Introduction and Motivation}
+\input{introduction}
+
+\section{Prior Work}
+\input{prior_work}
+
+\section{Methodology}
+\input{methodology}
+
+\section{Results}
+\input{results}
+
+\section{Conclusion and Future Work}
+\input{conclusion}
+
+\section{Statement of Work}
+\input{statement_of_work}
+
+%\appendices
+%\section{Proof of the First Zonklar Equation}
+%Some text for the appendix.
+
+% use section* for acknowledgement
+\section*{Acknowledgment}
+The authors would like to thank...
+
+\begin{thebibliography}{1}
+\bibitem{IEEEhowto:kopka}
+H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
+  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
+\end{thebibliography}
+
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{picture}}]{John Doe}
+\blindtext
+\end{IEEEbiography}
+
+
+\end{document}
+
+

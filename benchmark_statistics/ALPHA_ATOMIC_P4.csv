@@ -1,0 +1,1093 @@
+FIELD;BOOT;OCEAN;FFT;LU;RADIX;SHUTDOWN;DESCRIPTION
+sim_seconds;2.257381;0.012511;0.002044;0.005598;0.015056;0.000363;Number of seconds simulated 
+sim_ticks;2257380731000;12510757500;2043598000;5597748000;15056496500;362971000;Number of ticks simulated 
+final_tick;2257380731000;2269891488500;2271935086500;2277532834500;2292589331000;2292952302000;Number of ticks from beginning of simulation (restored from checkpoints and never reset) 
+sim_freq;1000000000000;1000000000000;1000000000000;1000000000000;1000000000000;1000000000000;Frequency of simulated ticks 
+host_inst_rate;3426931;13214488;97994600;39043558;13320336;1008105347;Simulator instruction rate (inst/s) 
+host_op_rate;3426930;13214442;97993771;39043436;13320325;1008050008;Simulator op (including micro ops) rate (op/s) 
+host_tick_rate;70595053545;1131825954;1325860840;1324840131;899325103;1634982830;Simulator tick rate (ticks/s) 
+host_mem_usage;450284;451308;452332;452332;452332;452332;Number of bytes of host memory used 
+host_seconds;31.98;11.05;1.54;4.23;16.74;0.22;Real time elapsed on the host 
+sim_insts;109581086;146066775;151040258;164966834;223008658;223778104;Number of instructions simulated 
+sim_ops;109581086;146066775;151040258;164966834;223008658;223778104;Number of ops (including micro ops) simulated 
+system.voltage_domain.voltage;1;1;1;1;1;1;Voltage in Volts 
+system.clk_domain.clock;1000;1000;1000;1000;1000;1000;Clock period in ticks 
+system.mem_ctrls.bytes_read::cpu0.inst;262665184;47161760;7885480;9394996;61615520;719140;Number of bytes read from this memory 
+system.mem_ctrls.bytes_read::cpu0.data;79576892;18488695;2742596;3454528;19392475;277108;Number of bytes read from this memory 
+system.mem_ctrls.bytes_read::tsunami.ide;5256;264;240;224;232;;Number of bytes read from this memory 
+system.mem_ctrls.bytes_read::cpu1.inst;20210096;1408232;18216;2459500;2645244;538604;Number of bytes read from this memory 
+system.mem_ctrls.bytes_read::cpu1.data;7938236;452332;7484;833040;1138988;170816;Number of bytes read from this memory 
+system.mem_ctrls.bytes_read::cpu2.inst;101153608;59672464;9090840;19124100;114673968;1480;Number of bytes read from this memory 
+system.mem_ctrls.bytes_read::cpu2.data;36420848;22511649;3246909;6802278;35786159;624;Number of bytes read from this memory 
+system.mem_ctrls.bytes_read::cpu3.inst;54352136;37722432;2907160;24735532;54995256;1822448;Number of bytes read from this memory 
+system.mem_ctrls.bytes_read::cpu3.data;20212716;14879944;900069;9713795;17060367;629600;Number of bytes read from this memory 
+system.mem_ctrls.bytes_read::total;582534972;202297772;26798994;76517993;307308209;4159820;Number of bytes read from this memory 
+system.mem_ctrls.bytes_inst_read::cpu0.inst;262665184;47161760;7885480;9394996;61615520;719140;Number of instructions bytes read from this memory 
+system.mem_ctrls.bytes_inst_read::cpu1.inst;20210096;1408232;18216;2459500;2645244;538604;Number of instructions bytes read from this memory 
+system.mem_ctrls.bytes_inst_read::cpu2.inst;101153608;59672464;9090840;19124100;114673968;1480;Number of instructions bytes read from this memory 
+system.mem_ctrls.bytes_inst_read::cpu3.inst;54352136;37722432;2907160;24735532;54995256;1822448;Number of instructions bytes read from this memory 
+system.mem_ctrls.bytes_inst_read::total;438381024;145964888;19901696;55714128;233929988;3081672;Number of instructions bytes read from this memory 
+system.mem_ctrls.bytes_written::cpu0.data;36110408;10918156;1929532;2148960;7247036;238936;Number of bytes written to this memory 
+system.mem_ctrls.bytes_written::tsunami.ide;2832384;847872;737280;704512;700416;;Number of bytes written to this memory 
+system.mem_ctrls.bytes_written::cpu1.data;4743460;301160;4636;835708;796692;106832;Number of bytes written to this memory 
+system.mem_ctrls.bytes_written::cpu2.data;23731724;14528533;2337843;3870003;11745055;448;Number of bytes written to this memory 
+system.mem_ctrls.bytes_written::cpu3.data;14273072;8651052;646500;4631864;5560552;703064;Number of bytes written to this memory 
+system.mem_ctrls.bytes_written::total;81691048;35246773;5655791;12191047;26049751;1049280;Number of bytes written to this memory 
+system.mem_ctrls.num_reads::cpu0.inst;65666296;11790440;1971370;2348749;15403880;179785;Number of read requests responded to by this memory 
+system.mem_ctrls.num_reads::cpu0.data;11237377;2617353;373498;471248;2456993;37118;Number of read requests responded to by this memory 
+system.mem_ctrls.num_reads::tsunami.ide;209;33;30;28;29;;Number of read requests responded to by this memory 
+system.mem_ctrls.num_reads::cpu1.inst;5052524;352058;4554;614875;661311;134651;Number of read requests responded to by this memory 
+system.mem_ctrls.num_reads::cpu1.data;1089267;63353;1010;112441;153245;24018;Number of read requests responded to by this memory 
+system.mem_ctrls.num_reads::cpu2.inst;25288402;14918116;2272710;4781025;28668492;370;Number of read requests responded to by this memory 
+system.mem_ctrls.num_reads::cpu2.data;4875630;3034033;454445;961978;4515150;82;Number of read requests responded to by this memory 
+system.mem_ctrls.num_reads::cpu3.inst;13588034;9430608;726790;6183883;13748814;455612;Number of read requests responded to by this memory 
+system.mem_ctrls.num_reads::cpu3.data;2753551;2122364;120838;1221747;2141803;83884;Number of read requests responded to by this memory 
+system.mem_ctrls.num_reads::total;129551290;44328358;5925245;16695974;67749717;915520;Number of read requests responded to by this memory 
+system.mem_ctrls.num_writes::cpu0.data;4844447;1423336;256232;288424;921143;30983;Number of write requests responded to by this memory 
+system.mem_ctrls.num_writes::tsunami.ide;44256;13248;11520;11008;10944;;Number of write requests responded to by this memory 
+system.mem_ctrls.num_writes::cpu1.data;617362;39113;607;106462;104736;13780;Number of write requests responded to by this memory 
+system.mem_ctrls.num_writes::cpu2.data;3086408;1886565;310019;529105;1481790;58;Number of write requests responded to by this memory 
+system.mem_ctrls.num_writes::cpu3.data;1872778;1118461;82849;581131;697466;89254;Number of write requests responded to by this memory 
+system.mem_ctrls.num_writes::total;10465251;4480723;661227;1516130;3216079;134075;Number of write requests responded to by this memory 
+system.mem_ctrls.bw_read::cpu0.inst;116358388;3769696599;3858625816;1678352795;4092288003;1981260211;Total read bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_read::cpu0.data;35251870;1477823785;1342042809;617128174;1287980574;763443911;Total read bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_read::tsunami.ide;2328;21102;117440;40016;15409;;Total read bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_read::cpu1.inst;8952896;112561689;8913690;439373119;175687883;1483876122;Total read bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_read::cpu1.data;3516569;36155445;3662168;148816989;75647612;470605090;Total read bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_read::cpu2.inst;44810167;4769692323;4448448276;3416391735;7616245121;4077461;Total read bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_read::cpu2.data;16134118;1799383371;1588819817;1215181176;2376791905;1719146;Total read bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_read::cpu3.inst;24077523;3015199679;1422569409;4418836289;3652593151;5020919027;Total read bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_read::cpu3.data;8954057;1189371947;440433490;1735304090;1133090092;1734573836;Total read bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_read::total;258057918;16169905939;13113632916;13669424383;20410339749;11460474804;Total read bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_inst_read::cpu0.inst;116358388;3769696599;3858625816;1678352795;4092288003;1981260211;Instruction read bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_inst_read::cpu1.inst;8952896;112561689;8913690;439373119;175687883;1483876122;Instruction read bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_inst_read::cpu2.inst;44810167;4769692323;4448448276;3416391735;7616245121;4077461;Instruction read bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_inst_read::cpu3.inst;24077523;3015199679;1422569409;4418836289;3652593151;5020919027;Instruction read bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_inst_read::total;194198975;11667150290;9738557192;9952953938;15536814159;8490132821;Instruction read bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_write::cpu0.data;15996596;872701433;944183739;383897239;481322863;658278485;Write bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_write::tsunami.ide;1254721;67771436;360775456;125856327;46519189;;Write bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_write::cpu1.data;2101311;24072084;2268548;149293609;52913505;294326544;Write bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_write::cpu2.data;10512947;1161283240;1143983797;691349986;780065602;1234258;Write bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_write::cpu3.data;6322847;691489065;316353803;827451325;369312476;1936970171;Write bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_write::total;36188423;2817317257;2767565343;2177848485;1730133634;2890809459;Write bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_total::cpu0.inst;116358388;3769696599;3858625816;1678352795;4092288003;1981260211;Total bandwidth to/from this memory (bytes/s) 
+system.mem_ctrls.bw_total::cpu0.data;51248466;2350525218;2286226547;1001025412;1769303437;1421722397;Total bandwidth to/from this memory (bytes/s) 
+system.mem_ctrls.bw_total::tsunami.ide;1257050;67792538;360892896;125896343;46534597;;Total bandwidth to/from this memory (bytes/s) 
+system.mem_ctrls.bw_total::cpu1.inst;8952896;112561689;8913690;439373119;175687883;1483876122;Total bandwidth to/from this memory (bytes/s) 
+system.mem_ctrls.bw_total::cpu1.data;5617881;60227528;5930716;298110597;128561116;764931634;Total bandwidth to/from this memory (bytes/s) 
+system.mem_ctrls.bw_total::cpu2.inst;44810167;4769692323;4448448276;3416391735;7616245121;4077461;Total bandwidth to/from this memory (bytes/s) 
+system.mem_ctrls.bw_total::cpu2.data;26647065;2960666610;2732803614;1906531162;3156857507;2953404;Total bandwidth to/from this memory (bytes/s) 
+system.mem_ctrls.bw_total::cpu3.inst;24077523;3015199679;1422569409;4418836289;3652593151;5020919027;Total bandwidth to/from this memory (bytes/s) 
+system.mem_ctrls.bw_total::cpu3.data;15276904;1880861011;756787294;2562755415;1502402568;3671544008;Total bandwidth to/from this memory (bytes/s) 
+system.mem_ctrls.bw_total::total;294246341;18987223196;15881198259;15847272868;22140473383;14351284262;Total bandwidth to/from this memory (bytes/s) 
+system.mem_ctrls.readReqs;0;0;0;0;0;0;Number of read requests accepted 
+system.mem_ctrls.writeReqs;0;0;0;0;0;0;Number of write requests accepted 
+system.mem_ctrls.readBursts;0;0;0;0;0;0;Number of DRAM read bursts, including those serviced by the write queue 
+system.mem_ctrls.writeBursts;0;0;0;0;0;0;Number of DRAM write bursts, including those merged in the write queue 
+system.mem_ctrls.bytesReadDRAM;0;0;0;0;0;0;Total number of bytes read from DRAM 
+system.mem_ctrls.bytesReadWrQ;0;0;0;0;0;0;Total number of bytes read from write queue 
+system.mem_ctrls.bytesWritten;0;0;0;0;0;0;Total number of bytes written to DRAM 
+system.mem_ctrls.bytesReadSys;0;0;0;0;0;0;Total read bytes from the system interface side 
+system.mem_ctrls.bytesWrittenSys;0;0;0;0;0;0;Total written bytes from the system interface side 
+system.mem_ctrls.servicedByWrQ;0;0;0;0;0;0;Number of DRAM read bursts serviced by the write queue 
+system.mem_ctrls.mergedWrBursts;0;0;0;0;0;0;Number of DRAM write bursts merged with an existing one 
+system.mem_ctrls.neitherReadNorWriteReqs;0;0;0;0;0;0;Number of requests that are neither read nor write 
+system.mem_ctrls.perBankRdBursts::0;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::1;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::2;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::3;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::4;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::5;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::6;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::7;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::8;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::9;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::10;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::11;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::12;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::13;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::14;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::15;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::0;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::1;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::2;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::3;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::4;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::5;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::6;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::7;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::8;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::9;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::10;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::11;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::12;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::13;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::14;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::15;0;0;0;0;0;0;Per bank write bursts 
+system.mem_ctrls.numRdRetry;0;0;0;0;0;0;Number of times read queue was full causing retry 
+system.mem_ctrls.numWrRetry;0;0;0;0;0;0;Number of times write queue was full causing retry 
+system.mem_ctrls.totGap;0;0;0;0;0;0;Total gap between requests 
+system.mem_ctrls.readPktSize::0;0;0;0;0;0;0;Read request sizes (log2) 
+system.mem_ctrls.readPktSize::1;0;0;0;0;0;0;Read request sizes (log2) 
+system.mem_ctrls.readPktSize::2;0;0;0;0;0;0;Read request sizes (log2) 
+system.mem_ctrls.readPktSize::3;0;0;0;0;0;0;Read request sizes (log2) 
+system.mem_ctrls.readPktSize::4;0;0;0;0;0;0;Read request sizes (log2) 
+system.mem_ctrls.readPktSize::5;0;0;0;0;0;0;Read request sizes (log2) 
+system.mem_ctrls.readPktSize::6;0;0;0;0;0;0;Read request sizes (log2) 
+system.mem_ctrls.writePktSize::0;0;0;0;0;0;0;Write request sizes (log2) 
+system.mem_ctrls.writePktSize::1;0;0;0;0;0;0;Write request sizes (log2) 
+system.mem_ctrls.writePktSize::2;0;0;0;0;0;0;Write request sizes (log2) 
+system.mem_ctrls.writePktSize::3;0;0;0;0;0;0;Write request sizes (log2) 
+system.mem_ctrls.writePktSize::4;0;0;0;0;0;0;Write request sizes (log2) 
+system.mem_ctrls.writePktSize::5;0;0;0;0;0;0;Write request sizes (log2) 
+system.mem_ctrls.writePktSize::6;0;0;0;0;0;0;Write request sizes (log2) 
+system.mem_ctrls.rdQLenPdf::0;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::1;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::2;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::3;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::4;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::5;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::6;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::7;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::8;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::9;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::10;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::11;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::12;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::13;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::14;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::15;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::16;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::17;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::18;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::19;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::20;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::21;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::22;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::23;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::24;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::25;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::26;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::27;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::28;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::29;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::30;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::31;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::0;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::1;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::2;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::3;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::4;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::5;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::6;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::7;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::8;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::9;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::10;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::11;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::12;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::13;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::14;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::15;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::16;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::17;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::18;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::19;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::20;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::21;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::22;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::23;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::24;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::25;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::26;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::27;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::28;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::29;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::30;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::31;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::32;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::33;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::34;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::35;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::36;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::37;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::38;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::39;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::40;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::41;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::42;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::43;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::44;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::45;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::46;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::47;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::48;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::49;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::50;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::51;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::52;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::53;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::54;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::55;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::56;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::57;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::58;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::59;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::60;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::61;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::62;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::63;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.totQLat;0;0;0;0;0;0;Total ticks spent queuing 
+system.mem_ctrls.totMemAccLat;0;0;0;0;0;0;Total ticks spent from burst creation until serviced by the DRAM 
+system.mem_ctrls.totBusLat;0;0;0;0;0;0;Total ticks spent in databus transfers 
+system.mem_ctrls.avgQLat;nan;nan;nan;nan;nan;nan;Average queueing delay per DRAM burst 
+system.mem_ctrls.avgBusLat;nan;nan;nan;nan;nan;nan;Average bus latency per DRAM burst 
+system.mem_ctrls.avgMemAccLat;nan;nan;nan;nan;nan;nan;Average memory access latency per DRAM burst 
+system.mem_ctrls.avgRdBW;0.00;0.00;0.00;0.00;0.00;0.00;Average DRAM read bandwidth in MiByte/s 
+system.mem_ctrls.avgWrBW;0.00;0.00;0.00;0.00;0.00;0.00;Average achieved write bandwidth in MiByte/s 
+system.mem_ctrls.avgRdBWSys;0.00;0.00;0.00;0.00;0.00;0.00;Average system read bandwidth in MiByte/s 
+system.mem_ctrls.avgWrBWSys;0.00;0.00;0.00;0.00;0.00;0.00;Average system write bandwidth in MiByte/s 
+system.mem_ctrls.peakBW;12800.00;12800.00;12800.00;12800.00;12800.00;12800.00;Theoretical peak bandwidth in MiByte/s 
+system.mem_ctrls.busUtil;0.00;0.00;0.00;0.00;0.00;0.00;Data bus utilization in percentage 
+system.mem_ctrls.busUtilRead;0.00;0.00;0.00;0.00;0.00;0.00;Data bus utilization in percentage for reads 
+system.mem_ctrls.busUtilWrite;0.00;0.00;0.00;0.00;0.00;0.00;Data bus utilization in percentage for writes 
+system.mem_ctrls.avgRdQLen;0.00;0.00;0.00;0.00;0.00;0.00;Average read queue length when enqueuing 
+system.mem_ctrls.avgWrQLen;0.00;0.00;0.00;0.00;0.00;0.00;Average write queue length when enqueuing 
+system.mem_ctrls.readRowHits;0;0;0;0;0;0;Number of row buffer hits during reads 
+system.mem_ctrls.writeRowHits;0;0;0;0;0;0;Number of row buffer hits during writes 
+system.mem_ctrls.readRowHitRate;nan;nan;nan;nan;nan;nan;Row buffer hit rate for reads 
+system.mem_ctrls.writeRowHitRate;nan;nan;nan;nan;nan;nan;Row buffer hit rate for writes 
+system.mem_ctrls.avgGap;nan;nan;nan;nan;nan;nan;Average gap between requests 
+system.mem_ctrls.pageHitRate;nan;nan;nan;nan;nan;nan;Row buffer hit rate, read and write combined 
+system.mem_ctrls.memoryStateTime::IDLE;2181995607500;12094683750;1979403750;5411373750;14548241250;353733750;Time in different power states 
+system.mem_ctrls.memoryStateTime::REF;75378680000;417820000;68380000;186680000;502840000;12220000;Time in different power states 
+system.mem_ctrls.memoryStateTime::PRE_PDN;0;0;0;0;0;0;Time in different power states 
+system.mem_ctrls.memoryStateTime::ACT;0;0;0;0;0;0;Time in different power states 
+system.mem_ctrls.memoryStateTime::ACT_PDN;0;0;0;0;0;0;Time in different power states 
+system.mem_ctrls.actEnergy::0;0;0;0;0;0;0;Energy for activate commands per rank (pJ) 
+system.mem_ctrls.actEnergy::1;0;0;0;0;0;0;Energy for activate commands per rank (pJ) 
+system.mem_ctrls.preEnergy::0;0;0;0;0;0;0;Energy for precharge commands per rank (pJ) 
+system.mem_ctrls.preEnergy::1;0;0;0;0;0;0;Energy for precharge commands per rank (pJ) 
+system.mem_ctrls.readEnergy::0;0;0;0;0;0;0;Energy for read commands per rank (pJ) 
+system.mem_ctrls.readEnergy::1;0;0;0;0;0;0;Energy for read commands per rank (pJ) 
+system.mem_ctrls.writeEnergy::0;0;0;0;0;0;0;Energy for write commands per rank (pJ) 
+system.mem_ctrls.writeEnergy::1;0;0;0;0;0;0;Energy for write commands per rank (pJ) 
+system.mem_ctrls.refreshEnergy::0;147440698080;148257954000;148391705280;148757359920;149740406400;149764308720;Energy for refresh commands per rank (pJ) 
+system.mem_ctrls.refreshEnergy::1;147440698080;148257954000;148391705280;148757359920;149740406400;149764308720;Energy for refresh commands per rank (pJ) 
+system.mem_ctrls.actBackEnergy::0;48832338330;49103013375;49147311780;49268416545;49594001400;49601917845;Energy for active background per rank (pJ) 
+system.mem_ctrls.actBackEnergy::1;48832338330;49103013375;49147311780;49268416545;49594001400;49601917845;Energy for active background per rank (pJ) 
+system.mem_ctrls.preBackEnergy::0;1311589179750;1318859247750;1320049059750;1323301815750;1332046707750;1332259335750;Energy for precharge background per rank (pJ) 
+system.mem_ctrls.preBackEnergy::1;1311589179750;1318859247750;1320049059750;1323301815750;1332046707750;1332259335750;Energy for precharge background per rank (pJ) 
+system.mem_ctrls.totalEnergy::0;1507862216160;1516220215125;1517588076810;1521327592215;1531381115550;1531625562315;Total energy per rank (pJ) 
+system.mem_ctrls.totalEnergy::1;1507862216160;1516220215125;1517588076810;1521327592215;1531381115550;1531625562315;Total energy per rank (pJ) 
+system.mem_ctrls.averagePower::0;667.971738;667.971738;667.971738;667.971738;667.971738;667.971738;Core power per rank (mW) 
+system.mem_ctrls.averagePower::1;667.971738;667.971738;667.971738;667.971738;667.971738;667.971738;Core power per rank (mW) 
+system.membus.trans_dist::ReadReq;129257759;44202488;5916767;16686136;67733939;913099;Transaction distribution 
+system.membus.trans_dist::ReadResp;129559190;44336364;5932214;16703406;67755887;915520;Transaction distribution 
+system.membus.trans_dist::WriteReq;10193243;4367786;651268;1504780;3199276;131672;Transaction distribution 
+system.membus.trans_dist::WriteResp;10193243;4367786;651268;1504780;3199276;131672;Transaction distribution 
+system.membus.trans_dist::LoadLockedReq;301431;133876;15447;17270;21948;2421;Transaction distribution 
+system.membus.trans_dist::StoreCondReq;297011;125881;14883;16656;21327;2413;Transaction distribution 
+system.membus.trans_dist::StoreCondResp;297011;125881;14883;16656;21327;2413;Transaction distribution 
+system.membus.pkt_count_system.iobridge.master::system.mem_ctrls.port;88930;26562;23100;22072;21946;;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.iobridge.master::total;88930;26562;23100;22072;21946;;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.cpu0.icache_port::system.mem_ctrls.port;131332592;23580880;3942740;4697498;30807760;359570;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.cpu0.icache_port::total;131332592;23580880;3942740;4697498;30807760;359570;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.cpu0.dcache_port::system.bridge.slave;32970;30768;22670;24262;20056;4;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.cpu0.dcache_port::system.mem_ctrls.port;32163654;8081404;1259464;1519346;6756276;136202;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.cpu0.dcache_port::total;32196624;8112172;1282134;1543608;6776332;136206;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.cpu1.icache_port::system.mem_ctrls.port;10105048;704116;9108;1229750;1322622;269302;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.cpu1.icache_port::total;10105048;704116;9108;1229750;1322622;269302;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.cpu1.dcache_port::system.bridge.slave;5428;182;12;64;46;6;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.cpu1.dcache_port::system.mem_ctrls.port;3413300;204934;3234;437806;515968;75596;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.cpu1.dcache_port::total;3418728;205116;3246;437870;516014;75602;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.cpu2.icache_port::system.mem_ctrls.port;50576804;29836232;4545420;9562050;57336984;740;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.cpu2.icache_port::total;50576804;29836232;4545420;9562050;57336984;740;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.cpu2.dcache_port::system.bridge.slave;18518;6062;964;974;1122;2;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.cpu2.dcache_port::system.mem_ctrls.port;15924084;9841210;1528930;2982166;11993884;280;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.cpu2.dcache_port::total;15942602;9847272;1529894;2983140;11995006;282;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.cpu3.icache_port::system.mem_ctrls.port;27176068;18861216;1453580;12367766;27497628;911224;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.cpu3.icache_port::total;27176068;18861216;1453580;12367766;27497628;911224;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.cpu3.dcache_port::system.bridge.slave;8806;4828;132;172;140;8;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.cpu3.dcache_port::system.mem_ctrls.port;9252686;6481668;407376;3605758;5678548;346276;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.cpu3.dcache_port::total;9261492;6486496;407508;3605930;5678688;346284;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count::total;280098888;97660062;13196730;36449684;141952980;2099210;Packet count per connected master and slave (bytes) 
+system.membus.pkt_size_system.iobridge.master::system.mem_ctrls.port;2837640;848136;737520;704736;700648;;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.iobridge.master::total;2837640;848136;737520;704736;700648;;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.cpu0.icache_port::system.mem_ctrls.port;262665184;47161760;7885480;9394996;61615520;719140;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.cpu0.icache_port::total;262665184;47161760;7885480;9394996;61615520;719140;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.cpu0.dcache_port::system.bridge.slave;58101;50048;27246;29183;24350;16;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.cpu0.dcache_port::system.mem_ctrls.port;115687312;29406907;4672136;5603492;26639519;516044;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.cpu0.dcache_port::total;115745413;29456955;4699382;5632675;26663869;516060;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.cpu1.icache_port::system.mem_ctrls.port;20210096;1408232;18216;2459500;2645244;538604;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.cpu1.icache_port::total;20210096;1408232;18216;2459500;2645244;538604;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.cpu1.dcache_port::system.bridge.slave;21596;380;48;140;177;24;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.cpu1.dcache_port::system.mem_ctrls.port;12681780;753496;12120;1668748;1935692;277648;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.cpu1.dcache_port::total;12703376;753876;12168;1668888;1935869;277672;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.cpu2.icache_port::system.mem_ctrls.port;101153608;59672464;9090840;19124100;114673968;1480;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.cpu2.icache_port::total;101153608;59672464;9090840;19124100;114673968;1480;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.cpu2.dcache_port::system.bridge.slave;51032;21714;1241;1467;1599;8;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.cpu2.dcache_port::system.mem_ctrls.port;60152592;37040214;5584756;10672281;47531222;1072;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.cpu2.dcache_port::total;60203624;37061928;5585997;10673748;47532821;1080;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.cpu3.icache_port::system.mem_ctrls.port;54352136;37722432;2907160;24735532;54995256;1822448;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.cpu3.icache_port::total;54352136;37722432;2907160;24735532;54995256;1822448;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.cpu3.dcache_port::system.bridge.slave;32208;19196;296;572;444;32;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.cpu3.dcache_port::system.mem_ctrls.port;34485852;23531040;1546573;14345663;22620939;1332664;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.cpu3.dcache_port::total;34518060;23550236;1546869;14346235;22621383;1332696;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size::total;664389137;237636019;32483632;88740410;333384578;5209180;Cumulative packet size per connected master and slave (bytes) 
+system.membus.snoops;0;0;0;0;0;0;Total snoops (count) 
+system.membus.snoop_fanout::samples;140016583;48809111;6586476;18212106;70965808;1049595;Request fanout histogram 
+system.membus.snoop_fanout::mean;3.783048;3.747903;3.757154;3.765401;3.824249;3.734015;Request fanout histogram 
+system.membus.snoop_fanout::stdev;0.412170;0.434216;0.428803;0.423748;0.380608;0.441857;Request fanout histogram 
+system.membus.snoop_fanout::underflows;0;0;0;0;0;0;Request fanout histogram 
+system.membus.snoop_fanout::0;0;0;0;0;0;0;Request fanout histogram 
+system.membus.snoop_fanout::1;0;0;0;0;0;0;Request fanout histogram 
+system.membus.snoop_fanout::2;0;0;0;0;0;0;Request fanout histogram 
+system.membus.snoop_fanout::3;30376862;12304608;1599502;4272538;12472338;279177;Request fanout histogram 
+system.membus.snoop_fanout::4;109639721;36504503;4986974;13939568;58493470;770418;Request fanout histogram 
+system.membus.snoop_fanout::overflows;0;0;0;0;0;0;Request fanout histogram 
+system.membus.snoop_fanout::min_value;3;3;3;3;3;3;Request fanout histogram 
+system.membus.snoop_fanout::max_value;4;4;4;4;4;4;Request fanout histogram 
+system.membus.snoop_fanout::total;140016583;48809111;6586476;18212106;70965808;1049595;Request fanout histogram 
+system.disk0.dma_read_full_pages;0;0;0;0;0;0;Number of full page size DMA reads (not PRD). 
+system.disk0.dma_read_bytes;4096;0;0;0;0;0;Number of bytes transfered via DMA reads (not PRD). 
+system.disk0.dma_read_txs;1;0;0;0;0;0;Number of DMA read transactions (not PRD). 
+system.disk0.dma_write_full_pages;326;101;89;85;84;0;Number of full page size DMA writes. 
+system.disk0.dma_write_bytes;2824192;847872;737280;704512;700416;0;Number of bytes transfered via DMA writes. 
+system.disk0.dma_write_txs;365;106;91;87;87;0;Number of DMA write transactions. 
+system.disk2.dma_read_full_pages;0;0;0;0;0;0;Number of full page size DMA reads (not PRD). 
+system.disk2.dma_read_bytes;0;0;0;0;0;0;Number of bytes transfered via DMA reads (not PRD). 
+system.disk2.dma_read_txs;0;0;0;0;0;0;Number of DMA read transactions (not PRD). 
+system.disk2.dma_write_full_pages;1;0;0;0;0;0;Number of full page size DMA writes. 
+system.disk2.dma_write_bytes;8192;0;0;0;0;0;Number of bytes transfered via DMA writes. 
+system.disk2.dma_write_txs;1;0;0;0;0;0;Number of DMA write transactions. 
+system.cpu_voltage_domain.voltage;1;1;1;1;1;1;Voltage in Volts 
+system.cpu_clk_domain.clock;500;500;500;500;500;500;Clock period in ticks 
+system.cpu0.dtb.fetch_hits;0;0;0;0;0;0;ITB hits 
+system.cpu0.dtb.fetch_misses;0;0;0;0;0;0;ITB misses 
+system.cpu0.dtb.fetch_acv;0;0;0;0;0;0;ITB acv 
+system.cpu0.dtb.fetch_accesses;0;0;0;0;0;0;ITB accesses 
+system.cpu0.dtb.read_hits;11230878;2608398;377558;475427;2450303;37010;DTB read hits 
+system.cpu0.dtb.read_misses;3143;658;371;431;10597;85;DTB read misses 
+system.cpu0.dtb.read_acv;32;0;0;12;0;0;DTB read access violations 
+system.cpu0.dtb.read_accesses;187936;345484;34037;110041;2081349;11014;DTB read accesses 
+system.cpu0.dtb.write_hits;4848363;1425608;261846;294388;926196;30966;DTB write hits 
+system.cpu0.dtb.write_misses;365;499;106;56;99783;14;DTB write misses 
+system.cpu0.dtb.write_acv;50;19;5;18;5;7;DTB write access violations 
+system.cpu0.dtb.write_accesses;83324;138420;15515;70871;590892;6645;DTB write accesses 
+system.cpu0.dtb.data_hits;16079241;4034006;639404;769815;3376499;67976;DTB hits 
+system.cpu0.dtb.data_misses;3508;1157;477;487;110380;99;DTB misses 
+system.cpu0.dtb.data_acv;82;19;5;30;5;7;DTB access violations 
+system.cpu0.dtb.data_accesses;271260;483904;49552;180912;2672241;17659;DTB accesses 
+system.cpu0.itb.fetch_hits;2269459;2273957;335405;660987;13379953;55385;ITB hits 
+system.cpu0.itb.fetch_misses;1293;311;152;269;164;92;ITB misses 
+system.cpu0.itb.fetch_acv;0;0;0;0;0;0;ITB acv 
+system.cpu0.itb.fetch_accesses;2270752;2274268;335557;661256;13380117;55477;ITB accesses 
+system.cpu0.itb.read_hits;0;0;0;0;0;0;DTB read hits 
+system.cpu0.itb.read_misses;0;0;0;0;0;0;DTB read misses 
+system.cpu0.itb.read_acv;0;0;0;0;0;0;DTB read access violations 
+system.cpu0.itb.read_accesses;0;0;0;0;0;0;DTB read accesses 
+system.cpu0.itb.write_hits;0;0;0;0;0;0;DTB write hits 
+system.cpu0.itb.write_misses;0;0;0;0;0;0;DTB write misses 
+system.cpu0.itb.write_acv;0;0;0;0;0;0;DTB write access violations 
+system.cpu0.itb.write_accesses;0;0;0;0;0;0;DTB write accesses 
+system.cpu0.itb.data_hits;0;0;0;0;0;0;DTB hits 
+system.cpu0.itb.data_misses;0;0;0;0;0;0;DTB misses 
+system.cpu0.itb.data_acv;0;0;0;0;0;0;DTB access violations 
+system.cpu0.itb.data_accesses;0;0;0;0;0;0;DTB accesses 
+system.cpu0.numCycles;4514768368;24609110;4500974;10821429;30487106;312348;number of cpu cycles simulated 
+system.cpu0.numWorkItemsStarted;0;0;0;0;0;0;number of work items this cpu started 
+system.cpu0.numWorkItemsCompleted;0;0;0;0;0;0;number of work items this cpu completed 
+system.cpu0.committedInsts;65662706;11789264;1970888;2348232;15293495;179679;Number of instructions committed 
+system.cpu0.committedOps;65662706;11789264;1970888;2348232;15293495;179679;Number of ops (including micro ops) committed 
+system.cpu0.num_int_alu_accesses;63460675;11237930;1895716;2263473;8723264;173629;Number of integer alu accesses 
+system.cpu0.num_fp_alu_accesses;190330;570472;3618;697;6363915;261;Number of float alu accesses 
+system.cpu0.num_func_calls;2076489;489772;148231;169542;143402;4609;number of times a function call or return occured 
+system.cpu0.num_conditional_control_insts;8720598;1247848;145072;181875;644830;18146;number of instructions that are conditional controls 
+system.cpu0.num_int_insts;63460675;11237930;1895716;2263473;8723264;173629;number of integer instructions 
+system.cpu0.num_fp_insts;190330;570472;3618;697;6363915;261;number of float instructions 
+system.cpu0.num_int_register_reads;86715677;15801908;2484385;2945378;17698712;240217;number of times the integer registers were read 
+system.cpu0.num_int_register_writes;48999578;8167913;1429808;1719392;6920367;122856;number of times the integer registers were written 
+system.cpu0.num_fp_register_reads;73745;562295;2367;428;10818045;135;number of times the floating registers were read 
+system.cpu0.num_fp_register_writes;75153;442150;2352;257;6295643;102;number of times the floating registers were written 
+system.cpu0.num_mem_refs;16105854;4062500;642786;773646;3499887;68228;number of memory refs 
+system.cpu0.num_load_insts;11246688;2625829;380661;478957;2473572;37203;Number of load instructions 
+system.cpu0.num_store_insts;4859166;1436671;262125;294689;1026315;31025;Number of store instructions 
+system.cpu0.num_idle_cycles;4449107584.560236;13014034.877591;2329870.814014;8550910.569894;14891720.091364;234953.512984;Number of idle cycles 
+system.cpu0.num_busy_cycles;65660783.439764;11595075.122409;2171103.185986;2270518.430106;15595385.908636;77394.487016;Number of busy cycles 
+system.cpu0.not_idle_fraction;0.014544;0.471170;0.482363;0.209817;0.511540;0.247783;Percentage of non-idle cycles 
+system.cpu0.idle_fraction;0.985456;0.528830;0.517637;0.790183;0.488460;0.752217;Percentage of idle cycles 
+system.cpu0.Branches;11194471;1868713;315691;377917;812509;24144;Number of branches fetched 
+system.cpu0.op_class::No_OpClass;1392158;76994;16601;20840;282925;2997;Class of executed instruction 
+system.cpu0.op_class::IntAlu;47157348;7105828;1231433;1468447;4211659;103934;Class of executed instruction 
+system.cpu0.op_class::IntMult;115905;18698;1666;1517;2524;172;Class of executed instruction 
+system.cpu0.op_class::IntDiv;0;0;0;0;0;0;Class of executed instruction 
+system.cpu0.op_class::FloatAdd;59923;157021;1172;54;3212775;30;Class of executed instruction 
+system.cpu0.op_class::FloatCmp;0;11712;0;0;0;0;Class of executed instruction 
+system.cpu0.op_class::FloatCvt;0;2946;0;0;5;0;Class of executed instruction 
+system.cpu0.op_class::FloatMult;0;43882;0;0;3014850;0;Class of executed instruction 
+system.cpu0.op_class::FloatDiv;1500;9055;227;3;227;0;Class of executed instruction 
+system.cpu0.op_class::FloatSqrt;0;0;0;0;0;0;Class of executed instruction 
+system.cpu0.op_class::SimdAdd;0;0;0;0;0;0;Class of executed instruction 
+system.cpu0.op_class::SimdAddAcc;0;0;0;0;0;0;Class of executed instruction 
+system.cpu0.op_class::SimdAlu;0;0;0;0;0;0;Class of executed instruction 
+system.cpu0.op_class::SimdCmp;0;0;0;0;0;0;Class of executed instruction 
+system.cpu0.op_class::SimdCvt;0;0;0;0;0;0;Class of executed instruction 
+system.cpu0.op_class::SimdMisc;0;0;0;0;0;0;Class of executed instruction 
+system.cpu0.op_class::SimdMult;0;0;0;0;0;0;Class of executed instruction 
+system.cpu0.op_class::SimdMultAcc;0;0;0;0;0;0;Class of executed instruction 
+system.cpu0.op_class::SimdShift;0;0;0;0;0;0;Class of executed instruction 
+system.cpu0.op_class::SimdShiftAcc;0;0;0;0;0;0;Class of executed instruction 
+system.cpu0.op_class::SimdSqrt;0;0;0;0;0;0;Class of executed instruction 
+system.cpu0.op_class::SimdFloatAdd;0;0;0;0;0;0;Class of executed instruction 
+system.cpu0.op_class::SimdFloatAlu;0;0;0;0;0;0;Class of executed instruction 
+system.cpu0.op_class::SimdFloatCmp;0;0;0;0;0;0;Class of executed instruction 
+system.cpu0.op_class::SimdFloatCvt;0;0;0;0;0;0;Class of executed instruction 
+system.cpu0.op_class::SimdFloatDiv;0;0;0;0;0;0;Class of executed instruction 
+system.cpu0.op_class::SimdFloatMisc;0;0;0;0;0;0;Class of executed instruction 
+system.cpu0.op_class::SimdFloatMult;0;0;0;0;0;0;Class of executed instruction 
+system.cpu0.op_class::SimdFloatMultAcc;0;0;0;0;0;0;Class of executed instruction 
+system.cpu0.op_class::SimdFloatSqrt;0;0;0;0;0;0;Class of executed instruction 
+system.cpu0.op_class::MemRead;11493002;2704158;406663;506442;2499337;38166;Class of executed instruction 
+system.cpu0.op_class::MemWrite;4875739;1440930;262198;294993;1026599;31305;Class of executed instruction 
+system.cpu0.op_class::IprAccess;570721;219216;51410;56453;1152979;3181;Class of executed instruction 
+system.cpu0.op_class::InstPrefetch;0;0;0;0;0;0;Class of executed instruction 
+system.cpu0.op_class::total;65666296;11790440;1971370;2348749;15403880;179785;Class of executed instruction 
+system.cpu0.kern.inst.arm;0;0;0;0;0;0;number of arm instructions executed 
+system.cpu0.kern.inst.quiesce;6905;1364;9;15;31;2;number of quiesce instructions executed 
+system.cpu0.kern.inst.hwrei;131341;39554;9262;10270;119582;569;number of hwrei instructions executed 
+system.cpu0.kern.ipl_count::0;45496;13721;3683;4009;3802;165;number of times we switched to this ipl 
+system.cpu0.kern.ipl_count::21;234;1304;1132;1211;997;;number of times we switched to this ipl 
+system.cpu0.kern.ipl_count::22;2305;13;2;6;15;;number of times we switched to this ipl 
+system.cpu0.kern.ipl_count::30;758;1364;4;6;26;1;number of times we switched to this ipl 
+system.cpu0.kern.ipl_count::31;69371;15187;3723;4117;3969;180;number of times we switched to this ipl 
+system.cpu0.kern.ipl_count::total;118164;31589;8544;9349;8809;346;number of times we switched to this ipl 
+system.cpu0.kern.ipl_good::0;45376;13721;3681;4009;3800;165;number of times we switched to this ipl from a different ipl 
+system.cpu0.kern.ipl_good::21;234;1304;1132;1211;997;;number of times we switched to this ipl from a different ipl 
+system.cpu0.kern.ipl_good::22;2305;13;2;6;15;;number of times we switched to this ipl from a different ipl 
+system.cpu0.kern.ipl_good::30;758;1364;4;6;26;1;number of times we switched to this ipl from a different ipl 
+system.cpu0.kern.ipl_good::31;44618;12363;3677;4003;3777;164;number of times we switched to this ipl from a different ipl 
+system.cpu0.kern.ipl_good::total;93291;28765;8496;9235;8615;330;number of times we switched to this ipl from a different ipl 
+system.cpu0.kern.ipl_ticks::0;2240974724000;8630116000;1654288500;4763531500;14638616500;143086500;number of cycles we spent at this ipl 
+system.cpu0.kern.ipl_ticks::21;18486000;102952500;89428000;95669000;78763000;;number of cycles we spent at this ipl 
+system.cpu0.kern.ipl_ticks::22;112945000;637000;98000;294000;735000;;number of cycles we spent at this ipl 
+system.cpu0.kern.ipl_ticks::30;85845000;153741000;605500;988500;3037500;164500;number of cycles we spent at this ipl 
+system.cpu0.kern.ipl_ticks::31;16188455000;3416697000;505792000;550494500;522115000;13192500;number of cycles we spent at this ipl 
+system.cpu0.kern.ipl_ticks::total;2257380455000;12304143500;2250212000;5410977500;15243267000;156443500;number of cycles we spent at this ipl 
+system.cpu0.kern.ipl_used::0;0.997362;1;0.999457;1;0.999474;1;fraction of swpipl calls that actually changed the ipl 
+system.cpu0.kern.ipl_used::21;1;1;1;1;1;;fraction of swpipl calls that actually changed the ipl 
+system.cpu0.kern.ipl_used::22;1;1;1;1;1;;fraction of swpipl calls that actually changed the ipl 
+system.cpu0.kern.ipl_used::30;1;1;1;1;1;1;fraction of swpipl calls that actually changed the ipl 
+system.cpu0.kern.ipl_used::31;0.643179;0.814051;0.987644;0.972310;0.951625;0.911111;fraction of swpipl calls that actually changed the ipl 
+system.cpu0.kern.ipl_used::total;0.789504;0.910602;0.994382;0.987806;0.977977;0.953757;fraction of swpipl calls that actually changed the ipl 
+system.cpu0.kern.syscall::2;2;2;;1;;1;number of syscalls executed 
+system.cpu0.kern.syscall::3;9;2;1;1;1;1;number of syscalls executed 
+system.cpu0.kern.syscall::4;1;1;;1;;;number of syscalls executed 
+system.cpu0.kern.syscall::6;11;;1;1;1;;number of syscalls executed 
+system.cpu0.kern.syscall::17;5;;1;;1;;number of syscalls executed 
+system.cpu0.kern.syscall::19;1;2;;1;;;number of syscalls executed 
+system.cpu0.kern.syscall::23;2;;;;;;number of syscalls executed 
+system.cpu0.kern.syscall::24;2;;;;;;number of syscalls executed 
+system.cpu0.kern.syscall::33;3;;1;;1;;number of syscalls executed 
+system.cpu0.kern.syscall::41;2;;;;;;number of syscalls executed 
+system.cpu0.kern.syscall::45;15;;3;;3;;number of syscalls executed 
+system.cpu0.kern.syscall::47;2;;;;;;number of syscalls executed 
+system.cpu0.kern.syscall::48;2;;;1;;;number of syscalls executed 
+system.cpu0.kern.syscall::54;3;;;;;;number of syscalls executed 
+system.cpu0.kern.syscall::59;1;;;1;;;number of syscalls executed 
+system.cpu0.kern.syscall::71;23;;4;;4;;number of syscalls executed 
+system.cpu0.kern.syscall::74;7;;1;;1;;number of syscalls executed 
+system.cpu0.kern.syscall::92;1;;;;;;number of syscalls executed 
+system.cpu0.kern.syscall::132;2;;;;;;number of syscalls executed 
+system.cpu0.kern.syscall::147;1;;;;;;number of syscalls executed 
+system.cpu0.kern.syscall::total;95;8;12;7;13;2;number of syscalls executed 
+system.cpu0.kern.callpal::cserve;1;;;;;;number of callpals executed 
+system.cpu0.kern.callpal::wripir;1029;970;3;2;12;1;number of callpals executed 
+system.cpu0.kern.callpal::wrmces;1;;;;;;number of callpals executed 
+system.cpu0.kern.callpal::wrfen;1;;;;;;number of callpals executed 
+system.cpu0.kern.callpal::wrvptptr;1;;;;;;number of callpals executed 
+system.cpu0.kern.callpal::swpctx;2098;2733;53;71;93;12;number of callpals executed 
+system.cpu0.kern.callpal::tbi;22;10;;7;2;1;number of callpals executed 
+system.cpu0.kern.callpal::wrent;7;;;;;;number of callpals executed 
+system.cpu0.kern.callpal::swpipl;110914;23672;6169;6801;6436;326;number of callpals executed 
+system.cpu0.kern.callpal::rdps;4943;68;10;18;40;;number of callpals executed 
+system.cpu0.kern.callpal::wrkgp;1;;;;;;number of callpals executed 
+system.cpu0.kern.callpal::wrusp;3;;1;;1;;number of callpals executed 
+system.cpu0.kern.callpal::rdusp;4;2;;1;;1;number of callpals executed 
+system.cpu0.kern.callpal::whami;2;;;;;;number of callpals executed 
+system.cpu0.kern.callpal::rti;3952;5238;1237;1325;1336;19;number of callpals executed 
+system.cpu0.kern.callpal::callsys;141;2459;15;34;54;10;number of callpals executed 
+system.cpu0.kern.callpal::imb;39;2;2;2;2;;number of callpals executed 
+system.cpu0.kern.callpal::total;123159;35388;7490;8261;7996;370;number of callpals executed 
+system.cpu0.kern.mode_switch::kernel;5951;7972;1289;1397;1428;32;number of protection mode switches 
+system.cpu0.kern.mode_switch::user;545;2562;97;102;304;18;number of protection mode switches 
+system.cpu0.kern.mode_switch::idle;0;0;0;0;0;0;number of protection mode switches 
+system.cpu0.kern.mode_switch_good::kernel;0.091413;0.321500;0.074476;0.073729;0.212185;0.593750;fraction of useful protection mode switches 
+system.cpu0.kern.mode_switch_good::user;1;1;1;1;1;1;fraction of useful protection mode switches 
+system.cpu0.kern.mode_switch_good::idle;nan;nan;nan;nan;nan;nan;fraction of useful protection mode switches 
+system.cpu0.kern.mode_switch_good::total;0.167642;0.486520;0.139250;0.136758;0.350462;0.740000;fraction of useful protection mode switches 
+system.cpu0.kern.mode_ticks::kernel;2256951173000;11428255500;2242070000;5133464500;8691930500;62939000;number of ticks spent at the given mode 
+system.cpu0.kern.mode_ticks::user;429281000;808535000;75495000;231309000;6597540500;25905500;number of ticks spent at the given mode 
+system.cpu0.kern.mode_ticks::idle;0;0;0;0;0;0;number of ticks spent at the given mode 
+system.cpu0.kern.swap_context;2099;2733;53;71;93;12;number of times the context was actually changed 
+system.tsunami.ethernet.descDMAReads;0;0;0;0;0;0;Number of descriptors the device read w/ DMA 
+system.tsunami.ethernet.descDMAWrites;0;0;0;0;0;0;Number of descriptors the device wrote w/ DMA 
+system.tsunami.ethernet.descDmaReadBytes;0;0;0;0;0;0;number of descriptor bytes read w/ DMA 
+system.tsunami.ethernet.descDmaWriteBytes;0;0;0;0;0;0;number of descriptor bytes write w/ DMA 
+system.tsunami.ethernet.postedSwi;0;0;0;0;0;0;number of software interrupts posted to CPU 
+system.tsunami.ethernet.coalescedSwi;nan;nan;nan;nan;nan;nan;average number of Swi's coalesced into each post 
+system.tsunami.ethernet.totalSwi;0;0;0;0;0;0;total number of Swi written to ISR 
+system.tsunami.ethernet.postedRxIdle;0;0;0;0;0;0;number of rxIdle interrupts posted to CPU 
+system.tsunami.ethernet.coalescedRxIdle;nan;nan;nan;nan;nan;nan;average number of RxIdle's coalesced into each post 
+system.tsunami.ethernet.totalRxIdle;0;0;0;0;0;0;total number of RxIdle written to ISR 
+system.tsunami.ethernet.postedRxOk;0;0;0;0;0;0;number of RxOk interrupts posted to CPU 
+system.tsunami.ethernet.coalescedRxOk;nan;nan;nan;nan;nan;nan;average number of RxOk's coalesced into each post 
+system.tsunami.ethernet.totalRxOk;0;0;0;0;0;0;total number of RxOk written to ISR 
+system.tsunami.ethernet.postedRxDesc;0;0;0;0;0;0;number of RxDesc interrupts posted to CPU 
+system.tsunami.ethernet.coalescedRxDesc;nan;nan;nan;nan;nan;nan;average number of RxDesc's coalesced into each post 
+system.tsunami.ethernet.totalRxDesc;0;0;0;0;0;0;total number of RxDesc written to ISR 
+system.tsunami.ethernet.postedTxOk;0;0;0;0;0;0;number of TxOk interrupts posted to CPU 
+system.tsunami.ethernet.coalescedTxOk;nan;nan;nan;nan;nan;nan;average number of TxOk's coalesced into each post 
+system.tsunami.ethernet.totalTxOk;0;0;0;0;0;0;total number of TxOk written to ISR 
+system.tsunami.ethernet.postedTxIdle;0;0;0;0;0;0;number of TxIdle interrupts posted to CPU 
+system.tsunami.ethernet.coalescedTxIdle;nan;nan;nan;nan;nan;nan;average number of TxIdle's coalesced into each post 
+system.tsunami.ethernet.totalTxIdle;0;0;0;0;0;0;total number of TxIdle written to ISR 
+system.tsunami.ethernet.postedTxDesc;0;0;0;0;0;0;number of TxDesc interrupts posted to CPU 
+system.tsunami.ethernet.coalescedTxDesc;nan;nan;nan;nan;nan;nan;average number of TxDesc's coalesced into each post 
+system.tsunami.ethernet.totalTxDesc;0;0;0;0;0;0;total number of TxDesc written to ISR 
+system.tsunami.ethernet.postedRxOrn;0;0;0;0;0;0;number of RxOrn posted to CPU 
+system.tsunami.ethernet.coalescedRxOrn;nan;nan;nan;nan;nan;nan;average number of RxOrn's coalesced into each post 
+system.tsunami.ethernet.totalRxOrn;0;0;0;0;0;0;total number of RxOrn written to ISR 
+system.tsunami.ethernet.coalescedTotal;nan;nan;nan;nan;nan;nan;average number of interrupts coalesced into each post 
+system.tsunami.ethernet.postedInterrupts;0;0;0;0;0;0;number of posts to CPU 
+system.tsunami.ethernet.droppedPackets;0;0;0;0;0;0;number of packets dropped 
+system.iobus.trans_dist::ReadReq;8109;8039;6999;7460;6199;;Transaction distribution 
+system.iobus.trans_dist::ReadResp;8109;8039;6999;7460;6199;;Transaction distribution 
+system.iobus.trans_dist::WriteReq;69217;26162;16440;16312;15456;10;Transaction distribution 
+system.iobus.trans_dist::WriteResp;69217;26162;16440;16312;15456;10;Transaction distribution 
+system.iobus.pkt_count_system.bridge.master::system.tsunami.cchip.pio;32400;17466;2534;2862;2498;20;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.tsunami.pchip.pio;276;32;28;24;32;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.tsunami.fake_sm_chip.pio;20;;;;;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.tsunami.fake_uart4.pio;20;;;;;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.tsunami.fake_ata0.pio;22;;;;;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.tsunami.fake_ata1.pio;22;;;;;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.tsunami.io.pio;1968;10424;9056;9688;7976;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.tsunami.uart.pio;20948;13054;11344;12130;9994;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.tsunami.backdoor.pio;3598;;;;;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.tsunami.ide.pio;5808;864;816;768;864;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.tsunami.ide-pciconf;284;;;;;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.tsunami.ethernet.pio;100;;;;;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.tsunami.ethernet-pciconf;196;;;;;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.tsunami.pciconfig.pio;60;;;;;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::total;65722;41840;23778;25472;21364;20;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.tsunami.ide.dma::system.iobridge.slave;88930;26562;23100;22072;21946;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.tsunami.ide.dma::total;88930;26562;23100;22072;21946;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count::total;154652;68402;46878;47544;43310;20;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.tsunami.cchip.pio;129600;69864;10136;11448;9992;80;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.tsunami.pchip.pio;1104;128;112;96;128;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.tsunami.fake_sm_chip.pio;10;;;;;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.tsunami.fake_uart4.pio;10;;;;;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.tsunami.fake_ata0.pio;11;;;;;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.tsunami.fake_ata1.pio;11;;;;;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.tsunami.io.pio;2622;14333;12452;13321;10967;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.tsunami.uart.pio;10474;6527;5672;6065;4997;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.tsunami.backdoor.pio;14372;;;;;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.tsunami.ide.pio;3692;486;459;432;486;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.tsunami.ide-pciconf;400;;;;;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.tsunami.ethernet.pio;200;;;;;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.tsunami.ethernet-pciconf;311;;;;;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.tsunami.pciconfig.pio;120;;;;;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::total;162937;91338;28831;31362;26570;80;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.tsunami.ide.dma::system.iobridge.slave;2837640;848136;737520;704736;700648;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.tsunami.ide.dma::total;2837640;848136;737520;704736;700648;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size::total;3000577;939474;766351;736098;727218;80;Cumulative packet size per connected master and slave (bytes) 
+system.cpu1.dtb.fetch_hits;0;0;0;0;0;0;ITB hits 
+system.cpu1.dtb.fetch_misses;0;0;0;0;0;0;ITB misses 
+system.cpu1.dtb.fetch_acv;0;0;0;0;0;0;ITB acv 
+system.cpu1.dtb.fetch_accesses;0;0;0;0;0;0;ITB accesses 
+system.cpu1.dtb.read_hits;1086284;62258;1010;111436;153126;23472;DTB read hits 
+system.cpu1.dtb.read_misses;1986;649;0;695;107;325;DTB read misses 
+system.cpu1.dtb.read_acv;30;24;0;12;0;12;DTB read access violations 
+system.cpu1.dtb.read_accesses;91119;3663;0;35869;117283;1822;DTB read accesses 
+system.cpu1.dtb.write_hits;619272;38969;613;106323;104756;13675;DTB write hits 
+system.cpu1.dtb.write_misses;191;76;0;144;18;38;DTB write misses 
+system.cpu1.dtb.write_acv;31;18;0;14;9;9;DTB write access violations 
+system.cpu1.dtb.write_accesses;42218;1755;0;16393;74836;875;DTB write accesses 
+system.cpu1.dtb.data_hits;1705556;101227;1623;217759;257882;37147;DTB hits 
+system.cpu1.dtb.data_misses;2177;725;0;839;125;363;DTB misses 
+system.cpu1.dtb.data_acv;61;42;0;26;9;21;DTB access violations 
+system.cpu1.dtb.data_accesses;133337;5418;0;52262;192119;2697;DTB accesses 
+system.cpu1.itb.fetch_hits;975595;53114;760;186936;493256;23128;ITB hits 
+system.cpu1.itb.fetch_misses;930;250;0;277;144;125;ITB misses 
+system.cpu1.itb.fetch_acv;1;0;0;0;0;0;ITB acv 
+system.cpu1.itb.fetch_accesses;976525;53364;760;187213;493400;23253;ITB accesses 
+system.cpu1.itb.read_hits;0;0;0;0;0;0;DTB read hits 
+system.cpu1.itb.read_misses;0;0;0;0;0;0;DTB read misses 
+system.cpu1.itb.read_acv;0;0;0;0;0;0;DTB read access violations 
+system.cpu1.itb.read_accesses;0;0;0;0;0;0;DTB read accesses 
+system.cpu1.itb.write_hits;0;0;0;0;0;0;DTB write hits 
+system.cpu1.itb.write_misses;0;0;0;0;0;0;DTB write misses 
+system.cpu1.itb.write_acv;0;0;0;0;0;0;DTB write access violations 
+system.cpu1.itb.write_accesses;0;0;0;0;0;0;DTB write accesses 
+system.cpu1.itb.data_hits;0;0;0;0;0;0;DTB hits 
+system.cpu1.itb.data_misses;0;0;0;0;0;0;DTB misses 
+system.cpu1.itb.data_acv;0;0;0;0;0;0;DTB access violations 
+system.cpu1.itb.data_accesses;0;0;0;0;0;0;DTB accesses 
+system.cpu1.numCycles;4514350906;25021123;4086419;11609778;29698938;726708;number of cpu cycles simulated 
+system.cpu1.numWorkItemsStarted;0;0;0;0;0;0;number of work items this cpu started 
+system.cpu1.numWorkItemsCompleted;0;0;0;0;0;0;number of work items this cpu completed 
+system.cpu1.committedInsts;5050286;351291;4554;614010;661177;134267;Number of instructions committed 
+system.cpu1.committedOps;5050286;351291;4554;614010;661177;134267;Number of ops (including micro ops) committed 
+system.cpu1.num_int_alu_accesses;4839249;338101;4338;590951;641870;129000;Number of integer alu accesses 
+system.cpu1.num_fp_alu_accesses;20113;838;0;3857;399;296;Number of float alu accesses 
+system.cpu1.num_func_calls;186162;8588;182;12341;19785;2663;number of times a function call or return occured 
+system.cpu1.num_conditional_control_insts;423299;40666;339;65282;68258;15927;number of instructions that are conditional controls 
+system.cpu1.num_int_insts;4839249;338101;4338;590951;641870;129000;number of integer instructions 
+system.cpu1.num_fp_insts;20113;838;0;3857;399;296;number of float instructions 
+system.cpu1.num_int_register_reads;6590249;449739;5818;834098;881623;171206;number of times the integer registers were read 
+system.cpu1.num_int_register_writes;3746133;254995;3351;413773;460078;98216;number of times the integer registers were written 
+system.cpu1.num_fp_register_reads;11482;405;0;2487;273;153;number of times the floating registers were read 
+system.cpu1.num_fp_register_writes;11486;412;0;2473;102;155;number of times the floating registers were written 
+system.cpu1.num_mem_refs;1714387;103498;1629;219978;258196;38254;number of memory refs 
+system.cpu1.num_load_insts;1091288;64038;1010;113152;153352;24355;Number of load instructions 
+system.cpu1.num_store_insts;623099;39460;619;106826;104844;13899;Number of store instructions 
+system.cpu1.num_idle_cycles;4509300400.316403;24668867.518731;4081871.864604;10971877.219069;29046598.747114;591791.789446;Number of idle cycles 
+system.cpu1.num_busy_cycles;5050505.683597;352255.481269;4547.135396;637900.780931;652339.252886;134916.210554;Number of busy cycles 
+system.cpu1.not_idle_fraction;0.001119;0.014078;0.001113;0.054945;0.021965;0.185654;Percentage of non-idle cycles 
+system.cpu1.idle_fraction;0.998881;0.985922;0.998887;0.945055;0.978035;0.814346;Percentage of idle cycles 
+system.cpu1.Branches;698573;52427;608;81868;93364;19603;Number of branches fetched 
+system.cpu1.op_class::No_OpClass;46282;5922;22;12649;11542;2811;Class of executed instruction 
+system.cpu1.op_class::IntAlu;3038160;224411;2616;360617;383959;86079;Class of executed instruction 
+system.cpu1.op_class::IntMult;15506;383;10;644;301;78;Class of executed instruction 
+system.cpu1.op_class::IntDiv;0;0;0;0;0;0;Class of executed instruction 
+system.cpu1.op_class::FloatAdd;3554;99;0;1204;30;24;Class of executed instruction 
+system.cpu1.op_class::FloatCmp;0;0;0;0;0;0;Class of executed instruction 
+system.cpu1.op_class::FloatCvt;0;0;0;0;0;0;Class of executed instruction 
+system.cpu1.op_class::FloatMult;0;0;0;0;0;0;Class of executed instruction 
+system.cpu1.op_class::FloatDiv;612;6;0;230;0;3;Class of executed instruction 
+system.cpu1.op_class::FloatSqrt;0;0;0;0;0;0;Class of executed instruction 
+system.cpu1.op_class::SimdAdd;0;0;0;0;0;0;Class of executed instruction 
+system.cpu1.op_class::SimdAddAcc;0;0;0;0;0;0;Class of executed instruction 
+system.cpu1.op_class::SimdAlu;0;0;0;0;0;0;Class of executed instruction 
+system.cpu1.op_class::SimdCmp;0;0;0;0;0;0;Class of executed instruction 
+system.cpu1.op_class::SimdCvt;0;0;0;0;0;0;Class of executed instruction 
+system.cpu1.op_class::SimdMisc;0;0;0;0;0;0;Class of executed instruction 
+system.cpu1.op_class::SimdMult;0;0;0;0;0;0;Class of executed instruction 
+system.cpu1.op_class::SimdMultAcc;0;0;0;0;0;0;Class of executed instruction 
+system.cpu1.op_class::SimdShift;0;0;0;0;0;0;Class of executed instruction 
+system.cpu1.op_class::SimdShiftAcc;0;0;0;0;0;0;Class of executed instruction 
+system.cpu1.op_class::SimdSqrt;0;0;0;0;0;0;Class of executed instruction 
+system.cpu1.op_class::SimdFloatAdd;0;0;0;0;0;0;Class of executed instruction 
+system.cpu1.op_class::SimdFloatAlu;0;0;0;0;0;0;Class of executed instruction 
+system.cpu1.op_class::SimdFloatCmp;0;0;0;0;0;0;Class of executed instruction 
+system.cpu1.op_class::SimdFloatCvt;0;0;0;0;0;0;Class of executed instruction 
+system.cpu1.op_class::SimdFloatDiv;0;0;0;0;0;0;Class of executed instruction 
+system.cpu1.op_class::SimdFloatMisc;0;0;0;0;0;0;Class of executed instruction 
+system.cpu1.op_class::SimdFloatMult;0;0;0;0;0;0;Class of executed instruction 
+system.cpu1.op_class::SimdFloatMultAcc;0;0;0;0;0;0;Class of executed instruction 
+system.cpu1.op_class::SimdFloatSqrt;0;0;0;0;0;0;Class of executed instruction 
+system.cpu1.op_class::MemRead;1116109;66707;1065;116617;154670;25395;Class of executed instruction 
+system.cpu1.op_class::MemWrite;623458;39499;619;106916;105125;13909;Class of executed instruction 
+system.cpu1.op_class::IprAccess;208843;15031;222;15998;5684;6352;Class of executed instruction 
+system.cpu1.op_class::InstPrefetch;0;0;0;0;0;0;Class of executed instruction 
+system.cpu1.op_class::total;5052524;352058;4554;614875;661311;134651;Class of executed instruction 
+system.cpu1.kern.inst.arm;0;0;0;0;0;0;number of arm instructions executed 
+system.cpu1.kern.inst.quiesce;2490;47;6;13;22;2;number of quiesce instructions executed 
+system.cpu1.kern.inst.hwrei;46663;2102;46;2148;1099;781;number of hwrei instructions executed 
+system.cpu1.kern.ipl_count::0;10720;367;12;391;297;92;number of times we switched to this ipl 
+system.cpu1.kern.ipl_count::22;2301;13;2;6;15;;number of times we switched to this ipl 
+system.cpu1.kern.ipl_count::30;136;27;4;6;6;3;number of times we switched to this ipl 
+system.cpu1.kern.ipl_count::31;25176;484;24;439;431;101;number of times we switched to this ipl 
+system.cpu1.kern.ipl_count::total;38333;891;42;842;749;196;number of times we switched to this ipl 
+system.cpu1.kern.ipl_good::0;10690;367;12;389;297;92;number of times we switched to this ipl from a different ipl 
+system.cpu1.kern.ipl_good::22;2301;13;2;6;15;;number of times we switched to this ipl from a different ipl 
+system.cpu1.kern.ipl_good::30;136;27;4;6;6;3;number of times we switched to this ipl from a different ipl 
+system.cpu1.kern.ipl_good::31;10556;342;8;383;291;91;number of times we switched to this ipl from a different ipl 
+system.cpu1.kern.ipl_good::total;23683;749;26;784;609;186;number of times we switched to this ipl from a different ipl 
+system.cpu1.kern.ipl_ticks::0;2244880798000;12478334000;2041335500;5780754000;14822897500;357883000;number of cycles we spent at this ipl 
+system.cpu1.kern.ipl_ticks::22;112749000;637000;98000;294000;735000;;number of cycles we spent at this ipl 
+system.cpu1.kern.ipl_ticks::30;19576000;4203000;658000;926500;988000;361000;number of cycles we spent at this ipl 
+system.cpu1.kern.ipl_ticks::31;12161079000;27364000;1115000;22637500;25108000;5109000;number of cycles we spent at this ipl 
+system.cpu1.kern.ipl_ticks::total;2257174202000;12510538000;2043206500;5804612000;14849728500;363353000;number of cycles we spent at this ipl 
+system.cpu1.kern.ipl_used::0;0.997201;1;1;0.994885;1;1;fraction of swpipl calls that actually changed the ipl 
+system.cpu1.kern.ipl_used::22;1;1;1;1;1;;fraction of swpipl calls that actually changed the ipl 
+system.cpu1.kern.ipl_used::30;1;1;1;1;1;1;fraction of swpipl calls that actually changed the ipl 
+system.cpu1.kern.ipl_used::31;0.419288;0.706612;0.333333;0.872437;0.675174;0.900990;fraction of swpipl calls that actually changed the ipl 
+system.cpu1.kern.ipl_used::total;0.617823;0.840629;0.619048;0.931116;0.813084;0.948980;fraction of swpipl calls that actually changed the ipl 
+system.cpu1.kern.syscall::3;4;;;1;1;;number of syscalls executed 
+system.cpu1.kern.syscall::6;6;2;;2;;1;number of syscalls executed 
+system.cpu1.kern.syscall::15;1;;;;;;number of syscalls executed 
+system.cpu1.kern.syscall::17;1;;;1;;;number of syscalls executed 
+system.cpu1.kern.syscall::20;1;;;;;;number of syscalls executed 
+system.cpu1.kern.syscall::23;1;;;;;;number of syscalls executed 
+system.cpu1.kern.syscall::24;1;;;;;;number of syscalls executed 
+system.cpu1.kern.syscall::33;1;;;1;;;number of syscalls executed 
+system.cpu1.kern.syscall::45;9;;;3;;;number of syscalls executed 
+system.cpu1.kern.syscall::47;1;;;;;;number of syscalls executed 
+system.cpu1.kern.syscall::48;1;2;;1;;1;number of syscalls executed 
+system.cpu1.kern.syscall::59;3;2;;1;;1;number of syscalls executed 
+system.cpu1.kern.syscall::71;9;;;4;;;number of syscalls executed 
+system.cpu1.kern.syscall::74;3;;;1;;;number of syscalls executed 
+system.cpu1.kern.syscall::90;1;;;;;;number of syscalls executed 
+system.cpu1.kern.syscall::92;1;;;;;;number of syscalls executed 
+system.cpu1.kern.syscall::97;1;;;;;;number of syscalls executed 
+system.cpu1.kern.syscall::98;1;;;;;;number of syscalls executed 
+system.cpu1.kern.syscall::132;1;;;;;;number of syscalls executed 
+system.cpu1.kern.syscall::total;47;6;;15;4;3;number of syscalls executed 
+system.cpu1.kern.callpal::cserve;1;;;;;;number of callpals executed 
+system.cpu1.kern.callpal::wripir;54;1;;3;1;1;number of callpals executed 
+system.cpu1.kern.callpal::wrmces;1;;;;;;number of callpals executed 
+system.cpu1.kern.callpal::wrfen;1;;;;;;number of callpals executed 
+system.cpu1.kern.callpal::swpctx;371;119;;110;13;58;number of callpals executed 
+system.cpu1.kern.callpal::tbi;12;9;;5;2;5;number of callpals executed 
+system.cpu1.kern.callpal::wrent;7;;;;;;number of callpals executed 
+system.cpu1.kern.callpal::swpipl;33111;679;30;652;673;125;number of callpals executed 
+system.cpu1.kern.callpal::rdps;4615;44;4;17;31;1;number of callpals executed 
+system.cpu1.kern.callpal::wrkgp;1;;;;;;number of callpals executed 
+system.cpu1.kern.callpal::wrusp;1;;;1;;;number of callpals executed 
+system.cpu1.kern.callpal::whami;3;;;;;;number of callpals executed 
+system.cpu1.kern.callpal::rti;2785;173;6;178;55;69;number of callpals executed 
+system.cpu1.kern.callpal::callsys;71;18;;24;24;9;number of callpals executed 
+system.cpu1.kern.callpal::imb;21;3;;4;;2;number of callpals executed 
+system.cpu1.kern.callpal::rdunique;1;;;;;;number of callpals executed 
+system.cpu1.kern.callpal::total;41056;1046;40;994;800;270;number of callpals executed 
+system.cpu1.kern.mode_switch::kernel;639;248;0;274;47;123;number of protection mode switches 
+system.cpu1.kern.mode_switch::user;319;134;0;164;34;67;number of protection mode switches 
+system.cpu1.kern.mode_switch::idle;2493;44;6;13;22;4;number of protection mode switches 
+system.cpu1.kern.mode_switch_good::kernel;0.586854;0.556452;nan;0.602190;0.744681;0.552846;fraction of useful protection mode switches 
+system.cpu1.kern.mode_switch_good::user;1;1;nan;1;1;1;fraction of useful protection mode switches 
+system.cpu1.kern.mode_switch_good::idle;0.022463;0.090909;0;0.076923;0.045455;0.250000;fraction of useful protection mode switches 
+system.cpu1.kern.mode_switch_good::total;0.217328;0.647887;0;0.731707;0.679612;0.701031;fraction of useful protection mode switches 
+system.cpu1.kern.mode_ticks::kernel;617851500;149361000;0;219995000;72761000;58505000;number of ticks spent at the given mode 
+system.cpu1.kern.mode_ticks::user;218096500;16376500;0;83682000;242180500;8178500;number of ticks spent at the given mode 
+system.cpu1.kern.mode_ticks::idle;2255555693000;13107030500;0;7564471500;0;14811494500;number of ticks spent at the given mode 
+system.cpu1.kern.swap_context;372;119;0;110;13;58;number of times the context was actually changed 
+system.cpu2.dtb.fetch_hits;0;0;0;0;0;0;ITB hits 
+system.cpu2.dtb.fetch_misses;0;0;0;0;0;0;ITB misses 
+system.cpu2.dtb.fetch_acv;0;0;0;0;0;0;ITB acv 
+system.cpu2.dtb.fetch_accesses;0;0;0;0;0;0;ITB accesses 
+system.cpu2.dtb.read_hits;4856914;3014084;453470;960850;4493667;82;DTB read hits 
+system.cpu2.dtb.read_misses;5746;1613;483;364;21117;0;DTB read misses 
+system.cpu2.dtb.read_acv;0;0;0;0;12;0;DTB read access violations 
+system.cpu2.dtb.read_accesses;511439;489371;241956;750021;4149943;0;DTB read accesses 
+system.cpu2.dtb.write_hits;3083322;1881574;310191;529234;1482137;59;DTB write hits 
+system.cpu2.dtb.write_misses;493;1038;148;138;199183;0;DTB write misses 
+system.cpu2.dtb.write_acv;52;5;16;7;16;0;DTB write access violations 
+system.cpu2.dtb.write_accesses;184031;146871;143771;363485;1179279;0;DTB write accesses 
+system.cpu2.dtb.data_hits;7940236;4895658;763661;1490084;5975804;141;DTB hits 
+system.cpu2.dtb.data_misses;6239;2651;631;502;220300;0;DTB misses 
+system.cpu2.dtb.data_acv;52;5;16;7;28;0;DTB access violations 
+system.cpu2.dtb.data_accesses;695470;636242;385727;1113506;5329222;0;DTB accesses 
+system.cpu2.itb.fetch_hits;3130160;3134738;1225778;3736282;26470671;79;ITB hits 
+system.cpu2.itb.fetch_misses;3266;459;493;319;442;0;ITB misses 
+system.cpu2.itb.fetch_acv;0;0;0;0;0;0;ITB acv 
+system.cpu2.itb.fetch_accesses;3133426;3135197;1226271;3736601;26471113;79;ITB accesses 
+system.cpu2.itb.read_hits;0;0;0;0;0;0;DTB read hits 
+system.cpu2.itb.read_misses;0;0;0;0;0;0;DTB read misses 
+system.cpu2.itb.read_acv;0;0;0;0;0;0;DTB read access violations 
+system.cpu2.itb.read_accesses;0;0;0;0;0;0;DTB read accesses 
+system.cpu2.itb.write_hits;0;0;0;0;0;0;DTB write hits 
+system.cpu2.itb.write_misses;0;0;0;0;0;0;DTB write misses 
+system.cpu2.itb.write_acv;0;0;0;0;0;0;DTB write access violations 
+system.cpu2.itb.write_accesses;0;0;0;0;0;0;DTB write accesses 
+system.cpu2.itb.data_hits;0;0;0;0;0;0;DTB hits 
+system.cpu2.itb.data_misses;0;0;0;0;0;0;DTB misses 
+system.cpu2.itb.data_acv;0;0;0;0;0;0;DTB access violations 
+system.cpu2.itb.data_accesses;0;0;0;0;0;0;DTB accesses 
+system.cpu2.numCycles;4514353355;25435489;3673081;11233224;30075607;726509;number of cpu cycles simulated 
+system.cpu2.numWorkItemsStarted;0;0;0;0;0;0;number of work items this cpu started 
+system.cpu2.numWorkItemsCompleted;0;0;0;0;0;0;number of work items this cpu completed 
+system.cpu2.committedInsts;25282111;14915460;2272063;4780516;28448164;370;Number of instructions committed 
+system.cpu2.committedOps;25282111;14915460;2272063;4780516;28448164;370;Number of ops (including micro ops) committed 
+system.cpu2.num_int_alu_accesses;24535588;14058819;2065703;4162608;15406981;351;Number of integer alu accesses 
+system.cpu2.num_fp_alu_accesses;302087;1018056;203605;1050763;12721577;0;Number of float alu accesses 
+system.cpu2.num_func_calls;759120;503336;72763;140870;65615;12;number of times a function call or return occured 
+system.cpu2.num_conditional_control_insts;2579416;1366110;217484;431351;1172289;31;number of instructions that are conditional controls 
+system.cpu2.num_int_insts;24535588;14058819;2065703;4162608;15406981;351;number of integer instructions 
+system.cpu2.num_fp_insts;302087;1018056;203605;1050763;12721577;0;number of float instructions 
+system.cpu2.num_int_register_reads;34141744;20684634;3038304;6399031;32804958;469;number of times the integer registers were read 
+system.cpu2.num_int_register_writes;18490723;10267577;1457900;2720549;12380781;258;number of times the integer registers were written 
+system.cpu2.num_fp_register_reads;150942;1056572;254464;1029420;21632097;0;number of times the floating registers were read 
+system.cpu2.num_fp_register_writes;154326;818483;168278;834920;12586964;0;number of times the floating registers were written 
+system.cpu2.num_mem_refs;7983033;4932213;765832;1492395;6218405;142;number of memory refs 
+system.cpu2.num_load_insts;4883030;3035818;455097;962500;4536463;82;Number of load instructions 
+system.cpu2.num_store_insts;3100003;1896395;310735;529895;1681942;60;Number of store instructions 
+system.cpu2.num_idle_cycles;4489068805.556248;10271115.073119;1630257.580817;6435851.326904;1442326.319393;726139.711792;Number of idle cycles 
+system.cpu2.num_busy_cycles;25284549.443753;15164373.926881;2042823.419183;4797372.673096;28633280.680607;369.288208;Number of busy cycles 
+system.cpu2.not_idle_fraction;0.005601;0.596190;0.556161;0.427070;0.952043;0.000508;Percentage of non-idle cycles 
+system.cpu2.idle_fraction;0.994399;0.403810;0.443839;0.572930;0.047957;0.999492;Percentage of idle cycles 
+system.cpu2.Branches;3604842;2036244;309833;586333;1259308;48;Number of branches fetched 
+system.cpu2.op_class::No_OpClass;192326;113286;55208;173537;543458;2;Class of executed instruction 
+system.cpu2.op_class::IntAlu;16374586;9029206;1283976;2593089;7193616;200;Class of executed instruction 
+system.cpu2.op_class::IntMult;46944;28127;4133;52027;5089;0;Class of executed instruction 
+system.cpu2.op_class::IntDiv;0;0;0;0;0;0;Class of executed instruction 
+system.cpu2.op_class::FloatAdd;23133;307264;72184;222239;6423732;0;Class of executed instruction 
+system.cpu2.op_class::FloatCmp;0;23131;5957;66;39;0;Class of executed instruction 
+system.cpu2.op_class::FloatCvt;0;5975;8909;17317;136;0;Class of executed instruction 
+system.cpu2.op_class::FloatMult;0;86567;37135;175584;6029701;0;Class of executed instruction 
+system.cpu2.op_class::FloatDiv;1855;18375;2222;18678;33;0;Class of executed instruction 
+system.cpu2.op_class::FloatSqrt;0;1;0;1;0;0;Class of executed instruction 
+system.cpu2.op_class::SimdAdd;0;0;0;0;0;0;Class of executed instruction 
+system.cpu2.op_class::SimdAddAcc;0;0;0;0;0;0;Class of executed instruction 
+system.cpu2.op_class::SimdAlu;0;0;0;0;0;0;Class of executed instruction 
+system.cpu2.op_class::SimdCmp;0;0;0;0;0;0;Class of executed instruction 
+system.cpu2.op_class::SimdCvt;0;0;0;0;0;0;Class of executed instruction 
+system.cpu2.op_class::SimdMisc;0;0;0;0;0;0;Class of executed instruction 
+system.cpu2.op_class::SimdMult;0;0;0;0;0;0;Class of executed instruction 
+system.cpu2.op_class::SimdMultAcc;0;0;0;0;0;0;Class of executed instruction 
+system.cpu2.op_class::SimdShift;0;0;0;0;0;0;Class of executed instruction 
+system.cpu2.op_class::SimdShiftAcc;0;0;0;0;0;0;Class of executed instruction 
+system.cpu2.op_class::SimdSqrt;0;0;0;0;0;0;Class of executed instruction 
+system.cpu2.op_class::SimdFloatAdd;0;0;0;0;0;0;Class of executed instruction 
+system.cpu2.op_class::SimdFloatAlu;0;0;0;0;0;0;Class of executed instruction 
+system.cpu2.op_class::SimdFloatCmp;0;0;0;0;0;0;Class of executed instruction 
+system.cpu2.op_class::SimdFloatCvt;0;0;0;0;0;0;Class of executed instruction 
+system.cpu2.op_class::SimdFloatDiv;0;0;0;0;0;0;Class of executed instruction 
+system.cpu2.op_class::SimdFloatMisc;0;0;0;0;0;0;Class of executed instruction 
+system.cpu2.op_class::SimdFloatMult;0;0;0;0;0;0;Class of executed instruction 
+system.cpu2.op_class::SimdFloatMultAcc;0;0;0;0;0;0;Class of executed instruction 
+system.cpu2.op_class::SimdFloatSqrt;0;0;0;0;0;0;Class of executed instruction 
+system.cpu2.op_class::MemRead;4992964;3121031;464056;971028;4551066;91;Class of executed instruction 
+system.cpu2.op_class::MemWrite;3157652;1903366;311605;530536;1682910;60;Class of executed instruction 
+system.cpu2.op_class::IprAccess;498942;281787;27325;26923;2238712;17;Class of executed instruction 
+system.cpu2.op_class::InstPrefetch;0;0;0;0;0;0;Class of executed instruction 
+system.cpu2.op_class::total;25288402;14918116;2272710;4781025;28668492;370;Class of executed instruction 
+system.cpu2.kern.inst.arm;0;0;0;0;0;0;number of arm instructions executed 
+system.cpu2.kern.inst.quiesce;4854;1012;69;87;63;1;number of quiesce instructions executed 
+system.cpu2.kern.inst.hwrei;105153;52057;5405;5384;228005;2;number of hwrei instructions executed 
+system.cpu2.kern.ipl_count::0;32330;16218;1530;1590;2782;1;number of times we switched to this ipl 
+system.cpu2.kern.ipl_count::21;98;18;17;16;18;;number of times we switched to this ipl 
+system.cpu2.kern.ipl_count::22;2301;13;2;6;15;;number of times we switched to this ipl 
+system.cpu2.kern.ipl_count::30;1555;972;15;38;12;1;number of times we switched to this ipl 
+system.cpu2.kern.ipl_count::31;48738;20857;2116;2179;3614;;number of times we switched to this ipl 
+system.cpu2.kern.ipl_count::total;85022;38078;3680;3829;6441;2;number of times we switched to this ipl 
+system.cpu2.kern.ipl_good::0;31566;16215;1529;1589;2781;1;number of times we switched to this ipl from a different ipl 
+system.cpu2.kern.ipl_good::21;98;18;17;16;18;;number of times we switched to this ipl from a different ipl 
+system.cpu2.kern.ipl_good::22;2301;13;2;6;15;;number of times we switched to this ipl from a different ipl 
+system.cpu2.kern.ipl_good::30;1555;972;15;38;12;1;number of times we switched to this ipl from a different ipl 
+system.cpu2.kern.ipl_good::31;30011;15256;1514;1554;2775;;number of times we switched to this ipl from a different ipl 
+system.cpu2.kern.ipl_good::total;65531;32474;3077;3203;5601;2;number of times we switched to this ipl from a different ipl 
+system.cpu2.kern.ipl_ticks::0;2240173505500;8696526500;1646667500;5392086000;14629765000;363089500;number of cycles we spent at this ipl 
+system.cpu2.kern.ipl_ticks::21;7399000;1359000;1283500;1208000;1359000;;number of cycles we spent at this ipl 
+system.cpu2.kern.ipl_ticks::22;112749000;637000;98000;294000;735000;;number of cycles we spent at this ipl 
+system.cpu2.kern.ipl_ticks::30;177705000;109364500;1732500;4304000;1376000;164500;number of cycles we spent at this ipl 
+system.cpu2.kern.ipl_ticks::31;16702886000;3909081000;186995000;218676500;404537000;;number of cycles we spent at this ipl 
+system.cpu2.kern.ipl_ticks::total;2257174244500;12716968000;1836776500;5616568500;15037772000;363254000;number of cycles we spent at this ipl 
+system.cpu2.kern.ipl_used::0;0.976369;0.999815;0.999346;0.999371;0.999641;1;fraction of swpipl calls that actually changed the ipl 
+system.cpu2.kern.ipl_used::21;1;1;1;1;1;;fraction of swpipl calls that actually changed the ipl 
+system.cpu2.kern.ipl_used::22;1;1;1;1;1;;fraction of swpipl calls that actually changed the ipl 
+system.cpu2.kern.ipl_used::30;1;1;1;1;1;1;fraction of swpipl calls that actually changed the ipl 
+system.cpu2.kern.ipl_used::31;0.615762;0.731457;0.715501;0.713171;0.767847;;fraction of swpipl calls that actually changed the ipl 
+system.cpu2.kern.ipl_used::total;0.770753;0.852828;0.836141;0.836511;0.869585;1;fraction of swpipl calls that actually changed the ipl 
+system.cpu2.kern.syscall::2;5;;2;1;1;;number of syscalls executed 
+system.cpu2.kern.syscall::3;15;1;2;1;1;;number of syscalls executed 
+system.cpu2.kern.syscall::4;5;28;30;25;27;;number of syscalls executed 
+system.cpu2.kern.syscall::6;21;1;;;1;;number of syscalls executed 
+system.cpu2.kern.syscall::12;1;;;;;;number of syscalls executed 
+system.cpu2.kern.syscall::17;10;5;5;5;6;;number of syscalls executed 
+system.cpu2.kern.syscall::19;9;;2;1;1;;number of syscalls executed 
+system.cpu2.kern.syscall::20;5;;;;;;number of syscalls executed 
+system.cpu2.kern.syscall::23;1;;;;;;number of syscalls executed 
+system.cpu2.kern.syscall::24;5;;;;;;number of syscalls executed 
+system.cpu2.kern.syscall::33;6;1;;;;;number of syscalls executed 
+system.cpu2.kern.syscall::45;30;3;;;;;number of syscalls executed 
+system.cpu2.kern.syscall::47;5;;;;;;number of syscalls executed 
+system.cpu2.kern.syscall::48;4;;;;1;;number of syscalls executed 
+system.cpu2.kern.syscall::54;9;1;1;1;1;;number of syscalls executed 
+system.cpu2.kern.syscall::58;2;;;;;;number of syscalls executed 
+system.cpu2.kern.syscall::71;18;20;4;4;7;;number of syscalls executed 
+system.cpu2.kern.syscall::73;5;;;;;;number of syscalls executed 
+system.cpu2.kern.syscall::74;4;4;3;3;3;;number of syscalls executed 
+system.cpu2.kern.syscall::87;2;;;;;;number of syscalls executed 
+system.cpu2.kern.syscall::90;2;;;;;;number of syscalls executed 
+system.cpu2.kern.syscall::92;7;;;;;;number of syscalls executed 
+system.cpu2.kern.syscall::97;1;;;;;;number of syscalls executed 
+system.cpu2.kern.syscall::98;1;;;;;;number of syscalls executed 
+system.cpu2.kern.syscall::132;1;;;;;;number of syscalls executed 
+system.cpu2.kern.syscall::144;2;1;1;1;1;;number of syscalls executed 
+system.cpu2.kern.syscall::147;1;;;;;;number of syscalls executed 
+system.cpu2.kern.syscall::total;177;68;52;45;54;;number of syscalls executed 
+system.cpu2.kern.callpal::cserve;1;;;;;;number of callpals executed 
+system.cpu2.kern.callpal::wripir;1472;1614;20;31;45;;number of callpals executed 
+system.cpu2.kern.callpal::wrmces;1;;;;;;number of callpals executed 
+system.cpu2.kern.callpal::wrfen;1;;;;;;number of callpals executed 
+system.cpu2.kern.callpal::swpctx;3602;3728;114;147;178;;number of callpals executed 
+system.cpu2.kern.callpal::tbi;13;6;4;1;8;;number of callpals executed 
+system.cpu2.kern.callpal::wrent;7;;;;;;number of callpals executed 
+system.cpu2.kern.callpal::swpipl;75626;31160;3409;3454;5823;;number of callpals executed 
+system.cpu2.kern.callpal::rdps;5029;110;84;85;117;;number of callpals executed 
+system.cpu2.kern.callpal::wrkgp;1;;;;;;number of callpals executed 
+system.cpu2.kern.callpal::wrusp;2;2;1;1;1;;number of callpals executed 
+system.cpu2.kern.callpal::rdusp;5;;2;1;1;;number of callpals executed 
+system.cpu2.kern.callpal::whami;3;;;;;;number of callpals executed 
+system.cpu2.kern.callpal::rti;5441;5921;237;316;574;1;number of callpals executed 
+system.cpu2.kern.callpal::callsys;266;4671;118;178;155;;number of callpals executed 
+system.cpu2.kern.callpal::imb;169;3;1;;2;;number of callpals executed 
+system.cpu2.kern.callpal::rdunique;1;729;240;282;286;;number of callpals executed 
+system.cpu2.kern.callpal::total;91640;47945;4231;4497;7191;1;number of callpals executed 
+system.cpu2.kern.mode_switch::kernel;8294;9648;352;463;752;1;number of protection mode switches 
+system.cpu2.kern.mode_switch::user;724;4924;203;259;547;0;number of protection mode switches 
+system.cpu2.kern.mode_switch::idle;0;0;0;0;0;0;number of protection mode switches 
+system.cpu2.kern.mode_switch_good::kernel;0.087292;0.510261;0.579545;0.559395;0.727394;0;fraction of useful protection mode switches 
+system.cpu2.kern.mode_switch_good::user;1;1;1;1;1;nan;fraction of useful protection mode switches 
+system.cpu2.kern.mode_switch_good::idle;nan;nan;nan;nan;nan;nan;fraction of useful protection mode switches 
+system.cpu2.kern.mode_switch_good::total;0.160568;0.675748;0.733333;0.717452;0.842186;0;fraction of useful protection mode switches 
+system.cpu2.kern.mode_ticks::kernel;2256153758500;11554204000;780720000;3653878000;2271976500;0;number of ticks spent at the given mode 
+system.cpu2.kern.mode_ticks::user;953127500;1230121500;590262500;1842589000;13192776500;0;number of ticks spent at the given mode 
+system.cpu2.kern.mode_ticks::idle;0;0;0;0;0;0;number of ticks spent at the given mode 
+system.cpu2.kern.swap_context;3603;3728;114;147;178;0;number of times the context was actually changed 
+system.cpu3.dtb.fetch_hits;0;0;0;0;0;0;ITB hits 
+system.cpu3.dtb.fetch_misses;0;0;0;0;0;0;ITB misses 
+system.cpu3.dtb.fetch_acv;0;0;0;0;0;0;ITB acv 
+system.cpu3.dtb.fetch_accesses;0;0;0;0;0;0;ITB accesses 
+system.cpu3.dtb.read_hits;2744013;2109012;119485;1221086;2131070;83416;DTB read hits 
+system.cpu3.dtb.read_misses;1694;447;684;54;10509;371;DTB read misses 
+system.cpu3.dtb.read_acv;36;0;24;0;12;0;DTB read access violations 
+system.cpu3.dtb.read_accesses;57484;222293;39482;1134504;2042460;34021;DTB read accesses 
+system.cpu3.dtb.write_hits;1872395;1114437;82620;581092;697487;89195;DTB write hits 
+system.cpu3.dtb.write_misses;278;487;86;11;99296;106;DTB write misses 
+system.cpu3.dtb.write_acv;43;0;18;0;9;5;DTB write access violations 
+system.cpu3.dtb.write_accesses;30168;58454;27655;526010;573766;15515;DTB write accesses 
+system.cpu3.dtb.data_hits;4616408;3223449;202105;1802178;2828557;172611;DTB hits 
+system.cpu3.dtb.data_misses;1972;934;770;65;109805;477;DTB misses 
+system.cpu3.dtb.data_acv;79;0;42;0;21;5;DTB access violations 
+system.cpu3.dtb.data_accesses;87652;280747;67137;1660514;2616226;49536;DTB accesses 
+system.cpu3.itb.fetch_hits;1388018;1541967;328005;5814497;13060922;161705;ITB hits 
+system.cpu3.itb.fetch_misses;755;56;267;29;139;152;ITB misses 
+system.cpu3.itb.fetch_acv;0;0;0;0;0;0;ITB acv 
+system.cpu3.itb.fetch_accesses;1388773;1542023;328272;5814526;13061061;161857;ITB accesses 
+system.cpu3.itb.read_hits;0;0;0;0;0;0;DTB read hits 
+system.cpu3.itb.read_misses;0;0;0;0;0;0;DTB read misses 
+system.cpu3.itb.read_acv;0;0;0;0;0;0;DTB read access violations 
+system.cpu3.itb.read_accesses;0;0;0;0;0;0;DTB read accesses 
+system.cpu3.itb.write_hits;0;0;0;0;0;0;DTB write hits 
+system.cpu3.itb.write_misses;0;0;0;0;0;0;DTB write misses 
+system.cpu3.itb.write_acv;0;0;0;0;0;0;DTB write access violations 
+system.cpu3.itb.write_accesses;0;0;0;0;0;0;DTB write accesses 
+system.cpu3.itb.data_hits;0;0;0;0;0;0;DTB hits 
+system.cpu3.itb.data_misses;0;0;0;0;0;0;DTB misses 
+system.cpu3.itb.data_acv;0;0;0;0;0;0;DTB access violations 
+system.cpu3.itb.data_accesses;0;0;0;0;0;0;DTB accesses 
+system.cpu3.numCycles;4514351973;25021923;4086894;11235866;30072868;1139670;number of cpu cycles simulated 
+system.cpu3.numWorkItemsStarted;0;0;0;0;0;0;number of work items this cpu started 
+system.cpu3.numWorkItemsCompleted;0;0;0;0;0;0;number of work items this cpu completed 
+system.cpu3.committedInsts;13585983;9429674;725978;6183818;13638988;455130;Number of instructions committed 
+system.cpu3.committedOps;13585983;9429674;725978;6183818;13638988;455130;Number of ops (including micro ops) committed 
+system.cpu3.num_int_alu_accesses;13089682;8962520;650370;5065917;7132867;438048;Number of integer alu accesses 
+system.cpu3.num_fp_alu_accesses;101853;565294;114186;2686929;6360333;3618;Number of float alu accesses 
+system.cpu3.num_func_calls;548341;313718;13490;17985;15352;8729;number of times a function call or return occured 
+system.cpu3.num_conditional_control_insts;1235278;1065706;74216;660799;529742;46914;number of instructions that are conditional controls 
+system.cpu3.num_int_insts;13089682;8962520;650370;5065917;7132867;438048;number of integer instructions 
+system.cpu3.num_fp_insts;101853;565294;114186;2686929;6360333;3618;number of float instructions 
+system.cpu3.num_int_register_reads;18003753;12872238;983296;8687137;15613001;630650;number of times the integer registers were read 
+system.cpu3.num_int_register_writes;9801634;6457909;452809;2739368;5725009;297827;number of times the integer registers were written 
+system.cpu3.num_fp_register_reads;49665;561521;125294;2678667;10815211;2367;number of times the floating registers were read 
+system.cpu3.num_fp_register_writes;50978;441392;86986;2157206;6293111;2352;number of times the floating registers were written 
+system.cpu3.num_mem_refs;4636931;3247912;204799;1803352;2949476;173724;number of memory refs 
+system.cpu3.num_load_insts;2755386;2122815;121554;1221805;2152328;84255;Number of load instructions 
+system.cpu3.num_store_insts;1881545;1125097;83245;581547;797148;89469;Number of store instructions 
+system.cpu3.num_idle_cycles;4500767624.212610;15592414.246001;3359909.720675;5029673.408819;16342270.177015;424159.092712;Number of idle cycles 
+system.cpu3.num_busy_cycles;13584348.787390;9429508.753999;726984.279325;6206192.591181;13730597.822985;715510.907288;Number of busy cycles 
+system.cpu3.not_idle_fraction;0.003009;0.376850;0.177882;0.552356;0.456578;0.627823;Percentage of non-idle cycles 
+system.cpu3.idle_fraction;0.996991;0.623150;0.822118;0.447644;0.543422;0.372177;Percentage of idle cycles 
+system.cpu3.Branches;1993908;1484312;93653;685397;550611;58537;Number of branches fetched 
+system.cpu3.op_class::No_OpClass;73959;57003;13617;28206;268817;9797;Class of executed instruction 
+system.cpu3.op_class::IntAlu;8307362;5666572;434593;3253820;3190578;258876;Class of executed instruction 
+system.cpu3.op_class::IntMult;30240;17945;732;1986;1137;507;Class of executed instruction 
+system.cpu3.op_class::IntDiv;0;0;0;0;0;0;Class of executed instruction 
+system.cpu3.op_class::FloatAdd;6480;158357;27619;555257;3211418;1172;Class of executed instruction 
+system.cpu3.op_class::FloatCmp;0;11648;0;0;0;0;Class of executed instruction 
+system.cpu3.op_class::FloatCvt;0;2959;894;2506;5;0;Class of executed instruction 
+system.cpu3.op_class::FloatMult;0;44143;23040;515424;3014669;0;Class of executed instruction 
+system.cpu3.op_class::FloatDiv;242;9051;279;6916;3;227;Class of executed instruction 
+system.cpu3.op_class::FloatSqrt;0;0;0;0;0;0;Class of executed instruction 
+system.cpu3.op_class::SimdAdd;0;0;0;0;0;0;Class of executed instruction 
+system.cpu3.op_class::SimdAddAcc;0;0;0;0;0;0;Class of executed instruction 
+system.cpu3.op_class::SimdAlu;0;0;0;0;0;0;Class of executed instruction 
+system.cpu3.op_class::SimdCmp;0;0;0;0;0;0;Class of executed instruction 
+system.cpu3.op_class::SimdCvt;0;0;0;0;0;0;Class of executed instruction 
+system.cpu3.op_class::SimdMisc;0;0;0;0;0;0;Class of executed instruction 
+system.cpu3.op_class::SimdMult;0;0;0;0;0;0;Class of executed instruction 
+system.cpu3.op_class::SimdMultAcc;0;0;0;0;0;0;Class of executed instruction 
+system.cpu3.op_class::SimdShift;0;0;0;0;0;0;Class of executed instruction 
+system.cpu3.op_class::SimdShiftAcc;0;0;0;0;0;0;Class of executed instruction 
+system.cpu3.op_class::SimdSqrt;0;0;0;0;0;0;Class of executed instruction 
+system.cpu3.op_class::SimdFloatAdd;0;0;0;0;0;0;Class of executed instruction 
+system.cpu3.op_class::SimdFloatAlu;0;0;0;0;0;0;Class of executed instruction 
+system.cpu3.op_class::SimdFloatCmp;0;0;0;0;0;0;Class of executed instruction 
+system.cpu3.op_class::SimdFloatCvt;0;0;0;0;0;0;Class of executed instruction 
+system.cpu3.op_class::SimdFloatDiv;0;0;0;0;0;0;Class of executed instruction 
+system.cpu3.op_class::SimdFloatMisc;0;0;0;0;0;0;Class of executed instruction 
+system.cpu3.op_class::SimdFloatMult;0;0;0;0;0;0;Class of executed instruction 
+system.cpu3.op_class::SimdFloatMultAcc;0;0;0;0;0;0;Class of executed instruction 
+system.cpu3.op_class::SimdFloatSqrt;0;0;0;0;0;0;Class of executed instruction 
+system.cpu3.op_class::MemRead;2862782;2171351;124877;1224602;2155933;86548;Class of executed instruction 
+system.cpu3.op_class::MemWrite;1884912;1129322;83369;581767;797349;89536;Class of executed instruction 
+system.cpu3.op_class::IprAccess;422057;162257;17770;13399;1108905;8949;Class of executed instruction 
+system.cpu3.op_class::InstPrefetch;0;0;0;0;0;0;Class of executed instruction 
+system.cpu3.op_class::total;13588034;9430608;726790;6183883;13748814;455612;Class of executed instruction 
+system.cpu3.kern.inst.arm;0;0;0;0;0;0;number of arm instructions executed 
+system.cpu3.kern.inst.quiesce;3208;1309;19;18;35;0;number of quiesce instructions executed 
+system.cpu3.kern.inst.hwrei;97345;29439;2547;2530;111739;1197;number of hwrei instructions executed 
+system.cpu3.kern.ipl_count::0;30741;9429;503;826;677;244;number of times we switched to this ipl 
+system.cpu3.kern.ipl_count::22;2301;13;2;6;15;;number of times we switched to this ipl 
+system.cpu3.kern.ipl_count::30;861;1321;19;29;31;1;number of times we switched to this ipl 
+system.cpu3.kern.ipl_count::31;53389;11297;626;1090;815;241;number of times we switched to this ipl 
+system.cpu3.kern.ipl_count::total;87292;22060;1150;1951;1538;486;number of times we switched to this ipl 
+system.cpu3.kern.ipl_good::0;30070;9429;503;826;677;242;number of times we switched to this ipl from a different ipl 
+system.cpu3.kern.ipl_good::22;2301;13;2;6;15;;number of times we switched to this ipl from a different ipl 
+system.cpu3.kern.ipl_good::30;861;1321;19;29;31;1;number of times we switched to this ipl from a different ipl 
+system.cpu3.kern.ipl_good::31;29371;8139;495;816;656;241;number of times we switched to this ipl from a different ipl 
+system.cpu3.kern.ipl_good::total;62603;18902;1019;1677;1379;484;number of times we switched to this ipl from a different ipl 
+system.cpu3.kern.ipl_ticks::0;2242129083500;9457442000;1977946500;5488531000;14940127500;557710500;number of cycles we spent at this ipl 
+system.cpu3.kern.ipl_ticks::22;112749000;637000;98000;294000;735000;;number of cycles we spent at this ipl 
+system.cpu3.kern.ipl_ticks::30;94335500;148460500;2133000;3056500;3482000;112000;number of cycles we spent at this ipl 
+system.cpu3.kern.ipl_ticks::31;14838208500;2903767500;63260000;126042500;92072000;11821500;number of cycles we spent at this ipl 
+system.cpu3.kern.ipl_ticks::total;2257174376500;12510307000;2043437500;5617924000;15036416500;569644000;number of cycles we spent at this ipl 
+system.cpu3.kern.ipl_used::0;0.978172;1;1;1;1;0.991803;fraction of swpipl calls that actually changed the ipl 
+system.cpu3.kern.ipl_used::22;1;1;1;1;1;;fraction of swpipl calls that actually changed the ipl 
+system.cpu3.kern.ipl_used::30;1;1;1;1;1;1;fraction of swpipl calls that actually changed the ipl 
+system.cpu3.kern.ipl_used::31;0.550132;0.720457;0.790735;0.748624;0.804908;1;fraction of swpipl calls that actually changed the ipl 
+system.cpu3.kern.ipl_used::total;0.717168;0.856845;0.886087;0.859559;0.896619;0.995885;fraction of swpipl calls that actually changed the ipl 
+system.cpu3.kern.syscall::2;1;;;;;;number of syscalls executed 
+system.cpu3.kern.syscall::3;5;;;;;1;number of syscalls executed 
+system.cpu3.kern.syscall::4;1;;;;;;number of syscalls executed 
+system.cpu3.kern.syscall::6;7;;2;;1;1;number of syscalls executed 
+system.cpu3.kern.syscall::17;2;;;;;1;number of syscalls executed 
+system.cpu3.kern.syscall::19;1;;;;;;number of syscalls executed 
+system.cpu3.kern.syscall::33;2;;;;;1;number of syscalls executed 
+system.cpu3.kern.syscall::45;8;;;;;3;number of syscalls executed 
+system.cpu3.kern.syscall::48;3;;2;;1;;number of syscalls executed 
+system.cpu3.kern.syscall::59;3;;2;;1;;number of syscalls executed 
+system.cpu3.kern.syscall::71;13;;;;;4;number of syscalls executed 
+system.cpu3.kern.syscall::74;4;;;;;1;number of syscalls executed 
+system.cpu3.kern.syscall::total;50;1;9;2;4;12;number of syscalls executed 
+system.cpu3.kern.callpal::cserve;1;;;;;;number of callpals executed 
+system.cpu3.kern.callpal::wripir;673;1077;15;38;11;3;number of callpals executed 
+system.cpu3.kern.callpal::wrmces;1;;;;;;number of callpals executed 
+system.cpu3.kern.callpal::wrfen;1;;;;;;number of callpals executed 
+system.cpu3.kern.callpal::swpctx;1691;2592;163;125;101;53;number of callpals executed 
+system.cpu3.kern.callpal::tbi;17;5;9;;6;1;number of callpals executed 
+system.cpu3.kern.callpal::wrent;7;;;;;;number of callpals executed 
+system.cpu3.kern.callpal::swpipl;80076;17010;900;1598;1190;385;number of callpals executed 
+system.cpu3.kern.callpal::rdps;4753;156;13;16;49;1;number of callpals executed 
+system.cpu3.kern.callpal::wrkgp;1;;;;;;number of callpals executed 
+system.cpu3.kern.callpal::wrusp;2;;;;;1;number of callpals executed 
+system.cpu3.kern.callpal::rdusp;1;;;;;;number of callpals executed 
+system.cpu3.kern.callpal::whami;3;;;;;;number of callpals executed 
+system.cpu3.kern.callpal::rti;4134;3730;233;322;306;100;number of callpals executed 
+system.cpu3.kern.callpal::callsys;86;2323;97;290;48;15;number of callpals executed 
+system.cpu3.kern.callpal::imb;8;;3;;1;3;number of callpals executed 
+system.cpu3.kern.callpal::rdunique;1;236;18;16;20;;number of callpals executed 
+system.cpu3.kern.callpal::total;91456;27129;1451;2405;1732;562;number of callpals executed 
+system.cpu3.kern.mode_switch::kernel;5161;6322;396;447;407;152;number of protection mode switches 
+system.cpu3.kern.mode_switch::user;382;2415;219;305;273;97;number of protection mode switches 
+system.cpu3.kern.mode_switch::idle;0;0;0;0;0;0;number of protection mode switches 
+system.cpu3.kern.mode_switch_good::kernel;0.074017;0.381999;0.553030;0.682327;0.670762;0.631579;fraction of useful protection mode switches 
+system.cpu3.kern.mode_switch_good::user;1;1;1;1;1;1;fraction of useful protection mode switches 
+system.cpu3.kern.mode_switch_good::idle;nan;nan;nan;nan;nan;nan;fraction of useful protection mode switches 
+system.cpu3.kern.mode_switch_good::total;0.137831;0.552821;0.712195;0.811170;0.802941;0.775100;fraction of useful protection mode switches 
+system.cpu3.kern.mode_ticks::kernel;2257001795000;11216736000;2242780000;2330909000;9219662000;609287500;number of ticks spent at the given mode 
+system.cpu3.kern.mode_ticks::user;147751000;548276000;151626000;2892004000;6515783000;75495000;number of ticks spent at the given mode 
+system.cpu3.kern.mode_ticks::idle;0;0;0;0;0;0;number of ticks spent at the given mode 
+system.cpu3.kern.swap_context;1692;2592;163;125;101;53;number of times the context was actually changed 
