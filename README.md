@@ -7,6 +7,15 @@ A research based project for ECE597: Adv. Computer Architecture at Rose-Hulman I
 - You must create a file "splash2/codes/Makefile.dir" that includes the line "BASEDIR := your base directory" (this file is in the .gitignore)
 - Include "SYS := X86" or whatever derivative ISA you are using in Makefile.dir (options include X86, ARM, or out)
 
+## Compiling with Alpha toolchain
+1. Change directories to the folder of interest (ex. mediabench/jpeg/jpeg-6a)
+2. Execute the appropriate lines:
+ a. For jpeg: ./configure --exec-prefix=../../../alphaev67-unknown-linux-gnu/ CC=../../../alphaev67-unknown-linux-gnu/bin/alphaev67-unknown-linux-gnu-gcc --libdir=../../../alphaev67-unknown-linux-gnu/lib/ --libexecdir=../../../alphaev67-unknown-linux-gnu/libexec/ && make
+ b. For g721: make CC=../../../alphaev67-unknown-linux-gnu/bin/alphaev67-unknown-linux-gnu-gcc
+ c. For gsm: make CC=../../alphaev67-unknown-linux-gnu/bin/alphaev67-unknown-linux-gnu-gcc
+ d. For epic: make CC=../../../alphaev67-unknown-linux-gnu/bin/alphaev67-unknown-linux-gnu-gcc
+4. Don't forget to make clean before committing
+
 ---------------------------------------
 David's Findings as of Febuary 6, 2015
 ---------------------------------------

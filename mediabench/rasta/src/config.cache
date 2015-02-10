@@ -17,7 +17,8 @@ ac_cv_header_stdc=${ac_cv_header_stdc='yes'}
 ac_cv_lib_mat_matOpen=${ac_cv_lib_mat_matOpen='no'}
 ac_cv_lib_sp_sp_open=${ac_cv_lib_sp_sp_open='yes'}
 ac_cv_path_PERL=${ac_cv_path_PERL='/opt/local/bin/perl'}
+ac_cv_path_install=${ac_cv_path_install=''/usr/bin/install -c''}
 ac_cv_prog_CC=${ac_cv_prog_CC='gcc'}
-ac_cv_prog_CPP=${ac_cv_prog_CPP='gcc -E'}
+ac_cv_prog_CPP=${ac_cv_prog_CPP=''gcc -E''}
 ac_cv_prog_gcc=${ac_cv_prog_gcc='yes'}
 ac_cv_prog_gcc_g=${ac_cv_prog_gcc_g='yes'}

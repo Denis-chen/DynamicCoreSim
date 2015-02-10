@@ -17,7 +17,7 @@ SHELL=/bin/sh
 # Installation stuff.
 
 prefix = /usr/local
-exec_prefix = ${prefix}
+exec_prefix = ../../../alphaev67-unknown-linux-gnu/
 libdir = $(exec_prefix)/lib
 bindir = $(exec_prefix)/bin
 includedir = $(exec_prefix)/include
@@ -30,21 +30,21 @@ transform = s,x,x,
 
 # Programs we use.
 
-CC = gcc -mv8 -static
+CC = gcc
 LD = $(CC)
-INSTALL = ./install-sh -c
+INSTALL = /usr/bin/install -c
 INSTALL_PROG = $(INSTALL)
 INSTALL_DATA = ${INSTALL} -m 644
 
 # Tool arguments.
 
-CFLAGS = -O3
+CFLAGS = -g -O
 LDFLAGS = 
-LIBS =  -L./sphere -lsp -lutil
+LIBS =  -lsp -lutil
 
-cflags = -I. -Isphere/include -I$(srcdir) $(CFLAGS)  -I$(prefix)/include 
+cflags = -I. -I$(srcdir) $(CFLAGS)  -I$(prefix)/include 
 ldflags = $(LDFLAGS)
-libs = -L$(exec_prefix)/lib $(LIBS)
+libs = -L$(exec_prefix)/lib -Lsphere $(LIBS)
 compile.c = $(CC) $(cflags)
 
 ################################################################
