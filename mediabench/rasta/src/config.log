@@ -1,0 +1,12 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:723: gcc -E conftest.c
+configure:872: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:920: gcc -o conftest -g -O   conftest.c  1>&5
+configure:946: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1011: gcc -o conftest -g -O   conftest.c  1>&5
+configure:1137: gcc -o conftest -g -O   conftest.c -lsp -lutil -lm  1>&5
+configure:1181: gcc -o conftest -g -O   conftest.c -lmat -lm  -lsp -lutil 1>&5
+ld: fatal: library -lmat: not found
+ld: fatal: File processing errors.  No output written to conftest

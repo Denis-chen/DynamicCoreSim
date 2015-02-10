@@ -1,0 +1,5 @@
+#!/bin/sh
+
+/u/gs3/leec/leec/Projects/shade/bin/alu3 -o pgpencode.summary -- ../src/pgp -fes Bill -zbillms -u Bill < pgptest.plain > pgpout.pgp 3> pgpencode.shade
+
+/u/gs3/leec/leec/Projects/shade/bin/alu3 -o pgpdecode.summary -- ../src/pgp -fdb -zbillms < pgptest.enc > pgpout.plain 3> pgpdecode.shade
