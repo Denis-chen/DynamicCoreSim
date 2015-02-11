@@ -6,8 +6,8 @@
 
 #############################
 # Modified by C. Lee
-CC = gcc -static
-CFLAGS = -O3
+CC = gcc
+CFLAGS = -O3 -static -static-libgcc
 
 # Rules to build sample programs do not depend on a UNIX library program
 #

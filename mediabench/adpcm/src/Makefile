@@ -17,7 +17,7 @@ LFLAGS = -mv8
 #
 # End of addition
 ######################################################################
-CFLAGS = -O
+CFLAGS = -O -static -static-libgcc
 
 # May need this on a sun:
 # CFLAGS=-O -I/usr/demo/SOUND

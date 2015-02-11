@@ -32,8 +32,8 @@ SASR	= -DSASR
 # CC		= /usr/lang/acc
 # CCFLAGS 	= -c -O
 
-CC		= gcc -ansi -pedantic -static
-CCFLAGS 	= -c -O2 -DNeedFunctionPrototypes=1
+CC		= gcc -ansi -pedantic
+CCFLAGS 	= -c -O2 -DNeedFunctionPrototypes=1 -static -static-libgcc
 
 LD 		= $(CC)
 

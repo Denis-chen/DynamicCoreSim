@@ -30,10 +30,10 @@ UNEPIC_OBJECTS = unepic.o collapse_pyr.o
 
 CONVOLVE_OBJECTS =  convolve.o edges.o 
 
-CC = gcc -static
+CC = gcc
 # CC = cc
 
-CFLAGS = -O2   ## For GCC
+CFLAGS = -O2 -static -static-libgcc   ## For GCC
 # CFLAGS = -O4 -fsingle  ## Optimize on Sun-4/SPARC
 # CFLAGS = -O4 -f68881   ## Sun-3 with standard Floating point co-processor
 # CFLAGS = -ffpa         ## Sun-3 with fpa (Weitek) board

@@ -54,7 +54,7 @@
 # GNU gcc
 #
 CC = gcc
-CFLAGS = -O2
+CFLAGS = -O2 -static -static-libgcc
 
 all: mpeg2decode mpeg2encode
 
