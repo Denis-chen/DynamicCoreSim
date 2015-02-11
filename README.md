@@ -10,10 +10,11 @@ A research based project for ECE597: Adv. Computer Architecture at Rose-Hulman I
 ## Compiling with Alpha toolchain
 1. Change directories to the folder of interest (ex. mediabench/jpeg/jpeg-6a)
 2. Execute the appropriate lines:
- a. For jpeg: ./configure --exec-prefix=../../../alphaev67-unknown-linux-gnu/ CC=../../../alphaev67-unknown-linux-gnu/bin/alphaev67-unknown-linux-gnu-gcc --libdir=../../../alphaev67-unknown-linux-gnu/lib/ --libexecdir=../../../alphaev67-unknown-linux-gnu/libexec/ && make
- b. For g721: make CC=../../../alphaev67-unknown-linux-gnu/bin/alphaev67-unknown-linux-gnu-gcc
- c. For gsm: make CC=../../alphaev67-unknown-linux-gnu/bin/alphaev67-unknown-linux-gnu-gcc
- d. For epic: make CC=../../../alphaev67-unknown-linux-gnu/bin/alphaev67-unknown-linux-gnu-gcc
+ a. For jpeg: ./configure CC='../../../alpha-unknown-linux-gnu/bin/alpha-unknown-linux-gnu-gcc-3.4.3 -static -static-libgcc' && make
+ b. For g721: make CC=../../../alpha-unknown-linux-gnu/bin/alpha-unknown-linux-gnu-gcc-3.4.3
+ c. For gsm: make CC=../../alpha-unknown-linux-gnu/bin/alpha-unknown-linux-gnu-gcc-3.4.3
+ d. For epic: make CC=../../../alpha-unknown-linux-gnu/bin/alpha-unknown-linux-gnu-gcc-3.4.3
+ e. For adpcm: make CC=../../../alpha-unknown-linux-gnu/bin/alpha-unknown-linux-gnu-gcc-3.4.3
 4. Don't forget to make clean before committing
 
 ---------------------------------------
