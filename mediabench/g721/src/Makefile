@@ -6,7 +6,7 @@
 
 #############################
 # Modified by C. Lee
-CC = gcc -mv8 -static
+CC = gcc -static
 CFLAGS = -O3
 
 # Rules to build sample programs do not depend on a UNIX library program

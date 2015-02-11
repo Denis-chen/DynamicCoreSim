@@ -30,7 +30,7 @@ UNEPIC_OBJECTS = unepic.o collapse_pyr.o
 
 CONVOLVE_OBJECTS =  convolve.o edges.o 
 
-CC = gcc -mv8 -static
+CC = gcc -static
 # CC = cc
 
 CFLAGS = -O2   ## For GCC

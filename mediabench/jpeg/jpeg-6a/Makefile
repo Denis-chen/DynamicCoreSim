@@ -10,7 +10,7 @@ srcdir = .
 
 # Where to install the programs and man pages.
 prefix = /usr/local
-exec_prefix = ../../../alphaev67-unknown-linux-gnu/
+exec_prefix = ${prefix}
 bindir = $(exec_prefix)/bin
 libdir = $(exec_prefix)/lib
 includedir = $(prefix)/include
@@ -20,7 +20,7 @@ manext = 1
 mandir = $(prefix)/man/man$(manext)
 
 # The name of your C compiler:
-CC= ../../../alphaev67-unknown-linux-gnu/bin/alphaev67-unknown-linux-gnu-gcc
+CC= gcc
 
 # You may need to adjust these cc options:
 CFLAGS= -O  -I$(srcdir)
