@@ -1,5 +1,28 @@
 \documentclass[journal]{IEEEtran}
 \usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+\usepackage{caption}
+\usepackage{array}
+
+\captionsetup[figure]{labelfont=bf,textfont={footnotesize, it},singlelinecheck=on,justification=justified}
+ 
+%\imageOne{sizecm}{filename}{caption}{label}
+\newcommand{\imageOne}[4] {
+	\begingroup
+		\centering
+    	\includegraphics[width=#1]{#2}
+	   	\captionof{figure}{#3}\label{fig:#4}
+	\endgroup
+}
+
+%\imageTwo{sizecm}{filename}{caption}{label}
+\newcommand{\imageTwo}[4] {
+	\begin{figure*}
+		\centering
+		\includegraphics[height=#1]{#2}
+		\captionof{figure}{#3}\label{fig:#4}
+	\end{figure*}
+}
 
 % correct bad hyphenation here
 %\hyphenation{op-tical net-works semi-conduc-tor}
@@ -26,6 +49,12 @@ IEEEtran, journal, \LaTeX, paper, template.
 
 \section{Introduction and Motivation}
 \input{introduction}
+\imageOne{7cm}{../images/performance.png}{THIS IS JUST AN EXAMPLE IMAGE FROM ANOTHER PAPER Performance and power requirements of 3G wireless. Theoretical performance and power statistics of SODA, other DSPs, and general-purpose processors \cite{gem5}.}{performance}
+
+testing images Fig. \ref{fig:performance}
+
+\imageTwo{8cm}{../images/soda.png}{THIS IS JUST AN EXAMPLE IMAGE FROM ANOTHER PAPER The SODA Architecture \cite{gem5}}{soda}
+
 
 \section{Prior Work}
 \input{prior_work}
@@ -51,12 +80,23 @@ IEEEtran, journal, \LaTeX, paper, template.
 The authors would like to thank...
 
 \begin{thebibliography}{1}
-\bibitem{IEEEhowto:kopka}
-H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus 0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
+\bibitem{gem5}
+  N. Binkert, B. Beckmann, G. Black, S. Reinhardt, A. Saidi, A. Basu, J Hestness, D. Hower, T. Krishna, S. Sardashti, R. Sen, K. Sewell, M. Shoaib, N. Vaish, M. Hill, D. Wood.
+  ``The gem5 Simulator,'' 
+  Available: \url{http://research.cs.wisc.edu/multifacet/papers/can11_gem5.pdf}
+
+\bibitem{splash2}
+  Not sure how to site this.
+  Available: \url{http://www.capsl.udel.edu/splash/index.html} 
+  
+\bibitem{mb2}
+  Not sure how to site this.
+  Available: \url{http://euler.slu.edu/~fritts/mediabench/} 
+
 \end{thebibliography}
 
-\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{picture}}]{John Doe}
-\end{IEEEbiography}
+%\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{picture}}]{John Doe}
+%\end{IEEEbiography}
 
 
 \end{document}

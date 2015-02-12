@@ -1,5 +1,64 @@
 Describe your methodology in implementing your project. If a simulator is used,
 cite it accordingly and detail what changes you made. If a structure was implemented, give details
 as to what was done. If an algorithm was studied, give details as to its
-operation. Block diagrams,
-flow charts, and detailed examples can be very helpful. 
+operation. Block diagrams, flow charts, and detailed examples can be very helpful. 
+
+The gem5 \cite{gem5} simulator was used to simulate the performance of a dynamic processor. gem5 is a combination of the M5, a simulation framework with support for multiple ISAs and CPU models, and GEMS, a memory simulation system. As a result, gem5 is a robust simulator with support for five ISAs, ARM, ALPHA, MIPS, Power, SPARC, and x86 and four CPU models:
+
+\begin{itemize}
+\item AtomicSimple is a minimal single IPC CPU model
+\item TimingSimple is similar to AtomicSimple but also simulates the timing of memory references,
+\item InOrder is a pipelined, in-order CPU
+\item O3 is a pipelined, out-of-order CPU model
+\end{itemize}
+
+gem5 has two potential modes of operation system mode and full system mode. System modes does not model the OS or peripheral devices but solely simulates the specified benchmark. Full system mode on the other hand uses an actual OS kernel and mounts a Linux disk image. Essentially, gem5 full system mode is capable of booting a full OS and presenting the user with a Linux command prompt. With gem5 great degree of high level customizations we concluded that it would be an effective simulator for simulating a dynamic processor. However, while gem5 boasts many impressive features, we found that many of these features are not fully supported or difficult to configure.
+
+For simulation of a dynamic processor, we needed benchmarks which would be representative of highly parallelized workloads and a benchmark reflecting serial execution. The parallel benchmark we used was SPLASH-2 \cite{splash2}. SPLASH-2 is a suite of numerous parallel benchmarks intended to evaluate the performance of multiprocessor systems. For a serial benchmark suite we choose to use MediaBench II \cite{mb2} which is a suite of numerous compression and decompression multimedia algorithms. Tables \ref{tab:splash2_benchmarks} and \ref{mb2_benchmarks} detail the exact benchmarks used.
+
+\begin{table}[!t]
+	\renewcommand{\arraystretch}{1.9}
+	\label{tab:splash2_benchmarks}
+	\centering
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Benchmark & Description & Parameters\\
+		\hline
+		OCEAN & placeholder & placeholder\\
+		\hline
+		FFT & placeholder & placeholder\\
+		\hline
+		LU & placeholder & placeholder\\
+		\hline
+		RADIX & placeholder & placeholder\\
+		\hline
+	\end{tabular}
+	\caption{The SPLASH-2 benchmarks used}	
+\end{table}
+
+\begin{table}[!t]
+	\renewcommand{\arraystretch}{1.9}
+	\label{tab:mb2_benchmarks}
+	\centering
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Benchmark & Description & Parameters\\
+		\hline
+		jpeg & placeholder & placeholder\\
+		\hline
+		epic & placeholder & placeholder\\
+		\hline
+		gsm & placeholder & placeholder\\
+		\hline
+		adpcm & placeholder & placeholder\\
+		\hline
+	\end{tabular}
+	\caption{The MediaBench II benchmarks used}	
+\end{table}
+
+When we initially began the project we planned on using gem5 system mode emulation for simplicity. However, due to the parallel nature of SPLASH-2 a multi-threading library is required. Because system mode does not emulate a full operating system the threaded nature of these applications was impossible to simulate as a result we finally decided to use full system mode. This provided us with access to Linux full threading library allowing us to simulate the multi-threaded applications. Using full system mode has the additional benefit of providing extremely accurate results because the benchmarks are actually running in a Linux operating system.
+
+gem5 provides an API for writing the current timing statistics out to a file. We then developed scripts to run the benchmarks and generate timing information about each benchmark. The simulator was then run using different configurations of CPU type and number of cores.
+
+
+
