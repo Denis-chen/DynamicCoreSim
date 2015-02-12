@@ -1,0 +1,12 @@
+#!/bin/sh
+# Mount an image to allow the addition of benchmark binaries
+# Paths must be edited to mach your system
+
+sudo mount -o loop,offset=32256 /home/david/Desktop/comp_arch_sims/full_system_images/disks/linux-parsec-2-1-m5-with-test-inputs.img /mnt/tmp
+
+sudo gnome-open /mnt/tmp/benches
+
+
+read -p "Copy programs over to the bin directory. Close the window when done. Press enter to unmount the image." yn
+
+sudo umount /mnt/tmp

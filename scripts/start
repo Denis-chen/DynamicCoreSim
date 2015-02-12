@@ -1,0 +1,19 @@
+#!/bin/sh
+# Open the relevant windows for working with gem5 modify all the paths
+# if you want to use this script
+
+subl -n
+subl -a ~/Desktop/comp_arch_sims/DynamicCoreSim/README.md
+subl -a ~/Desktop/comp_arch_sims/DynamicCoreSim/splash2/codes/Makefile.config
+subl -a ~/Desktop/comp_arch_sims/DynamicCoreSim/splash2/codes/Makefile.dir
+subl -a ~/Desktop/comp_arch_sims/scripts
+subl -a ~/Desktop/comp_arch_sims/gem5-stable/configs/common/Benchmarks.py
+subl -a ~/Desktop/comp_arch_sims/gem5-stable/configs/boot
+
+gnome-open ~/Desktop/comp_arch_sims/full_system_images
+gnome-open ~/Desktop/comp_arch_sims/DynamicCoreSim/splash2/codes
+
+gnome-terminal \
+--tab --working-directory ~/Desktop/comp_arch_sims/DynamicCoreSim/splash2/codes \
+--tab --working-directory ~/Desktop/comp_arch_sims/DynamicCoreSim/mediabench \
+--tab --working-directory ~/Desktop/comp_arch_sims/DynamicCoreSim

@@ -1,0 +1,64 @@
+#!/bin/sh
+# Run gem5 all arguments pass to the run script will be
+# passed to the gem5 fs.py script
+
+# ./change_cores.py 1
+# ./run_alpha ALPHA_ATOMIC_1GHZ_P1  --caches --cpu-clock='1 GHz' --cpu-type=atomic -n 1  -b dynamic_processor
+# ./change_cores.py 2
+# ./run_alpha ALPHA_ATOMIC_1GHZ_P2  --caches --cpu-clock='1 GHz' --cpu-type=atomic -n 2  -b dynamic_processor
+# ./change_cores.py 4
+# ./run_alpha ALPHA_ATOMIC_1GHZ_P4  --caches --cpu-clock='1 GHz' --cpu-type=atomic -n 4  -b dynamic_processor
+# ./change_cores.py 8
+# ./run_alpha ALPHA_ATOMIC_1GHZ_P8  --caches --cpu-clock='1 GHz' --cpu-type=atomic -n 8  -b dynamic_processor
+# ./change_cores.py 16
+# ./run_alpha ALPHA_ATOMIC_1GHZ_P16 --caches --cpu-clock='1 GHz' --cpu-type=atomic -n 16 -b dynamic_processor
+# ./change_cores.py 32
+# ./run_alpha ALPHA_ATOMIC_1GHZ_P32 --caches --cpu-clock='1 GHz' --cpu-type=atomic -n 32 -b dynamic_processor
+# ./change_cores.py 64
+# ./run_alpha ALPHA_ATOMIC_1GHZ_P64 --caches --cpu-clock='1 GHz' --cpu-type=atomic -n 64 -b dynamic_processor
+
+./change_cores.py 1
+./run_alpha ALPHA_TIMING_1GHZ_P1    --caches --cpu-clock='1 GHz' --cpu-type=timing -n 1  -b dynamic_processor
+./change_cores.py 2
+./run_alpha ALPHA_TIMING_1GHZ_P2    --caches --cpu-clock='1 GHz' --cpu-type=timing -n 2  -b dynamic_processor
+./change_cores.py 4
+./run_alpha ALPHA_TIMING_1GHZ_P4    --caches --cpu-clock='1 GHz' --cpu-type=timing -n 4  -b dynamic_processor
+./change_cores.py 8
+./run_alpha ALPHA_TIMING_1GHZ_P8    --caches --cpu-clock='1 GHz' --cpu-type=timing -n 8  -b dynamic_processor
+# ./change_cores.py 16
+# ./run_alpha ALPHA_TIMING_1GHZ_P16   --caches --cpu-clock='1 GHz' --cpu-type=timing -n 16 -b dynamic_processor
+# ./change_cores.py 32
+# ./run_alpha ALPHA_TIMING_1GHZ_P32   --caches --cpu-clock='1 GHz' --cpu-type=timing -n 32 -b dynamic_processor
+# ./change_cores.py 64
+# ./run_alpha ALPHA_TIMING_1GHZ_P64   --caches --cpu-clock='1 GHz' --cpu-type=timing -n 64 -b dynamic_processor
+
+./change_cores.py 1
+./run_alpha ALPHA_DETAILED_1GHZ_P1  --caches --cpu-clock='1 GHz' --cpu-type=detailed -n 1  -b dynamic_processor
+# ./change_cores.py 2
+# ./run_alpha ALPHA_DETAILED_1GHZ_P2  --caches --cpu-clock='1 GHz' --cpu-type=detailed -n 2  -b dynamic_processor
+# ./change_cores.py 4
+# ./run_alpha ALPHA_DETAILED_1GHZ_P4  --caches --cpu-clock='1 GHz' --cpu-type=detailed -n 4  -b dynamic_processor
+
+# ./change_cores.py 8
+# ./run_alpha ALPHA_DETAILED_1GHZ_P8  --caches --cpu-clock='1 GHz' --cpu-type=detailed -n 8  -b dynamic_processor &
+# ./change_cores.py 16
+# ./run_alpha ALPHA_DETAILED_1GHZ_P16 --caches --cpu-clock='1 GHz' --cpu-type=detailed -n 16 -b dynamic_processor &
+# ./change_cores.py 32
+# ./run_alpha ALPHA_DETAILED_1GHZ_P32 --caches --cpu-clock='1 GHz' --cpu-type=detailed -n 32 -b dynamic_processor &
+# ./change_cores.py 64
+# ./run_alpha ALPHA_DETAILED_1GHZ_P64 --caches --cpu-clock='1 GHz' --cpu-type=detailed -n 64 -b dynamic_processor &
+
+
+# ./change_cores.py 1
+# ./run_x86 X86_ATOMIC_3GHZ_P1 		  --caches --cpu-clock='3 GHz' --cpu-type=atomic     -n 1 -b dynamic_processor &
+# sleep 5
+# m5term localhost 345 x86_atomic_3ghz_p1 _p1.out
+# ./change_cores.py 2
+# ./run_x86 X86_ATOMIC_3GHZ_P2 		  --caches --cpu-clock='3 GHz' --cpu-type=atomic     -n 2 -b dynamic_processor &
+# sleep 5
+# m5term localhost 345 x86_atomic_3ghz_p2 _p1.out
+# ./change_cores.py 4
+# ./run_x86 X86_ATOMIC_3GHZ_P4 		  --caches --cpu-clock='3 GHz' --cpu-type=atomic     -n 4 -b dynamic_processor &
+# sleep 5
+# m5term localhost 345 x86_atomic_3ghz_p4 _p1.out
+ 

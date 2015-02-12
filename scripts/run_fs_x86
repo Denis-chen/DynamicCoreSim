@@ -1,0 +1,4 @@
+#!/bin/sh
+# Simply run fs mode x86
+
+~/Desktop/comp_arch_sims/gem5-stable/build/X86/gem5.opt ~/Desktop/comp_arch_sims/gem5-stable/configs/example/fs.py --disk-image=x86root-parsec.img --kernel=x86_64-vmlinux-2.6.28.4-smp "$@"

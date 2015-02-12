@@ -1,0 +1,8 @@
+#!/bin/sh
+# Run gem5 X86 all arguments pass to the run script will be
+# passed to the gem5 fs.py script except the first arg
+# is the destination of the statistics
+
+out_dir="$1"
+shift;
+~/Desktop/comp_arch_sims/gem5-stable/build/X86/gem5.opt --outdir=$out_dir ~/Desktop/comp_arch_sims/gem5-stable/configs/example/fs.py --disk-image=x86root-parsec.img --kernel=x86_64-vmlinux-2.6.28.4-smp "$@"

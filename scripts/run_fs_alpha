@@ -1,0 +1,4 @@
+#!/bin/sh
+# Simply run fs mode for ALPHA
+
+~/Desktop/comp_arch_sims/gem5-stable/build/ALPHA/gem5.opt ~/Desktop/comp_arch_sims/gem5-stable/configs/example/fs.py --disk-image=linux-parsec-2-1-m5-with-test-inputs.img --kernel=vmlinux_2.6.27-gcc_4.3.4 "$@"
