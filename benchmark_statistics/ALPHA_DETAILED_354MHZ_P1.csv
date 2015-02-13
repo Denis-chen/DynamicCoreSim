@@ -1,0 +1,1250 @@
+FIELD;BOOT;JPEG;OCEAN;EPIC;FFT;GSM;LU;ADPCM;RADIX;SHUTDOWN;DESCRIPTION
+sim_seconds;2.577388;0.085169;0.471994;0.100414;0.025954;0.386243;0.162070;0.041256;0.781018;0.002640;Number of seconds simulated 
+sim_ticks;2577387992900;85169439050;471994434700;100414048700;25953967125;386242542800;162069817775;41255853650;781017851200;2640454050;Number of ticks simulated 
+final_tick;2577387992900;2662557431950;3134551866650;3234965915350;3260919882475;3647162425275;3809232243050;3850488096700;4631505947900;4634146401950;Number of ticks from beginning of simulation (restored from checkpoints and never reset) 
+sim_freq;1000000000000;1000000000000;1000000000000;1000000000000;1000000000000;1000000000000;1000000000000;1000000000000;1000000000000;1000000000000;Frequency of simulated ticks 
+host_inst_rate;232024;816234;426271;1856672;7622447;504406;1493133;7947387;1393366;308423990;Simulator instruction rate (inst/s) 
+host_op_rate;232024;816234;426271;1856671;7622443;504406;1493133;7947386;1393366;308422809;Simulator op (including micro ops) rate (op/s) 
+host_tick_rate;6682390816;464177108;664025521;502203129;510727372;235505548;258386465;342999953;1021197894;763659841;Simulator tick rate (ticks/s) 
+host_mem_usage;458480;460528;462576;463600;463600;465648;465648;466672;466672;466672;Number of bytes of host memory used 
+host_seconds;385.70;183.48;710.81;199.95;50.82;1640.06;627.24;120.28;764.81;3.46;Real time elapsed on the host 
+sim_insts;89491324;149766507;302996415;371235995;387354559;827254322;936549898;955907326;1065653830;1066408458;Number of instructions simulated 
+sim_ops;89491324;149766507;302996415;371235995;387354559;827254322;936549898;955907326;1065653830;1066408458;Number of ops (including micro ops) simulated 
+system.voltage_domain.voltage;1;1;1;1;1;1;1;1;1;1;Voltage in Volts 
+system.clk_domain.clock;1000;1000;1000;1000;1000;1000;1000;1000;1000;1000;Clock period in ticks 
+system.mem_ctrls.bytes_read::cpu.inst;92244160;5774400;5643264;6208512;3182272;18451776;3069184;7541184;5164480;650432;Number of bytes read from this memory 
+system.mem_ctrls.bytes_read::cpu.data;184481600;9700032;194365184;13603968;5491328;5049920;13985152;4313152;61528704;1109312;Number of bytes read from this memory 
+system.mem_ctrls.bytes_read::tsunami.ide;4736;192;;192;;;;;64;;Number of bytes read from this memory 
+system.mem_ctrls.bytes_read::total;276730496;15474624;200008448;19812672;8673600;23501696;17054336;11854336;66693248;1759744;Number of bytes read from this memory 
+system.mem_ctrls.bytes_inst_read::cpu.inst;92244160;5774400;5643264;6208512;3182272;18451776;3069184;7541184;5164480;650432;Number of instructions bytes read from this memory 
+system.mem_ctrls.bytes_inst_read::total;92244160;5774400;5643264;6208512;3182272;18451776;3069184;7541184;5164480;650432;Number of instructions bytes read from this memory 
+system.mem_ctrls.bytes_written::writebacks;31698944;4503424;83725824;7258048;3450432;2393216;7936832;2283840;40715456;673664;Number of bytes written to this memory 
+system.mem_ctrls.bytes_written::tsunami.ide;2832384;1433600;839680;1380352;737280;520192;704512;1605632;700416;;Number of bytes written to this memory 
+system.mem_ctrls.bytes_written::total;34531328;5937024;84565504;8638400;4187712;2913408;8641344;3889472;41415872;673664;Number of bytes written to this memory 
+system.mem_ctrls.num_reads::cpu.inst;1441315;90225;88176;97008;49723;288309;47956;117831;80695;10163;Number of read requests responded to by this memory 
+system.mem_ctrls.num_reads::cpu.data;2882525;151563;3036956;212562;85802;78905;218518;67393;961386;17333;Number of read requests responded to by this memory 
+system.mem_ctrls.num_reads::tsunami.ide;74;3;;3;;;;;1;;Number of read requests responded to by this memory 
+system.mem_ctrls.num_reads::total;4323914;241791;3125132;309573;135525;367214;266474;185224;1042082;27496;Number of read requests responded to by this memory 
+system.mem_ctrls.num_writes::writebacks;495296;70366;1308216;113407;53913;37394;124013;35685;636179;10526;Number of write requests responded to by this memory 
+system.mem_ctrls.num_writes::tsunami.ide;44256;22400;13120;21568;11520;8128;11008;25088;10944;;Number of write requests responded to by this memory 
+system.mem_ctrls.num_writes::total;539552;92766;1321336;134975;65433;45522;135021;60773;647123;10526;Number of write requests responded to by this memory 
+system.mem_ctrls.bw_read::cpu.inst;35789784;67798967;11956209;61829117;122612161;47772511;18937419;182790643;6612499;246333391;Total read bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_read::cpu.data;71576961;113890993;411795500;135478732;211579524;13074479;86290910;104546425;78780151;420121683;Total read bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_read::tsunami.ide;1838;2254;;1912;;;;;82;;Total read bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_read::total;107368583;181692215;423751708;197309761;334191685;60846990;105228328;287337067;85392732;666455074;Total read bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_inst_read::cpu.inst;35789784;67798967;11956209;61829117;122612161;47772511;18937419;182790643;6612499;246333391;Instruction read bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_inst_read::total;35789784;67798967;11956209;61829117;122612161;47772511;18937419;182790643;6612499;246333391;Instruction read bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_write::writebacks;12298864;52876056;177387312;72281201;132944300;6196148;48971685;55357963;52131275;255131878;Write bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_write::tsunami.ide;1098936;16832329;1779004;13746602;28407218;1346801;4346966;38918889;896799;;Write bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_write::total;13397800;69708384;179166316;86027803;161351518;7542950;53318651;94276852;53028073;255131878;Write bandwidth from this memory (bytes/s) 
+system.mem_ctrls.bw_total::writebacks;12298864;52876056;177387312;72281201;132944300;6196148;48971685;55357963;52131275;255131878;Total bandwidth to/from this memory (bytes/s) 
+system.mem_ctrls.bw_total::cpu.inst;35789784;67798967;11956209;61829117;122612161;47772511;18937419;182790643;6612499;246333391;Total bandwidth to/from this memory (bytes/s) 
+system.mem_ctrls.bw_total::cpu.data;71576961;113890993;411795500;135478732;211579524;13074479;86290910;104546425;78780151;420121683;Total bandwidth to/from this memory (bytes/s) 
+system.mem_ctrls.bw_total::tsunami.ide;1100773;16834583;1779004;13748514;28407218;1346801;4346966;38918889;896881;;Total bandwidth to/from this memory (bytes/s) 
+system.mem_ctrls.bw_total::total;120766382;251400599;602918024;283337564;495543203;68389939;158546979;381613919;138420805;921586952;Total bandwidth to/from this memory (bytes/s) 
+system.mem_ctrls.readReqs;4323914;241791;3125132;309573;135527;367214;266474;185224;1042082;27495;Number of read requests accepted 
+system.mem_ctrls.writeReqs;539552;92766;1321336;134975;65433;45522;135021;60773;647123;10526;Number of write requests accepted 
+system.mem_ctrls.readBursts;4323914;241791;3125132;309573;135527;367214;266474;185224;1042082;27495;Number of DRAM read bursts, including those serviced by the write queue 
+system.mem_ctrls.writeBursts;539552;92766;1321336;134975;65433;45522;135021;60773;647123;10526;Number of DRAM write bursts, including those merged in the write queue 
+system.mem_ctrls.bytesReadDRAM;274366848;15180608;196934848;19677568;8594816;23333632;16981248;11656000;64589376;1749568;Total number of bytes read from DRAM 
+system.mem_ctrls.bytesReadWrQ;2363648;294016;3073600;135104;78912;168064;73088;198336;2103872;10112;Total number of bytes read from write queue 
+system.mem_ctrls.bytesWritten;34116032;5883904;83507136;8627072;4180032;2875200;8631680;3844160;41252672;672768;Total number of bytes written to DRAM 
+system.mem_ctrls.bytesReadSys;276730496;15474624;200008448;19812672;8673728;23501696;17054336;11854336;66693248;1759680;Total read bytes from the system interface side 
+system.mem_ctrls.bytesWrittenSys;34531328;5937024;84565504;8638400;4187712;2913408;8641344;3889472;41415872;673664;Total written bytes from the system interface side 
+system.mem_ctrls.servicedByWrQ;36932;4594;48025;2111;1233;2626;1142;3099;32873;158;Number of DRAM read bursts serviced by the write queue 
+system.mem_ctrls.mergedWrBursts;6467;825;16537;183;109;606;142;710;2551;16;Number of DRAM write bursts merged with an existing one 
+system.mem_ctrls.neitherReadNorWriteReqs;881;30;30;42;17;63;10;54;14;1;Number of requests that are neither read nor write 
+system.mem_ctrls.perBankRdBursts::0;290782;13742;192652;16398;7587;25964;16745;8980;63185;1730;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::1;264513;13107;223010;15126;6874;49239;16509;7367;60525;1842;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::2;242027;18572;184379;19678;10159;19359;20111;12014;70543;2626;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::3;177715;13088;183112;12917;7559;22160;15826;12063;52968;1349;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::4;162909;12518;192609;17773;9682;12632;14820;10030;60994;2120;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::5;284917;14131;184597;18171;7959;22000;14031;12014;56985;1918;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::6;287417;11897;181549;15544;8365;10624;13740;8265;83059;1176;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::7;193027;10470;195150;16014;7060;17889;15439;7839;53288;776;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::8;273960;14140;198585;19234;9962;21898;16329;12801;77913;2078;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::9;328554;12967;185272;14404;6684;31795;13732;6623;52789;1250;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::10;320137;19971;190027;22887;9283;14095;16733;15147;63705;1369;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::11;311457;22170;198374;30446;9218;30005;19999;18021;65492;1485;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::12;328780;18066;196089;26099;10247;16412;19351;15230;64732;2503;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::13;317298;17478;197672;27301;9912;23436;19112;17071;61795;2437;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::14;287013;13066;189790;17886;7179;11543;17174;10044;65580;1493;Per bank write bursts 
+system.mem_ctrls.perBankRdBursts::15;216476;11814;184240;17584;6564;35537;15681;8616;55656;1185;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::0;20131;6088;82190;6760;3270;2212;8572;2834;40448;703;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::1;35531;7248;93184;9305;4957;4396;10116;3715;41338;1185;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::2;26860;7078;73771;7923;4367;2654;9676;4298;43260;1267;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::3;22268;5463;77500;6677;4302;2849;8813;5506;34081;649;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::4;18413;4404;78633;8041;4469;1926;7308;2846;39925;1009;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::5;18027;4888;78934;7841;4217;2411;7224;2948;34674;886;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::6;46409;5801;80462;7762;4078;2203;7745;2757;73142;87;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::7;29742;4110;88792;8512;3959;2796;9052;3522;34412;89;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::8;30035;4777;82105;7592;4521;3376;7915;3163;40055;657;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::9;32350;5882;80655;7663;3492;2672;7716;3073;33401;409;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::10;32826;6998;80307;9448;3903;2316;7850;4330;40871;174;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::11;59447;8695;83800;11224;4390;3184;8977;5196;36994;388;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::12;29660;5014;83297;9659;4020;3082;8564;3665;41311;866;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::13;44829;5774;81542;10679;3944;2982;8418;4245;34497;859;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::14;57177;4726;80325;8122;3539;3077;8646;4108;42439;664;Per bank write bursts 
+system.mem_ctrls.perBankWrBursts::15;29358;4990;79302;7590;3885;2789;8278;3859;33725;620;Per bank write bursts 
+system.mem_ctrls.numRdRetry;0;0;0;0;0;0;0;0;0;0;Number of times read queue was full causing retry 
+system.mem_ctrls.numWrRetry;30;23;11;25;24;11;14;24;14;0;Number of times write queue was full causing retry 
+system.mem_ctrls.totGap;2577387916625;85169441875;471994417750;100414065650;25954034925;386242542800;162069817775;41255853650;781017851200;2640448400;Total gap between requests 
+system.mem_ctrls.readPktSize::0;0;0;0;0;0;0;0;0;0;0;Read request sizes (log2) 
+system.mem_ctrls.readPktSize::1;0;0;0;0;0;0;0;0;0;0;Read request sizes (log2) 
+system.mem_ctrls.readPktSize::2;0;0;0;0;0;0;0;0;0;0;Read request sizes (log2) 
+system.mem_ctrls.readPktSize::3;0;0;0;0;0;0;0;0;0;0;Read request sizes (log2) 
+system.mem_ctrls.readPktSize::4;0;0;0;0;0;0;0;0;0;0;Read request sizes (log2) 
+system.mem_ctrls.readPktSize::5;0;0;0;0;0;0;0;0;0;0;Read request sizes (log2) 
+system.mem_ctrls.readPktSize::6;4323914;241791;3125132;309573;135527;367214;266474;185224;1042082;27495;Read request sizes (log2) 
+system.mem_ctrls.writePktSize::0;0;0;0;0;0;0;0;0;0;0;Write request sizes (log2) 
+system.mem_ctrls.writePktSize::1;0;0;0;0;0;0;0;0;0;0;Write request sizes (log2) 
+system.mem_ctrls.writePktSize::2;0;0;0;0;0;0;0;0;0;0;Write request sizes (log2) 
+system.mem_ctrls.writePktSize::3;0;0;0;0;0;0;0;0;0;0;Write request sizes (log2) 
+system.mem_ctrls.writePktSize::4;0;0;0;0;0;0;0;0;0;0;Write request sizes (log2) 
+system.mem_ctrls.writePktSize::5;0;0;0;0;0;0;0;0;0;0;Write request sizes (log2) 
+system.mem_ctrls.writePktSize::6;539552;92766;1321336;134975;65433;45522;135021;60773;647123;10526;Write request sizes (log2) 
+system.mem_ctrls.rdQLenPdf::0;3351857;175922;1963608;225701;83253;317073;218181;142319;848576;16543;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::1;793797;46072;775967;62496;32343;37882;35587;30962;110171;7849;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::2;119703;11689;263436;13962;13162;7380;8531;6654;36415;2220;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::3;20482;3302;72842;5072;5440;2139;2890;2076;13800;703;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::4;1082;205;1174;219;94;103;134;102;241;22;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::5;38;7;80;12;2;10;8;12;6;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::6;6;0;0;0;0;1;1;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::7;3;0;0;0;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::8;2;0;0;0;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::9;1;0;0;0;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::10;1;0;0;0;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::11;2;0;0;0;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::12;1;0;0;0;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::13;1;0;0;0;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::14;2;0;0;0;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::15;1;0;0;0;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::16;1;0;0;0;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::17;1;0;0;0;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::18;1;0;0;0;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::19;0;0;0;0;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::20;0;0;0;0;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::21;0;0;0;0;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::22;0;0;0;0;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::23;0;0;0;0;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::24;0;0;0;0;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::25;0;0;0;0;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::26;0;0;0;0;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::27;0;0;0;0;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::28;0;0;0;0;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::29;0;0;0;0;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::30;0;0;0;0;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.rdQLenPdf::31;0;0;0;0;0;0;0;0;0;0;What read queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::0;1;0;0;0;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::1;1;0;0;0;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::2;1;0;0;0;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::3;1;0;0;0;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::4;1;0;0;0;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::5;1;0;0;0;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::6;1;0;0;0;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::7;1;0;0;0;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::8;1;0;0;0;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::9;1;0;0;0;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::10;1;0;0;0;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::11;1;0;0;0;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::12;1;0;0;0;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::13;1;0;0;0;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::14;1;0;0;0;0;0;0;0;0;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::15;5604;1626;21542;2377;356;372;4357;408;25038;76;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::16;6078;1774;23084;2505;395;402;4526;477;25167;83;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::17;20942;2784;57561;4013;1337;1375;5878;1299;27665;231;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::18;24520;3563;71186;5224;2316;1781;6473;1747;30893;404;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::19;28759;4111;76913;6581;3073;2133;7047;2130;34823;592;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::20;31193;4426;80220;7213;3621;2346;7374;2360;37491;674;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::21;31547;4577;80793;7215;3701;2445;7472;2481;37907;703;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::22;33105;4892;80802;7668;3871;2606;7668;2903;37983;708;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::23;33673;5293;81121;8009;4071;2729;7862;3305;38766;702;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::24;34849;5676;82722;8639;4312;2926;8130;3788;39570;725;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::25;35158;5890;85076;9075;4566;3089;8409;4051;40877;780;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::26;34567;5786;81642;8654;4376;2990;8163;3882;38877;742;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::27;34223;5676;81433;8721;4360;3001;8161;3828;38744;728;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::28;34899;6054;81301;8985;4451;3047;8323;4196;38704;719;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::29;33790;5900;79255;8576;4305;2908;8027;3983;37562;669;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::30;33379;5965;79144;8681;4281;2907;8029;4044;37447;666;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::31;33607;5946;78933;8599;4262;2885;7975;4021;37303;658;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::32;33093;5848;78694;8446;4249;2845;7921;3963;37171;647;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::33;1489;784;577;722;490;235;347;846;444;3;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::34;1080;644;329;565;376;176;241;642;311;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::35;898;559;251;468;343;177;206;536;219;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::36;688;426;192;357;258;148;174;495;191;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::37;538;350;164;312;206;129;143;379;119;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::38;452;293;128;244;175;106;144;355;102;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::39;373;272;123;218;136;96;122;288;93;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::40;337;238;117;192;103;66;138;289;78;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::41;308;188;98;157;90;55;111;266;62;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::42;297;189;88;141;80;38;112;267;66;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::43;275;159;78;130;79;34;105;263;65;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::44;276;163;77;132;71;33;87;209;61;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::45;257;129;70;117;49;32;76;214;58;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::46;235;131;69;119;38;32;73;200;48;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::47;225;137;70;109;50;31;76;174;46;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::48;242;136;73;110;57;29;75;148;41;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::49;198;133;80;105;51;30;68;129;38;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::50;179;128;79;89;49;40;57;120;26;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::51;167;121;77;96;46;41;55;122;24;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::52;160;99;71;91;51;61;46;109;25;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::53;160;86;68;109;60;71;48;106;23;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::54;147;86;67;114;49;64;47;118;28;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::55;131;67;62;108;50;59;48;105;25;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::56;131;60;60;114;51;47;51;125;49;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::57;141;65;61;120;52;50;68;121;51;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::58;148;80;61;131;72;60;69;123;66;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::59;133;81;51;108;67;47;77;132;68;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::60;123;87;40;92;64;39;72;113;54;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::61;119;95;32;93;56;43;59;83;46;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::62;84;83;33;60;40;32;43;57;23;0;What write queue length does an incoming req see 
+system.mem_ctrls.wrQLenPdf::63;93;85;31;88;62;28;46;63;34;0;What write queue length does an incoming req see 
+system.mem_ctrls.bytesPerActivate::samples;1112575;89277;1016199;97864;46631;105754;126236;66683;1056576;9621;Bytes accessed per row activation 
+system.mem_ctrls.bytesPerActivate::mean;277.266989;235.968503;275.971584;289.214420;273.943771;247.830701;202.902247;232.453129;100.174450;251.749298;Bytes accessed per row activation 
+system.mem_ctrls.bytesPerActivate::gmean;161.382107;151.637464;148.026318;173.325473;168.577989;162.114011;135.508445;146.761810;76.320169;149.114810;Bytes accessed per row activation 
+system.mem_ctrls.bytesPerActivate::stdev;316.689039;260.563040;339.133418;316.269545;302.655880;258.663022;225.898393;263.737827;151.273011;297.750265;Bytes accessed per row activation 
+system.mem_ctrls.bytesPerActivate::0-127;465231;35302;526559;35608;15877;37836;53429;28326;905596;4283;Bytes accessed per row activation 
+system.mem_ctrls.bytesPerActivate::128-255;288599;26648;179705;26984;15251;31794;42017;18949;107002;2535;Bytes accessed per row activation 
+system.mem_ctrls.bytesPerActivate::256-383;87709;10403;74374;10505;4778;14250;11534;7020;10205;827;Bytes accessed per row activation 
+system.mem_ctrls.bytesPerActivate::384-511;53965;5120;30969;5043;2394;5405;5194;3307;4005;382;Bytes accessed per row activation 
+system.mem_ctrls.bytesPerActivate::512-639;40442;2888;23459;3997;1547;5721;3623;2261;2507;307;Bytes accessed per row activation 
+system.mem_ctrls.bytesPerActivate::640-767;23244;1676;19678;2035;971;2241;3708;1256;1653;167;Bytes accessed per row activation 
+system.mem_ctrls.bytesPerActivate::768-895;18718;1135;13743;1549;675;1581;2255;898;1489;144;Bytes accessed per row activation 
+system.mem_ctrls.bytesPerActivate::896-1023;16273;874;13175;1391;597;1594;651;736;2241;128;Bytes accessed per row activation 
+system.mem_ctrls.bytesPerActivate::1024-1151;118394;5231;134537;10752;4541;5332;3825;3930;21878;848;Bytes accessed per row activation 
+system.mem_ctrls.bytesPerActivate::total;1112575;89277;1016199;97864;46631;105754;126236;66683;1056576;9621;Bytes accessed per row activation 
+system.mem_ctrls.rdPerTurnAround::samples;32050;5373;78303;7978;3959;2715;7773;3545;36878;646;Reads before turning the bus around for writes 
+system.mem_ctrls.rdPerTurnAround::mean;133.757910;44.143123;39.297422;38.542492;33.911594;134.294659;34.132381;51.374330;27.366560;42.311146;Reads before turning the bus around for writes 
+system.mem_ctrls.rdPerTurnAround::stdev;5765.900308;117.363911;24.204573;81.500775;68.834921;345.142060;93.886637;79.407119;144.218800;40.651105;Reads before turning the bus around for writes 
+system.mem_ctrls.rdPerTurnAround::0-32767;32049;;;;;;;;;;Reads before turning the bus around for writes 
+system.mem_ctrls.rdPerTurnAround::1.01581e+06-1.04858e+06;1;;;;;;;;;;Reads before turning the bus around for writes 
+system.mem_ctrls.rdPerTurnAround::total;32050;5373;78303;7978;3959;2715;7773;3545;36878;646;Reads before turning the bus around for writes 
+system.mem_ctrls.wrPerTurnAround::samples;32050;5373;78303;7978;3959;2715;7773;3545;36878;646;Writes before turning the bus around for reads 
+system.mem_ctrls.wrPerTurnAround::mean;16.632231;17.110739;16.663461;16.896215;16.497348;16.546961;17.351087;16.943583;17.478524;16.272446;Writes before turning the bus around for reads 
+system.mem_ctrls.wrPerTurnAround::gmean;16.487637;16.951080;16.627423;16.806806;16.404248;16.461915;17.270902;16.732440;17.436089;16.257843;Writes before turning the bus around for reads 
+system.mem_ctrls.wrPerTurnAround::stdev;3.968510;3.249122;1.209407;2.161119;2.341473;2.348957;2.255630;3.800867;1.488087;0.713165;Writes before turning the bus around for reads 
+system.mem_ctrls.wrPerTurnAround::16-19;31698;;;;;;;;36615;;Writes before turning the bus around for reads 
+system.mem_ctrls.wrPerTurnAround::20-23;154;;;;;;;;215;;Writes before turning the bus around for reads 
+system.mem_ctrls.wrPerTurnAround::24-27;30;;;;;;;;9;;Writes before turning the bus around for reads 
+system.mem_ctrls.wrPerTurnAround::28-31;58;;;;;;;;10;;Writes before turning the bus around for reads 
+system.mem_ctrls.wrPerTurnAround::32-35;16;;;;;;;;12;;Writes before turning the bus around for reads 
+system.mem_ctrls.wrPerTurnAround::36-39;10;;;;;;;;6;;Writes before turning the bus around for reads 
+system.mem_ctrls.wrPerTurnAround::40-43;7;;;;;;;;1;;Writes before turning the bus around for reads 
+system.mem_ctrls.wrPerTurnAround::44-47;7;;;;;;;;3;;Writes before turning the bus around for reads 
+system.mem_ctrls.wrPerTurnAround::48-51;5;;;;;;;;1;;Writes before turning the bus around for reads 
+system.mem_ctrls.wrPerTurnAround::52-55;2;;;;;;;;2;;Writes before turning the bus around for reads 
+system.mem_ctrls.wrPerTurnAround::56-59;4;;;;;;;;;;Writes before turning the bus around for reads 
+system.mem_ctrls.wrPerTurnAround::60-63;1;;;;;;;;;;Writes before turning the bus around for reads 
+system.mem_ctrls.wrPerTurnAround::64-67;3;;;;;;;;;;Writes before turning the bus around for reads 
+system.mem_ctrls.wrPerTurnAround::68-71;1;;;;;;;;;;Writes before turning the bus around for reads 
+system.mem_ctrls.wrPerTurnAround::76-79;2;;;;;;;;;;Writes before turning the bus around for reads 
+system.mem_ctrls.wrPerTurnAround::80-83;5;;;;;;;;2;;Writes before turning the bus around for reads 
+system.mem_ctrls.wrPerTurnAround::84-87;2;;;;;;;;;;Writes before turning the bus around for reads 
+system.mem_ctrls.wrPerTurnAround::92-95;3;;;;;;;;1;;Writes before turning the bus around for reads 
+system.mem_ctrls.wrPerTurnAround::96-99;31;;;;;;;;;;Writes before turning the bus around for reads 
+system.mem_ctrls.wrPerTurnAround::100-103;1;;;;;;;;;;Writes before turning the bus around for reads 
+system.mem_ctrls.wrPerTurnAround::116-119;1;;;;;;;;;;Writes before turning the bus around for reads 
+system.mem_ctrls.wrPerTurnAround::128-131;1;;;;;;;;;;Writes before turning the bus around for reads 
+system.mem_ctrls.wrPerTurnAround::136-139;1;;;;;;;;;;Writes before turning the bus around for reads 
+system.mem_ctrls.wrPerTurnAround::140-143;1;;;;;;;;1;;Writes before turning the bus around for reads 
+system.mem_ctrls.wrPerTurnAround::144-147;4;;;;;;;;;;Writes before turning the bus around for reads 
+system.mem_ctrls.wrPerTurnAround::148-151;1;;;;;;;;;;Writes before turning the bus around for reads 
+system.mem_ctrls.wrPerTurnAround::160-163;1;;;;;;;;;;Writes before turning the bus around for reads 
+system.mem_ctrls.wrPerTurnAround::total;32050;5373;78303;7978;3959;2715;7773;3545;36878;646;Writes before turning the bus around for reads 
+system.mem_ctrls.totQLat;41337052500;3143834876;39481446600;4164856500;2220719225;3468345925;3247455325;2429469400;18784582775;445476900;Total ticks spent queuing 
+system.mem_ctrls.totMemAccLat;121717965000;7591278626;97177202850;9929769000;4738731725;10304370925;8222430325;5844313150;37707251525;958045650;Total ticks spent from burst creation until serviced by the DRAM 
+system.mem_ctrls.totBusLat;21434910000;1185985000;15385535000;1537310000;671470000;1822940000;1326660000;910625000;5046045000;136685000;Total ticks spent in databus transfers 
+system.mem_ctrls.avgQLat;9642.46;13254.11;12830.70;13545.92;16536.25;9513.06;12239.21;13339.57;18613.17;16295.75;Average queueing delay per DRAM burst 
+system.mem_ctrls.avgBusLat;5000.00;5000.00;5000.00;5000.00;5000.00;5000.00;5000.00;5000.00;5000.00;5000.00;Average bus latency per DRAM burst 
+system.mem_ctrls.avgMemAccLat;28392.46;32004.11;31580.70;32295.92;35286.25;28263.06;30989.21;32089.57;37363.17;35045.75;Average memory access latency per DRAM burst 
+system.mem_ctrls.avgRdBW;106.45;178.24;417.24;195.96;331.16;60.41;104.78;282.53;82.70;662.60;Average DRAM read bandwidth in MiByte/s 
+system.mem_ctrls.avgWrBW;13.24;69.08;176.92;85.91;161.06;7.44;53.26;93.18;52.82;254.79;Average achieved write bandwidth in MiByte/s 
+system.mem_ctrls.avgRdBWSys;107.37;181.69;423.75;197.31;334.20;60.85;105.23;287.34;85.39;666.43;Average system read bandwidth in MiByte/s 
+system.mem_ctrls.avgWrBWSys;13.40;69.71;179.17;86.03;161.35;7.54;53.32;94.28;53.03;255.13;Average system write bandwidth in MiByte/s 
+system.mem_ctrls.peakBW;12800.00;12800.00;12800.00;12800.00;12800.00;12800.00;12800.00;12800.00;12800.00;12800.00;Theoretical peak bandwidth in MiByte/s 
+system.mem_ctrls.busUtil;0.94;1.93;4.64;2.20;3.85;0.53;1.23;2.94;1.06;7.17;Data bus utilization in percentage 
+system.mem_ctrls.busUtilRead;0.83;1.39;3.26;1.53;2.59;0.47;0.82;2.21;0.65;5.18;Data bus utilization in percentage for reads 
+system.mem_ctrls.busUtilWrite;0.10;0.54;1.38;0.67;1.26;0.06;0.42;0.73;0.41;1.99;Data bus utilization in percentage for writes 
+system.mem_ctrls.avgRdQLen;1.03;1.08;1.25;1.09;1.16;1.01;1.04;1.10;1.04;1.31;Average read queue length when enqueuing 
+system.mem_ctrls.avgWrQLen;25.72;24.91;24.88;24.82;25.46;25.39;24.78;25.46;24.91;25.33;Average write queue length when enqueuing 
+system.mem_ctrls.readRowHits;3341983;166381;2361783;230283;98297;269201;188102;126726;394386;19817;Number of row buffer hits during reads 
+system.mem_ctrls.writeRowHits;365474;73484;1003924;114108;54675;34563;85865;48786;202818;8409;Number of row buffer hits during writes 
+system.mem_ctrls.readRowHitRate;77.96;70.14;76.75;74.90;73.20;73.84;70.89;69.58;39.08;72.49;Row buffer hit rate for reads 
+system.mem_ctrls.writeRowHitRate;68.56;79.93;76.94;84.65;83.70;76.95;63.66;81.22;31.47;80.01;Row buffer hit rate for writes 
+system.mem_ctrls.avgGap;529948.79;254573.79;106150.41;225879.02;129150.25;935810.16;403665.84;167708.77;462358.24;69447.11;Average gap between requests 
+system.mem_ctrls.pageHitRate;76.92;72.88;76.81;77.87;76.63;74.18;68.46;72.47;36.11;74.58;Row buffer hit rate, read and write combined 
+system.mem_ctrls.memoryStateTime::IDLE;2164705471350;30059456775;14455320650;28575459525;11390473925;299163637150;75424373250;20324280000;330347107575;52220975;Time in different power states 
+system.mem_ctrls.memoryStateTime::REF;86064420000;2844140000;15760940000;3352960000;866580000;12897560000;5411900000;1377740000;26079820000;88140000;Time in different power states 
+system.mem_ctrls.memoryStateTime::PRE_PDN;0;0;0;0;0;0;0;0;0;0;Time in different power states 
+system.mem_ctrls.memoryStateTime::ACT;326611988250;52269702375;441778428100;68483280650;13694297150;74183569525;81234471325;19557318750;424588494375;2499134575;Time in different power states 
+system.mem_ctrls.memoryStateTime::ACT_PDN;0;0;0;0;0;0;0;0;0;0;Time in different power states 
+system.mem_ctrls.actEnergy::0;3105353160;3404729160;7287756840;7586172720;7748410320;8122237200;8579912040;8788983840;12805695000;12839442840;Energy for activate commands per rank (pJ) 
+system.mem_ctrls.actEnergy::1;5305615560;5681264400;9480701160;9922091760;10112369400;10538103240;11034757440;11329831800;15300827640;15339791880;Energy for activate commands per rank (pJ) 
+system.mem_ctrls.preEnergy::0;1694389125;1857739125;3976454625;4139280750;4227803250;4431776250;4681499625;4795576500;6987234375;7005648375;Energy for precharge commands per rank (pJ) 
+system.mem_ctrls.preEnergy::1;2894929125;3099896250;5173001625;5413839750;5517661875;5749957125;6020949000;6181951875;8348665875;8369926125;Energy for precharge commands per rank (pJ) 
+system.mem_ctrls.readEnergy::0;14845669800;15684466200;27673510800;28700107800;29208956400;30611973600;31604352000;32217244800;36129288000;36234853200;Energy for read commands per rank (pJ) 
+system.mem_ctrls.readEnergy::1;18592282800;19603942800;31616340600;32987822400;33526272000;34967205000;36044463000;36852363600;40812010200;40919619000;Energy for read commands per rank (pJ) 
+system.mem_ctrls.writeEnergy::0;1408570560;1700747280;5935206960;6342189840;6560138160;6699114720;7143033600;7327234080;9538728480;9576798480;Energy for write commands per rank (pJ) 
+system.mem_ctrls.writeEnergy::1;2045561040;2349246240;6569884080;7036288560;7241672160;7393809600;7823848320;8028869040;9994207680;10024255440;Energy for write commands per rank (pJ) 
+system.mem_ctrls.refreshEnergy::0;168342005520;173905143360;204733542000;211291931760;212986962240;238214589600;248800266000;251495125440;302507253360;302679655200;Energy for refresh commands per rank (pJ) 
+system.mem_ctrls.refreshEnergy::1;168342005520;173905143360;204733542000;211291931760;212986962240;238214589600;248800266000;251495125440;302507253360;302679655200;Energy for refresh commands per rank (pJ) 
+system.mem_ctrls.actBackEnergy::0;238755163275;267510484800;531104389020;566178660720;574910988615;622990239525;667526433705;680898672180;955591495560;957260078505;Energy for active background per rank (pJ) 
+system.mem_ctrls.actBackEnergy::1;249174745605;278413427700;539299400715;578764624095;587025284400;628677869670;672285339765;685114438635;959135944230;960799257810;Energy for active background per rank (pJ) 
+system.mem_ctrls.preBackEnergy::0;1336994472000;1362874779000;1414848869250;1444328852250;1452239858250;1641811937250;1699987546500;1713013116000;1940663726250;1940783780250;Energy for precharge background per rank (pJ) 
+system.mem_ctrls.preBackEnergy::1;1327854487500;1353310794000;1407660262500;1433288533500;1441613283000;1636822788000;1695813067500;1709315075250;1937554560750;1937679237000;Energy for precharge background per rank (pJ) 
+system.mem_ctrls.totalEnergy::0;1765145623440;1826938088925;2195559729495;2268567195840;2287883117235;2552881868145;2668323043470;2698535952840;3264223421025;3266380256850;Total energy per rank (pJ) 
+system.mem_ctrls.totalEnergy::1;1774209627150;1836363714750;2204533132680;2278705131825;2298023505075;2562364322235;2677822691025;2708317655640;3273653469735;3275811742455;Total energy per rank (pJ) 
+system.mem_ctrls.averagePower::0;684.860083;686.159713;700.438606;701.265629;701.608164;699.964766;700.489115;700.829641;704.787048;704.851035;Core power per rank (mW) 
+system.mem_ctrls.averagePower::1;688.376832;689.699781;703.301346;704.399496;704.717842;702.564724;702.982966;703.370022;706.823114;706.886251;Core power per rank (mW) 
+system.membus.trans_dist::ReadReq;4003406;204597;2419676;232970;97361;339441;242115;159758;457279;18403;Transaction distribution 
+system.membus.trans_dist::ReadResp;4003089;204595;2419676;232968;97358;339440;242115;159754;457279;18404;Transaction distribution 
+system.membus.trans_dist::WriteReq;10575;1021;2191;2070;1562;1122;1650;1197;2190;3;Transaction distribution 
+system.membus.trans_dist::WriteResp;10575;1021;2191;2070;1562;1122;1650;1197;2190;3;Transaction distribution 
+system.membus.trans_dist::Writeback;495296;70366;1308216;113407;53913;37394;124013;35685;636179;10526;Transaction distribution 
+system.membus.trans_dist::WriteInvalidateReq;44256;22400;13120;21568;11520;8128;11008;25088;10944;;Transaction distribution 
+system.membus.trans_dist::WriteInvalidateResp;44256;22400;13120;21568;11520;8128;11008;25088;10944;;Transaction distribution 
+system.membus.trans_dist::UpgradeReq;863;27;30;36;17;61;10;50;14;1;Transaction distribution 
+system.membus.trans_dist::SCUpgradeReq;18;3;;6;;2;;4;;;Transaction distribution 
+system.membus.trans_dist::UpgradeResp;881;30;30;42;17;63;10;54;14;1;Transaction distribution 
+system.membus.trans_dist::ReadExReq;329440;38226;709232;80162;41468;28530;27645;26673;587690;9093;Transaction distribution 
+system.membus.trans_dist::ReadExResp;329440;38226;709232;80162;41468;28530;27645;26673;587690;9093;Transaction distribution 
+system.membus.trans_dist::BadAddressError;317;2;;2;1;1;;4;;;Transaction distribution 
+system.membus.pkt_count_system.iocache.mem_side::system.mem_ctrls.port;88795;44867;26274;43203;23069;16293;22044;50252;21918;;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.iocache.mem_side::total;88795;44867;26274;43203;23069;16293;22044;50252;21918;;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.cpu.icache.mem_side::system.mem_ctrls.port;2883584;180458;176367;194033;99454;576673;95914;235678;161397;20326;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.cpu.icache.mem_side::total;2883584;180458;176367;194033;99454;576673;95914;235678;161397;20326;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.cpu.dcache.mem_side::system.bridge.slave;36202;3964;11836;11098;9656;3572;9812;4616;10084;6;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.cpu.dcache.mem_side::system.mem_ctrls.port;6262108;373552;7382188;538615;225551;195330;561069;170579;2558979;45194;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.cpu.dcache.mem_side::system.membus.badaddr_responder.pio;634;4;;4;2;2;;8;;;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count_system.cpu.dcache.mem_side::total;6298944;377520;7394024;549717;235209;198904;570881;175203;2569063;45200;Packet count per connected master and slave (bytes) 
+system.membus.pkt_count::total;9271323;602845;7596665;786953;357732;791870;688839;461133;2752378;65526;Packet count per connected master and slave (bytes) 
+system.membus.pkt_size_system.iocache.mem_side::system.mem_ctrls.port;2837120;1433792;839680;1380544;737280;520192;704512;1605632;700480;;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.iocache.mem_side::total;2837120;1433792;839680;1380544;737280;520192;704512;1605632;700480;;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.cpu.icache.mem_side::system.mem_ctrls.port;92244160;5774400;5643264;6208512;3182272;18451776;3069184;7541184;5164480;650432;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.cpu.icache.mem_side::total;92244160;5774400;5643264;6208512;3182272;18451776;3069184;7541184;5164480;650432;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.cpu.dcache.mem_side::system.bridge.slave;47565;3995;10581;8364;6279;5791;7152;4424;11844;24;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.cpu.dcache.mem_side::system.mem_ctrls.port;216180544;14203456;278091008;20862016;8941760;7443136;21921984;6596992;102244160;1782976;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size_system.cpu.dcache.mem_side::total;216228109;14207451;278101589;20870380;8948039;7448927;21929136;6601416;102256004;1783000;Cumulative packet size per connected master and slave (bytes) 
+system.membus.pkt_size::total;311309389;21415643;284584533;28459436;12867591;26420895;25702832;15748232;108120964;2433432;Cumulative packet size per connected master and slave (bytes) 
+system.membus.snoops;1089;69;49;78;35;92;30;92;35;1;Total snoops (count) 
+system.membus.snoop_fanout::samples;4865783;334681;4446558;444695;201037;412903;401549;246171;1689268;38023;Request fanout histogram 
+system.membus.snoop_fanout::mean;2;2;2;2;2;2;2;2;2;2;Request fanout histogram 
+system.membus.snoop_fanout::stdev;0;0;0;0;0;0;0;0;0;0;Request fanout histogram 
+system.membus.snoop_fanout::underflows;0;0;0;0;0;0;0;0;0;0;Request fanout histogram 
+system.membus.snoop_fanout::0;0;0;0;0;0;0;0;0;0;0;Request fanout histogram 
+system.membus.snoop_fanout::1;0;0;0;0;0;0;0;0;0;0;Request fanout histogram 
+system.membus.snoop_fanout::2;4865783;334681;4446558;444695;201037;412903;401549;246171;1689268;38023;Request fanout histogram 
+system.membus.snoop_fanout::3;0;0;0;0;0;0;0;0;0;0;Request fanout histogram 
+system.membus.snoop_fanout::overflows;0;0;0;0;0;0;0;0;0;0;Request fanout histogram 
+system.membus.snoop_fanout::min_value;2;2;2;2;2;2;2;2;2;2;Request fanout histogram 
+system.membus.snoop_fanout::max_value;2;2;2;2;2;2;2;2;2;2;Request fanout histogram 
+system.membus.snoop_fanout::total;4865783;334681;4446558;444695;201037;412903;401549;246171;1689268;38023;Request fanout histogram 
+system.membus.reqLayer0.occupancy;37116825;3983150;10976800;10360125;8700825;3782625;8939100;4627975;9620300;7600;Layer occupancy (ticks) 
+system.membus.reqLayer0.utilization;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;Layer utilization (%) 
+system.membus.reqLayer1.occupancy;11355886169;1216690799;16942296325;1710737724;801226100;968312175;1658410100;831804950;7638049725;137998925;Layer occupancy (ticks) 
+system.membus.reqLayer1.utilization;0.4;1.4;3.6;1.7;3.1;0.3;1.0;2.0;1.0;5.2;Layer utilization (%) 
+system.membus.reqLayer2.occupancy;482875;2800;;2550;1800;1450;;6425;;;Layer occupancy (ticks) 
+system.membus.reqLayer2.utilization;0.0;0.0;;0.0;0.0;0.0;;0.0;;;Layer utilization (%) 
+system.membus.respLayer1.occupancy;46369701;23102262;13498073;22282854;11855149;8546513;11324029;25937753;11274001;;Layer occupancy (ticks) 
+system.membus.respLayer1.utilization;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.1;0.0;;Layer utilization (%) 
+system.membus.respLayer2.occupancy;13677079854;854928360;836150203;919336108;471099780;2732221737;454295407;1116775429;764850400;96271861;Layer occupancy (ticks) 
+system.membus.respLayer2.utilization;0.5;1.0;0.2;0.9;1.8;0.7;0.3;2.7;0.1;3.6;Layer utilization (%) 
+system.membus.respLayer3.occupancy;27094585716;1427256691;28419346285;2006559830;807805032;743825936;2067009436;636179644;9079021086;161712273;Layer occupancy (ticks) 
+system.membus.respLayer3.utilization;1.1;1.7;6.0;2.0;3.1;0.2;1.3;1.5;1.2;6.1;Layer utilization (%) 
+system.iocache.tags.replacements;44449;22463;13154;21632;11549;8165;11036;25164;10973;0;number of replacements 
+system.iocache.tags.tagsinuse;0.381927;15.998873;16;16;16;16;16;16;16;16;Cycle average of tags in use 
+system.iocache.tags.total_refs;0;0;0;0;0;0;0;0;0;0;Total number of references to valid blocks. 
+system.iocache.tags.sampled_refs;44449;22463;13154;21632;11549;8165;11036;25164;10973;16;Sample count of references to valid blocks. 
+system.iocache.tags.avg_refs;0;0;0;0;0;0;0;0;0;0;Average number of references to valid blocks. 
+system.iocache.tags.warmup_cycle;2515864696000;0;0;0;0;0;0;0;0;0;Cycle when the warmup percentage was hit. 
+system.iocache.tags.occ_blocks::tsunami.ide;0.381927;15.998873;16;16;16;16;16;16;16;16;Average occupied blocks per requestor 
+system.iocache.tags.occ_percent::tsunami.ide;0.023870;0.999930;1;1;1;1;1;1;1;1;Average percentage of cache occupancy 
+system.iocache.tags.occ_percent::total;0.023870;0.999930;1;1;1;1;1;1;1;1;Average percentage of cache occupancy 
+system.iocache.tags.occ_task_id_blocks::1023;16;16;16;16;16;16;16;16;16;16;Occupied blocks per task id 
+system.iocache.tags.age_task_id_blocks_1023::4;16;16;16;16;;16;;16;;;Occupied blocks per task id 
+system.iocache.tags.occ_task_id_percent::1023;1;1;1;1;1;1;1;1;1;1;Percentage of cache occupancy per task id 
+system.iocache.tags.tag_accesses;400265;202232;118386;194760;104149;73653;99340;226540;98797;0;Number of tag accesses 
+system.iocache.tags.data_accesses;400265;202232;118386;194760;104149;73653;99340;226540;98797;0;Number of data accesses 
+system.iocache.WriteInvalidateReq_hits::tsunami.ide;44256;22400;13120;21568;11520;8128;11008;25088;10944;;number of WriteInvalidateReq hits 
+system.iocache.WriteInvalidateReq_hits::total;44256;22400;13120;21568;11520;8128;11008;25088;10944;;number of WriteInvalidateReq hits 
+system.iocache.ReadReq_misses::tsunami.ide;209;64;34;64;29;37;28;76;29;;number of ReadReq misses 
+system.iocache.ReadReq_misses::total;209;64;34;64;29;37;28;76;29;;number of ReadReq misses 
+system.iocache.WriteInvalidateReq_misses::tsunami.ide;10;7;;9;26;21;2;8;5;;number of WriteInvalidateReq misses 
+system.iocache.WriteInvalidateReq_misses::total;10;7;;9;26;21;2;8;5;;number of WriteInvalidateReq misses 
+system.iocache.demand_misses::tsunami.ide;209;64;34;64;29;37;28;76;29;;number of demand (read+write) misses 
+system.iocache.demand_misses::total;209;64;34;64;29;37;28;76;29;;number of demand (read+write) misses 
+system.iocache.overall_misses::tsunami.ide;209;64;34;64;29;37;28;76;29;;number of overall misses 
+system.iocache.overall_misses::total;209;64;34;64;29;37;28;76;29;;number of overall misses 
+system.iocache.ReadReq_miss_latency::tsunami.ide;31647029;7344809;3748856;7522910;3200683;4094792;3086559;8373073;3535282;;number of ReadReq miss cycles 
+system.iocache.ReadReq_miss_latency::total;31647029;7344809;3748856;7522910;3200683;4094792;3086559;8373073;3535282;;number of ReadReq miss cycles 
+system.iocache.demand_miss_latency::tsunami.ide;31647029;7344809;3748856;7522910;3200683;4094792;3086559;8373073;3535282;;number of demand (read+write) miss cycles 
+system.iocache.demand_miss_latency::total;31647029;7344809;3748856;7522910;3200683;4094792;3086559;8373073;3535282;;number of demand (read+write) miss cycles 
+system.iocache.overall_miss_latency::tsunami.ide;31647029;7344809;3748856;7522910;3200683;4094792;3086559;8373073;3535282;;number of overall miss cycles 
+system.iocache.overall_miss_latency::total;31647029;7344809;3748856;7522910;3200683;4094792;3086559;8373073;3535282;;number of overall miss cycles 
+system.iocache.ReadReq_accesses::tsunami.ide;209;64;34;64;29;37;28;76;29;;number of ReadReq accesses(hits+misses) 
+system.iocache.ReadReq_accesses::total;209;64;34;64;29;37;28;76;29;;number of ReadReq accesses(hits+misses) 
+system.iocache.WriteInvalidateReq_accesses::tsunami.ide;44266;22407;13120;21577;11546;8149;11010;25096;10949;;number of WriteInvalidateReq accesses(hits+misses) 
+system.iocache.WriteInvalidateReq_accesses::total;44266;22407;13120;21577;11546;8149;11010;25096;10949;;number of WriteInvalidateReq accesses(hits+misses) 
+system.iocache.demand_accesses::tsunami.ide;209;64;34;64;29;37;28;76;29;;number of demand (read+write) accesses 
+system.iocache.demand_accesses::total;209;64;34;64;29;37;28;76;29;;number of demand (read+write) accesses 
+system.iocache.overall_accesses::tsunami.ide;209;64;34;64;29;37;28;76;29;;number of overall (read+write) accesses 
+system.iocache.overall_accesses::total;209;64;34;64;29;37;28;76;29;;number of overall (read+write) accesses 
+system.iocache.ReadReq_miss_rate::tsunami.ide;1;1;1;1;1;1;1;1;1;;miss rate for ReadReq accesses 
+system.iocache.ReadReq_miss_rate::total;1;1;1;1;1;1;1;1;1;;miss rate for ReadReq accesses 
+system.iocache.WriteInvalidateReq_miss_rate::tsunami.ide;0.000226;0.000312;;0.000417;0.002252;0.002577;0.000182;0.000319;0.000457;;miss rate for WriteInvalidateReq accesses 
+system.iocache.WriteInvalidateReq_miss_rate::total;0.000226;0.000312;;0.000417;0.002252;0.002577;0.000182;0.000319;0.000457;;miss rate for WriteInvalidateReq accesses 
+system.iocache.demand_miss_rate::tsunami.ide;1;1;1;1;1;1;1;1;1;;miss rate for demand accesses 
+system.iocache.demand_miss_rate::total;1;1;1;1;1;1;1;1;1;;miss rate for demand accesses 
+system.iocache.overall_miss_rate::tsunami.ide;1;1;1;1;1;1;1;1;1;;miss rate for overall accesses 
+system.iocache.overall_miss_rate::total;1;1;1;1;1;1;1;1;1;;miss rate for overall accesses 
+system.iocache.ReadReq_avg_miss_latency::tsunami.ide;151421.191388;114762.640625;110260.470588;117545.468750;110368.379310;110670.054054;110234.250000;110172.013158;121906.275862;;average ReadReq miss latency 
+system.iocache.ReadReq_avg_miss_latency::total;151421.191388;114762.640625;110260.470588;117545.468750;110368.379310;110670.054054;110234.250000;110172.013158;121906.275862;;average ReadReq miss latency 
+system.iocache.demand_avg_miss_latency::tsunami.ide;151421.191388;114762.640625;110260.470588;117545.468750;110368.379310;110670.054054;110234.250000;110172.013158;121906.275862;;average overall miss latency 
+system.iocache.demand_avg_miss_latency::total;151421.191388;114762.640625;110260.470588;117545.468750;110368.379310;110670.054054;110234.250000;110172.013158;121906.275862;;average overall miss latency 
+system.iocache.overall_avg_miss_latency::tsunami.ide;151421.191388;114762.640625;110260.470588;117545.468750;110368.379310;110670.054054;110234.250000;110172.013158;121906.275862;;average overall miss latency 
+system.iocache.overall_avg_miss_latency::total;151421.191388;114762.640625;110260.470588;117545.468750;110368.379310;110670.054054;110234.250000;110172.013158;121906.275862;;average overall miss latency 
+system.iocache.blocked_cycles::no_mshrs;429;0;0;0;0;0;0;0;0;0;number of cycles access was blocked 
+system.iocache.blocked_cycles::no_targets;0;0;0;0;0;0;0;0;0;0;number of cycles access was blocked 
+system.iocache.blocked::no_mshrs;45;0;0;0;0;0;0;0;0;0;number of cycles access was blocked 
+system.iocache.blocked::no_targets;0;0;0;0;0;0;0;0;0;0;number of cycles access was blocked 
+system.iocache.avg_blocked_cycles::no_mshrs;9.533333;nan;nan;nan;nan;nan;nan;nan;nan;nan;average number of cycles each access was blocked 
+system.iocache.avg_blocked_cycles::no_targets;nan;nan;nan;nan;nan;nan;nan;nan;nan;nan;average number of cycles each access was blocked 
+system.iocache.fast_writes;44256;22400;13120;21568;11520;8128;11008;25088;10944;0;number of fast writes performed 
+system.iocache.cache_copies;0;0;0;0;0;0;0;0;0;0;number of cache copies performed 
+system.iocache.ReadReq_mshr_misses::tsunami.ide;209;64;34;64;29;37;28;76;29;;number of ReadReq MSHR misses 
+system.iocache.ReadReq_mshr_misses::total;209;64;34;64;29;37;28;76;29;;number of ReadReq MSHR misses 
+system.iocache.WriteInvalidateReq_mshr_misses::tsunami.ide;44256;22400;13120;21568;11520;8128;11008;25088;10944;;number of WriteInvalidateReq MSHR misses 
+system.iocache.WriteInvalidateReq_mshr_misses::total;44256;22400;13120;21568;11520;8128;11008;25088;10944;;number of WriteInvalidateReq MSHR misses 
+system.iocache.demand_mshr_misses::tsunami.ide;209;64;34;64;29;37;28;76;29;;number of demand (read+write) MSHR misses 
+system.iocache.demand_mshr_misses::total;209;64;34;64;29;37;28;76;29;;number of demand (read+write) MSHR misses 
+system.iocache.overall_mshr_misses::tsunami.ide;209;64;34;64;29;37;28;76;29;;number of overall MSHR misses 
+system.iocache.overall_mshr_misses::total;209;64;34;64;29;37;28;76;29;;number of overall MSHR misses 
+system.iocache.ReadReq_mshr_miss_latency::tsunami.ide;20629329;3955109;1945106;4133010;1663283;2127142;1601409;4344823;1994682;;number of ReadReq MSHR miss cycles 
+system.iocache.ReadReq_mshr_miss_latency::total;20629329;3955109;1945106;4133010;1663283;2127142;1601409;4344823;1994682;;number of ReadReq MSHR miss cycles 
+system.iocache.WriteInvalidateReq_mshr_miss_latency::tsunami.ide;2975616989;1552715687;910531288;1503361947;814462402;586934964;764666094;1736818857;772103129;;number of WriteInvalidateReq MSHR miss cycles 
+system.iocache.WriteInvalidateReq_mshr_miss_latency::total;2975616989;1552715687;910531288;1503361947;814462402;586934964;764666094;1736818857;772103129;;number of WriteInvalidateReq MSHR miss cycles 
+system.iocache.demand_mshr_miss_latency::tsunami.ide;20629329;3955109;1945106;4133010;1663283;2127142;1601409;4344823;1994682;;number of demand (read+write) MSHR miss cycles 
+system.iocache.demand_mshr_miss_latency::total;20629329;3955109;1945106;4133010;1663283;2127142;1601409;4344823;1994682;;number of demand (read+write) MSHR miss cycles 
+system.iocache.overall_mshr_miss_latency::tsunami.ide;20629329;3955109;1945106;4133010;1663283;2127142;1601409;4344823;1994682;;number of overall MSHR miss cycles 
+system.iocache.overall_mshr_miss_latency::total;20629329;3955109;1945106;4133010;1663283;2127142;1601409;4344823;1994682;;number of overall MSHR miss cycles 
+system.iocache.ReadReq_mshr_miss_rate::tsunami.ide;1;1;1;1;1;1;1;1;1;;mshr miss rate for ReadReq accesses 
+system.iocache.ReadReq_mshr_miss_rate::total;1;1;1;1;1;1;1;1;1;;mshr miss rate for ReadReq accesses 
+system.iocache.WriteInvalidateReq_mshr_miss_rate::tsunami.ide;0.999774;0.999688;1;0.999583;0.997748;0.997423;0.999818;0.999681;0.999543;;mshr miss rate for WriteInvalidateReq accesses 
+system.iocache.WriteInvalidateReq_mshr_miss_rate::total;0.999774;0.999688;1;0.999583;0.997748;0.997423;0.999818;0.999681;0.999543;;mshr miss rate for WriteInvalidateReq accesses 
+system.iocache.demand_mshr_miss_rate::tsunami.ide;1;1;1;1;1;1;1;1;1;;mshr miss rate for demand accesses 
+system.iocache.demand_mshr_miss_rate::total;1;1;1;1;1;1;1;1;1;;mshr miss rate for demand accesses 
+system.iocache.overall_mshr_miss_rate::tsunami.ide;1;1;1;1;1;1;1;1;1;;mshr miss rate for overall accesses 
+system.iocache.overall_mshr_miss_rate::total;1;1;1;1;1;1;1;1;1;;mshr miss rate for overall accesses 
+system.iocache.ReadReq_avg_mshr_miss_latency::tsunami.ide;98704.923445;61798.578125;57209;64578.281250;57354.586207;57490.324324;57193.178571;57168.723684;68782.137931;;average ReadReq mshr miss latency 
+system.iocache.ReadReq_avg_mshr_miss_latency::total;98704.923445;61798.578125;57209;64578.281250;57354.586207;57490.324324;57193.178571;57168.723684;68782.137931;;average ReadReq mshr miss latency 
+system.iocache.WriteInvalidateReq_avg_mshr_miss_latency::tsunami.ide;67236.464864;69317.664598;69400.250610;69703.354368;70699.861285;72211.486713;69464.579760;69229.067961;70550.359010;;average WriteInvalidateReq mshr miss latency 
+system.iocache.WriteInvalidateReq_avg_mshr_miss_latency::total;67236.464864;69317.664598;69400.250610;69703.354368;70699.861285;72211.486713;69464.579760;69229.067961;70550.359010;;average WriteInvalidateReq mshr miss latency 
+system.iocache.demand_avg_mshr_miss_latency::tsunami.ide;98704.923445;61798.578125;57209;64578.281250;57354.586207;57490.324324;57193.178571;57168.723684;68782.137931;;average overall mshr miss latency 
+system.iocache.demand_avg_mshr_miss_latency::total;98704.923445;61798.578125;57209;64578.281250;57354.586207;57490.324324;57193.178571;57168.723684;68782.137931;;average overall mshr miss latency 
+system.iocache.overall_avg_mshr_miss_latency::tsunami.ide;98704.923445;61798.578125;57209;64578.281250;57354.586207;57490.324324;57193.178571;57168.723684;68782.137931;;average overall mshr miss latency 
+system.iocache.overall_avg_mshr_miss_latency::total;98704.923445;61798.578125;57209;64578.281250;57354.586207;57490.324324;57193.178571;57168.723684;68782.137931;;average overall mshr miss latency 
+system.iocache.no_allocate_misses;0;0;0;0;0;0;0;0;0;0;Number of misses that were no-allocate 
+system.disk0.dma_read_full_pages;0;0;0;0;0;0;0;0;0;0;Number of full page size DMA reads (not PRD). 
+system.disk0.dma_read_bytes;4096;0;0;0;0;0;0;0;0;0;Number of bytes transfered via DMA reads (not PRD). 
+system.disk0.dma_read_txs;1;0;0;0;0;0;0;0;0;0;Number of DMA read transactions (not PRD). 
+system.disk0.dma_write_full_pages;326;171;101;165;89;60;85;191;84;0;Number of full page size DMA writes. 
+system.disk0.dma_write_bytes;2824192;1433600;839680;1380352;737280;520192;704512;1605632;700416;0;Number of bytes transfered via DMA writes. 
+system.disk0.dma_write_txs;365;179;104;172;91;67;87;201;87;0;Number of DMA write transactions. 
+system.disk2.dma_read_full_pages;0;0;0;0;0;0;0;0;0;0;Number of full page size DMA reads (not PRD). 
+system.disk2.dma_read_bytes;0;0;0;0;0;0;0;0;0;0;Number of bytes transfered via DMA reads (not PRD). 
+system.disk2.dma_read_txs;0;0;0;0;0;0;0;0;0;0;Number of DMA read transactions (not PRD). 
+system.disk2.dma_write_full_pages;1;0;0;0;0;0;0;0;0;0;Number of full page size DMA writes. 
+system.disk2.dma_write_bytes;8192;0;0;0;0;0;0;0;0;0;Number of bytes transfered via DMA writes. 
+system.disk2.dma_write_txs;1;0;0;0;0;0;0;0;0;0;Number of DMA write transactions. 
+system.cpu.branchPred.lookups;27361737;9683562;28446772;13378709;2275275;20322205;14216734;3628185;33453441;194521;Number of BP lookups 
+system.cpu.branchPred.condPredicted;23200781;8045106;27844430;11874407;1649004;19268153;13426419;3154379;32988963;157956;Number of conditional branches predicted 
+system.cpu.branchPred.condIncorrect;609334;402326;140351;405873;50864;547535;594599;405727;44169;8421;Number of conditional branches incorrect 
+system.cpu.branchPred.BTBLookups;18149972;7492605;12493440;8307826;1615577;14184510;12521903;2678370;9643712;135874;Number of BTB lookups 
+system.cpu.branchPred.BTBHits;10451789;7002578;9541615;6951388;1275506;12532609;12109343;2340798;8857221;85342;Number of BTB hits 
+system.cpu.branchPred.BTBCorrect;0;0;0;0;0;0;0;0;0;0;Number of correct BTB predictions (this stat may not work properly. 
+system.cpu.branchPred.BTBHitPct;57.585703;93.459858;76.373001;83.672768;78.950493;88.354191;96.705293;87.396364;91.844520;62.809662;BTB Hit Percentage 
+system.cpu.branchPred.usedRAS;1701154;328419;170408;445828;239505;397645;366576;125063;160456;12871;Number of times the RAS was used to get a target. 
+system.cpu.branchPred.RASInCorrect;37958;3022;3045;3304;1713;3975;1968;2990;3942;354;Number of incorrect RAS predictions. 
+system.cpu_voltage_domain.voltage;1;1;1;1;1;1;1;1;1;1;Voltage in Volts 
+system.cpu_clk_domain.clock;2825;2825;2825;2825;2825;2825;2825;2825;2825;2825;Clock period in ticks 
+system.cpu.dtb.fetch_hits;0;0;0;0;0;0;0;0;0;0;ITB hits 
+system.cpu.dtb.fetch_misses;0;0;0;0;0;0;0;0;0;0;ITB misses 
+system.cpu.dtb.fetch_acv;0;0;0;0;0;0;0;0;0;0;ITB acv 
+system.cpu.dtb.fetch_accesses;0;0;0;0;0;0;0;0;0;0;ITB accesses 
+system.cpu.dtb.read_hits;17384619;13228248;48038706;11666007;3141176;64472199;23161571;2445396;46063307;175838;DTB read hits 
+system.cpu.dtb.read_misses;81080;9356;8655655;12043;8836;12864;33648;8820;508376;2955;DTB read misses 
+system.cpu.dtb.read_acv;238;75;50;74;47;91;48;77;51;27;DTB read access violations 
+system.cpu.dtb.read_accesses;1172822;12608534;55458105;10831512;2648710;63595612;22632658;1486794;45309540;59998;DTB read accesses 
+system.cpu.dtb.write_hits;8697623;4468801;8448261;3469196;1830274;30791631;10484553;1027032;9420790;139395;DTB write hits 
+system.cpu.dtb.write_misses;13317;2966;692377;5845;4490;3428;2325;2673;3207000;1350;DTB write misses 
+system.cpu.dtb.write_acv;536;198;111;219;108;190;108;201;105;57;DTB write access violations 
+system.cpu.dtb.write_accesses;414726;3987219;7382363;2673723;1397404;30211880;10028551;358478;10774981;26820;DTB write accesses 
+system.cpu.dtb.data_hits;26082242;17697049;56486967;15135203;4971450;95263830;33646124;3472428;55484097;315233;DTB hits 
+system.cpu.dtb.data_misses;94397;12322;9348032;17888;13326;16292;35973;11493;3715376;4305;DTB misses 
+system.cpu.dtb.data_acv;774;273;161;293;155;281;156;278;156;84;DTB access violations 
+system.cpu.dtb.data_accesses;1587548;16595753;62840468;13505235;4046114;93807492;32661209;1845272;56084521;86818;DTB accesses 
+system.cpu.itb.fetch_hits;2143499;9731492;26700751;8096266;2169956;37555945;22065825;2996100;23091408;54166;ITB hits 
+system.cpu.itb.fetch_misses;28443;13369;30354;19177;12295;20744;15329;14030;36621;2042;ITB misses 
+system.cpu.itb.fetch_acv;732;424;324;586;314;960;301;260;810;31;ITB acv 
+system.cpu.itb.fetch_accesses;2171942;9744861;26731105;8115443;2182251;37576689;22081154;3010130;23128029;56208;ITB accesses 
+system.cpu.itb.read_hits;0;0;0;0;0;0;0;0;0;0;DTB read hits 
+system.cpu.itb.read_misses;0;0;0;0;0;0;0;0;0;0;DTB read misses 
+system.cpu.itb.read_acv;0;0;0;0;0;0;0;0;0;0;DTB read access violations 
+system.cpu.itb.read_accesses;0;0;0;0;0;0;0;0;0;0;DTB read accesses 
+system.cpu.itb.write_hits;0;0;0;0;0;0;0;0;0;0;DTB write hits 
+system.cpu.itb.write_misses;0;0;0;0;0;0;0;0;0;0;DTB write misses 
+system.cpu.itb.write_acv;0;0;0;0;0;0;0;0;0;0;DTB write access violations 
+system.cpu.itb.write_accesses;0;0;0;0;0;0;0;0;0;0;DTB write accesses 
+system.cpu.itb.data_hits;0;0;0;0;0;0;0;0;0;0;DTB hits 
+system.cpu.itb.data_misses;0;0;0;0;0;0;0;0;0;0;DTB misses 
+system.cpu.itb.data_acv;0;0;0;0;0;0;0;0;0;0;DTB access violations 
+system.cpu.itb.data_accesses;0;0;0;0;0;0;0;0;0;0;DTB accesses 
+system.cpu.numCycles;118682136;30113747;167061586;35510916;9172848;136695073;57356295;14559798;276451250;934674;number of cpu cycles simulated 
+system.cpu.numWorkItemsStarted;0;0;0;0;0;0;0;0;0;0;number of work items this cpu started 
+system.cpu.numWorkItemsCompleted;0;0;0;0;0;0;0;0;0;0;number of work items this cpu completed 
+system.cpu.fetch.icacheStallCycles;39689775;11877945;30643876;10550258;3464131;43446509;23425380;5954547;27688956;318105;Number of cycles fetch is stalled on an Icache miss 
+system.cpu.fetch.Insts;121107419;76426867;307377499;94715175;20179807;488590326;129879090;32882109;276056538;1170402;Number of instructions fetch has processed 
+system.cpu.fetch.Branches;27361737;9683562;28446772;13378709;2275275;20322205;14216734;3628185;33453441;194521;Number of branches that fetch encountered 
+system.cpu.fetch.predictedBranches;12152943;7330997;9712023;7397216;1515011;12930254;12475919;2465861;9017677;98213;Number of branches that fetch has predicted taken 
+system.cpu.fetch.Cycles;73437660;16952350;132670427;23212794;4801776;91361916;32241150;7249043;244297812;502111;Number of cycles fetch has run and was not squashing or blocked 
+system.cpu.fetch.SquashCycles;1799704;856032;3307444;880870;143354;1209462;1272748;866416;4086298;26550;Number of cycles fetch has spent squashing 
+system.cpu.fetch.TlbCycles;2027;;4176;108;35;715;40;43;237;1;Number of cycles fetch has spent waiting for tlb 
+system.cpu.fetch.MiscStallCycles;46285;3707;14157;6426;2035;15095;12053;2446;89484;311;Number of cycles fetch has spent waiting on interrupts, or bad addresses, or out of MSHRs 
+system.cpu.fetch.PendingTrapStallCycles;884060;625256;1882747;1059929;710258;826412;920727;651314;2146921;77285;Number of stall cycles due to pending traps 
+system.cpu.fetch.PendingQuiesceStallCycles;379190;6799;3203;6897;2791;5137;2659;8720;3041;;Number of stall cycles due to pending quiesce instructions 
+system.cpu.fetch.IcacheWaitRetryStallCycles;38;5;;;;;;13;;;Number of stall cycles due to full MSHR 
+system.cpu.fetch.CacheLines;15668461;10273459;27848379;8880793;2632794;38363931;22557735;3885675;24273608;154064;Number of cache lines fetched 
+system.cpu.fetch.IcacheSquashes;423963;171017;363695;105575;28597;254962;115802;142660;30132;5170;Number of outstanding Icache misses that were squashed 
+system.cpu.fetch.ItlbSquashes;16;;4;1;2;3;2;4;;;Number of outstanding ITLB misses that were squashed 
+system.cpu.fetch.rateDist::samples;115338893;29894078;166872308;35276847;9052703;136260515;57238383;14299334;276269600;911088;Number of instructions fetched each cycle (Total) 
+system.cpu.fetch.rateDist::mean;1.050014;2.556589;1.841992;2.684910;2.229147;3.585707;2.269091;2.299555;0.999229;1.284620;Number of instructions fetched each cycle (Total) 
+system.cpu.fetch.rateDist::stdev;2.320915;3.112288;3.153262;3.326390;3.088727;3.704404;2.716128;3.101117;2.477888;2.568904;Number of instructions fetched each cycle (Total) 
+system.cpu.fetch.rateDist::underflows;0;0;0;0;0;0;0;0;0;0;Number of instructions fetched each cycle (Total) 
+system.cpu.fetch.rateDist::0;90282469;15304959;118970592;18786145;5395347;63831839;31437914;7985000;231913993;688067;Number of instructions fetched each cycle (Total) 
+system.cpu.fetch.rateDist::1;2723936;898422;927655;382410;188724;1574172;449324;540815;1332788;14711;Number of instructions fetched each cycle (Total) 
+system.cpu.fetch.rateDist::2;3484104;1345841;4723774;2872990;234430;5058427;1098134;698824;2238832;28406;Number of instructions fetched each cycle (Total) 
+system.cpu.fetch.rateDist::3;2301820;2567491;1107945;963360;429859;1283668;768455;963475;7821269;18200;Number of instructions fetched each cycle (Total) 
+system.cpu.fetch.rateDist::4;4941549;1400856;7215958;1560844;677041;7320099;10156385;703995;1677853;42813;Number of instructions fetched each cycle (Total) 
+system.cpu.fetch.rateDist::5;1154639;951585;734212;457075;186819;1596708;840249;107493;2170784;10664;Number of instructions fetched each cycle (Total) 
+system.cpu.fetch.rateDist::6;1905771;1782650;1705876;2198208;330789;3989797;9756157;729797;1229318;18697;Number of instructions fetched each cycle (Total) 
+system.cpu.fetch.rateDist::7;821042;1061151;982055;467814;271899;1000862;289714;238486;1237065;8715;Number of instructions fetched each cycle (Total) 
+system.cpu.fetch.rateDist::8;7723563;4581123;30504241;7588001;1337795;50604943;2442051;2331449;26647698;80815;Number of instructions fetched each cycle (Total) 
+system.cpu.fetch.rateDist::overflows;0;0;0;0;0;0;0;0;0;0;Number of instructions fetched each cycle (Total) 
+system.cpu.fetch.rateDist::min_value;0;0;0;0;0;0;0;0;0;0;Number of instructions fetched each cycle (Total) 
+system.cpu.fetch.rateDist::max_value;8;8;8;8;8;8;8;8;8;8;Number of instructions fetched each cycle (Total) 
+system.cpu.fetch.rateDist::total;115338893;29894078;166872308;35276847;9052703;136260515;57238383;14299334;276269600;911088;Number of instructions fetched each cycle (Total) 
+system.cpu.fetch.branchRate;0.230546;0.321566;0.170277;0.376749;0.248045;0.148668;0.247867;0.249192;0.121010;0.208116;Number of branch fetches per cycle 
+system.cpu.fetch.rate;1.020435;2.537939;1.839905;2.667213;2.199950;3.574308;2.264426;2.258418;0.998572;1.252203;Number of inst fetches per cycle 
+system.cpu.decode.IdleCycles;31923906;10438753;22607795;9152561;2881660;38222380;17289589;5190734;20766187;258158;Number of cycles decode is idle 
+system.cpu.decode.BlockedCycles;63462130;5531668;103279682;10385365;2796005;31611734;17366165;2854515;223168869;459019;Number of cycles decode is blocked 
+system.cpu.decode.RunCycles;15489449;12424563;32670843;14218839;2962823;55050357;18064778;5530233;17697015;150895;Number of cycles decode is running 
+system.cpu.decode.UnblockCycles;3640846;1078058;6665542;1086432;344575;10782545;3885386;298182;12599301;30587;Number of cycles decode is unblocking 
+system.cpu.decode.SquashCycles;822561;421036;1648446;433650;67640;593499;632465;425670;2038228;12429;Number of cycles decode is squashing 
+system.cpu.decode.BranchResolved;924680;1144832;125447;599037;312306;329258;343142;247511;107279;10351;Number of times decode resolved a branch 
+system.cpu.decode.BranchMispred;78183;7170;5407;6945;4141;11453;4006;7680;5032;871;Number of times decode detected a branch misprediction 
+system.cpu.decode.DecodedInsts;108475282;74557670;263766208;92410285;19513809;484711045;125417986;31389253;209836127;1036076;Number of instructions handled by decode 
+system.cpu.decode.SquashedInsts;224361;21620;18096;20946;12418;35766;12341;21166;17866;2634;Number of squashed instructions handled by decode 
+system.cpu.rename.SquashCycles;822561;421036;1648446;433650;67640;593499;632465;425670;2038228;12429;Number of cycles rename is squashing 
+system.cpu.rename.IdleCycles;33561432;10960458;26432286;9718788;3032287;42166811;19060884;5476636;23737973;274834;Number of cycles rename is idle 
+system.cpu.rename.BlockCycles;28850828;1933198;13610577;2709184;592653;3765414;1703163;894419;75903916;48461;Number of cycles rename is blocking 
+system.cpu.rename.serializeStallCycles;23577209;1816037;60593743;5397651;1387910;1935761;2453192;1648966;78881776;306909;count of cycles rename stalled for serializing inst 
+system.cpu.rename.RunCycles;17362650;12916356;35464117;14627985;3140624;61800535;20033779;5432393;23496620;164335;Number of cycles rename is running 
+system.cpu.rename.UnblockCycles;11164211;1846993;29123139;2389589;831589;25998495;13354900;421250;72211087;104120;Number of cycles rename is unblocking 
+system.cpu.rename.RenamedInsts;105225300;73222151;251645060;90651197;19267829;482587620;122589357;30375407;200419234;991745;Number of instructions processed by rename 
+system.cpu.rename.ROBFullEvents;178621;140618;34760;28283;67435;77695;218378;4328;1795;611;Number of times rename has blocked due to ROB full 
+system.cpu.rename.IQFullEvents;7571444;884635;3213345;1296031;342775;24030097;287073;36035;37622032;17085;Number of times rename has blocked due to IQ full 
+system.cpu.rename.LQFullEvents;574181;344823;16436847;65285;24791;20060;11522481;13261;17544684;2271;Number of times rename has blocked due to LQ full 
+system.cpu.rename.SQFullEvents;727658;147128;999200;322152;213569;109701;148594;106550;911371;50191;Number of times rename has blocked due to SQ full 
+system.cpu.rename.RenamedOperands;75776411;59181713;211887413;64723665;14786062;409175714;96718193;25785018;154514945;660402;Number of destination operands rename has renamed 
+system.cpu.rename.RenameLookups;135171746;104592189;343991612;115616769;26566098;678346463;170085343;46890711;255280291;1277255;Number of register rename lookups that rename has made 
+system.cpu.rename.int_rename_lookups;134973402;104491323;191365059;98357153;18341468;678332224;118180444;46884312;168654564;1274071;Number of integer rename lookups 
+system.cpu.rename.fp_rename_lookups;184076;91702;152623409;17193194;8221961;12160;51900954;4914;86623147;2761;Number of floating rename lookups 
+system.cpu.rename.CommittedMaps;66686937;49074338;134032115;54528104;12802975;392226283;87131068;16179237;94524848;513861;Number of HB maps that are committed 
+system.cpu.rename.UndoneMaps;9089466;10107375;77855298;10195561;1983093;16949431;9587125;9605781;59990097;146541;Number of HB maps that are undone due to squashing 
+system.cpu.rename.serializingInsts;1981077;171578;9213732;445248;118149;197269;245128;152193;12165661;31093;count of serializing insts renamed 
+system.cpu.rename.tempSerializingInsts;322029;16402;38337;22051;12981;20904;13496;26038;32619;3460;count of temporary serializing insts renamed 
+system.cpu.rename.skidInsts;23503196;4706111;43985534;5618714;1861181;52420144;21796740;1283653;81012496;196962;count of insts added to the skid buffer 
+system.cpu.memDep0.insertedLoads;18105357;13938598;56238964;12582028;3137203;64828700;24277438;2795895;47322933;184590;Number of loads inserted to the mem dependence unit. 
+system.cpu.memDep0.insertedStores;9141868;4859157;11444836;3929155;1892131;31020064;11093878;1198273;13979236;148462;Number of stores inserted to the mem dependence unit. 
+system.cpu.memDep0.conflictingLoads;2579418;1829180;1250642;1455903;389550;8509249;10178998;276186;4021059;35370;Number of conflicting loads. 
+system.cpu.memDep0.conflictingStores;1690462;962306;1891819;948630;182176;3784098;9661764;128314;2743106;19874;Number of conflicting stores. 
+system.cpu.iq.iqInstsAdded;98613200;70645209;234625187;78356921;18286405;455533232;117361461;27124956;181687963;911327;Number of instructions added to the IQ (excludes non-spec) 
+system.cpu.iq.iqNonSpecInstsAdded;2696574;144254;6647682;211246;128388;211666;224544;178326;8672441;25784;Number of non-speculative instructions added to the IQ 
+system.cpu.iq.iqInstsIssued;96227278;66282998;217695639;74674773;17794612;448875096;114260691;24098921;177499199;866325;Number of instructions issued 
+system.cpu.iq.iqSquashedInstsIssued;87729;24873;50636;63294;8494;108819;6768;9817;23271;1202;Number of squashed instructions issued 
+system.cpu.iq.iqSquashedInstsExamined;11309449;10318663;88001947;10187149;2266348;15745241;8264209;7867838;80574164;175384;Number of squashed instructions iterated over during squash; mainly for profiling 
+system.cpu.iq.iqSquashedOperandsExamined;5702406;8023783;46297270;6677066;1190677;11236231;5947785;6378232;15141103;107735;Number of squashed operands that are examined and possibly removed from graph 
+system.cpu.iq.iqSquashedNonSpecRemoved;1712360;96087;6528317;139690;83517;143564;174150;103503;8559952;16902;Number of squashed non-spec instructions that were removed 
+system.cpu.iq.issued_per_cycle::samples;115338893;29894078;166872308;35276847;9052703;136260515;57238383;14299334;276269600;911088;Number of insts issued each cycle 
+system.cpu.iq.issued_per_cycle::mean;0.834300;2.217262;1.304564;2.116821;1.965668;3.294242;1.996225;1.685318;0.642485;0.950869;Number of insts issued each cycle 
+system.cpu.iq.issued_per_cycle::stdev;1.488598;1.999133;2.159375;2.176166;2.103400;2.185787;1.606005;1.909947;1.312016;1.581132;Number of insts issued each cycle 
+system.cpu.iq.issued_per_cycle::underflows;0;0;0;0;0;0;0;0;0;0;Number of insts issued each cycle 
+system.cpu.iq.issued_per_cycle::0;74093265;8663358;100196422;11784086;3356089;13321978;11644725;6145832;184873418;575308;Number of insts issued each cycle 
+system.cpu.iq.issued_per_cycle::1;18862055;3540426;22470224;5581547;1360503;16915470;13137160;1914651;53600352;117368;Number of insts issued each cycle 
+system.cpu.iq.issued_per_cycle::2;7794356;5764007;10065972;4375044;1031059;27855805;12346986;1606751;20377198;68159;Number of insts issued each cycle 
+system.cpu.iq.issued_per_cycle::3;5130250;4273316;7652564;5323819;1300390;21783004;10032373;1804702;6700564;60656;Number of insts issued each cycle 
+system.cpu.iq.issued_per_cycle::4;4775985;3022306;7025218;2096684;722381;15407486;6520983;1555620;2240285;46642;Number of insts issued each cycle 
+system.cpu.iq.issued_per_cycle::5;2257011;2513747;6661082;3605629;608924;14066460;2032207;607522;3192147;22754;Number of insts issued each cycle 
+system.cpu.iq.issued_per_cycle::6;1357419;1340104;3736492;829990;359251;15034729;897004;432322;1363744;13345;Number of insts issued each cycle 
+system.cpu.iq.issued_per_cycle::7;696164;518485;4204127;463524;131677;6276278;310111;152832;1436716;4585;Number of insts issued each cycle 
+system.cpu.iq.issued_per_cycle::8;372388;258329;4860207;1216524;182429;5599305;316834;79102;2485176;2271;Number of insts issued each cycle 
+system.cpu.iq.issued_per_cycle::overflows;0;0;0;0;0;0;0;0;0;0;Number of insts issued each cycle 
+system.cpu.iq.issued_per_cycle::min_value;0;0;0;0;0;0;0;0;0;0;Number of insts issued each cycle 
+system.cpu.iq.issued_per_cycle::max_value;8;8;8;8;8;8;8;8;8;8;Number of insts issued each cycle 
+system.cpu.iq.issued_per_cycle::total;115338893;29894078;166872308;35276847;9052703;136260515;57238383;14299334;276269600;911088;Number of insts issued each cycle 
+system.cpu.iq.fu_full::No_OpClass;0;0;0;0;0;0;0;0;0;0;attempts to use FU when none available 
+system.cpu.iq.fu_full::IntAlu;443881;467002;72648;143216;13404;5411646;16582;147911;22585;1332;attempts to use FU when none available 
+system.cpu.iq.fu_full::IntMult;2;11845;0;24;0;914253;0;0;0;0;attempts to use FU when none available 
+system.cpu.iq.fu_full::IntDiv;0;0;0;0;0;0;0;0;0;0;attempts to use FU when none available 
+system.cpu.iq.fu_full::FloatAdd;0;0;1437802;13279;19245;0;6;0;1;0;attempts to use FU when none available 
+system.cpu.iq.fu_full::FloatCmp;0;0;25;9725;1752;0;0;0;0;0;attempts to use FU when none available 
+system.cpu.iq.fu_full::FloatCvt;0;0;1991;0;3284;0;0;0;0;0;attempts to use FU when none available 
+system.cpu.iq.fu_full::FloatMult;0;0;1833152;14942;138163;0;165200;0;21;0;attempts to use FU when none available 
+system.cpu.iq.fu_full::FloatDiv;0;0;4860648;531835;2989;0;3504;0;0;0;attempts to use FU when none available 
+system.cpu.iq.fu_full::FloatSqrt;0;0;0;0;0;0;0;0;0;0;attempts to use FU when none available 
+system.cpu.iq.fu_full::SimdAdd;0;0;0;0;0;0;0;0;0;0;attempts to use FU when none available 
+system.cpu.iq.fu_full::SimdAddAcc;0;0;0;0;0;0;0;0;0;0;attempts to use FU when none available 
+system.cpu.iq.fu_full::SimdAlu;0;0;0;0;0;0;0;0;0;0;attempts to use FU when none available 
+system.cpu.iq.fu_full::SimdCmp;0;0;0;0;0;0;0;0;0;0;attempts to use FU when none available 
+system.cpu.iq.fu_full::SimdCvt;0;0;0;0;0;0;0;0;0;0;attempts to use FU when none available 
+system.cpu.iq.fu_full::SimdMisc;0;0;0;0;0;0;0;0;0;0;attempts to use FU when none available 
+system.cpu.iq.fu_full::SimdMult;0;0;0;0;0;0;0;0;0;0;attempts to use FU when none available 
+system.cpu.iq.fu_full::SimdMultAcc;0;0;0;0;0;0;0;0;0;0;attempts to use FU when none available 
+system.cpu.iq.fu_full::SimdShift;0;0;0;0;0;0;0;0;0;0;attempts to use FU when none available 
+system.cpu.iq.fu_full::SimdShiftAcc;0;0;0;0;0;0;0;0;0;0;attempts to use FU when none available 
+system.cpu.iq.fu_full::SimdSqrt;0;0;0;0;0;0;0;0;0;0;attempts to use FU when none available 
+system.cpu.iq.fu_full::SimdFloatAdd;0;0;0;0;0;0;0;0;0;0;attempts to use FU when none available 
+system.cpu.iq.fu_full::SimdFloatAlu;0;0;0;0;0;0;0;0;0;0;attempts to use FU when none available 
+system.cpu.iq.fu_full::SimdFloatCmp;0;0;0;0;0;0;0;0;0;0;attempts to use FU when none available 
+system.cpu.iq.fu_full::SimdFloatCvt;0;0;0;0;0;0;0;0;0;0;attempts to use FU when none available 
+system.cpu.iq.fu_full::SimdFloatDiv;0;0;0;0;0;0;0;0;0;0;attempts to use FU when none available 
+system.cpu.iq.fu_full::SimdFloatMisc;0;0;0;0;0;0;0;0;0;0;attempts to use FU when none available 
+system.cpu.iq.fu_full::SimdFloatMult;0;0;0;0;0;0;0;0;0;0;attempts to use FU when none available 
+system.cpu.iq.fu_full::SimdFloatMultAcc;0;0;0;0;0;0;0;0;0;0;attempts to use FU when none available 
+system.cpu.iq.fu_full::SimdFloatSqrt;0;0;0;0;0;0;0;0;0;0;attempts to use FU when none available 
+system.cpu.iq.fu_full::MemRead;764948;364767;1052971;179757;232340;2942141;54871;89174;1042052;14070;attempts to use FU when none available 
+system.cpu.iq.fu_full::MemWrite;509459;116152;217094;105316;76356;2200549;48005;58171;165936;11824;attempts to use FU when none available 
+system.cpu.iq.fu_full::IprAccess;0;0;0;0;0;0;0;0;0;0;attempts to use FU when none available 
+system.cpu.iq.fu_full::InstPrefetch;0;0;0;0;0;0;0;0;0;0;attempts to use FU when none available 
+system.cpu.iq.FU_type_0::No_OpClass;8369;16733;570;130720;4109;1673;6162;476;520;461;Type of FU issued 
+system.cpu.iq.FU_type_0::IntAlu;67931858;47546276;88442230;50749718;9138195;333785006;60825614;20411741;58343887;514079;Type of FU issued 
+system.cpu.iq.FU_type_0::IntMult;159776;612674;14837;298861;36847;19462774;280104;6596;18965;824;Type of FU issued 
+system.cpu.iq.FU_type_0::IntDiv;0;0;0;0;0;0;0;0;0;0;Type of FU issued 
+system.cpu.iq.FU_type_0::FloatAdd;85857;42621;39667698;4445221;1933791;4591;9749183;2126;25697383;1223;Type of FU issued 
+system.cpu.iq.FU_type_0::FloatCmp;0;0;1826341;348022;110490;0;22;0;14;0;Type of FU issued 
+system.cpu.iq.FU_type_0::FloatCvt;0;0;310170;0;179999;0;98779;0;84;0;Type of FU issued 
+system.cpu.iq.FU_type_0::FloatMult;0;0;12000526;2677323;1226532;0;9121393;0;24122286;0;Type of FU issued 
+system.cpu.iq.FU_type_0::FloatDiv;4183;8360;1821692;276968;46718;796;138149;236;254;230;Type of FU issued 
+system.cpu.iq.FU_type_0::FloatSqrt;0;0;2;0;0;0;1;0;0;0;Type of FU issued 
+system.cpu.iq.FU_type_0::SimdAdd;0;0;0;0;0;0;0;0;0;0;Type of FU issued 
+system.cpu.iq.FU_type_0::SimdAddAcc;0;0;0;0;0;0;0;0;0;0;Type of FU issued 
+system.cpu.iq.FU_type_0::SimdAlu;0;0;0;0;0;0;0;0;0;0;Type of FU issued 
+system.cpu.iq.FU_type_0::SimdCmp;0;0;0;0;0;0;0;0;0;0;Type of FU issued 
+system.cpu.iq.FU_type_0::SimdCvt;0;0;0;0;0;0;0;0;0;0;Type of FU issued 
+system.cpu.iq.FU_type_0::SimdMisc;0;0;0;0;0;0;0;0;0;0;Type of FU issued 
+system.cpu.iq.FU_type_0::SimdMult;0;0;0;0;0;0;0;0;0;0;Type of FU issued 
+system.cpu.iq.FU_type_0::SimdMultAcc;0;0;0;0;0;0;0;0;0;0;Type of FU issued 
+system.cpu.iq.FU_type_0::SimdShift;0;0;0;0;0;0;0;0;0;0;Type of FU issued 
+system.cpu.iq.FU_type_0::SimdShiftAcc;0;0;0;0;0;0;0;0;0;0;Type of FU issued 
+system.cpu.iq.FU_type_0::SimdSqrt;0;0;0;0;0;0;0;0;0;0;Type of FU issued 
+system.cpu.iq.FU_type_0::SimdFloatAdd;0;0;0;0;0;0;0;0;0;0;Type of FU issued 
+system.cpu.iq.FU_type_0::SimdFloatAlu;0;0;0;0;0;0;0;0;0;0;Type of FU issued 
+system.cpu.iq.FU_type_0::SimdFloatCmp;0;0;0;0;0;0;0;0;0;0;Type of FU issued 
+system.cpu.iq.FU_type_0::SimdFloatCvt;0;0;0;0;0;0;0;0;0;0;Type of FU issued 
+system.cpu.iq.FU_type_0::SimdFloatDiv;0;0;0;0;0;0;0;0;0;0;Type of FU issued 
+system.cpu.iq.FU_type_0::SimdFloatMisc;0;0;0;0;0;0;0;0;0;0;Type of FU issued 
+system.cpu.iq.FU_type_0::SimdFloatMult;0;0;0;0;0;0;0;0;0;0;Type of FU issued 
+system.cpu.iq.FU_type_0::SimdFloatMultAcc;0;0;0;0;0;0;0;0;0;0;Type of FU issued 
+system.cpu.iq.FU_type_0::SimdFloatSqrt;0;0;0;0;0;0;0;0;0;0;Type of FU issued 
+system.cpu.iq.FU_type_0::MemRead;18073358;13448865;56952882;12127175;3204891;64679617;23378640;2545466;46744164;187430;Type of FU issued 
+system.cpu.iq.FU_type_0::MemWrite;8880194;4523844;9161904;3506203;1842328;30814219;10494805;1040929;12656393;142669;Type of FU issued 
+system.cpu.iq.FU_type_0::IprAccess;1083683;83625;7496787;114562;70712;126420;167839;91351;9915249;19409;Type of FU issued 
+system.cpu.iq.FU_type_0::InstPrefetch;0;0;0;0;0;0;0;0;0;0;Type of FU issued 
+system.cpu.iq.FU_type_0::total;96227278;66282998;217695639;74674773;17794612;448875096;114260691;24098921;177499199;866325;Type of FU issued 
+system.cpu.iq.rate;0.810798;2.201088;1.303086;2.102868;1.939922;3.283769;1.992121;1.655169;0.642063;0.926874;Inst issue rate 
+system.cpu.iq.fu_busy_cnt;1718290;959766;9476331;998094;487533;11468589;288168;295256;1230595;27226;FU busy when requested 
+system.cpu.iq.fu_busy_rate;0.017857;0.014480;0.043530;0.013366;0.027398;0.025550;0.002522;0.012252;0.006933;0.031427;FU busy rate (busy events/executed inst) 
+system.cpu.iq.int_inst_queue_reads;308731591;163166226;379417849;154958657;32158424;1045548623;189732568;62784080;530771906;2663559;Number of integer instruction queue reads 
+system.cpu.iq.int_inst_queue_writes;112238492;80976364;151905525;70976489;13101980;471499102;71584906;35167760;219959124;1109084;Number of integer instruction queue writes 
+system.cpu.iq.int_inst_queue_wakeup_accesses;94291139;65084991;105086938;58594520;11363181;447765347;65515596;23131632;121954856;831083;Number of integer instruction queue wakeup accesses 
+system.cpu.iq.fp_inst_queue_reads;867876;278487;232372704;30729124;12979530;39492;96322133;18169;101749958;8607;Number of floating instruction queue reads 
+system.cpu.iq.fp_inst_queue_writes;416936;138583;177381096;17787669;7583364;21007;54271335;10312;50987376;4301;Number of floating instruction queue writes 
+system.cpu.iq.fp_inst_queue_wakeup_accesses;400646;134640;100803577;14534168;6170064;18185;47170586;8185;50872488;4074;Number of floating instruction queue wakeup accesses 
+system.cpu.iq.int_alu_accesses;97475341;67082723;106479621;59880690;11616093;460321318;66297093;24384171;127853962;888599;Number of integer alu accesses 
+system.cpu.iq.fp_alu_accesses;461858;143308;120691779;15661457;6661943;20694;48245604;9530;50875312;4491;Number of floating point alu accesses 
+system.cpu.iew.lsq.thread0.forwLoads;838332;1788101;95786;849236;357972;6960511;676213;88825;116322;7609;Number of loads that had data forwarded from stores 
+system.cpu.iew.lsq.thread0.invAddrLoads;0;0;0;0;0;0;0;0;0;0;Number of loads ignored due to an invalid address 
+system.cpu.iew.lsq.thread0.squashedLoads;2178442;2147384;21763540;1755581;419565;1423258;2166124;724525;29757896;40090;Number of loads squashed 
+system.cpu.iew.lsq.thread0.ignoredResponses;3176;8211;391;1982;1519;1594;273;6901;431;99;Number of memory responses ignored because the instruction is squashed 
+system.cpu.iew.lsq.thread0.memOrderViolation;36761;7101;11989;9009;4273;30425;6165;7096;12106;921;Number of memory ordering violations 
+system.cpu.iew.lsq.thread0.squashedStores;893265;665071;3077531;581905;166162;354218;636837;207093;8379960;14890;Number of stores squashed 
+system.cpu.iew.lsq.thread0.invAddrSwpfs;0;0;0;0;0;0;0;0;0;0;Number of software prefetches ignored due to an invalid address 
+system.cpu.iew.lsq.thread0.blockedLoads;0;0;0;0;0;0;0;0;0;0;Number of blocked loads due to partial load-store forwarding 
+system.cpu.iew.lsq.thread0.rescheduledLoads;20333;1340;4703;3711;3448;13426;3478;1215;3809;6;Number of loads that were rescheduled 
+system.cpu.iew.lsq.thread0.cacheBlocked;189411;60457;1032792;44188;135558;31841;26472;28457;64693;11383;Number of times an access to memory failed due to the cache being blocked 
+system.cpu.iew.iewIdleCycles;0;0;0;0;0;0;0;0;0;0;Number of cycles IEW is idle 
+system.cpu.iew.iewSquashCycles;822561;421036;1648446;433650;67640;593499;632465;425670;2038228;12429;Number of cycles IEW is squashing 
+system.cpu.iew.iewBlockCycles;22149915;1428517;9161175;1866407;413553;1786761;885575;853740;26611856;24593;Number of cycles IEW is blocking 
+system.cpu.iew.iewUnblockCycles;804168;67483;3779350;164656;45559;42864;634867;37223;7514558;15346;Number of cycles IEW is unblocking 
+system.cpu.iew.iewDispatchedInsts;103243337;70898283;243334786;87786464;19031212;478567455;118680899;27381413;192865510;956716;Number of instructions dispatched to IQ 
+system.cpu.iew.iewDispSquashedInsts;215551;104818;101957;119204;28625;351243;56619;199595;22223;4267;Number of squashed instructions skipped by dispatch 
+system.cpu.iew.iewDispLoadInsts;18105357;13938598;56238964;12582028;3137203;64828700;24277438;2795895;47322933;184590;Number of dispatched load instructions 
+system.cpu.iew.iewDispStoreInsts;9141868;4859157;11444836;3929155;1892131;31020064;11093878;1198273;13979236;148462;Number of dispatched store instructions 
+system.cpu.iew.iewDispNonSpecInsts;2185375;115546;6584726;166046;98166;173621;192424;130245;8615402;20514;Number of dispatched non-speculative instructions 
+system.cpu.iew.iewIQFullEvents;221918;6252;83953;18057;6381;3597;5437;3510;2775386;632;Number of times the IQ has become full, causing a stall 
+system.cpu.iew.iewLSQFullEvents;125848;59670;3775867;71277;37698;38564;628270;33073;152619;14536;Number of times the LSQ has become full, causing a stall 
+system.cpu.iew.memOrderViolationEvents;36761;7101;11989;9009;4273;30425;6165;7096;12106;921;Number of memory order violations 
+system.cpu.iew.predictedTakenIncorrect;260346;233456;116339;377665;25324;367266;755000;262335;22269;4117;Number of branches that were predicted taken incorrectly 
+system.cpu.iew.predictedNotTakenIncorrect;567775;204137;856038;154815;37116;256260;42796;217302;1031444;7168;Number of branches that were predicted not taken incorrectly 
+system.cpu.iew.branchMispredicts;828121;437593;972377;532480;62440;623526;797796;479637;1053713;11285;Number of branch mispredicts detected at execute 
+system.cpu.iew.iewExecutedInsts;95392999;65719469;216708142;73484469;17706951;448083435;113458001;23398841;177271705;856142;Number of executed instructions 
+system.cpu.iew.iewExecLoadInsts;17496589;13241487;56766891;11682726;3152938;64490134;23198967;2458306;46679364;179990;Number of load instructions executed 
+system.cpu.iew.iewExecSquashedInsts;834278;563529;987497;1190304;87661;791661;802690;700080;227494;10183;Number of squashed instructions skipped in execute 
+system.cpu.iew.exec_swp;0;0;0;0;0;0;0;0;0;0;number of swp insts executed 
+system.cpu.iew.exec_nop;1933563;108820;2061917;9218297;616419;22822557;1094894;78131;2505106;19605;number of nop insts executed 
+system.cpu.iew.exec_refs;26224589;17714705;65908957;15159291;4988610;95287312;33686873;3489643;59308822;321179;number of memory reference insts executed 
+system.cpu.iew.exec_branches;15988218;7930698;10064160;11463831;1904085;18097855;12314704;2695682;8411083;116077;Number of branches executed 
+system.cpu.iew.exec_stores;8728000;4473218;9142066;3476565;1835672;30797178;10487906;1031337;12629458;141189;Number of stores executed 
+system.cpu.iew.exec_rate;0.803769;2.182374;1.297175;2.069349;1.930366;3.277978;1.978126;1.607086;0.641240;0.915979;Inst execution rate 
+system.cpu.iew.wb_sent;94922288;65382142;215510733;73267319;17563088;447924796;112924436;23266588;176738539;842168;cumulative count of insts sent to commit 
+system.cpu.iew.wb_count;94691785;65219631;205890515;73128688;17533245;447783532;112686182;23139817;172827344;835157;cumulative count of insts written-back 
+system.cpu.iew.wb_producers;51059425;43804744;120391088;43058178;10508773;308861561;60741994;15596695;131076149;408231;num instructions producing a value 
+system.cpu.iew.wb_consumers;69813922;55411621;138022826;50145592;14119393;372710664;65616750;21867975;157908352;544302;num instructions consuming a value 
+system.cpu.iew.wb_penalized;0;0;0;0;0;0;0;0;0;0;number of instrctions required to write to 'other' IQ 
+system.cpu.iew.wb_rate;0.797860;2.165776;1.232423;2.059330;1.911429;3.275784;1.964670;1.589295;0.625164;0.893528;insts written-back per cycle 
+system.cpu.iew.wb_fanout;0.731365;0.790534;0.872255;0.858663;0.744279;0.828690;0.925709;0.713221;0.830077;0.750008;average fanout of values written-back 
+system.cpu.iew.wb_penalized_rate;0;0;0;0;0;0;0;0;0;0;fraction of instructions written-back that wrote to 'other' IQ 
+system.cpu.commit.commitSquashedInsts;12010302;10507169;68500188;11145378;2324962;16444868;8227700;7948058;67154383;176623;The number of squashed insts skipped by commit 
+system.cpu.commit.commitNonSpecStalls;984214;48167;119365;71556;44871;68102;50394;74823;112489;8882;The number of times commit has been forced to stall to communicate backwards 
+system.cpu.commit.branchMispredicts;769589;409873;900452;419574;59422;558819;614618;414267;1048686;10331;The number of times a branch was mispredicted 
+system.cpu.commit.committed_per_cycle::samples;113272037;28348027;157205516;33669858;8723096;133947856;55878045;13069574;266470990;880867;Number of insts commited each cycle 
+system.cpu.commit.committed_per_cycle::mean;0.804108;2.129243;0.987255;2.274481;1.911304;3.449627;1.974929;1.485110;0.420867;0.873769;Number of insts commited each cycle 
+system.cpu.commit.committed_per_cycle::stdev;1.808072;2.720178;2.250404;2.944621;2.769004;3.090957;2.574741;2.303562;1.004116;1.876034;Number of insts commited each cycle 
+system.cpu.commit.committed_per_cycle::underflows;0;0;0;0;0;0;0;0;0;0;Number of insts commited each cycle 
+system.cpu.commit.committed_per_cycle::0;80969337;10015285;115329900;15340751;4417860;24260737;27815413;6526150;195950220;613071;Number of insts commited each cycle 
+system.cpu.commit.committed_per_cycle::1;14462867;8543555;16923310;3955475;1313419;26800232;8517012;2826597;51183930;119951;Number of insts commited each cycle 
+system.cpu.commit.committed_per_cycle::2;6195849;1973470;6050212;4267803;616013;21913805;415742;1142132;13088108;47554;Number of insts commited each cycle 
+system.cpu.commit.committed_per_cycle::3;2859236;1223344;2464564;1134579;568925;9681474;371410;706801;974133;21670;Number of insts commited each cycle 
+system.cpu.commit.committed_per_cycle::4;2215473;928116;1164053;1837258;284180;6162849;6772646;344528;945432;20641;Number of insts commited each cycle 
+system.cpu.commit.committed_per_cycle::5;1318531;701737;1345191;580661;185490;4590281;7582251;316044;1061281;9881;Number of insts commited each cycle 
+system.cpu.commit.committed_per_cycle::6;625116;833035;1375672;724393;104938;3493250;87544;157868;1617054;9627;Number of insts commited each cycle 
+system.cpu.commit.committed_per_cycle::7;559586;1055920;1272565;543551;131702;2526260;162882;122681;130716;7902;Number of insts commited each cycle 
+system.cpu.commit.committed_per_cycle::8;4066042;3073565;11280049;5285387;1100569;34518968;4153145;926773;1520116;30570;Number of insts commited each cycle 
+system.cpu.commit.committed_per_cycle::overflows;0;0;0;0;0;0;0;0;0;0;Number of insts commited each cycle 
+system.cpu.commit.committed_per_cycle::min_value;0;0;0;0;0;0;0;0;0;0;Number of insts commited each cycle 
+system.cpu.commit.committed_per_cycle::max_value;8;8;8;8;8;8;8;8;8;8;Number of insts commited each cycle 
+system.cpu.commit.committed_per_cycle::total;113272037;28348027;157205516;33669858;8723096;133947856;55878045;13069574;266470990;880867;Number of insts commited each cycle 
+system.cpu.commit.committedInsts;91082954;60359846;155201972;76581466;16672484;462070129;110355163;19409755;112148942;769674;Number of instructions committed 
+system.cpu.commit.committedOps;91082954;60359846;155201972;76581466;16672484;462070129;110355163;19409755;112148942;769674;Number of ops (including micro ops) committed 
+system.cpu.commit.swp_count;0;0;0;0;0;0;0;0;0;0;Number of s/w prefetches committed 
+system.cpu.commit.refs;24175518;15985300;42842729;14173697;4443607;94071288;32568355;3062550;23164313;278072;Number of memory references committed 
+system.cpu.commit.loads;15926915;11791214;34475424;10826447;2717638;63405442;22111314;2071370;17565037;144500;Number of loads committed 
+system.cpu.commit.membars;389878;22582;51825;35281;23351;31380;24739;39516;46102;4282;Number of memory barriers committed 
+system.cpu.commit.branches;15114683;7165683;7148151;10557176;1733243;17246796;11942464;2196276;4709243;101868;Number of branches committed 
+system.cpu.commit.fp_insts;392917;129071;79047449;14200580;5634079;16623;46868323;7278;50861977;3905;Number of committed floating point instructions. 
+system.cpu.commit.int_insts;88101284;59576595;107428451;60172593;12917277;439659254;90360994;19180282;58797329;739867;Number of committed integer instructions. 
+system.cpu.commit.function_calls;1400139;236430;133882;408345;202315;328710;345504;86577;128039;8281;Number of function calls committed. 
+system.cpu.commit.op_class_0::No_OpClass;1599997;101395;1972634;8472597;558029;22172039;1065749;52803;2402958;15506;Class of committed instruction 
+system.cpu.commit.op_class_0::IntAlu;63517712;43624295;57623737;45973083;8340556;326295690;57311888;16153128;26790271;449816;Class of committed instruction 
+system.cpu.commit.op_class_0::IntMult;152798;490061;13992;289074;36536;19365806;277991;6261;17077;790;Class of committed instruction 
+system.cpu.commit.op_class_0::IntDiv;0;0;0;0;0;0;0;0;0;0;Class of committed instruction 
+system.cpu.commit.op_class_0::FloatAdd;84937;42537;31870279;4320348;1785034;4552;9745327;2070;25691802;1217;Class of committed instruction 
+system.cpu.commit.op_class_0::FloatCmp;0;0;1823778;327687;97454;0;21;0;12;0;Class of committed instruction 
+system.cpu.commit.op_class_0::FloatCvt;0;0;297354;0;142624;0;98634;0;74;0;Class of committed instruction 
+system.cpu.commit.op_class_0::FloatMult;0;0;9385360;2676755;1138410;0;8955350;0;24117261;0;Class of committed instruction 
+system.cpu.commit.op_class_0::FloatDiv;4183;8360;1820596;196413;35072;796;137925;236;250;230;Class of committed instruction 
+system.cpu.commit.op_class_0::FloatSqrt;0;0;1;0;0;0;1;0;0;0;Class of committed instruction 
+system.cpu.commit.op_class_0::SimdAdd;0;0;0;0;0;0;0;0;0;0;Class of committed instruction 
+system.cpu.commit.op_class_0::SimdAddAcc;0;0;0;0;0;0;0;0;0;0;Class of committed instruction 
+system.cpu.commit.op_class_0::SimdAlu;0;0;0;0;0;0;0;0;0;0;Class of committed instruction 
+system.cpu.commit.op_class_0::SimdCmp;0;0;0;0;0;0;0;0;0;0;Class of committed instruction 
+system.cpu.commit.op_class_0::SimdCvt;0;0;0;0;0;0;0;0;0;0;Class of committed instruction 
+system.cpu.commit.op_class_0::SimdMisc;0;0;0;0;0;0;0;0;0;0;Class of committed instruction 
+system.cpu.commit.op_class_0::SimdMult;0;0;0;0;0;0;0;0;0;0;Class of committed instruction 
+system.cpu.commit.op_class_0::SimdMultAcc;0;0;0;0;0;0;0;0;0;0;Class of committed instruction 
+system.cpu.commit.op_class_0::SimdShift;0;0;0;0;0;0;0;0;0;0;Class of committed instruction 
+system.cpu.commit.op_class_0::SimdShiftAcc;0;0;0;0;0;0;0;0;0;0;Class of committed instruction 
+system.cpu.commit.op_class_0::SimdSqrt;0;0;0;0;0;0;0;0;0;0;Class of committed instruction 
+system.cpu.commit.op_class_0::SimdFloatAdd;0;0;0;0;0;0;0;0;0;0;Class of committed instruction 
+system.cpu.commit.op_class_0::SimdFloatAlu;0;0;0;0;0;0;0;0;0;0;Class of committed instruction 
+system.cpu.commit.op_class_0::SimdFloatCmp;0;0;0;0;0;0;0;0;0;0;Class of committed instruction 
+system.cpu.commit.op_class_0::SimdFloatCvt;0;0;0;0;0;0;0;0;0;0;Class of committed instruction 
+system.cpu.commit.op_class_0::SimdFloatDiv;0;0;0;0;0;0;0;0;0;0;Class of committed instruction 
+system.cpu.commit.op_class_0::SimdFloatMisc;0;0;0;0;0;0;0;0;0;0;Class of committed instruction 
+system.cpu.commit.op_class_0::SimdFloatMult;0;0;0;0;0;0;0;0;0;0;Class of committed instruction 
+system.cpu.commit.op_class_0::SimdFloatMultAcc;0;0;0;0;0;0;0;0;0;0;Class of committed instruction 
+system.cpu.commit.op_class_0::SimdFloatSqrt;0;0;0;0;0;0;0;0;0;0;Class of committed instruction 
+system.cpu.commit.op_class_0::MemRead;16316793;11813796;34527249;10861728;2740989;63436822;22136053;2110886;17611139;148782;Class of committed instruction 
+system.cpu.commit.op_class_0::MemWrite;8322854;4195780;8370206;3349222;1727068;30668005;10458386;993023;5602849;133924;Class of committed instruction 
+system.cpu.commit.op_class_0::IprAccess;1083680;83622;7496786;114559;70712;126419;167838;91348;9915249;19409;Class of committed instruction 
+system.cpu.commit.op_class_0::InstPrefetch;0;0;0;0;0;0;0;0;0;0;Class of committed instruction 
+system.cpu.commit.op_class_0::total;91082954;60359846;155201972;76581466;16672484;462070129;110355163;19409755;112148942;769674;Class of committed instruction 
+system.cpu.commit.bw_lim_events;4066042;3073565;11280049;5285387;1100569;34518968;4153145;926773;1520116;30570;number cycles where commit BW limit reached 
+system.cpu.commit.bw_limited;0;0;0;0;0;0;0;0;0;0;number of insts not committed due to BW limits 
+system.cpu.rob.rob_reads;211997286;96082280;360045390;116040270;26575074;577858073;170152595;39444041;431535098;1778846;The number of ROB reads 
+system.cpu.rob.rob_writes;208253057;143287335;457072323;177067419;38325393;959346393;238526679;55966738;368406459;1923164;The number of ROB writes 
+system.cpu.timesIdled;336569;21066;18298;22529;10971;46225;11142;26178;17250;2307;Number of times that the entire CPU went into an idle state and unscheduled itself 
+system.cpu.idleCycles;3343243;219669;189278;234069;120145;434558;117912;260464;181650;23586;Total number of cycles that the CPU has spent unscheduled due to idling 
+system.cpu.quiesceCycles;793667597;34727;16093;33880;14399;27951;13552;44044;15246;;Total number of cycles that CPU has spent quiesced or waiting for an interrupt 
+system.cpu.committedInsts;89491324;60275183;153229908;68239580;16118564;439899763;109295576;19357428;109746504;754628;Number of Instructions Simulated 
+system.cpu.committedOps;89491324;60275183;153229908;68239580;16118564;439899763;109295576;19357428;109746504;754628;Number of Ops (including micro ops) Simulated 
+system.cpu.cpi;1.326186;0.499604;1.090267;0.520386;0.569086;0.310741;0.524781;0.752156;2.518998;1.238589;CPI: Cycles Per Instruction 
+system.cpu.cpi_total;1.326186;0.499604;1.090267;0.520386;0.569086;0.310741;0.524781;0.752156;2.518998;1.238589;CPI: Total CPI of All Threads 
+system.cpu.ipc;0.754042;2.001584;0.917206;1.921651;1.757204;3.218110;1.905555;1.329512;0.396983;0.807370;IPC: Instructions Per Cycle 
+system.cpu.ipc_total;0.754042;2.001584;0.917206;1.921651;1.757204;3.218110;1.905555;1.329512;0.396983;0.807370;IPC: Total IPC of All Threads 
+system.cpu.int_regfile_reads;126628773;93224307;185423108;89498642;17711504;661091999;111532806;35362377;160685493;1144515;number of integer regfile reads 
+system.cpu.int_regfile_writes;70591323;53090876;89476723;44918495;8931377;399257597;52169315;19541425;99936791;575389;number of integer regfile writes 
+system.cpu.fp_regfile_reads;181390;90583;118755391;15002059;7464126;11436;46866940;4476;86528776;2674;number of floating regfile reads 
+system.cpu.fp_regfile_writes;183293;85195;94493002;13534803;5040193;10203;38154300;4086;50345244;2486;number of floating regfile writes 
+system.cpu.misc_regfile_reads;2702305;326492;155065743;21098493;9307076;185212;67161221;170360;57448277;25416;number of misc regfile reads 
+system.cpu.misc_regfile_writes;1138753;76659;3125247;160613;60354;99772;104365;89149;4100543;15252;number of misc regfile writes 
+system.tsunami.ethernet.descDMAReads;0;0;0;0;0;0;0;0;0;0;Number of descriptors the device read w/ DMA 
+system.tsunami.ethernet.descDMAWrites;0;0;0;0;0;0;0;0;0;0;Number of descriptors the device wrote w/ DMA 
+system.tsunami.ethernet.descDmaReadBytes;0;0;0;0;0;0;0;0;0;0;number of descriptor bytes read w/ DMA 
+system.tsunami.ethernet.descDmaWriteBytes;0;0;0;0;0;0;0;0;0;0;number of descriptor bytes write w/ DMA 
+system.tsunami.ethernet.postedSwi;0;0;0;0;0;0;0;0;0;0;number of software interrupts posted to CPU 
+system.tsunami.ethernet.coalescedSwi;nan;nan;nan;nan;nan;nan;nan;nan;nan;nan;average number of Swi's coalesced into each post 
+system.tsunami.ethernet.totalSwi;0;0;0;0;0;0;0;0;0;0;total number of Swi written to ISR 
+system.tsunami.ethernet.postedRxIdle;0;0;0;0;0;0;0;0;0;0;number of rxIdle interrupts posted to CPU 
+system.tsunami.ethernet.coalescedRxIdle;nan;nan;nan;nan;nan;nan;nan;nan;nan;nan;average number of RxIdle's coalesced into each post 
+system.tsunami.ethernet.totalRxIdle;0;0;0;0;0;0;0;0;0;0;total number of RxIdle written to ISR 
+system.tsunami.ethernet.postedRxOk;0;0;0;0;0;0;0;0;0;0;number of RxOk interrupts posted to CPU 
+system.tsunami.ethernet.coalescedRxOk;nan;nan;nan;nan;nan;nan;nan;nan;nan;nan;average number of RxOk's coalesced into each post 
+system.tsunami.ethernet.totalRxOk;0;0;0;0;0;0;0;0;0;0;total number of RxOk written to ISR 
+system.tsunami.ethernet.postedRxDesc;0;0;0;0;0;0;0;0;0;0;number of RxDesc interrupts posted to CPU 
+system.tsunami.ethernet.coalescedRxDesc;nan;nan;nan;nan;nan;nan;nan;nan;nan;nan;average number of RxDesc's coalesced into each post 
+system.tsunami.ethernet.totalRxDesc;0;0;0;0;0;0;0;0;0;0;total number of RxDesc written to ISR 
+system.tsunami.ethernet.postedTxOk;0;0;0;0;0;0;0;0;0;0;number of TxOk interrupts posted to CPU 
+system.tsunami.ethernet.coalescedTxOk;nan;nan;nan;nan;nan;nan;nan;nan;nan;nan;average number of TxOk's coalesced into each post 
+system.tsunami.ethernet.totalTxOk;0;0;0;0;0;0;0;0;0;0;total number of TxOk written to ISR 
+system.tsunami.ethernet.postedTxIdle;0;0;0;0;0;0;0;0;0;0;number of TxIdle interrupts posted to CPU 
+system.tsunami.ethernet.coalescedTxIdle;nan;nan;nan;nan;nan;nan;nan;nan;nan;nan;average number of TxIdle's coalesced into each post 
+system.tsunami.ethernet.totalTxIdle;0;0;0;0;0;0;0;0;0;0;total number of TxIdle written to ISR 
+system.tsunami.ethernet.postedTxDesc;0;0;0;0;0;0;0;0;0;0;number of TxDesc interrupts posted to CPU 
+system.tsunami.ethernet.coalescedTxDesc;nan;nan;nan;nan;nan;nan;nan;nan;nan;nan;average number of TxDesc's coalesced into each post 
+system.tsunami.ethernet.totalTxDesc;0;0;0;0;0;0;0;0;0;0;total number of TxDesc written to ISR 
+system.tsunami.ethernet.postedRxOrn;0;0;0;0;0;0;0;0;0;0;number of RxOrn posted to CPU 
+system.tsunami.ethernet.coalescedRxOrn;nan;nan;nan;nan;nan;nan;nan;nan;nan;nan;average number of RxOrn's coalesced into each post 
+system.tsunami.ethernet.totalRxOrn;0;0;0;0;0;0;0;0;0;0;total number of RxOrn written to ISR 
+system.tsunami.ethernet.coalescedTotal;nan;nan;nan;nan;nan;nan;nan;nan;nan;nan;average number of interrupts coalesced into each post 
+system.tsunami.ethernet.postedInterrupts;0;0;0;0;0;0;0;0;0;0;number of posts to CPU 
+system.tsunami.ethernet.droppedPackets;0;0;0;0;0;0;0;0;0;0;number of packets dropped 
+system.iobus.trans_dist::ReadReq;7735;1025;3761;3543;3295;701;3284;1187;2881;;Transaction distribution 
+system.iobus.trans_dist::ReadResp;7735;1025;3761;3543;3295;701;3284;1187;2881;;Transaction distribution 
+system.iobus.trans_dist::WriteReq;54821;23414;15311;23629;13056;9229;12656;26277;13129;3;Transaction distribution 
+system.iobus.trans_dist::WriteResp;54831;23421;15311;23638;13082;9250;12658;26285;13134;3;Transaction distribution 
+system.iobus.trans_dist::WriteInvalidateReq;10;7;;9;26;21;2;8;5;;Transaction distribution 
+system.iobus.pkt_count_system.bridge.master::system.tsunami.cchip.pio;5754;440;1180;570;260;1008;516;424;1802;6;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.tsunami.pchip.pio;296;80;36;76;36;88;24;108;32;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.tsunami.fake_sm_chip.pio;20;;;;;;;;;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.tsunami.fake_uart4.pio;20;;;;;;;;;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.tsunami.fake_ata0.pio;22;;;;;;;;;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.tsunami.fake_ata1.pio;22;;;;;;;;;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.tsunami.io.pio;256;80;400;496;416;80;352;112;376;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.tsunami.uart.pio;21364;1396;9308;8036;8128;812;8152;1476;7010;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.tsunami.backdoor.pio;1904;;;;;;;;;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.tsunami.ide.pio;5904;1968;912;1920;816;1584;768;2496;864;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.tsunami.ide-pciconf;284;;;;;;;;;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.tsunami.ethernet.pio;100;;;;;;;;;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.tsunami.ethernet-pciconf;196;;;;;;;;;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::system.tsunami.pciconfig.pio;60;;;;;;;;;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.bridge.master::total;36202;3964;11836;11098;9656;3572;9812;4616;10084;6;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.tsunami.ide.dma::system.iocache.cpu_side;88930;44928;26308;43264;23098;16330;22072;50328;21946;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count_system.tsunami.ide.dma::total;88930;44928;26308;43264;23098;16330;22072;50328;21946;;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_count::total;125132;48892;38144;54362;32754;19902;31884;54944;32030;6;Packet count per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.tsunami.cchip.pio;23016;1760;4720;2280;1040;4032;2064;1696;7208;24;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.tsunami.pchip.pio;1184;320;144;304;144;352;96;432;128;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.tsunami.fake_sm_chip.pio;10;;;;;;;;;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.tsunami.fake_uart4.pio;10;;;;;;;;;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.tsunami.fake_ata0.pio;11;;;;;;;;;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.tsunami.fake_ata1.pio;11;;;;;;;;;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.tsunami.io.pio;268;110;550;682;572;110;484;154;517;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.tsunami.uart.pio;10682;698;4654;4018;4064;406;4076;738;3505;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.tsunami.backdoor.pio;7596;;;;;;;;;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.tsunami.ide.pio;3746;1107;513;1080;459;891;432;1404;486;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.tsunami.ide-pciconf;400;;;;;;;;;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.tsunami.ethernet.pio;200;;;;;;;;;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.tsunami.ethernet-pciconf;311;;;;;;;;;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::system.tsunami.pciconfig.pio;120;;;;;;;;;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.bridge.master::total;47565;3995;10581;8364;6279;5791;7152;4424;11844;24;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.tsunami.ide.dma::system.iocache.cpu_side;2837640;1434112;839952;1380864;737512;520488;704736;1606240;700648;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size_system.tsunami.ide.dma::total;2837640;1434112;839952;1380864;737512;520488;704736;1606240;700648;;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.pkt_size::total;2885205;1438107;850533;1389228;743791;526279;711888;1610664;712492;24;Cumulative packet size per connected master and slave (bytes) 
+system.iobus.reqLayer0.occupancy;5633000;389000;1111000;468000;191000;965000;456000;358000;1737000;6000;Layer occupancy (ticks) 
+system.iobus.reqLayer0.utilization;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;Layer utilization (%) 
+system.iobus.reqLayer1.occupancy;221000;60000;27000;57000;27000;66000;18000;81000;24000;;Layer occupancy (ticks) 
+system.iobus.reqLayer1.utilization;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;Layer utilization (%) 
+system.iobus.reqLayer2.occupancy;19000;;;;;;;;;;Layer occupancy (ticks) 
+system.iobus.reqLayer2.utilization;0.0;;;;;;;;;;Layer utilization (%) 
+system.iobus.reqLayer6.occupancy;19000;;;;;;;;;;Layer occupancy (ticks) 
+system.iobus.reqLayer6.utilization;0.0;;;;;;;;;;Layer utilization (%) 
+system.iobus.reqLayer19.occupancy;17000;;;;;;;;;;Layer occupancy (ticks) 
+system.iobus.reqLayer19.utilization;0.0;;;;;;;;;;Layer utilization (%) 
+system.iobus.reqLayer20.occupancy;17000;;;;;;;;;;Layer occupancy (ticks) 
+system.iobus.reqLayer20.utilization;0.0;;;;;;;;;;Layer utilization (%) 
+system.iobus.reqLayer22.occupancy;223000;70000;350000;434000;364000;70000;308000;98000;329000;;Layer occupancy (ticks) 
+system.iobus.reqLayer22.utilization;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;Layer utilization (%) 
+system.iobus.reqLayer23.occupancy;15772000;885000;5880000;5100000;5145000;520000;5150000;940000;4440000;;Layer occupancy (ticks) 
+system.iobus.reqLayer23.utilization;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;Layer utilization (%) 
+system.iobus.reqLayer24.occupancy;1887000;;;;;;;;;;Layer occupancy (ticks) 
+system.iobus.reqLayer24.utilization;0.0;;;;;;;;;;Layer utilization (%) 
+system.iobus.reqLayer25.occupancy;4469000;1599000;741000;1560000;663000;1287000;624000;2028000;702000;;Layer occupancy (ticks) 
+system.iobus.reqLayer25.utilization;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;Layer utilization (%) 
+system.iobus.reqLayer26.occupancy;176000;;;;;;;;;;Layer occupancy (ticks) 
+system.iobus.reqLayer26.utilization;0.0;;;;;;;;;;Layer utilization (%) 
+system.iobus.reqLayer27.occupancy;75000;;;;;;;;;;Layer occupancy (ticks) 
+system.iobus.reqLayer27.utilization;0.0;;;;;;;;;;Layer utilization (%) 
+system.iobus.reqLayer28.occupancy;118000;;;;;;;;;;Layer occupancy (ticks) 
+system.iobus.reqLayer28.utilization;0.0;;;;;;;;;;Layer utilization (%) 
+system.iobus.reqLayer29.occupancy;398776019;201745058;118149467;194262811;103771834;73266619;99131532;225972433;98560812;;Layer occupancy (ticks) 
+system.iobus.reqLayer29.utilization;0.0;0.2;0.0;0.2;0.4;0.0;0.1;0.5;0.0;;Layer utilization (%) 
+system.iobus.reqLayer30.occupancy;30000;;;;;;;;;;Layer occupancy (ticks) 
+system.iobus.reqLayer30.utilization;0.0;;;;;;;;;;Layer utilization (%) 
+system.iobus.respLayer0.occupancy;25627000;2943000;9645000;9028000;8094000;2450000;8162000;3419000;7894000;3000;Layer occupancy (ticks) 
+system.iobus.respLayer0.utilization;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;Layer utilization (%) 
+system.iobus.respLayer1.occupancy;45199299;22564738;13207927;21733146;11598851;8218487;11082971;25281247;11018999;;Layer occupancy (ticks) 
+system.iobus.respLayer1.utilization;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.1;0.0;;Layer utilization (%) 
+system.cpu.icache.tags.replacements;1440705;90221;88164;97006;49723;288285;47954;117832;80696;10163;number of replacements 
+system.cpu.icache.tags.tagsinuse;507.894029;511.772817;511.048576;511.568589;511.963343;511.981593;511.129969;511.514422;511.997456;511.897151;Cycle average of tags in use 
+system.cpu.icache.tags.total_refs;14128463;10168801;27753090;8780390;2594567;38048113;22504987;3758359;24191769;183593;Total number of references to valid blocks. 
+system.cpu.icache.tags.sampled_refs;1440705;90221;88164;97006;49723;288285;47954;117832;80696;10674;Sample count of references to valid blocks. 
+system.cpu.icache.tags.avg_refs;9.806631;112.709912;314.789370;90.513886;52.180420;131.980897;469.303645;31.895911;299.788949;17.200019;Average number of references to valid blocks. 
+system.cpu.icache.tags.warmup_cycle;92696653200;0;0;0;0;0;0;0;0;0;Cycle when the warmup percentage was hit. 
+system.cpu.icache.tags.occ_blocks::cpu.inst;507.894029;511.772817;511.048576;511.568589;511.963343;511.981593;511.129969;511.514422;511.997456;511.897151;Average occupied blocks per requestor 
+system.cpu.icache.tags.occ_percent::cpu.inst;0.991981;0.999556;0.998142;0.999157;0.999928;0.999964;0.998301;0.999052;0.999995;0.999799;Average percentage of cache occupancy 
+system.cpu.icache.tags.occ_percent::total;0.991981;0.999556;0.998142;0.999157;0.999928;0.999964;0.998301;0.999052;0.999995;0.999799;Average percentage of cache occupancy 
+system.cpu.icache.tags.occ_task_id_blocks::1024;512;512;512;511;511;511;512;511;512;511;Occupied blocks per task id 
+system.cpu.icache.tags.age_task_id_blocks_1024::0;62;56;45;52;63;57;55;52;58;53;Occupied blocks per task id 
+system.cpu.icache.tags.age_task_id_blocks_1024::1;36;22;24;23;51;19;18;24;17;22;Occupied blocks per task id 
+system.cpu.icache.tags.age_task_id_blocks_1024::2;388;410;401;413;380;378;418;417;387;416;Occupied blocks per task id 
+system.cpu.icache.tags.age_task_id_blocks_1024::3;26;24;42;23;17;57;21;18;50;20;Occupied blocks per task id 
+system.cpu.icache.tags.occ_task_id_percent::1024;1;1;1;0.998047;0.998047;0.998047;1;0.998047;1;0.998047;Percentage of cache occupancy per task id 
+system.cpu.icache.tags.tag_accesses;32779191;20637151;55784949;17858611;5315317;77016226;45163428;7889197;48627918;318292;Number of tag accesses 
+system.cpu.icache.tags.data_accesses;32779191;20637151;55784949;17858611;5315317;77016226;45163428;7889197;48627918;318292;Number of data accesses 
+system.cpu.icache.ReadReq_hits::cpu.inst;14158406;10177175;27756537;8777691;2579822;38062040;22506934;3760780;24189623;143125;number of ReadReq hits 
+system.cpu.icache.ReadReq_hits::total;14158406;10177175;27756537;8777691;2579822;38062040;22506934;3760780;24189623;143125;number of ReadReq hits 
+system.cpu.icache.demand_hits::cpu.inst;14158406;10177175;27756537;8777691;2579822;38062040;22506934;3760780;24189623;143125;number of demand (read+write) hits 
+system.cpu.icache.demand_hits::total;14158406;10177175;27756537;8777691;2579822;38062040;22506934;3760780;24189623;143125;number of demand (read+write) hits 
+system.cpu.icache.overall_hits::cpu.inst;14158406;10177175;27756537;8777691;2579822;38062040;22506934;3760780;24189623;143125;number of overall hits 
+system.cpu.icache.overall_hits::total;14158406;10177175;27756537;8777691;2579822;38062040;22506934;3760780;24189623;143125;number of overall hits 
+system.cpu.icache.ReadReq_misses::cpu.inst;1510055;96284;91842;103102;52972;301891;50801;124895;83985;10939;number of ReadReq misses 
+system.cpu.icache.ReadReq_misses::total;1510055;96284;91842;103102;52972;301891;50801;124895;83985;10939;number of ReadReq misses 
+system.cpu.icache.demand_misses::cpu.inst;1510055;96284;91842;103102;52972;301891;50801;124895;83985;10939;number of demand (read+write) misses 
+system.cpu.icache.demand_misses::total;1510055;96284;91842;103102;52972;301891;50801;124895;83985;10939;number of demand (read+write) misses 
+system.cpu.icache.overall_misses::cpu.inst;1510055;96284;91842;103102;52972;301891;50801;124895;83985;10939;number of overall misses 
+system.cpu.icache.overall_misses::total;1510055;96284;91842;103102;52972;301891;50801;124895;83985;10939;number of overall misses 
+system.cpu.icache.ReadReq_miss_latency::cpu.inst;93340266301;6056075729;6043873623;6502556430;3349863527;17971100754;3241660631;7793249724;5537967248;687185983;number of ReadReq miss cycles 
+system.cpu.icache.ReadReq_miss_latency::total;93340266301;6056075729;6043873623;6502556430;3349863527;17971100754;3241660631;7793249724;5537967248;687185983;number of ReadReq miss cycles 
+system.cpu.icache.demand_miss_latency::cpu.inst;93340266301;6056075729;6043873623;6502556430;3349863527;17971100754;3241660631;7793249724;5537967248;687185983;number of demand (read+write) miss cycles 
+system.cpu.icache.demand_miss_latency::total;93340266301;6056075729;6043873623;6502556430;3349863527;17971100754;3241660631;7793249724;5537967248;687185983;number of demand (read+write) miss cycles 
+system.cpu.icache.overall_miss_latency::cpu.inst;93340266301;6056075729;6043873623;6502556430;3349863527;17971100754;3241660631;7793249724;5537967248;687185983;number of overall miss cycles 
+system.cpu.icache.overall_miss_latency::total;93340266301;6056075729;6043873623;6502556430;3349863527;17971100754;3241660631;7793249724;5537967248;687185983;number of overall miss cycles 
+system.cpu.icache.ReadReq_accesses::cpu.inst;15668461;10273459;27848379;8880793;2632794;38363931;22557735;3885675;24273608;154064;number of ReadReq accesses(hits+misses) 
+system.cpu.icache.ReadReq_accesses::total;15668461;10273459;27848379;8880793;2632794;38363931;22557735;3885675;24273608;154064;number of ReadReq accesses(hits+misses) 
+system.cpu.icache.demand_accesses::cpu.inst;15668461;10273459;27848379;8880793;2632794;38363931;22557735;3885675;24273608;154064;number of demand (read+write) accesses 
+system.cpu.icache.demand_accesses::total;15668461;10273459;27848379;8880793;2632794;38363931;22557735;3885675;24273608;154064;number of demand (read+write) accesses 
+system.cpu.icache.overall_accesses::cpu.inst;15668461;10273459;27848379;8880793;2632794;38363931;22557735;3885675;24273608;154064;number of overall (read+write) accesses 
+system.cpu.icache.overall_accesses::total;15668461;10273459;27848379;8880793;2632794;38363931;22557735;3885675;24273608;154064;number of overall (read+write) accesses 
+system.cpu.icache.ReadReq_miss_rate::cpu.inst;0.096375;0.009372;0.003298;0.011610;0.020120;0.007869;0.002252;0.032142;0.003460;0.071003;miss rate for ReadReq accesses 
+system.cpu.icache.ReadReq_miss_rate::total;0.096375;0.009372;0.003298;0.011610;0.020120;0.007869;0.002252;0.032142;0.003460;0.071003;miss rate for ReadReq accesses 
+system.cpu.icache.demand_miss_rate::cpu.inst;0.096375;0.009372;0.003298;0.011610;0.020120;0.007869;0.002252;0.032142;0.003460;0.071003;miss rate for demand accesses 
+system.cpu.icache.demand_miss_rate::total;0.096375;0.009372;0.003298;0.011610;0.020120;0.007869;0.002252;0.032142;0.003460;0.071003;miss rate for demand accesses 
+system.cpu.icache.overall_miss_rate::cpu.inst;0.096375;0.009372;0.003298;0.011610;0.020120;0.007869;0.002252;0.032142;0.003460;0.071003;miss rate for overall accesses 
+system.cpu.icache.overall_miss_rate::total;0.096375;0.009372;0.003298;0.011610;0.020120;0.007869;0.002252;0.032142;0.003460;0.071003;miss rate for overall accesses 
+system.cpu.icache.ReadReq_avg_miss_latency::cpu.inst;61812.494446;62898.048783;65807.295388;63069.158988;63238.381164;59528.441570;63810.961024;62398.412458;65939.956516;62819.817442;average ReadReq miss latency 
+system.cpu.icache.ReadReq_avg_miss_latency::total;61812.494446;62898.048783;65807.295388;63069.158988;63238.381164;59528.441570;63810.961024;62398.412458;65939.956516;62819.817442;average ReadReq miss latency 
+system.cpu.icache.demand_avg_miss_latency::cpu.inst;61812.494446;62898.048783;65807.295388;63069.158988;63238.381164;59528.441570;63810.961024;62398.412458;65939.956516;62819.817442;average overall miss latency 
+system.cpu.icache.demand_avg_miss_latency::total;61812.494446;62898.048783;65807.295388;63069.158988;63238.381164;59528.441570;63810.961024;62398.412458;65939.956516;62819.817442;average overall miss latency 
+system.cpu.icache.overall_avg_miss_latency::cpu.inst;61812.494446;62898.048783;65807.295388;63069.158988;63238.381164;59528.441570;63810.961024;62398.412458;65939.956516;62819.817442;average overall miss latency 
+system.cpu.icache.overall_avg_miss_latency::total;61812.494446;62898.048783;65807.295388;63069.158988;63238.381164;59528.441570;63810.961024;62398.412458;65939.956516;62819.817442;average overall miss latency 
+system.cpu.icache.blocked_cycles::no_mshrs;349;110;114;40;102;108;1;57;10;8;number of cycles access was blocked 
+system.cpu.icache.blocked_cycles::no_targets;0;0;0;0;0;0;0;0;0;0;number of cycles access was blocked 
+system.cpu.icache.blocked::no_mshrs;44;12;3;7;4;5;1;8;2;1;number of cycles access was blocked 
+system.cpu.icache.blocked::no_targets;0;0;0;0;0;0;0;0;0;0;number of cycles access was blocked 
+system.cpu.icache.avg_blocked_cycles::no_mshrs;7.931818;9.166667;38;5.714286;25.500000;21.600000;1;7.125000;5;8;average number of cycles each access was blocked 
+system.cpu.icache.avg_blocked_cycles::no_targets;nan;nan;nan;nan;nan;nan;nan;nan;nan;nan;average number of cycles each access was blocked 
+system.cpu.icache.fast_writes;0;0;0;0;0;0;0;0;0;0;number of fast writes performed 
+system.cpu.icache.cache_copies;0;0;0;0;0;0;0;0;0;0;number of cache copies performed 
+system.cpu.icache.ReadReq_mshr_hits::cpu.inst;67786;6051;3651;6077;3241;13527;2843;7048;3283;776;number of ReadReq MSHR hits 
+system.cpu.icache.ReadReq_mshr_hits::total;67786;6051;3651;6077;3241;13527;2843;7048;3283;776;number of ReadReq MSHR hits 
+system.cpu.icache.demand_mshr_hits::cpu.inst;67786;6051;3651;6077;3241;13527;2843;7048;3283;776;number of demand (read+write) MSHR hits 
+system.cpu.icache.demand_mshr_hits::total;67786;6051;3651;6077;3241;13527;2843;7048;3283;776;number of demand (read+write) MSHR hits 
+system.cpu.icache.overall_mshr_hits::cpu.inst;67786;6051;3651;6077;3241;13527;2843;7048;3283;776;number of overall MSHR hits 
+system.cpu.icache.overall_mshr_hits::total;67786;6051;3651;6077;3241;13527;2843;7048;3283;776;number of overall MSHR hits 
+system.cpu.icache.ReadReq_mshr_misses::cpu.inst;1442269;90233;88191;97025;49731;288364;47958;117847;80702;10163;number of ReadReq MSHR misses 
+system.cpu.icache.ReadReq_mshr_misses::total;1442269;90233;88191;97025;49731;288364;47958;117847;80702;10163;number of ReadReq MSHR misses 
+system.cpu.icache.demand_mshr_misses::cpu.inst;1442269;90233;88191;97025;49731;288364;47958;117847;80702;10163;number of demand (read+write) MSHR misses 
+system.cpu.icache.demand_mshr_misses::total;1442269;90233;88191;97025;49731;288364;47958;117847;80702;10163;number of demand (read+write) MSHR misses 
+system.cpu.icache.overall_mshr_misses::cpu.inst;1442269;90233;88191;97025;49731;288364;47958;117847;80702;10163;number of overall MSHR misses 
+system.cpu.icache.overall_mshr_misses::total;1442269;90233;88191;97025;49731;288364;47958;117847;80702;10163;number of overall MSHR misses 
+system.cpu.icache.ReadReq_mshr_miss_latency::cpu.inst;77895937145;5025152964;5106827372;5408697592;2784085620;14937983563;2705495018;6475162470;4684977475;567132364;number of ReadReq MSHR miss cycles 
+system.cpu.icache.ReadReq_mshr_miss_latency::total;77895937145;5025152964;5106827372;5408697592;2784085620;14937983563;2705495018;6475162470;4684977475;567132364;number of ReadReq MSHR miss cycles 
+system.cpu.icache.demand_mshr_miss_latency::cpu.inst;77895937145;5025152964;5106827372;5408697592;2784085620;14937983563;2705495018;6475162470;4684977475;567132364;number of demand (read+write) MSHR miss cycles 
+system.cpu.icache.demand_mshr_miss_latency::total;77895937145;5025152964;5106827372;5408697592;2784085620;14937983563;2705495018;6475162470;4684977475;567132364;number of demand (read+write) MSHR miss cycles 
+system.cpu.icache.overall_mshr_miss_latency::cpu.inst;77895937145;5025152964;5106827372;5408697592;2784085620;14937983563;2705495018;6475162470;4684977475;567132364;number of overall MSHR miss cycles 
+system.cpu.icache.overall_mshr_miss_latency::total;77895937145;5025152964;5106827372;5408697592;2784085620;14937983563;2705495018;6475162470;4684977475;567132364;number of overall MSHR miss cycles 
+system.cpu.icache.ReadReq_mshr_miss_rate::cpu.inst;0.092049;0.008783;0.003167;0.010925;0.018889;0.007517;0.002126;0.030329;0.003325;0.065966;mshr miss rate for ReadReq accesses 
+system.cpu.icache.ReadReq_mshr_miss_rate::total;0.092049;0.008783;0.003167;0.010925;0.018889;0.007517;0.002126;0.030329;0.003325;0.065966;mshr miss rate for ReadReq accesses 
+system.cpu.icache.demand_mshr_miss_rate::cpu.inst;0.092049;0.008783;0.003167;0.010925;0.018889;0.007517;0.002126;0.030329;0.003325;0.065966;mshr miss rate for demand accesses 
+system.cpu.icache.demand_mshr_miss_rate::total;0.092049;0.008783;0.003167;0.010925;0.018889;0.007517;0.002126;0.030329;0.003325;0.065966;mshr miss rate for demand accesses 
+system.cpu.icache.overall_mshr_miss_rate::cpu.inst;0.092049;0.008783;0.003167;0.010925;0.018889;0.007517;0.002126;0.030329;0.003325;0.065966;mshr miss rate for overall accesses 
+system.cpu.icache.overall_mshr_miss_rate::total;0.092049;0.008783;0.003167;0.010925;0.018889;0.007517;0.002126;0.030329;0.003325;0.065966;mshr miss rate for overall accesses 
+system.cpu.icache.ReadReq_avg_mshr_miss_latency::cpu.inst;54009.298643;55690.855496;57906.445919;55745.401618;55982.900404;51802.525846;56413.841653;54945.501116;58052.805073;55803.637115;average ReadReq mshr miss latency 
+system.cpu.icache.ReadReq_avg_mshr_miss_latency::total;54009.298643;55690.855496;57906.445919;55745.401618;55982.900404;51802.525846;56413.841653;54945.501116;58052.805073;55803.637115;average ReadReq mshr miss latency 
+system.cpu.icache.demand_avg_mshr_miss_latency::cpu.inst;54009.298643;55690.855496;57906.445919;55745.401618;55982.900404;51802.525846;56413.841653;54945.501116;58052.805073;55803.637115;average overall mshr miss latency 
+system.cpu.icache.demand_avg_mshr_miss_latency::total;54009.298643;55690.855496;57906.445919;55745.401618;55982.900404;51802.525846;56413.841653;54945.501116;58052.805073;55803.637115;average overall mshr miss latency 
+system.cpu.icache.overall_avg_mshr_miss_latency::cpu.inst;54009.298643;55690.855496;57906.445919;55745.401618;55982.900404;51802.525846;56413.841653;54945.501116;58052.805073;55803.637115;average overall mshr miss latency 
+system.cpu.icache.overall_avg_mshr_miss_latency::total;54009.298643;55690.855496;57906.445919;55745.401618;55982.900404;51802.525846;56413.841653;54945.501116;58052.805073;55803.637115;average overall mshr miss latency 
+system.cpu.icache.no_allocate_misses;0;0;0;0;0;0;0;0;0;0;Number of misses that were no-allocate 
+system.cpu.dcache.tags.replacements;2881362;151549;3036950;212523;85799;78868;218515;67290;961364;17333;number of replacements 
+system.cpu.dcache.tags.tagsinuse;1023.931257;1023.867043;1023.991727;1023.736697;1023.938595;1023.991008;1023.988546;1021.838753;1023.980906;1024;Cycle average of tags in use 
+system.cpu.dcache.tags.total_refs;18939583;15110258;45146593;13247635;3962837;87816909;32443868;3026430;49102543;225467;Total number of references to valid blocks. 
+system.cpu.dcache.tags.sampled_refs;2881362;151549;3036950;212523;85799;78868;218515;67290;961364;18357;Sample count of references to valid blocks. 
+system.cpu.dcache.tags.avg_refs;6.573136;99.705429;14.865768;62.335065;46.187450;1113.466919;148.474329;44.975925;51.075912;12.282345;Average number of references to valid blocks. 
+system.cpu.dcache.tags.warmup_cycle;53883250;0;0;0;0;0;0;0;0;0;Cycle when the warmup percentage was hit. 
+system.cpu.dcache.tags.occ_blocks::cpu.data;1023.931257;1023.867043;1023.991727;1023.736697;1023.938595;1023.991008;1023.988546;1021.838753;1023.980906;1024;Average occupied blocks per requestor 
+system.cpu.dcache.tags.occ_percent::cpu.data;0.999933;0.999870;0.999992;0.999743;0.999940;0.999991;0.999989;0.997889;0.999981;1;Average percentage of cache occupancy 
+system.cpu.dcache.tags.occ_percent::total;0.999933;0.999870;0.999992;0.999743;0.999940;0.999991;0.999989;0.997889;0.999981;1;Average percentage of cache occupancy 
+system.cpu.dcache.tags.occ_task_id_blocks::1024;1024;1024;1024;1024;1024;1024;1024;1024;1024;1024;Occupied blocks per task id 
+system.cpu.dcache.tags.age_task_id_blocks_1024::0;42;40;37;41;36;45;42;38;42;44;Occupied blocks per task id 
+system.cpu.dcache.tags.age_task_id_blocks_1024::1;906;904;820;900;820;901;907;915;628;615;Occupied blocks per task id 
+system.cpu.dcache.tags.age_task_id_blocks_1024::2;71;73;162;72;160;67;69;66;342;351;Occupied blocks per task id 
+system.cpu.dcache.tags.age_task_id_blocks_1024::3;5;7;5;11;8;11;6;5;12;13;Occupied blocks per task id 
+system.cpu.dcache.tags.occ_task_id_percent::1024;1;1;1;1;1;1;1;1;1;1;Percentage of cache occupancy per task id 
+system.cpu.dcache.tags.tag_accesses;52128593;31311149;113952872;28462854;8859486;176358113;66051968;6713791;104186762;604775;Number of tag accesses 
+system.cpu.dcache.tags.data_accesses;52128593;31311149;113952872;28462854;8859486;176358113;66051968;6713791;104186762;604775;Number of data accesses 
+system.cpu.dcache.ReadReq_hits::cpu.data;12468222;11169130;39820751;10398854;2466780;57328571;22179898;2202394;45123641;129573;number of ReadReq hits 
+system.cpu.dcache.ReadReq_hits::total;12468222;11169130;39820751;10398854;2466780;57328571;22179898;2202394;45123641;129573;number of ReadReq hits 
+system.cpu.dcache.WriteReq_hits::cpu.data;5976180;3917678;5265372;2822505;1473611;30455829;10239435;782564;3938519;61909;number of WriteReq hits 
+system.cpu.dcache.WriteReq_hits::total;5976180;3917678;5265372;2822505;1473611;30455829;10239435;782564;3938519;61909;number of WriteReq hits 
+system.cpu.dcache.LoadLockedReq_hits::cpu.data;230494;11928;28386;17148;10627;15719;10840;19687;25780;2358;number of LoadLockedReq hits 
+system.cpu.dcache.LoadLockedReq_hits::total;230494;11928;28386;17148;10627;15719;10840;19687;25780;2358;number of LoadLockedReq hits 
+system.cpu.dcache.StoreCondReq_hits::cpu.data;280888;12065;30478;16863;9877;15822;10447;18883;26905;2476;number of StoreCondReq hits 
+system.cpu.dcache.StoreCondReq_hits::total;280888;12065;30478;16863;9877;15822;10447;18883;26905;2476;number of StoreCondReq hits 
+system.cpu.dcache.demand_hits::cpu.data;18444402;15086808;45086123;13221359;3940391;87784400;32419333;2984958;49062160;191482;number of demand (read+write) hits 
+system.cpu.dcache.demand_hits::total;18444402;15086808;45086123;13221359;3940391;87784400;32419333;2984958;49062160;191482;number of demand (read+write) hits 
+system.cpu.dcache.overall_hits::cpu.data;18444402;15086808;45086123;13221359;3940391;87784400;32419333;2984958;49062160;191482;number of overall hits 
+system.cpu.dcache.overall_hits::total;18444402;15086808;45086123;13221359;3940391;87784400;32419333;2984958;49062160;191482;number of overall hits 
+system.cpu.dcache.ReadReq_misses::cpu.data;3664998;204904;7242101;362957;184654;130072;270159;110630;865530;28041;number of ReadReq misses 
+system.cpu.dcache.ReadReq_misses::total;3664998;204904;7242101;362957;184654;130072;270159;110630;865530;28041;number of ReadReq misses 
+system.cpu.dcache.WriteReq_misses::cpu.data;1974775;262553;3066414;504762;240315;191805;204653;187325;1629350;68994;number of WriteReq misses 
+system.cpu.dcache.WriteReq_misses::total;1974775;262553;3066414;504762;240315;191805;204653;187325;1629350;68994;number of WriteReq misses 
+system.cpu.dcache.LoadLockedReq_misses::cpu.data;27459;1532;4456;2051;978;1784;1293;1712;2963;370;number of LoadLockedReq misses 
+system.cpu.dcache.LoadLockedReq_misses::total;27459;1532;4456;2051;978;1784;1293;1712;2963;370;number of LoadLockedReq misses 
+system.cpu.dcache.StoreCondReq_misses::cpu.data;18;3;;6;;2;;4;;;number of StoreCondReq misses 
+system.cpu.dcache.StoreCondReq_misses::total;18;3;;6;;2;;4;;;number of StoreCondReq misses 
+system.cpu.dcache.demand_misses::cpu.data;5639773;467457;10308515;867719;424969;321877;474812;297955;2494880;97035;number of demand (read+write) misses 
+system.cpu.dcache.demand_misses::total;5639773;467457;10308515;867719;424969;321877;474812;297955;2494880;97035;number of demand (read+write) misses 
+system.cpu.dcache.overall_misses::cpu.data;5639773;467457;10308515;867719;424969;321877;474812;297955;2494880;97035;number of overall misses 
+system.cpu.dcache.overall_misses::total;5639773;467457;10308515;867719;424969;321877;474812;297955;2494880;97035;number of overall misses 
+system.cpu.dcache.ReadReq_miss_latency::cpu.data;229319245516;12970522597;390851416490;21168080019;10903682424;8383585474;16879074997;7173310796;46312099025;1865193174;number of ReadReq miss cycles 
+system.cpu.dcache.ReadReq_miss_latency::total;229319245516;12970522597;390851416490;21168080019;10903682424;8383585474;16879074997;7173310796;46312099025;1865193174;number of ReadReq miss cycles 
+system.cpu.dcache.WriteReq_miss_latency::cpu.data;124268403070;17672317488;190150993780;35180313991;17286900025;12690523866;14556805276;12625905685;119185963986;4927606176;number of WriteReq miss cycles 
+system.cpu.dcache.WriteReq_miss_latency::total;124268403070;17672317488;190150993780;35180313991;17286900025;12690523866;14556805276;12625905685;119185963986;4927606176;number of WriteReq miss cycles 
+system.cpu.dcache.LoadLockedReq_miss_latency::cpu.data;1898190175;107755475;329648275;146069800;68973675;123335600;93322250;116102500;204380725;26603375;number of LoadLockedReq miss cycles 
+system.cpu.dcache.LoadLockedReq_miss_latency::total;1898190175;107755475;329648275;146069800;68973675;123335600;93322250;116102500;204380725;26603375;number of LoadLockedReq miss cycles 
+system.cpu.dcache.StoreCondReq_miss_latency::cpu.data;298757;50222;;98744;;33423;;66221;;;number of StoreCondReq miss cycles 
+system.cpu.dcache.StoreCondReq_miss_latency::total;298757;50222;;98744;;33423;;66221;;;number of StoreCondReq miss cycles 
+system.cpu.dcache.demand_miss_latency::cpu.data;353587648586;30642840085;581002410270;56348394010;28190582449;21074109340;31435880273;19799216481;165498063011;6792799350;number of demand (read+write) miss cycles 
+system.cpu.dcache.demand_miss_latency::total;353587648586;30642840085;581002410270;56348394010;28190582449;21074109340;31435880273;19799216481;165498063011;6792799350;number of demand (read+write) miss cycles 
+system.cpu.dcache.overall_miss_latency::cpu.data;353587648586;30642840085;581002410270;56348394010;28190582449;21074109340;31435880273;19799216481;165498063011;6792799350;number of overall miss cycles 
+system.cpu.dcache.overall_miss_latency::total;353587648586;30642840085;581002410270;56348394010;28190582449;21074109340;31435880273;19799216481;165498063011;6792799350;number of overall miss cycles 
+system.cpu.dcache.ReadReq_accesses::cpu.data;16133220;11374034;47062852;10761811;2651434;57458643;22450057;2313024;45989171;157614;number of ReadReq accesses(hits+misses) 
+system.cpu.dcache.ReadReq_accesses::total;16133220;11374034;47062852;10761811;2651434;57458643;22450057;2313024;45989171;157614;number of ReadReq accesses(hits+misses) 
+system.cpu.dcache.WriteReq_accesses::cpu.data;7950955;4180231;8331786;3327267;1713926;30647634;10444088;969889;5567869;130903;number of WriteReq accesses(hits+misses) 
+system.cpu.dcache.WriteReq_accesses::total;7950955;4180231;8331786;3327267;1713926;30647634;10444088;969889;5567869;130903;number of WriteReq accesses(hits+misses) 
+system.cpu.dcache.LoadLockedReq_accesses::cpu.data;257953;13460;32842;19199;11605;17503;12133;21399;28743;2728;number of LoadLockedReq accesses(hits+misses) 
+system.cpu.dcache.LoadLockedReq_accesses::total;257953;13460;32842;19199;11605;17503;12133;21399;28743;2728;number of LoadLockedReq accesses(hits+misses) 
+system.cpu.dcache.StoreCondReq_accesses::cpu.data;280906;12068;30478;16869;9877;15824;10447;18887;26905;2476;number of StoreCondReq accesses(hits+misses) 
+system.cpu.dcache.StoreCondReq_accesses::total;280906;12068;30478;16869;9877;15824;10447;18887;26905;2476;number of StoreCondReq accesses(hits+misses) 
+system.cpu.dcache.demand_accesses::cpu.data;24084175;15554265;55394638;14089078;4365360;88106277;32894145;3282913;51557040;288517;number of demand (read+write) accesses 
+system.cpu.dcache.demand_accesses::total;24084175;15554265;55394638;14089078;4365360;88106277;32894145;3282913;51557040;288517;number of demand (read+write) accesses 
+system.cpu.dcache.overall_accesses::cpu.data;24084175;15554265;55394638;14089078;4365360;88106277;32894145;3282913;51557040;288517;number of overall (read+write) accesses 
+system.cpu.dcache.overall_accesses::total;24084175;15554265;55394638;14089078;4365360;88106277;32894145;3282913;51557040;288517;number of overall (read+write) accesses 
+system.cpu.dcache.ReadReq_miss_rate::cpu.data;0.227171;0.018015;0.153881;0.033726;0.069643;0.002264;0.012034;0.047829;0.018820;0.177909;miss rate for ReadReq accesses 
+system.cpu.dcache.ReadReq_miss_rate::total;0.227171;0.018015;0.153881;0.033726;0.069643;0.002264;0.012034;0.047829;0.018820;0.177909;miss rate for ReadReq accesses 
+system.cpu.dcache.WriteReq_miss_rate::cpu.data;0.248370;0.062808;0.368038;0.151705;0.140213;0.006258;0.019595;0.193141;0.292634;0.527062;miss rate for WriteReq accesses 
+system.cpu.dcache.WriteReq_miss_rate::total;0.248370;0.062808;0.368038;0.151705;0.140213;0.006258;0.019595;0.193141;0.292634;0.527062;miss rate for WriteReq accesses 
+system.cpu.dcache.LoadLockedReq_miss_rate::cpu.data;0.106450;0.113819;0.135680;0.106828;0.084274;0.101925;0.106569;0.080004;0.103086;0.135630;miss rate for LoadLockedReq accesses 
+system.cpu.dcache.LoadLockedReq_miss_rate::total;0.106450;0.113819;0.135680;0.106828;0.084274;0.101925;0.106569;0.080004;0.103086;0.135630;miss rate for LoadLockedReq accesses 
+system.cpu.dcache.StoreCondReq_miss_rate::cpu.data;0.000064;0.000249;;0.000356;;0.000126;;0.000212;;;miss rate for StoreCondReq accesses 
+system.cpu.dcache.StoreCondReq_miss_rate::total;0.000064;0.000249;;0.000356;;0.000126;;0.000212;;;miss rate for StoreCondReq accesses 
+system.cpu.dcache.demand_miss_rate::cpu.data;0.234169;0.030053;0.186092;0.061588;0.097350;0.003653;0.014435;0.090759;0.048391;0.336323;miss rate for demand accesses 
+system.cpu.dcache.demand_miss_rate::total;0.234169;0.030053;0.186092;0.061588;0.097350;0.003653;0.014435;0.090759;0.048391;0.336323;miss rate for demand accesses 
+system.cpu.dcache.overall_miss_rate::cpu.data;0.234169;0.030053;0.186092;0.061588;0.097350;0.003653;0.014435;0.090759;0.048391;0.336323;miss rate for overall accesses 
+system.cpu.dcache.overall_miss_rate::total;0.234169;0.030053;0.186092;0.061588;0.097350;0.003653;0.014435;0.090759;0.048391;0.336323;miss rate for overall accesses 
+system.cpu.dcache.ReadReq_avg_miss_latency::cpu.data;62570.087491;63300.485091;53969.340733;58321.178594;59049.261993;64453.421751;62478.299805;64840.556775;53507.214106;66516.642559;average ReadReq miss latency 
+system.cpu.dcache.ReadReq_avg_miss_latency::total;62570.087491;63300.485091;53969.340733;58321.178594;59049.261993;64453.421751;62478.299805;64840.556775;53507.214106;66516.642559;average ReadReq miss latency 
+system.cpu.dcache.WriteReq_avg_miss_latency::cpu.data;62927.879414;67309.524127;62010.867998;69696.835322;71934.336288;66163.675952;71129.205416;67401.071320;73149.393308;71420.792765;average WriteReq miss latency 
+system.cpu.dcache.WriteReq_avg_miss_latency::total;62927.879414;67309.524127;62010.867998;69696.835322;71934.336288;66163.675952;71129.205416;67401.071320;73149.393308;71420.792765;average WriteReq miss latency 
+system.cpu.dcache.LoadLockedReq_avg_miss_latency::cpu.data;69128.161077;70336.471932;73978.517729;71218.820088;70525.230061;69134.304933;72174.980665;67816.880841;68977.632467;71901.013514;average LoadLockedReq miss latency 
+system.cpu.dcache.LoadLockedReq_avg_miss_latency::total;69128.161077;70336.471932;73978.517729;71218.820088;70525.230061;69134.304933;72174.980665;67816.880841;68977.632467;71901.013514;average LoadLockedReq miss latency 
+system.cpu.dcache.StoreCondReq_avg_miss_latency::cpu.data;16597.611111;16740.666667;;16457.333333;;16711.500000;;16555.250000;;;average StoreCondReq miss latency 
+system.cpu.dcache.StoreCondReq_avg_miss_latency::total;16597.611111;16740.666667;;16457.333333;;16711.500000;;16555.250000;;;average StoreCondReq miss latency 
+system.cpu.dcache.demand_avg_miss_latency::cpu.data;62695.368871;65552.211401;56361.407077;64938.527346;66335.620831;65472.554237;66207.004610;66450.358212;66335.079447;70003.600247;average overall miss latency 
+system.cpu.dcache.demand_avg_miss_latency::total;62695.368871;65552.211401;56361.407077;64938.527346;66335.620831;65472.554237;66207.004610;66450.358212;66335.079447;70003.600247;average overall miss latency 
+system.cpu.dcache.overall_avg_miss_latency::cpu.data;62695.368871;65552.211401;56361.407077;64938.527346;66335.620831;65472.554237;66207.004610;66450.358212;66335.079447;70003.600247;average overall miss latency 
+system.cpu.dcache.overall_avg_miss_latency::total;62695.368871;65552.211401;56361.407077;64938.527346;66335.620831;65472.554237;66207.004610;66450.358212;66335.079447;70003.600247;average overall miss latency 
+system.cpu.dcache.blocked_cycles::no_mshrs;604636;137946;2372410;190125;199385;79846;99892;74718;511055;32476;number of cycles access was blocked 
+system.cpu.dcache.blocked_cycles::no_targets;10;74;0;0;0;0;0;0;0;0;number of cycles access was blocked 
+system.cpu.dcache.blocked::no_mshrs;64295;19684;233403;17235;24168;9315;9812;7885;41572;3465;number of cycles access was blocked 
+system.cpu.dcache.blocked::no_targets;1;5;0;0;0;0;0;0;0;0;number of cycles access was blocked 
+system.cpu.dcache.avg_blocked_cycles::no_mshrs;9.404091;7.008027;10.164437;11.031332;8.249959;8.571766;10.180595;9.475967;12.293250;9.372583;average number of cycles each access was blocked 
+system.cpu.dcache.avg_blocked_cycles::no_targets;10;14.800000;nan;nan;nan;nan;nan;nan;nan;nan;average number of cycles each access was blocked 
+system.cpu.dcache.fast_writes;0;0;0;0;0;0;0;0;0;0;number of fast writes performed 
+system.cpu.dcache.cache_copies;0;0;0;0;0;0;0;0;0;0;number of cache copies performed 
+system.cpu.dcache.writebacks::writebacks;495296;70366;1308216;113407;53913;37394;124013;35685;636179;10526;number of writebacks 
+system.cpu.dcache.writebacks::total;495296;70366;1308216;113407;53913;37394;124013;35685;636179;10526;number of writebacks 
+system.cpu.dcache.ReadReq_mshr_hits::cpu.data;1122341;92516;4917863;231893;140891;80728;80201;70880;493959;19994;number of ReadReq MSHR hits 
+system.cpu.dcache.ReadReq_mshr_hits::total;1122341;92516;4917863;231893;140891;80728;80201;70880;493959;19994;number of ReadReq MSHR hits 
+system.cpu.dcache.WriteReq_mshr_hits::cpu.data;1655279;224324;2357154;424568;198832;163232;177000;160615;1041648;59900;number of WriteReq MSHR hits 
+system.cpu.dcache.WriteReq_mshr_hits::total;1655279;224324;2357154;424568;198832;163232;177000;160615;1041648;59900;number of WriteReq MSHR hits 
+system.cpu.dcache.LoadLockedReq_mshr_hits::cpu.data;5907;557;968;709;404;734;376;725;836;177;number of LoadLockedReq MSHR hits 
+system.cpu.dcache.LoadLockedReq_mshr_hits::total;5907;557;968;709;404;734;376;725;836;177;number of LoadLockedReq MSHR hits 
+system.cpu.dcache.demand_mshr_hits::cpu.data;2777620;316840;7275017;656461;339723;243960;257201;231495;1535607;79894;number of demand (read+write) MSHR hits 
+system.cpu.dcache.demand_mshr_hits::total;2777620;316840;7275017;656461;339723;243960;257201;231495;1535607;79894;number of demand (read+write) MSHR hits 
+system.cpu.dcache.overall_mshr_hits::cpu.data;2777620;316840;7275017;656461;339723;243960;257201;231495;1535607;79894;number of overall MSHR hits 
+system.cpu.dcache.overall_mshr_hits::total;2777620;316840;7275017;656461;339723;243960;257201;231495;1535607;79894;number of overall MSHR hits 
+system.cpu.dcache.ReadReq_mshr_misses::cpu.data;2542657;112388;2324238;131064;43763;49344;189958;39750;371571;8047;number of ReadReq MSHR misses 
+system.cpu.dcache.ReadReq_mshr_misses::total;2542657;112388;2324238;131064;43763;49344;189958;39750;371571;8047;number of ReadReq MSHR misses 
+system.cpu.dcache.WriteReq_mshr_misses::cpu.data;319496;38229;709260;80194;41483;28573;27653;26710;587702;9094;number of WriteReq MSHR misses 
+system.cpu.dcache.WriteReq_mshr_misses::total;319496;38229;709260;80194;41483;28573;27653;26710;587702;9094;number of WriteReq MSHR misses 
+system.cpu.dcache.LoadLockedReq_mshr_misses::cpu.data;21552;975;3488;1342;574;1050;917;987;2127;193;number of LoadLockedReq MSHR misses 
+system.cpu.dcache.LoadLockedReq_mshr_misses::total;21552;975;3488;1342;574;1050;917;987;2127;193;number of LoadLockedReq MSHR misses 
+system.cpu.dcache.StoreCondReq_mshr_misses::cpu.data;18;3;;6;;2;;4;;;number of StoreCondReq MSHR misses 
+system.cpu.dcache.StoreCondReq_mshr_misses::total;18;3;;6;;2;;4;;;number of StoreCondReq MSHR misses 
+system.cpu.dcache.demand_mshr_misses::cpu.data;2862153;150617;3033498;211258;85246;77917;217611;66460;959273;17141;number of demand (read+write) MSHR misses 
+system.cpu.dcache.demand_mshr_misses::total;2862153;150617;3033498;211258;85246;77917;217611;66460;959273;17141;number of demand (read+write) MSHR misses 
+system.cpu.dcache.overall_mshr_misses::cpu.data;2862153;150617;3033498;211258;85246;77917;217611;66460;959273;17141;number of overall MSHR misses 
+system.cpu.dcache.overall_mshr_misses::total;2862153;150617;3033498;211258;85246;77917;217611;66460;959273;17141;number of overall MSHR misses 
+system.cpu.dcache.ReadReq_mshr_miss_latency::cpu.data;136753771333;6437094203;134934307060;7502927953;2725898551;3069569326;10625199328;2475390652;21467754825;506209376;number of ReadReq MSHR miss cycles 
+system.cpu.dcache.ReadReq_mshr_miss_latency::total;136753771333;6437094203;134934307060;7502927953;2725898551;3069569326;10625199328;2475390652;21467754825;506209376;number of ReadReq MSHR miss cycles 
+system.cpu.dcache.WriteReq_mshr_miss_latency::cpu.data;18670510940;2408452040;41131280324;5118459354;2849391146;1741146162;1842279658;1667490329;38523298753;611635393;number of WriteReq MSHR miss cycles 
+system.cpu.dcache.WriteReq_mshr_miss_latency::total;18670510940;2408452040;41131280324;5118459354;2849391146;1741146162;1842279658;1667490329;38523298753;611635393;number of WriteReq MSHR miss cycles 
+system.cpu.dcache.LoadLockedReq_mshr_miss_latency::cpu.data;1287036050;62136850;239036400;86549775;37883075;63928975;58971025;61184950;138083625;12581350;number of LoadLockedReq MSHR miss cycles 
+system.cpu.dcache.LoadLockedReq_mshr_miss_latency::total;1287036050;62136850;239036400;86549775;37883075;63928975;58971025;61184950;138083625;12581350;number of LoadLockedReq MSHR miss cycles 
+system.cpu.dcache.StoreCondReq_mshr_miss_latency::cpu.data;101718;16953;;33906;;11302;;22604;;;number of StoreCondReq MSHR miss cycles 
+system.cpu.dcache.StoreCondReq_mshr_miss_latency::total;101718;16953;;33906;;11302;;22604;;;number of StoreCondReq MSHR miss cycles 
+system.cpu.dcache.demand_mshr_miss_latency::cpu.data;155424282273;8845546243;176065587384;12621387307;5575289697;4810715488;12467478986;4142880981;59991053578;1117844769;number of demand (read+write) MSHR miss cycles 
+system.cpu.dcache.demand_mshr_miss_latency::total;155424282273;8845546243;176065587384;12621387307;5575289697;4810715488;12467478986;4142880981;59991053578;1117844769;number of demand (read+write) MSHR miss cycles 
+system.cpu.dcache.overall_mshr_miss_latency::cpu.data;155424282273;8845546243;176065587384;12621387307;5575289697;4810715488;12467478986;4142880981;59991053578;1117844769;number of overall MSHR miss cycles 
+system.cpu.dcache.overall_mshr_miss_latency::total;155424282273;8845546243;176065587384;12621387307;5575289697;4810715488;12467478986;4142880981;59991053578;1117844769;number of overall MSHR miss cycles 
+system.cpu.dcache.ReadReq_mshr_uncacheable_latency::cpu.data;1431953550;172296300;756397625;692084675;662590450;116107200;661191900;196272650;576536075;;number of ReadReq MSHR uncacheable cycles 
+system.cpu.dcache.ReadReq_mshr_uncacheable_latency::total;1431953550;172296300;756397625;692084675;662590450;116107200;661191900;196272650;576536075;;number of ReadReq MSHR uncacheable cycles 
+system.cpu.dcache.WriteReq_mshr_uncacheable_latency::cpu.data;2067528048;167406150;431586875;384608300;304040575;196618325;323233100;192135525;432499525;618550;number of WriteReq MSHR uncacheable cycles 
+system.cpu.dcache.WriteReq_mshr_uncacheable_latency::total;2067528048;167406150;431586875;384608300;304040575;196618325;323233100;192135525;432499525;618550;number of WriteReq MSHR uncacheable cycles 
+system.cpu.dcache.overall_mshr_uncacheable_latency::cpu.data;3499481598;339702450;1187984500;1076692975;966631025;312725525;984425000;388408175;1009035600;618550;number of overall MSHR uncacheable cycles 
+system.cpu.dcache.overall_mshr_uncacheable_latency::total;3499481598;339702450;1187984500;1076692975;966631025;312725525;984425000;388408175;1009035600;618550;number of overall MSHR uncacheable cycles 
+system.cpu.dcache.ReadReq_mshr_miss_rate::cpu.data;0.157604;0.009881;0.049386;0.012179;0.016505;0.000859;0.008461;0.017185;0.008080;0.051055;mshr miss rate for ReadReq accesses 
+system.cpu.dcache.ReadReq_mshr_miss_rate::total;0.157604;0.009881;0.049386;0.012179;0.016505;0.000859;0.008461;0.017185;0.008080;0.051055;mshr miss rate for ReadReq accesses 
+system.cpu.dcache.WriteReq_mshr_miss_rate::cpu.data;0.040183;0.009145;0.085127;0.024102;0.024203;0.000932;0.002648;0.027539;0.105552;0.069471;mshr miss rate for WriteReq accesses 
+system.cpu.dcache.WriteReq_mshr_miss_rate::total;0.040183;0.009145;0.085127;0.024102;0.024203;0.000932;0.002648;0.027539;0.105552;0.069471;mshr miss rate for WriteReq accesses 
+system.cpu.dcache.LoadLockedReq_mshr_miss_rate::cpu.data;0.083550;0.072437;0.106205;0.069899;0.049461;0.059990;0.075579;0.046124;0.074001;0.070748;mshr miss rate for LoadLockedReq accesses 
+system.cpu.dcache.LoadLockedReq_mshr_miss_rate::total;0.083550;0.072437;0.106205;0.069899;0.049461;0.059990;0.075579;0.046124;0.074001;0.070748;mshr miss rate for LoadLockedReq accesses 
+system.cpu.dcache.StoreCondReq_mshr_miss_rate::cpu.data;0.000064;0.000249;;0.000356;;0.000126;;0.000212;;;mshr miss rate for StoreCondReq accesses 
+system.cpu.dcache.StoreCondReq_mshr_miss_rate::total;0.000064;0.000249;;0.000356;;0.000126;;0.000212;;;mshr miss rate for StoreCondReq accesses 
+system.cpu.dcache.demand_mshr_miss_rate::cpu.data;0.118840;0.009683;0.054762;0.014994;0.019528;0.000884;0.006615;0.020244;0.018606;0.059411;mshr miss rate for demand accesses 
+system.cpu.dcache.demand_mshr_miss_rate::total;0.118840;0.009683;0.054762;0.014994;0.019528;0.000884;0.006615;0.020244;0.018606;0.059411;mshr miss rate for demand accesses 
+system.cpu.dcache.overall_mshr_miss_rate::cpu.data;0.118840;0.009683;0.054762;0.014994;0.019528;0.000884;0.006615;0.020244;0.018606;0.059411;mshr miss rate for overall accesses 
+system.cpu.dcache.overall_mshr_miss_rate::total;0.118840;0.009683;0.054762;0.014994;0.019528;0.000884;0.006615;0.020244;0.018606;0.059411;mshr miss rate for overall accesses 
+system.cpu.dcache.ReadReq_avg_mshr_miss_latency::cpu.data;53783.806205;57275.636216;58055.288254;57246.291529;62287.744236;62207.549570;55934.466187;62273.978667;57775.646714;62906.595750;average ReadReq mshr miss latency 
+system.cpu.dcache.ReadReq_avg_mshr_miss_latency::total;53783.806205;57275.636216;58055.288254;57246.291529;62287.744236;62207.549570;55934.466187;62273.978667;57775.646714;62906.595750;average ReadReq mshr miss latency 
+system.cpu.dcache.WriteReq_avg_mshr_miss_latency::cpu.data;58437.385570;63000.655000;57991.822920;63825.963962;68688.164935;60936.764148;66621.330706;62429.439498;65549.034635;67257.025841;average WriteReq mshr miss latency 
+system.cpu.dcache.WriteReq_avg_mshr_miss_latency::total;58437.385570;63000.655000;57991.822920;63825.963962;68688.164935;60936.764148;66621.330706;62429.439498;65549.034635;67257.025841;average WriteReq mshr miss latency 
+system.cpu.dcache.LoadLockedReq_avg_mshr_miss_latency::cpu.data;59717.708333;63730.102564;68531.077982;64493.125931;65998.388502;60884.738095;64308.642312;61990.830800;64919.428773;65188.341969;average LoadLockedReq mshr miss latency 
+system.cpu.dcache.LoadLockedReq_avg_mshr_miss_latency::total;59717.708333;63730.102564;68531.077982;64493.125931;65998.388502;60884.738095;64308.642312;61990.830800;64919.428773;65188.341969;average LoadLockedReq mshr miss latency 
+system.cpu.dcache.StoreCondReq_avg_mshr_miss_latency::cpu.data;5651;5651;;5651;;5651;;5651;;;average StoreCondReq mshr miss latency 
+system.cpu.dcache.StoreCondReq_avg_mshr_miss_latency::total;5651;5651;;5651;;5651;;5651;;;average StoreCondReq mshr miss latency 
+system.cpu.dcache.demand_avg_mshr_miss_latency::cpu.data;54303.275287;58728.737413;58040.449469;59743.949611;65402.361366;61741.538920;57292.503532;62336.457734;62538.040347;65214.676448;average overall mshr miss latency 
+system.cpu.dcache.demand_avg_mshr_miss_latency::total;54303.275287;58728.737413;58040.449469;59743.949611;65402.361366;61741.538920;57292.503532;62336.457734;62538.040347;65214.676448;average overall mshr miss latency 
+system.cpu.dcache.overall_avg_mshr_miss_latency::cpu.data;54303.275287;58728.737413;58040.449469;59743.949611;65402.361366;61741.538920;57292.503532;62336.457734;62538.040347;65214.676448;average overall mshr miss latency 
+system.cpu.dcache.overall_avg_mshr_miss_latency::total;54303.275287;58728.737413;58040.449469;59743.949611;65402.361366;61741.538920;57292.503532;62336.457734;62538.040347;65214.676448;average overall mshr miss latency 
+system.cpu.dcache.ReadReq_avg_mshr_uncacheable_latency::cpu.data;inf;inf;inf;inf;inf;inf;inf;inf;inf;;average ReadReq mshr uncacheable latency 
+system.cpu.dcache.ReadReq_avg_mshr_uncacheable_latency::total;inf;inf;inf;inf;inf;inf;inf;inf;inf;;average ReadReq mshr uncacheable latency 
+system.cpu.dcache.WriteReq_avg_mshr_uncacheable_latency::cpu.data;inf;inf;inf;inf;inf;inf;inf;inf;inf;inf;average WriteReq mshr uncacheable latency 
+system.cpu.dcache.WriteReq_avg_mshr_uncacheable_latency::total;inf;inf;inf;inf;inf;inf;inf;inf;inf;inf;average WriteReq mshr uncacheable latency 
+system.cpu.dcache.overall_avg_mshr_uncacheable_latency::cpu.data;inf;inf;inf;inf;inf;inf;inf;inf;inf;inf;average overall mshr uncacheable latency 
+system.cpu.dcache.overall_avg_mshr_uncacheable_latency::total;inf;inf;inf;inf;inf;inf;inf;inf;inf;inf;average overall mshr uncacheable latency 
+system.cpu.dcache.no_allocate_misses;0;0;0;0;0;0;0;0;0;0;Number of misses that were no-allocate 
+system.cpu.kern.inst.arm;0;0;0;0;0;0;0;0;0;0;number of arm instructions executed 
+system.cpu.kern.inst.quiesce;7248;123;57;120;51;99;48;156;54;0;number of quiesce instructions executed 
+system.cpu.kern.inst.hwrei;237546;14527;765377;20486;12595;22516;23928;16078;1009438;2756;number of hwrei instructions executed 
+system.cpu.kern.ipl_count::0;82489;3514;10137;5748;3691;4712;4312;4128;10419;587;number of times we switched to this ipl 
+system.cpu.kern.ipl_count::21;120;51;69;102;69;43;60;66;65;;number of times we switched to this ipl 
+system.cpu.kern.ipl_count::22;2552;87;483;103;27;395;166;42;800;3;number of times we switched to this ipl 
+system.cpu.kern.ipl_count::31;120765;5536;15395;8261;4816;9300;6606;6077;18488;630;number of times we switched to this ipl 
+system.cpu.kern.ipl_count::total;205926;9188;26084;14214;8603;14450;11144;10313;29772;1220;number of times we switched to this ipl 
+system.cpu.kern.ipl_good::0;80952;3505;10134;5738;3688;4702;4309;4118;10416;585;number of times we switched to this ipl from a different ipl 
+system.cpu.kern.ipl_good::21;120;51;69;102;69;43;60;66;65;;number of times we switched to this ipl from a different ipl 
+system.cpu.kern.ipl_good::22;2552;87;483;103;27;395;166;42;800;3;number of times we switched to this ipl from a different ipl 
+system.cpu.kern.ipl_good::31;80952;3505;10134;5738;3688;4702;4309;4118;10416;585;number of times we switched to this ipl from a different ipl 
+system.cpu.kern.ipl_good::total;164576;7148;20820;11681;7472;9842;8844;8344;21697;1173;number of times we switched to this ipl from a different ipl 
+system.cpu.kern.ipl_ticks::0;2410950403075;80872303300;461587239225;94003149075;21998950175;379492671425;157141966875;36507692525;769534005850;2353654400;number of cycles we spent at this ipl 
+system.cpu.kern.ipl_ticks::21;168019700;70119325;85179400;133289150;82693400;59449300;73074275;92400100;79532225;;number of cycles we spent at this ipl 
+system.cpu.kern.ipl_ticks::22;1886136675;83910975;474871200;91555425;24956050;350828275;150784375;41406025;682130150;3285475;number of cycles we spent at this ipl 
+system.cpu.kern.ipl_ticks::31;164378924750;4142760800;9847054475;6186371450;3847375975;6339749175;4703975300;4613999050;10722561525;283604575;number of cycles we spent at this ipl 
+system.cpu.kern.ipl_ticks::total;2577383484200;85169094400;471994344300;100414365100;25953975600;386242698175;162069800825;41255497700;781018229750;2640544450;number of cycles we spent at this ipl 
+system.cpu.kern.ipl_used::0;0.981367;0.997439;0.999704;0.998260;0.999187;0.997878;0.999304;0.997578;0.999712;0.996593;fraction of swpipl calls that actually changed the ipl 
+system.cpu.kern.ipl_used::21;1;1;1;1;1;1;1;1;1;;fraction of swpipl calls that actually changed the ipl 
+system.cpu.kern.ipl_used::22;1;1;1;1;1;1;1;1;1;1;fraction of swpipl calls that actually changed the ipl 
+system.cpu.kern.ipl_used::31;0.670327;0.633129;0.658266;0.694589;0.765781;0.505591;0.652286;0.677637;0.563392;0.928571;fraction of swpipl calls that actually changed the ipl 
+system.cpu.kern.ipl_used::total;0.799200;0.777971;0.798190;0.821795;0.868534;0.681107;0.793611;0.809076;0.728772;0.961475;fraction of swpipl calls that actually changed the ipl 
+system.cpu.kern.syscall::2;8;3;2;3;2;3;2;3;2;1;number of syscalls executed 
+system.cpu.kern.syscall::3;33;13;3;24;3;89;3;302;3;2;number of syscalls executed 
+system.cpu.kern.syscall::4;7;16;29;43;30;89;26;306;28;;number of syscalls executed 
+system.cpu.kern.syscall::6;45;8;3;7;3;10;3;8;3;2;number of syscalls executed 
+system.cpu.kern.syscall::12;1;;;;;;;;;;number of syscalls executed 
+system.cpu.kern.syscall::15;1;;;;;;;;;;number of syscalls executed 
+system.cpu.kern.syscall::17;18;12;5;9;5;7;5;5;5;1;number of syscalls executed 
+system.cpu.kern.syscall::19;11;3;2;5;2;3;2;3;2;;number of syscalls executed 
+system.cpu.kern.syscall::20;6;;;;;;;;;;number of syscalls executed 
+system.cpu.kern.syscall::23;4;;;;;;;;;;number of syscalls executed 
+system.cpu.kern.syscall::24;8;;;;;;;;;;number of syscalls executed 
+system.cpu.kern.syscall::33;12;1;1;1;1;3;1;1;1;1;number of syscalls executed 
+system.cpu.kern.syscall::41;2;;;;;;;;;;number of syscalls executed 
+system.cpu.kern.syscall::45;62;7;3;7;3;13;3;7;3;3;number of syscalls executed 
+system.cpu.kern.syscall::47;8;;;;;;;;;;number of syscalls executed 
+system.cpu.kern.syscall::48;10;3;2;3;2;3;2;3;2;1;number of syscalls executed 
+system.cpu.kern.syscall::54;12;;1;2;1;;1;;1;;number of syscalls executed 
+system.cpu.kern.syscall::58;2;;;;;;;;;;number of syscalls executed 
+system.cpu.kern.syscall::59;7;3;2;3;2;3;2;3;2;1;number of syscalls executed 
+system.cpu.kern.syscall::71;63;8;17;15;8;16;6;4;8;4;number of syscalls executed 
+system.cpu.kern.syscall::73;5;4;;11;;4;;;;;number of syscalls executed 
+system.cpu.kern.syscall::74;18;1;1;1;1;3;1;1;1;1;number of syscalls executed 
+system.cpu.kern.syscall::87;2;;;;;;;;;;number of syscalls executed 
+system.cpu.kern.syscall::90;3;;;;;2;;4;;;number of syscalls executed 
+system.cpu.kern.syscall::92;9;;;;;;;;;;number of syscalls executed 
+system.cpu.kern.syscall::97;2;;;;;;;;;;number of syscalls executed 
+system.cpu.kern.syscall::98;2;;;;;;;;;;number of syscalls executed 
+system.cpu.kern.syscall::132;4;;;;;;;;;;number of syscalls executed 
+system.cpu.kern.syscall::144;2;;1;;1;;1;;1;;number of syscalls executed 
+system.cpu.kern.syscall::147;2;;;;;;;;;;number of syscalls executed 
+system.cpu.kern.syscall::total;369;86;74;138;66;248;60;654;64;17;number of syscalls executed 
+system.cpu.kern.callpal::cserve;1;;;;;;;;;;number of callpals executed 
+system.cpu.kern.callpal::wrmces;1;;;;;;;;;;number of callpals executed 
+system.cpu.kern.callpal::wrfen;1;;;;;;;;;;number of callpals executed 
+system.cpu.kern.callpal::wrvptptr;1;;;;;;;;;;number of callpals executed 
+system.cpu.kern.callpal::swpctx;4493;361;262;369;247;471;239;377;242;121;number of callpals executed 
+system.cpu.kern.callpal::tbi;65;29;13;27;13;25;13;27;13;6;number of callpals executed 
+system.cpu.kern.callpal::wrent;7;;;;;;;;;;number of callpals executed 
+system.cpu.kern.callpal::swpipl;197087;8284;22682;12965;7903;12746;10062;8999;26595;1027;number of callpals executed 
+system.cpu.kern.callpal::rdps;5999;407;1109;492;189;1110;455;530;1733;7;number of callpals executed 
+system.cpu.kern.callpal::wrkgp;1;;;;;;;;;;number of callpals executed 
+system.cpu.kern.callpal::wrusp;8;3;2;3;2;3;2;3;2;1;number of callpals executed 
+system.cpu.kern.callpal::rdusp;10;3;2;3;2;3;2;3;2;1;number of callpals executed 
+system.cpu.kern.callpal::whami;2;;;;;;;;;;number of callpals executed 
+system.cpu.kern.callpal::rti;6166;766;2850;1044;604;1266;856;1206;2312;190;number of callpals executed 
+system.cpu.kern.callpal::callsys;565;182;1052;195;131;327;267;699;134;34;number of callpals executed 
+system.cpu.kern.callpal::imb;237;9;6;7;6;57;6;7;6;4;number of callpals executed 
+system.cpu.kern.callpal::total;214644;10044;28346;15105;9233;16008;12054;11851;31176;1391;number of callpals executed 
+system.cpu.kern.mode_switch::kernel;6800;1127;3112;1413;849;1737;1093;1583;2552;311;number of protection mode switches 
+system.cpu.kern.mode_switch::user;1986;696;2757;918;524;1202;786;1120;2227;187;number of protection mode switches 
+system.cpu.kern.mode_switch::idle;2365;0;0;0;2;0;2;0;2;0;number of protection mode switches 
+system.cpu.kern.mode_switch_good::kernel;0.301176;0.617569;0.885925;0.649682;0.618375;0.691998;0.720037;0.707517;0.873041;0.601286;fraction of useful protection mode switches 
+system.cpu.kern.mode_switch_good::user;1;1;1;1;1;1;1;1;1;1;fraction of useful protection mode switches 
+system.cpu.kern.mode_switch_good::idle;0.026216;nan;nan;nan;0.500000;nan;0.500000;nan;0.500000;nan;fraction of useful protection mode switches 
+system.cpu.kern.mode_switch_good::total;0.367321;0.763577;0.939513;0.787645;0.763636;0.817965;0.836789;0.828709;0.932023;0.751004;fraction of useful protection mode switches 
+system.cpu.kern.mode_ticks::kernel;231119250300;10911480575;22703657725;15411544550;8898159575;16347193025;9904893525;15376630375;23212544750;1713390750;number of ticks spent at the given mode 
+system.cpu.kern.mode_ticks::user;15251900975;74257613825;449290686575;85002820550;17017189800;369895505150;152125837550;25878867325;757768095550;927153700;number of ticks spent at the given mode 
+system.cpu.kern.mode_ticks::idle;2331012287725;0;0;0;38626225;0;39069750;0;37589450;0;number of ticks spent at the given mode 
+system.cpu.kern.swap_context;4494;361;262;369;247;471;239;377;242;121;number of times the context was actually changed 
