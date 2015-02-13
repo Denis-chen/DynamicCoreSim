@@ -1,0 +1,168 @@
+#!/bin/sh
+
+CORES=1
+
+printf "=================================================\n"
+printf "Running dnamic_processor Benchmark (CORES=$CORES)\n"
+printf "=================================================\n"
+./sbin/m5 dumpresetstats
+
+# jpeg
+# usage: djpeg [switches] [inputfile]
+# Switches (names may be abbreviated):
+#   -colors N      Reduce image to no more than N colors
+#   -fast          Fast, low-quality processing
+#   -grayscale     Force grayscale output
+#   -scale M/N     Scale output image by fraction M/N, eg, 1/8
+#   -bmp           Select BMP output format (Windows style)
+#   -gif           Select GIF output format
+#   -os2           Select BMP output format (OS/2 style)
+#   -pnm           Select PBMPLUS (PPM/PGM) output format (default)
+#   -targa         Select Targa output format
+# Switches for advanced users:
+#   -dct int       Use integer DCT method (default)
+#   -dct fast      Use fast integer DCT (less accurate)
+#   -dct float     Use floating-point DCT method
+#   -dither fs     Use F-S dithering (default)
+#   -dither none   Don't use dithering in quantization
+#   -dither ordered  Use ordered dither (medium speed, quality)
+#   -map FILE      Map to colors used in named image file
+#   -nosmooth      Don't use high-quality upsampling
+#   -onepass       Use 1-pass quantization (fast, low quality)
+#   -maxmemory N   Maximum memory to use (in kbytes)
+#   -outfile name  Specify name for output file
+#   -verbose  or  -debug   Emit debug output
+
+# usage: cjpeg.X86 [switches] [inputfile]
+# Switches (names may be abbreviated):
+#   -quality N     Compression quality (0..100; 5-95 is useful range)
+#   -grayscale     Create monochrome JPEG file
+#   -optimize      Optimize Huffman table (smaller file, but slow compression)
+#   -progressive   Create progressive JPEG file
+#   -targa         Input file is Targa format (usually not needed)
+# Switches for advanced users:
+#   -dct int       Use integer DCT method (default)
+#   -dct fast      Use fast integer DCT (less accurate)
+#   -dct float     Use floating-point DCT method
+#   -restart N     Set restart interval in rows, or in blocks with B
+#   -smooth N      Smooth dithered input (N=1..100 is strength)
+#   -maxmemory N   Maximum memory to use (in kbytes)
+#   -outfile name  Specify name for output file
+#   -verbose  or  -debug   Emit debug output
+# Switches for wizards:
+#   -baseline      Force baseline output
+#   -qtables file  Use quantization tables given in file
+#   -qslots N[,...]    Set component quantization tables
+#   -sample HxV[,...]  Set component sampling factors
+#   -scans file    Create multi-scan JPEG per script file
+printf "\n\nRunning 'djpeg -dct int -gif -outfile testout.gif testimg.jpg' now...\n\n"
+./benches/jpeg/djpeg -dct int -gif -outfile /benches/jpeg/testout.gif /benches/jpeg/testimg.jpg
+printf "\n\nRunning 'cjpeg -dct int -progressive -opt -outfile testout.jpg testimg.gif' now...\n\n"
+./benches/jpeg/cjpeg -dct int -progressive -opt -outfile /benches/jpeg/testout.jpg /benches/jpeg/testimg.gif
+./sbin/m5 dumpresetstats
+
+# Usage: OCEAN <options>
+# options:
+#   -nN : Simulate NxN ocean.  N must be (power of 2)+2.
+#   -pP : P = number of processors.  P must be power of 2.
+#   -eE : E = error tolerance for iterative relaxation.
+#   -rR : R = distance between grid points in meters.
+#   -tT : T = timestep in seconds.
+#   -s  : Print timing statistics.
+#   -o  : Print out relaxation residual values.
+#   -h  : Print out command line options.
+# Default: OCEAN -n258 -p1 -e1e-07 -r20000 -t28800
+printf "\n\nRunning 'OCEAN -n130 -p$CORES -e1e-07 -r20000 -t28800 -s' now...\n\n"
+./benches/ocean/OCEAN -n130 -p$CORES -e1e-07 -r20000 -t28800 -s
+./sbin/m5 dumpresetstats
+
+# epic
+# Usage: 
+# 	epic infile [-o outfile] [-x xdim] [-y ydim] [-l levels] [-b binsize]
+# Usage:  
+# 	unepic epicfile [outfile]
+printf "\n\nRunning 'epic test_image -o test_out' now...\n\n"
+./benches/epic/epic /benches/epic/test_image -o /benches/epic/test_out
+printf "\n\nRunning 'unepic test_image.E' now...\n\n"
+./benches/epic/unepic /benches/epic/test_image.E
+./sbin/m5 dumpresetstats
+
+# Usage: FFT <options>
+# options:
+#   -mM : M = even integer; 2**M total complex data points transformed.
+#   -pP : P = number of processors; Must be a power of 2.
+#   -nN : N = number of cache lines.
+#   -lL : L = Log base 2 of cache line length in bytes.
+#   -s  : Print individual processor timing statistics.
+#   -t  : Perform FFT and inverse FFT.  Test output by comparing the
+#         integral of the original data to the integral of the data that
+#         results from performing the FFT and inverse FFT.
+#   -o  : Print out complex data points.
+#   -h  : Print out command line options.
+# Default: FFT -m10 -p1 -n65536 -l4
+printf "\n\nRunning 'FFT -m14 -p$CORES -n65536 -l4 -s' now...\n\n"
+./benches/fft/FFT -m14 -p$CORES -n65536 -l4 -s
+./sbin/m5 dumpresetstats
+
+# gsm
+# Usage: 'toast or untoast' [-fcpdhvaulsF] [files...]
+#  -f  force     Replace existing files without asking
+#  -c  cat       Write to stdout, do not remove source files
+#  -d  decode    Decode data (default is encode)
+#  -p  precious  Do not delete the source
+
+#  -u  u-law     Force 8 kHz/8 bit u-law in/output format
+#  -s  sun .au   Force Sun .au u-law in/output format
+#  -a  A-law     Force 8 kHz/8 bit A-law in/output format
+#  -l  linear    Force 16 bit linear in/output format
+
+#  -F  fast      Sacrifice conformance to performance
+#  -v  version   Show version information
+#  -h  help      Print this text
+printf "\n\nRunning 'toast -lc clinton.pcm' now...\n\n"
+./benches/gsm/toast -lc /benches/gsm/clinton.pcm > out.gsm
+printf "\n\nRunning 'untoast -lc clinton.pcm' now...\n\n"
+./benches/gsm/untoast -lc /benches/gsm/clinton.pcm.gsm > out.pcm
+./sbin/m5 dumpresetstats
+
+# Usage: LU <options>
+# options:
+#   -nN : Decompose NxN matrix.
+#   -pP : P = number of processors.
+#   -bB : Use a block size of B. BxB elements should fit in cache for 
+#         good performance. Small block sizes (B=8, B=16) work well.
+#   -c  : Copy non-locally allocated blocks to local memory before use.
+#   -s  : Print individual processor timing statistics.
+#   -t  : Test output.
+#   -o  : Print out matrix values.
+#   -h  : Print out command line options.
+# Default: LU -n128 -p1 -b16
+printf "\n\nRunning 'LU -n300 -p$CORES -b16 -s' now...\n\n"
+./benches/lu/LU -n300 -p$CORES -b16 -s
+./sbin/m5 dumpresetstats
+
+# adpcm
+printf "\n\nRunning 'rawcaudio < clinton.pcm > out.adpcm' now...\n\n"
+./benches/adpcm/rawcaudio < /benches/adpcm/clinton.pcm > /benches/adpcm/out.adpcm
+printf "\n\nRunning 'rawdaudio < clinton.adpcm > out.pcm now...\n\n"
+./benches/adpcm/rawdaudio < /benches/adpcm/clinton.adpcm > /benches/adpcm/out.pcm 
+./sbin/m5 dumpresetstats
+
+# Usage: RADIX <options>
+#    -pP : P = number of processors.
+#    -rR : R = radix for sorting.  Must be power of 2.
+#    -nN : N = number of keys to sort.
+#    -mM : M = maximum key value.  Integer keys k will be generated such
+#          that 0 <= k <= M.
+#    -s  : Print individual processor timing statistics.
+#    -t  : Check to make sure all keys are sorted correctly.
+#    -o  : Print out sorted keys.
+#    -h  : Print out command line options.
+
+# Default: RADIX -p1 -n262144 -r1024 -m524288
+printf "\n\nRunning 'RADIX -p$CORES -n262144 -r1024 -m524288 -s' now...\n\n"
+./benches/radix/RADIX -p$CORES -n524288 -r1024 -m524288 -s
+./sbin/m5 dumpresetstats
+
+#Gracefully exit M5
+./sbin/m5 exit
