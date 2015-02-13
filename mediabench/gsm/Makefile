@@ -33,7 +33,7 @@ SASR	= -DSASR
 # CCFLAGS 	= -c -O
 
 CC		= gcc -ansi -pedantic
-CCFLAGS 	= -c -O2 -DNeedFunctionPrototypes=1 -static -static-libgcc
+CCFLAGS 	= -c -O3 -DNeedFunctionPrototypes=1 -static -static-libgcc
 
 LD 		= $(CC)
 

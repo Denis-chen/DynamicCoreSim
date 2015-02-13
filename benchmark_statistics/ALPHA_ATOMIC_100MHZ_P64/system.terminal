@@ -1,757 +1,0 @@
-M5 console: m5AlphaAccess @ 0xFFFFFD0200000000
-Got Configuration 623
-memsize 10000000 pages 8000 
-First free page after ROM 0xFFFFFC0000018000
-HWRPB 0xFFFFFC0000018000 l1pt 0xFFFFFC0000040000 l2pt 0xFFFFFC0000042000 l3pt_rpb 0xFFFFFC0000044000 l3pt_kernel 0xFFFFFC0000048000 l2reserv 0xFFFFFC0000046000
-kstart = 0xFFFFFC0000310000, kend = 0xFFFFFC0000899860, kentry = 0xFFFFFC0000310000, numCPUs = 0x40
-CPU Clock at 100 MHz IntrClockFrequency=1024 
-Booting with 64 processor(s) 
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-KSP: 0x20043FE8 PTBR 0x20
-Console Callback at 0x0, fixup at 0x0, crb offset: 0xA290
-Memory cluster 0 [0 - 392]
-Memory cluster 1 [392 - 32376]
-Initalizing mdt_bitmap addr 0xFFFFFC0000038000 mem_pages 8000 
-ConsoleDispatch at virt 1000A3D8 phys 223D8 val FFFFFC00000100A8
-Bootstraping CPU 1 with sp=0xFFFFFC0000076000
-Bootstraping CPU 2 with sp=0xFFFFFC0000078000
-Bootstraping CPU 3 with sp=0xFFFFFC000007A000
-Bootstraping CPU 4 with sp=0xFFFFFC000007C000
-Entering slaveloop for cpu 1 my_rpb=FFFFFC0000018400
-Bootstraping CPU 5 with sp=0xFFFFFC000007E000
-Entering slaveloop for cpu 2 my_rpb=FFFFFC0000018680
-Bootstraping CPU 6 with sp=0xFFFFFC0000080000
-Entering slaveloop for cpu 3 my_rpb=FFFFFC0000018900
-Bootstraping CPU 7 with sp=0xFFFFFC0000082000
-Entering slaveloop for cpu 4 my_rpb=FFFFFC0000018B80
-Bootstraping CPU 8 with sp=0xFFFFFC0000084000
-Entering slaveloop for cpu 5 my_rpb=FFFFFC0000018E00
-Bootstraping CPU 9 with sp=0xFFFFFC0000086000
-Entering slaveloop for cpu 7 my_rpb=FFFFFC0000019300
-Entering slaveloop for cpu 8 my_rpb=FFFFFC0000019580
-Bootstraping CPU 10 with sp=0xFFFFFC0000088000
-Entering slaveloop for cpu 6 my_rpb=FFFFFC0000019080
-Bootstraping CPU 11 with sp=0xFFFFFC000008A000
-Entering slaveloop for cpu 9 my_rpb=FFFFFC0000019800
-Bootstraping CPU 12 with sp=0xFFFFFC000008C000
-Entering slaveloop for cpu 10 my_rpb=FFFFFC0000019A80
-Bootstraping CPU 13 with sp=0xFFFFFC000008E000
-Bootstraping CPU 14 with sp=0xFFFFFC0000090000
-Entering slaveloop for cpu 11 my_rpb=FFFFFC0000019D00
-Bootstraping CPU 15 with sp=0xFFFFFC0000092000
-Entering slaveloop for cpu 12 my_rpb=FFFFFC0000019F80
-Bootstraping CPU 16 with sp=0xFFFFFC0000094000
-Entering slaveloop for cpu 13 my_rpb=FFFFFC000001A200
-Bootstraping CPU 17 with sp=0xFFFFFC0000096000
-Entering slaveloop for cpu 14 my_rpb=FFFFFC000001A480
-Entering slaveloop for cpu 15 my_rpb=FFFFFC000001A700
-Entering slaveloop for cpu 16 my_rpb=FFFFFC000001A980
-Entering slaveloop for cpu 17 my_rpb=FFFFFC000001AC00
-Bootstraping CPU 18 with sp=0xFFFFFC0000098000
-Bootstraping CPU 19 with sp=0xFFFFFC000009A000
-Bootstraping CPU 20 with sp=0xFFFFFC000009C000
-Bootstraping CPU 21 with sp=0xFFFFFC000009E000
-Entering slaveloop for cpu 18 my_rpb=FFFFFC000001AE80
-Bootstraping CPU 22 with sp=0xFFFFFC00000A0000
-Entering slaveloop for cpu 19 my_rpb=FFFFFC000001B100
-Bootstraping CPU 23 with sp=0xFFFFFC00000A2000
-Entering slaveloop for cpu 20 my_rpb=FFFFFC000001B380
-Entering slaveloop for cpu 21 my_rpb=FFFFFC000001B600
-Entering slaveloop for cpu 22 my_rpb=FFFFFC000001B880
-Entering slaveloop for cpu 23 my_rpb=FFFFFC000001BB00
-Bootstraping CPU 24 with sp=0xFFFFFC00000A4000
-Bootstraping CPU 25 with sp=0xFFFFFC00000A6000
-Entering slaveloop for cpu 24 my_rpb=FFFFFC000001BD80
-Bootstraping CPU 26 with sp=0xFFFFFC00000A8000
-Bootstraping CPU 27 with sp=0xFFFFFC00000AA000
-Bootstraping CPU 28 with sp=0xFFFFFC00000AC000
-Entering slaveloop for cpu 25 my_rpb=FFFFFC000001C000
-Bootstraping CPU 29 with sp=0xFFFFFC00000AE000
-Entering slaveloop for cpu 26 my_rpb=FFFFFC000001C280
-Bootstraping CPU 30 with sp=0xFFFFFC00000B0000
-Entering slaveloop for cpu 27 my_rpb=FFFFFC000001C500
-Bootstraping CPU 31 with sp=0xFFFFFC00000B2000
-Entering slaveloop for cpu 28 my_rpb=FFFFFC000001C780
-Bootstraping CPU 32 with sp=0xFFFFFC00000B4000
-Entering slaveloop for cpu 29 my_rpb=FFFFFC000001CA00
-Bootstraping CPU 33 with sp=0xFFFFFC00000B6000
-Entering slaveloop for cpu 30 my_rpb=FFFFFC000001CC80
-Bootstraping CPU 34 with sp=0xFFFFFC00000B8000
-Entering slaveloop for cpu 31 my_rpb=FFFFFC000001CF00
-Bootstraping CPU 35 with sp=0xFFFFFC00000BA000
-Entering slaveloop for cpu 32 my_rpb=FFFFFC000001D180
-Bootstraping CPU 36 with sp=0xFFFFFC00000BC000
-Entering slaveloop for cpu 33 my_rpb=FFFFFC000001D400
-Bootstraping CPU 37 with sp=0xFFFFFC00000BE000
-Entering slaveloop for cpu 34 my_rpb=FFFFFC000001D680
-Entering slaveloop for cpu 36 my_rpb=FFFFFC000001DB80
-Bootstraping CPU 38 with sp=0xFFFFFC00000C0000
-Entering slaveloop for cpu 37 my_rpb=FFFFFC000001DE00
-Entering slaveloop for cpu 35 my_rpb=FFFFFC000001D900
-Bootstraping CPU 39 with sp=0xFFFFFC00000C2000
-Entering slaveloop for cpu 38 my_rpb=FFFFFC000001E080
-Bootstraping CPU 40 with sp=0xFFFFFC00000C4000
-Bootstraping CPU 41 with sp=0xFFFFFC00000C6000
-Bootstraping CPU 42 with sp=0xFFFFFC00000C8000
-Bootstraping CPU 43 with sp=0xFFFFFC00000CA000
-Entering slaveloop for cpu 39 my_rpb=FFFFFC000001E300
-Bootstraping CPU 44 with sp=0xFFFFFC00000CC000
-Entering slaveloop for cpu 40 my_rpb=FFFFFC000001E580
-Bootstraping CPU 45 with sp=0xFFFFFC00000CE000
-Entering slaveloop for cpu 41 my_rpb=FFFFFC000001E800
-Bootstraping CPU 46 with sp=0xFFFFFC00000D0000
-Entering slaveloop for cpu 42 my_rpb=FFFFFC000001EA80
-Entering slaveloop for cpu 43 my_rpb=FFFFFC000001ED00
-Bootstraping CPU 47 with sp=0xFFFFFC00000D2000
-Entering slaveloop for cpu 44 my_rpb=FFFFFC000001EF80
-Entering slaveloop for cpu 46 my_rpb=FFFFFC000001F480
-Bootstraping CPU 48 with sp=0xFFFFFC00000D4000
-Entering slaveloop for cpu 47 my_rpb=FFFFFC000001F700
-Bootstraping CPU 49 with sp=0xFFFFFC00000D6000
-Entering slaveloop for cpu 45 my_rpb=FFFFFC000001F200
-Entering slaveloop for cpu 48 my_rpb=FFFFFC000001F980
-Bootstraping CPU 50 with sp=0xFFFFFC00000D8000
-Bootstraping CPU 51 with sp=0xFFFFFC00000DA000
-Bootstraping CPU 52 with sp=0xFFFFFC00000DC000
-Entering slaveloop for cpu 49 my_rpb=FFFFFC000001FC00
-Bootstraping CPU 53 with sp=0xFFFFFC00000DE000
-Entering slaveloop for cpu 50 my_rpb=FFFFFC000001FE80
-Bootstraping CPU 54 with sp=0xFFFFFC00000E0000
-Entering slaveloop for cpu 51 my_rpb=FFFFFC0000020100
-Bootstraping CPU 55 with sp=0xFFFFFC00000E2000
-Entering slaveloop for cpu 52 my_rpb=FFFFFC0000020380
-Bootstraping CPU 56 with sp=0xFFFFFC00000E4000
-Entering slaveloop for cpu 53 my_rpb=FFFFFC0000020600
-Bootstraping CPU 57 with sp=0xFFFFFC00000E6000
-Entering slaveloop for cpu 55 my_rpb=FFFFFC0000020B00
-Bootstraping CPU 58 with sp=0xFFFFFC00000E8000
-Entering slaveloop for cpu 54 my_rpb=FFFFFC0000020880
-Bootstraping CPU 59 with sp=0xFFFFFC00000EA000
-Entering slaveloop for cpu 57 my_rpb=FFFFFC0000021000
-Entering slaveloop for cpu 58 my_rpb=FFFFFC0000021280
-Bootstraping CPU 60 with sp=0xFFFFFC00000EC000
-Entering slaveloop for cpu 56 my_rpb=FFFFFC0000020D80
-Bootstraping CPU 61 with sp=0xFFFFFC00000EE000
-Entering slaveloop for cpu 59 my_rpb=FFFFFC0000021500
-Bootstraping CPU 62 with sp=0xFFFFFC00000F0000
-Entering slaveloop for cpu 60 my_rpb=FFFFFC0000021780
-Bootstraping CPU 63 with sp=0xFFFFFC00000F2000
-unix_boot_mem ends at FFFFFC00000F4000 
-Entering slaveloop for cpu 61 my_rpb=FFFFFC0000021A00
-k_argc = 0 Entering slaveloop for cpu 62 my_rpb=FFFFFC0000021C80
-Entering slaveloop for cpu 63 my_rpb=FFFFFC0000021F00
-
-jumping to kernel at 0xFFFFFC0000310000, (PCBB 0xFFFFFC0000018180 pfn 1101)
-CallbackFixup 0 18000, t7=FFFFFC0000814000
-Linux version 2.6.27.6-dirty (joel@capillary) (gcc version 4.3.4 (crosstool-NG-1.5.2) ) #1 SMP Sat Mar 6 19:10:44 CST 2010
-Booting GENERIC on Tsunami variation DP264 using machine vector DP264 from SRM
-Major Options: SMP LEGACY_START VERBOSE_MCHECK 
-Command line: root=/dev/hda1 console=ttyS0
-memcluster 0, usage 1, start        0, end      392
-memcluster 1, usage 0, start      392, end    32768
-freeing pages 1103:32768
-reserving pages 1103:1104
-SMP: 64 CPUs probed -- cpu_present_map = ffffffffffffffff
-Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32544
-Kernel command line: root=/dev/hda1 console=ttyS0
-PID hash table entries: 1024 (order: 10, 8192 bytes)
-Using epoch = 1900
-Console: colour dummy device 80x25
-console [ttyS0] enabled
-Dentry cache hash table entries: 32768 (order: 5, 262144 bytes)
-Inode-cache hash table entries: 16384 (order: 4, 131072 bytes)
-Memory: 248992k/262144k available (3757k kernel code, 9704k reserved, 261k data, 208k init)
-Mount-cache hash table entries: 512
-SMP starting up secondaries.
-Slave CPU 1 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC0000018400 my_rpb_phys 18400
-Slave CPU 2 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC0000018680 my_rpb_phys 18680
-Slave CPU 3 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC0000018900 my_rpb_phys 18900
-Slave CPU 4 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC0000018B80 my_rpb_phys 18B80
-Slave CPU 5 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC0000018E00 my_rpb_phys 18E00
-Slave CPU 6 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC0000019080 my_rpb_phys 19080
-Slave CPU 7 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC0000019300 my_rpb_phys 19300
-Slave CPU 8 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC0000019580 my_rpb_phys 19580
-Slave CPU 9 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC0000019800 my_rpb_phys 19800
-Slave CPU 10 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC0000019A80 my_rpb_phys 19A80
-Slave CPU 11 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC0000019D00 my_rpb_phys 19D00
-Slave CPU 12 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC0000019F80 my_rpb_phys 19F80
-Slave CPU 13 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001A200 my_rpb_phys 1A200
-Slave CPU 14 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001A480 my_rpb_phys 1A480
-Slave CPU 15 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001A700 my_rpb_phys 1A700
-Slave CPU 16 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001A980 my_rpb_phys 1A980
-Slave CPU 17 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001AC00 my_rpb_phys 1AC00
-Slave CPU 18 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001AE80 my_rpb_phys 1AE80
-Slave CPU 19 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001B100 my_rpb_phys 1B100
-Slave CPU 20 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001B380 my_rpb_phys 1B380
-Slave CPU 21 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001B600 my_rpb_phys 1B600
-Slave CPU 22 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001B880 my_rpb_phys 1B880
-Slave CPU 23 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001BB00 my_rpb_phys 1BB00
-Slave CPU 24 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001BD80 my_rpb_phys 1BD80
-Slave CPU 25 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001C000 my_rpb_phys 1C000
-Slave CPU 26 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001C280 my_rpb_phys 1C280
-Slave CPU 27 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001C500 my_rpb_phys 1C500
-Slave CPU 28 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001C780 my_rpb_phys 1C780
-Slave CPU 29 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001CA00 my_rpb_phys 1CA00
-Slave CPU 30 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001CC80 my_rpb_phys 1CC80
-Slave CPU 31 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001CF00 my_rpb_phys 1CF00
-Slave CPU 32 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001D180 my_rpb_phys 1D180
-Slave CPU 33 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001D400 my_rpb_phys 1D400
-Slave CPU 34 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001D680 my_rpb_phys 1D680
-Slave CPU 35 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001D900 my_rpb_phys 1D900
-Slave CPU 36 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001DB80 my_rpb_phys 1DB80
-Slave CPU 37 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001DE00 my_rpb_phys 1DE00
-Slave CPU 38 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001E080 my_rpb_phys 1E080
-Slave CPU 39 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001E300 my_rpb_phys 1E300
-Slave CPU 40 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001E580 my_rpb_phys 1E580
-Slave CPU 41 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001E800 my_rpb_phys 1E800
-Slave CPU 42 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001EA80 my_rpb_phys 1EA80
-Slave CPU 43 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001ED00 my_rpb_phys 1ED00
-Slave CPU 44 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001EF80 my_rpb_phys 1EF80
-Slave CPU 45 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001F200 my_rpb_phys 1F200
-Slave CPU 46 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001F480 my_rpb_phys 1F480
-Slave CPU 47 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001F700 my_rpb_phys 1F700
-Slave CPU 48 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001F980 my_rpb_phys 1F980
-Slave CPU 49 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001FC00 my_rpb_phys 1FC00
-Slave CPU 50 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC000001FE80 my_rpb_phys 1FE80
-Slave CPU 51 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC0000020100 my_rpb_phys 20100
-Slave CPU 52 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC0000020380 my_rpb_phys 20380
-Slave CPU 53 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC0000020600 my_rpb_phys 20600
-Slave CPU 54 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC0000020880 my_rpb_phys 20880
-Slave CPU 55 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC0000020B00 my_rpb_phys 20B00
-Slave CPU 56 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC0000020D80 my_rpb_phys 20D80
-Slave CPU 57 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC0000021000 my_rpb_phys 21000
-Slave CPU 58 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC0000021280 my_rpb_phys 21280
-Slave CPU 59 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC0000021500 my_rpb_phys 21500
-Slave CPU 60 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC0000021780 my_rpb_phys 21780
-Slave CPU 61 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC0000021A00 my_rpb_phys 21A00
-Slave CPU 62 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC0000021C80 my_rpb_phys 21C80
-Slave CPU 63 console command START
-SlaveCmd: restart FFFFFC0000310020 FFFFFC0000310020 vptb FFFFFFFE00000000 my_rpb FFFFFC0000021F00 my_rpb_phys 21F00
-Brought up 64 CPUs
-SMP: Total of 64 processors activated (12796.33 BogoMIPS).
-net_namespace: 552 bytes
-NET: Registered protocol family 16
-EISA bus registered
-pci: enabling save/restore of SRM state
-bus: 00 index 0 io port: [0, 1ffffff]
-bus: 00 index 1 mmio: [0, 3fffffff]
-SCSI subsystem initialized
-NET: Registered protocol family 2
-IP route cache hash table entries: 2048 (order: 1, 16384 bytes)
-TCP established hash table entries: 8192 (order: 4, 131072 bytes)
-TCP bind hash table entries: 8192 (order: 4, 131072 bytes)
-TCP: Hash tables configured (established 8192 bind 8192)
-TCP reno registered
-NET: Registered protocol family 1
-srm_env: version 0.0.6 loaded successfully
-Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
-msgmni has been set to 486
-io scheduler noop registered
-io scheduler anticipatory registered
-io scheduler deadline registered
-io scheduler cfq registered (default)
-rtc: Standard PC (1900) epoch (1900) detected
-Real Time Clock Driver v1.12ac
-Serial: 8250/16550 driver1 ports, IRQ sharing disabled
-serial8250: ttyS0 at I/O 0x3f8 (irq = 4) is a 8250
-loop: module loaded
-nbd: registered device at major 43
-Intel(R) PRO/1000 Network Driver - version 7.3.20-k3-NAPI
-Copyright (c) 1999-2006 Intel Corporation.
-e1000e: Intel(R) PRO/1000 Network Driver - 0.3.3.3-k6
-e1000e: Copyright (c) 1999-2008 Intel Corporation.
-ns83820.c: National Semiconductor DP83820 10/100/1000 driver.
-ns83820 0000:00:01.0: enabling device (0000 -> 0003)
-PCI: Setting latency timer of device 0000:00:01.0 to 64
-eth0: ns83820.c: 0x22c: 00000000, subsystem: 0000:0000
-eth0: enabling optical transceiver
-eth0: using 64 bit addressing.
-eth0: ns83820 v0.23: DP83820 v1.3: 00:90:00:00:00:01 io=0x09000000 irq=30 f=h,sg
-tun: Universal TUN/TAP device driver, 1.6
-tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
-Uniform Multi-Platform E-IDE driver
-piix 0000:00:00.0: IDE controller (0x8086:0x7111 rev 0x00)
-pci 0000:00:00.0: enabling device (0000 -> 0001)
-piix 0000:00:00.0: 100% native mode on irq 31
-PCI: Setting latency timer of device 0000:00:00.0 to 64
-    ide0: BM-DMA at 0x8400-0x8407
-    ide1: BM-DMA at 0x8408-0x840f
-hda: M5 IDE Disk, ATA DISK drive
-hdb: M5 IDE Disk, ATA DISK drive
-hda: UDMA/33 mode selected
-hdb: UDMA/33 mode selected
-ide0 at 0x8410-0x8417,0x8422 on irq 31
-ide1 at 0x8418-0x841f,0x8426 on irq 31
-ide_generic: please use "probe_mask=0x3f" module parameter for probing all legacy ISA IDE ports
-ide2 at 0x1f0-0x1f7,0x3f6 on irq 14
-ide3 at 0x170-0x177,0x376 on irq 15
-hda: max request size: 128KiB
-hda: 2866752 sectors (1467 MB), CHS=2844/16/63
- hda: hda1
-hdb: max request size: 128KiB
-hdb: 4177920 sectors (2139 MB), CHS=4144/16/63
- hdb: unknown partition table
-Loading iSCSI transport class v2.0-870.
-Driver 'sd' needs updating - please use bus_type methods
-mice: PS/2 mouse device common for all mice
-TCP cubic registered
-Initializing XFRM netlink socket
-NET: Registered protocol family 17
-NET: Registered protocol family 15
-RPC: Registered udp transport module.
-RPC: Registered tcp transport module.
-802.1Q VLAN Support v1.8 Ben Greear <greearb@candelatech.com>
-All bugs added by David S. Miller <davem@redhat.com>
-VFS: Mounted root (ext2 filesystem) readonly.
-Freeing unused kernel memory: 208k freed
-init started:  BusyBox v1.1.0 (2007.03.04-01:07+0000) multi-call binary
-mounting filesystems...
-loading script...
-==================================
-Running dnamic_processor Benchmark
-==================================
-Running 'OCEAN -n34 -p64 -e1e-07 -r20000 -t28800 -s' now...
-
-Ocean simulation with W-cycle multigrid solver
-    Processors                         : 64
-    Grid size                          : 34 x 34
-    Grid resolution (meters)           : 20000.00
-    Time between relaxations (seconds) : 28800
-    Error tolerance                    : 1e-07
-
-
-                       PROCESS STATISTICS
-                  Total          Multigrid         Multigrid
- Proc             Time             Time            Fraction
-    0           1770324            1583717             0.895
-    1           1769347       serial8250: too much work for irq4
-     1588602             0.898
-    2           1770324            1585671             0.896
-    3           1770324            1585671             0.896
-    4           1769347            1582740             0.895
-    5           1770324            15827serial8250: too much work for irq4
-40             0.894
-    6           1771301            1582740             0.894
-    7           1770324            1588602             0.897
-    8           1769347            1585671             0.896
-    9           1768370            1585671        serial8250: too much work for irq4
-     0.897
-   10           1769347            1584694             0.896
-   11           1769347            1586648             0.897
-   12           1770324            1586648             0.896
-   13           1770324            1581763             0.893serial8250: too much work for irq4
-
-   14           1770324            1584694             0.895
-   15           1770324            1585671             0.896
-   16           1771301            1583717             0.894
-   17           1770324            1585671             0.896
-   18   serial8250: too much work for irq4
-        1770324            1587625             0.897
-   19           1770324            1584694             0.895
-   20           1769347            1586648             0.897
-   21           1770324            1586648             0.896
-   22           17serial8250: too much work for irq4
-70324            1586648             0.896
-   23           1770324            1586648             0.896
-   24           1770324            1582740             0.894
-   25           1769347            1588602             0.898
-   26           1768370     serial8250: too much work for irq4
-       1582740             0.895
-   27           1771301            1585671             0.895
-   28           1769347            1585671             0.896
-   29           1769347            1583717             0.895
-   30           1769347            158serial8250: too much work for irq4
-7625             0.897
-   31           1769347            1584694             0.896
-   32           1769347            1584694             0.896
-   33           1769347            1585671             0.896
-   34           1769347            1583717      serial8250: too much work for irq4
-       0.895
-   35           1769347            1583717             0.895
-   36           1769347            1581763             0.894
-   37           1770324            1584694             0.895
-   38           1770324            1583717             0.8serial8250: too much work for irq4
-95
-   39           1768370            1585671             0.897
-   40           1769347            1580786             0.893
-   41           1769347            1581763             0.894
-   42           1770324            1582740             0.894
-   43 serial8250: too much work for irq4
-          1768370            1581763             0.894
-   44           1770324            1586648             0.896
-   45           1769347            1587625             0.897
-   46           1769347            1583717             0.895
-   47           serial8250: too much work for irq4
-1769347            1585671             0.896
-   48           1768370            1582740             0.895
-   49           1769347            1584694             0.896
-   50           1770324            1583717             0.895
-   51           1770324   serial8250: too much work for irq4
-         1588602             0.897
-   52           1769347            1586648             0.897
-   53           1769347            1583717             0.895
-   54           1770324            1584694             0.895
-   55           1769347            1serial8250: too much work for irq4
-585671             0.896
-   56           1769347            1583717             0.895
-   57           1770324            1585671             0.896
-   58           1769347            1587625             0.897
-   59           1769347            1586648    serial8250: too much work for irq4
-         0.897
-   60           1769347            1580786             0.893
-   61           1770324            1581763             0.893
-   62           1769347            1583717             0.895
-   63           1768370            1584694             0serial8250: too much work for irq4
-.896
-  Avg           1769729            1584862             0.896
-  Min           1768370            1580786             0.893
-  Max           1771301            1588602             0.898
-
-                       TIMING INFORMATION
-Start time           serial8250: too much work for irq4
-             : 1230768003575819
-Initialization finish time        : 1230768005394993
-Overall finish time               : 1230768007174110
-Total time with initialization    :          3598291
-Total time without initialization :          1779117
-    (exclserial8250: too much work for irq4
-udes first timestep)
-
-Running 'FFT -m10 -p64 -n65536 -l4 -s' now...
-ERROR: Matrix not large enough. 2**(M/2) must be >= P
-
-Running 'LU -n128 -p64 -b16 -s' now...
-
-Blocked Dense LU Factorization
-     128 by 128 Matrix
-     64 Processors
-     16 by 16 Element Blocks
-
-
-                            PROCESS STATISTICS
-              Total      Diagonal     Perimeter      Interior       Barrier
- Proc         Time         Time         Time           Time          Time
-    0         97700             0             0           serial8250: too much work for irq4
-  0         97700
-    1         99654             0           977             0         98677
-    2         99654             0             0           977         98677
-    3         98677             0             0           977         97700
-    4   serial8250: too much work for irq4
-      99654             0             0          1954         97700
-    5         98677             0          1954          2931         93792
-    6         98677             0          1954          5862         90861
-    7         98677             0  serial8250: too much work for irq4
-         977          4885         92815
-    8         98677             0           977          6839         90861
-    9         99654             0          1954          7816         89884
-   10         99654             0           977          7816 serial8250: too much work for irq4
-        90861
-   11         99654           977           977          7816         88907
-   12         98677             0             0          7816         90861
-   13         97700             0             0          5862         91838
-   14       serial8250: too much work for irq4
- 100631             0             0          2931         97700
-   15         99654             0             0           977         98677
-   16         99654             0             0             0         99654
-   17         99654             0      serial8250: too much work for irq4
-       0             0         99654
-   18        100631             0             0           977         99654
-   19         98677             0             0             0         98677
-   20         98677             0             0             0     serial8250: too much work for irq4
-    98677
-   21         99654             0             0             0         99654
-   22        100631             0             0             0        100631
-   23         99654             0             0           977         98677
-   24        100serial8250: too much work for irq4
-631             0             0             0        100631
-   25         99654             0             0             0         99654
-   26         98677             0             0             0         98677
-   27         99654             0          serial8250: too much work for irq4
-   0             0         99654
-   28         99654             0             0           977         98677
-   29         99654             0             0             0         99654
-   30         99654             0             0             0         serial8250: too much work for irq4
-99654
-   31         99654             0             0             0         99654
-   32         99654             0             0             0         99654
-   33         98677             0             0             0         98677
-   34        100631 serial8250: too much work for irq4
-            0             0             0        100631
-   35         98677             0             0             0         97700
-   36        100631             0             0             0        100631
-   37         99654             0           977serial8250: too much work for irq4
-             0         98677
-   38         99654             0           977             0         97700
-   39         99654             0             0             0         99654
-   40         99654             0             0             0         9965serial8250: too much work for irq4
-4
-   41         98677             0             0             0         98677
-   42        100631             0             0             0        100631
-   43         99654             0             0             0         99654
-   44         98677     serial8250: too much work for irq4
-        0             0             0         98677
-   45         98677             0             0             0         98677
-   46        100631             0             0             0        100631
-   47         99654             0             0    serial8250: too much work for irq4
-         0         99654
-   48         99654             0             0             0         99654
-   49        100631             0             0             0        100631
-   50         99654             0             0             0         99654
- serial8250: too much work for irq4
-  51        100631             0             0           977         99654
-   52        100631             0             0             0        100631
-   53         99654             0             0             0         99654
-   54         98677         serial8250: too much work for irq4
-    0             0             0         98677
-   55         98677             0             0             0         98677
-   56         98677             0             0             0         98677
-   57         99654             0             0        serial8250: too much work for irq4
-     0         99654
-   58        100631             0             0             0        100631
-   59         99654             0             0             0         99654
-   60         99654             0             0             0         99654
-   61serial8250: too much work for irq4
-         98677             0             0             0         98677
-   62         99654             0             0             0         99654
-   63         98677           977             0             0         97700
-  Avg         99486            3serial8250: too much work for irq4
-1           198          1084         98127
-  Min         97700             0             0             0         88907
-  Max        100631           977          1954          7816        100631
-
-                            TIMING INFORMATION
-Start timserial8250: too much work for irq4
-e                        : 1230768007238592
-Initialization finish time        : 1230768007292327
-Overall finish time               : 1230768007395889
-Total time with initialization    :           157297
-Total time without initialization :           10356serial8250: too much work for irq4
-2
-
-Running 'RADIX -p64 -n262144 -r1024 -m524288 -s' now...
-
-Integer Radix Sort
-     262144 Keys
-     64 Processors
-     Radix = 1024
-     Max key = 524288
-
-
-                 PROCESS STATISTICS
-               Total            Rank            Sort
- Proc          Time             Time            Time
-    0          42988           21494            3908
-    1          44942           23448            3908
-    2serial8250: too much work for irq4
-          44942           23448            2931
-    3          43965           22471            3908
-    4          44942           23448            2931
-    5          43965           23448            2931
-    6          43965           25402           serial8250: too much work for irq4
- 2931
-    7          43965           21494            4885
-    8          44942           22471            1954
-    9          41034           19540            1954
-   10          44942           22471            3908
-   11          43965           2247serial8250: too much work for irq4
-1            1954
-   12          41034           19540            2931
-   13          38103           16609            2931
-   14          42011           20517            1954
-   15          42011           19540            4885
-   16          42988   serial8250: too much work for irq4
-        22471            3908
-   17          42988           22471            2931
-   18          40057           17586            2931
-   19          43965           22471            3908
-   20          42011           20517            1954
-   21      serial8250: too much work for irq4
-    42988           19540            3908
-   22          42011           20517            1954
-   23          42011           18563            3908
-   24          42988           21494            1954
-   25          41034           19540            4885serial8250: too much work for irq4
-
-   26          42011           20517            2931
-   27          39080           17586            3908
-   28          42988           20517            4885
-   29          42011           20517            3908
-   30          42011           19540     serial8250: too much work for irq4
-       3908
-   31          41034           19540            2931
-   32          42011           21494            3908
-   33          41034           19540            4885
-   34          40057           19540            2931
-   35          41034         serial8250: too much work for irq4
-  19540            1954
-   36          42011           19540            2931
-   37          42011           20517            3908
-   38          42011           20517            2931
-   39          42988           22471            1954
-   40          41serial8250: too much work for irq4
-034           20517            2931
-   41          40057           18563            2931
-   42          41034           19540            3908
-   43          39080           17586            2931
-   44          39080           15632            2931
-   45serial8250: too much work for irq4
-          42011           19540            1954
-   46          42011           20517            2931
-   47          42011           20517            2931
-   48          44942           24425            3908
-   49          40057           19540           serial8250: too much work for irq4
- 2931
-   50          42988           22471            2931
-   51          39080           18563            3908
-   52          39080           18563            2931
-   53          39080           18563            2931
-   54          42988           2247serial8250: too much work for irq4
-1            2931
-   55          43965           21494            4885
-   56          43965           21494            3908
-   57          42011           21494            2931
-   58          43965           22471            3908
-   59          42988   serial8250: too much work for irq4
-        21494            3908
-   60          42988           23448            3908
-   61          43965           21494            3908
-   62          43965           22471            1954
-   63          43965           22471            3908
-  Avg      serial8250: too much work for irq4
-    42240           20777            3282
-  Min          38103           15632            1954
-  Max          44942           25402            4885
-
-
-                 TIMING INFORMATION
-Start time                        : 1230768007447670
-Initializatiserial8250: too much work for irq4
-on finish time        : 1230768007511175
-Overall finish time               : 1230768007554163
-Total time with initialization    :           106493
-Total time without initialization :            42988
-

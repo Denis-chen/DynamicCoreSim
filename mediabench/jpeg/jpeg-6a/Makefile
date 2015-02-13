@@ -20,10 +20,10 @@ manext = 1
 mandir = $(prefix)/man/man$(manext)
 
 # The name of your C compiler:
-CC= ../../../alpha-unknown-linux-gnu/bin/alpha-unknown-linux-gnu-gcc-3.4.3 -static -static-libgcc
+CC= gcc
 
 # You may need to adjust these cc options:
-CFLAGS= -O  -I$(srcdir)
+CFLAGS= -O3  -I$(srcdir)
 # Generally, we recommend defining any configuration symbols in jconfig.h,
 # NOT via -D switches here.
 # However, any special defines for ansi2knr.c may be included here:

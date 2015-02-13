@@ -3,7 +3,7 @@ cite it accordingly and detail what changes you made. If a structure was impleme
 as to what was done. If an algorithm was studied, give details as to its
 operation. Block diagrams, flow charts, and detailed examples can be very helpful. 
 
-The gem5 \cite{gem5} simulator was used to simulate the performance of a dynamic processor. gem5 is a combination of the M5, a simulation framework with support for multiple ISAs and CPU models, and GEMS, a memory simulation system. As a result, gem5 is a robust simulator with support for five ISAs, ARM, ALPHA, MIPS, Power, SPARC, and x86 and four CPU models:
+The gem5 \cite{gem5} simulator was used to simulate the performance of a dynamic processor. gem5 is a combination of M5, a simulation framework with support for multiple ISAs and CPU models, and GEMS, a memory simulation system. As a result, gem5 is a robust simulator with support for five ISAs, ARM, ALPHA, MIPS, Power, SPARC, and x86, and four CPU models:
 
 \begin{itemize}
 \item AtomicSimple is a minimal single IPC CPU model
@@ -12,9 +12,11 @@ The gem5 \cite{gem5} simulator was used to simulate the performance of a dynamic
 \item O3 is a pipelined, out-of-order CPU model
 \end{itemize}
 
-gem5 has two potential modes of operation system mode and full system mode. System modes does not model the OS or peripheral devices but solely simulates the specified benchmark. Full system mode on the other hand uses an actual OS kernel and mounts a Linux disk image. Essentially, gem5 full system mode is capable of booting a full OS and presenting the user with a Linux command prompt. With gem5 great degree of high level customizations we concluded that it would be an effective simulator for simulating a dynamic processor. However, while gem5 boasts many impressive features, we found that many of these features are not fully supported or difficult to configure.
+gem5 has two modes of operation system mode and full system mode. System mode does not model the OS or peripheral devices but solely simulates the specified benchmark. Full system mode, on the other hand, uses an actual OS kernel and mounts a Linux disk image. Essentially, gem5 full system mode is capable of booting a full OS and presenting the user with a Linux command prompt. 
 
-For simulation of a dynamic processor, we needed benchmarks which would be representative of highly parallelized workloads and a benchmark reflecting serial execution. The parallel benchmark we used was SPLASH-2 \cite{splash2}. SPLASH-2 is a suite of numerous parallel benchmarks intended to evaluate the performance of multiprocessor systems. For a serial benchmark suite we choose to use MediaBench II \cite{mb2} which is a suite of numerous compression and decompression multimedia algorithms. Tables \ref{tab:splash2_benchmarks} and \ref{mb2_benchmarks} detail the exact benchmarks used.
+With gem5's great degree of high level customizations we concluded that it would be an effective simulator for simulating a dynamic processor. However, while gem5 boasts many impressive features, we found that many of these features are not fully supported or difficult to configure.
+
+For simulation of a dynamic processor, we needed two types of benchmarks. One which would be representative of highly parallelized workloads and one reflecting serial execution. The parallel benchmark we used was SPLASH-2 \cite{splash2}. SPLASH-2 is a suite of numerous parallel benchmarks intended to evaluate the performance of multiprocessor systems. For a serial benchmark suite, we chose to use MediaBench II \cite{mb2}. A suite of numerous compression and decompression multimedia algorithms. Tables \ref{tab:splash2_benchmarks} and \ref{tab:mb2_benchmarks} detail the exact benchmarks used.
 
 \begin{table}[!t]
 	\renewcommand{\arraystretch}{1.9}
@@ -24,13 +26,13 @@ For simulation of a dynamic processor, we needed benchmarks which would be repre
 		\hline
 		Benchmark & Description & Parameters\\
 		\hline
-		OCEAN & placeholder & placeholder\\
+		ocean & placeholder & placeholder\\
 		\hline
-		FFT & placeholder & placeholder\\
+		fft & placeholder & placeholder\\
 		\hline
-		LU & placeholder & placeholder\\
+		lu & placeholder & placeholder\\
 		\hline
-		RADIX & placeholder & placeholder\\
+		radix & placeholder & placeholder\\
 		\hline
 	\end{tabular}
 	\caption{The SPLASH-2 benchmarks used}	
@@ -56,9 +58,14 @@ For simulation of a dynamic processor, we needed benchmarks which would be repre
 	\caption{The MediaBench II benchmarks used}	
 \end{table}
 
-When we initially began the project we planned on using gem5 system mode emulation for simplicity. However, due to the parallel nature of SPLASH-2 a multi-threading library is required. Because system mode does not emulate a full operating system the threaded nature of these applications was impossible to simulate as a result we finally decided to use full system mode. This provided us with access to Linux full threading library allowing us to simulate the multi-threaded applications. Using full system mode has the additional benefit of providing extremely accurate results because the benchmarks are actually running in a Linux operating system.
+When we initially began the project we planned on using gem5 system mode emulation for simplicity. However, due to the parallel nature of SPLASH-2 a multi-threading library is required. Because system mode does not emulate a full operating system, the threaded nature of these applications was impossible to simulate. As a result, we finally decided to use full system mode. This provided us with access to Linux's full threading library allowing us to simulate the multi-threaded applications. Using full system mode had the additional benefit of providing extremely accurate results because the benchmarks are actually running in a Linux operating system.
 
-gem5 provides an API for writing the current timing statistics out to a file. We then developed scripts to run the benchmarks and generate timing information about each benchmark. The simulator was then run using different configurations of CPU type and number of cores.
+We developed scripts to boot the simulators OS and run through each of our benchmarks. At the completion of each benchmark the timing statistics would be written out to file. A script was then developed capable of parsing the output file producing a CSV file representing the statistics for each benchmark. As a result, we were capable of easily comparing runs against each other. At this point, it was necessary to determine what parameters would be tested in order to simulate a dynamic processor. We initially planned on using either x86 or ARM as the underlying ISA. However, we soon found that only AtomicSimple CPU model was supported by gem5 full system mode for these ISAs. gem5 provides much more complete support for the ALPHA ISA. ALPHA is a 64-bit RISC ISA representative of a simply architected general processor. Using this ISA as our building block we were able to develop benchmarks to represent a serial and a parallel machine. Our serial system used the O3 CPU model to simulate a modern out of order processor. Our parallel system was comprised multiple TimingSimple CPU models. This simulated a simple parallel system with many individual single cycle units. Originally, we had intended to use the InOrder model however this model was not available.
 
+A dynamic processor would then be capable of switching between these two configurations based on application specific needs.
+
+As an additional step. We also varied the clock frequency of the serial processor. (Insert additional details on this)      
+
+ 
 
 
