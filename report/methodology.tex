@@ -17,47 +17,21 @@ gem5 has two modes of operation - system emulation (SE) mode and full system (FS
 
 Initially, gem5's many high level customizations suggested that it would be an effective simulator for a dynamic processor model. However, while gem5 may boast many impressive features, we found that many of these features are not fully supported or difficult to configure.
 
-\begin{table}[!t]
-	\renewcommand{\arraystretch}{1.9}
-	\centering
-	\begin{tabular}{|c|c|c|}
-		\hline
-		Benchmark & Description & Parameters\\
-		\hline
-		ocean & placeholder & placeholder\\
-		\hline
-		fft & placeholder & placeholder\\
-		\hline
-		lu & placeholder & placeholder\\
-		\hline
-		radix & placeholder & placeholder\\
-		\hline
-	\end{tabular}
-	\caption{The SPLASH-2 benchmarks used}
-	\label{tab:splash2_benchmarks}
-\end{table}
+\subsection{Model Accuracy}
+\begin{figure*}
+    \centering
+    \includegraphics[scale=0.3]{../images/splash2.png}
+    \caption{The specific SPLASH-2 benchmarks used}
+    \label{fig:splash2_benchmarks}
+\end{figure*}
 
-\begin{table}[!t]
-	\renewcommand{\arraystretch}{1.9}
-	\centering
-	\begin{tabular}{|c|c|c|}
-		\hline
-		Benchmark & Description & Parameters\\
-		\hline
-		jpeg & placeholder & placeholder\\
-		\hline
-		epic & placeholder & placeholder\\
-		\hline
-		gsm & placeholder & placeholder\\
-		\hline
-		adpcm & placeholder & placeholder\\
-		\hline
-	\end{tabular}
-	\caption{The MediaBench II benchmarks used}
-	\label{tab:mb2_benchmarks}
-\end{table}
-
-For simulation of a dynamic processor, we needed two types of benchmarks. One which would be representative of highly parallelized workloads and one reflecting serial execution. The parallel benchmark we used was SPLASH-2 \cite{splash2}. SPLASH-2 is a suite of benchmarks intended to evaluate the performance of multiprocessor systems. For a serial benchmark suite, we chose to use MediaBench II \cite{mb2}. A suite of compression and decompression multimedia algorithms. The programs selected from each benchmark were intended to accurately reflect typical mobile device usage. Tables \ref{tab:splash2_benchmarks} and \ref{tab:mb2_benchmarks} detail the exact benchmarks used.
+\begin{figure*}
+    \centering
+    \includegraphics[scale=0.3]{../images/mb2.png}
+    \caption{The specific MediaBench II benchmarks used}
+    \label{fig:mb2_benchmarks}
+\end{figure*}
+For simulation of a dynamic processor, we needed two types of benchmarks. One which would be representative of highly parallelized workloads and one reflecting serial execution. The parallel benchmark we used was SPLASH-2 \cite{splash2}. SPLASH-2 is a suite of benchmarks intended to evaluate the performance of multiprocessor systems. For a serial benchmark suite, we chose to use MediaBench II \cite{mb2}. A suite of compression and decompression multimedia algorithms. The programs selected from each benchmark were intended to accurately reflect typical mobile device usage. Figures \ref{fig:splash2_benchmarks} and \ref{fib:mb2_benchmarks} detail the exact benchmarks used.
 
 \subsection{Procedure}
 When we initially began the project we planned on using gem5's SE mode for simplicity. However, due to the parallel nature of SPLASH-2 a multi-threading library is required. Because SE mode does not emulate a full operating system, there was no OS-level threading library such as pthreads. As a result, we finally decided to use full system mode. This provided us with access to Linux's full threading library allowing us to simulate the multi-threaded applications. Using full system mode had the additional benefit of providing extremely accurate results because the benchmarks are actually running in a Linux operating system, similar to our application space.
