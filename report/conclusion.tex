@@ -1,3 +1,9 @@
-Summarize your findings, identify
-remaining open problems or
-issues, and suggest the next steps for this project.
+Overall, the results of the study were promising. A dynamic core performs better than both a symmetric multicore machine, as well as a modern, out-of-order processor. We identified an approximate power overhead for a dynamic core; we argue that this overhead is minimal compared to the total power consumption, and that a dynamic core receives 1.2x speedup with a small loss in power efficiency. Furthermore, we identified that fine grained context switching between serial and parallel workloads degrades performance on a dynamic core. Finally, the study noted that there is peak performance gain for a dynamic core as the number of baseline cores is scaled. This was due to an increased critical path for the serial model.
+
+Even though the dynamic core did not perform better than a dual core modern, out-of-order processor, we were able to identify areas for improvement. First, creative critical path routing will significantly help the performance of a dynamic core. Secondly, coarse grained context switching will maximize performance. As always, it was clear that Amdahl's Law still holds true, and both serial and parallel performance need to be patiently maximized to gain better overall performance.
+
+The critical path issue lends itself nicely to 3D stacking technologies. Take, for example, a baseline core that is serving as a functional unit for the serial model. This core will receive data from another baseline core's register file. Using 3D stacking, the two cores could be placed on top of each other, so that the path from the register file of one core to the execution unit of another is small.
+
+In addition to analyzing the performance gains of 3D stacking technologies, the study would be best served by a re-analysis of the serial and parallel models. For our theoretical study, the ALPHA ISA was sufficient, but a more accurate serial model would be an out-of-order x86 core, and a more accurate parallel model would be a multicore ARMv7 machine.
+
+Keeping this future work in mind, there is still plenty of room for the dynamic core model to grow. Theoretical research such as ours needs to be done, as well as implementation research to get more accurate latency times. Dynamic cores alone will not help mobile device manufacturers, but a combination of dynamic cores with other technologies could prove to be an effictive speedup with minimal loss in power efficiency.
