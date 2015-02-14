@@ -5,24 +5,6 @@
 \usepackage{array}
 
 \captionsetup[figure]{labelfont=bf,textfont={footnotesize, it},singlelinecheck=on,justification=justified}
- 
-%\imageOne{sizecm}{filename}{caption}{label}
-\newcommand{\imageOne}[4] {
-	\begingroup
-		\centering
-    	\includegraphics[width=#1]{#2}
-	   	\captionof{figure}{#3}\label{fig:#4}
-	\endgroup
-}
-
-%\imageTwo{sizecm}{filename}{caption}{label}
-\newcommand{\imageTwo}[4] {
-	\begin{figure*}
-		\centering
-		\includegraphics[height=#1]{#2}
-		\captionof{figure}{#3}\label{fig:#4}
-	\end{figure*}
-}
 
 % correct bad hyphenation here
 %\hyphenation{op-tical net-works semi-conduc-tor}
@@ -50,13 +32,6 @@ IEEEtran, journal, \LaTeX, paper, template.
 \section{Introduction and Motivation}
 \input{introduction}
 
-\imageOne{7cm}{../images/performance.png}{THIS IS JUST AN EXAMPLE IMAGE FROM ANOTHER PAPER Performance and power requirements of 3G wireless. Theoretical performance and power statistics of SODA, other DSPs, and general-purpose processors \cite{gem5}.}{performance}
-
-testing images Fig. \ref{fig:performance}
-
-\imageTwo{8cm}{../images/soda.png}{THIS IS JUST AN EXAMPLE IMAGE FROM ANOTHER PAPER The SODA Architecture \cite{gem5}}{soda}
-
-
 \section{Prior Work}
 \input{prior_work}
 
@@ -82,18 +57,28 @@ The authors would like to thank...
 
 \begin{thebibliography}{1}
 \bibitem{gem5}
-  N. Binkert, B. Beckmann, G. Black, S. Reinhardt, A. Saidi, A. Basu, J Hestness, D. Hower, T. Krishna, S. Sardashti, R. Sen, K. Sewell, M. Shoaib, N. Vaish, M. Hill, D. Wood.
-  ``The gem5 Simulator,'' 
-  Available: \url{http://research.cs.wisc.edu/multifacet/papers/can11_gem5.pdf}
+    N. Binkert, B. Beckmann, G. Black, S. Reinhardt, A. Saidi, A. Basu, J Hestness, D. Hower, T. Krishna, S. Sardashti, R. Sen, K. Sewell, M. Shoaib, N. Vaish, M. Hill, D. Wood. "The gem5 Simulator" [Online]
+    Available: \url{http://research.cs.wisc.edu/multifacet/papers/can11_gem5.pdf}
 
 \bibitem{splash2}
-  Not sure how to site this.
-  Available: \url{http://www.capsl.udel.edu/splash/index.html} 
-  
-\bibitem{mb2}
-  Not sure how to site this.
-  Available: \url{http://euler.slu.edu/~fritts/mediabench/} 
+    Not sure how to site this.
+    Available: \url{http://www.capsl.udel.edu/splash/index.html}
 
+\bibitem{mb2}
+    Not sure how to site this.
+    Available: \url{http://euler.slu.edu/~fritts/mediabench/}
+
+\bibitem{hill}
+    Mark D. Hill, Michael R. Marty. "Amdahl’s Law in the Multicore Era" [Online]
+    Available: \url{http://moodle.rose-hulman.edu/pluginfile.php/245005/mod_resource/content/0/Amdahl_Multicore%20%28Hill%29.pdf}
+
+\bibitem{lee}
+    Sung-Joon Lee, Jaeha Kim. "A 256-Radix Crossbar Switch Using Mux-Matrix-Mux Folded-Clos Topology" [Online]
+    Available: \url{http://www.jsts.org/html/journal/journal_files/2014/12/Year2014Volume14_06_10.pdf}
+
+\bibitem{power}
+    Vladimir Stojanovic, Vojin Oklobdzija, Raminder Bajwa. "Comparative Analysis of Latches and Flip-Flops for High-Performance Systems" [Online]
+    Available: \url{http://www.rle.mit.edu/isg/documents/Stojanovic_ICCD98.pdf}
 \end{thebibliography}
 
 %\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{picture}}]{John Doe}
